@@ -49,9 +49,7 @@ export default function RootLayout({
     >
       <body className="min-h-dvh">
         <script dangerouslySetInnerHTML={{ __html: themeInit }} />
-        <div className="mx-auto flex min-h-dvh w-full max-w-3xl flex-col pb-20">
-          {children}
-        </div>
+        <div className="flex min-h-dvh w-full flex-col pb-20">{children}</div>
         <BottomNav />
       </body>
     </html>

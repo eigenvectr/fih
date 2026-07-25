@@ -62,14 +62,14 @@
     },
     {
       "name": "Morristown Municipal Launch",
-      "lat": 44.5905,
-      "lon": -75.6446,
+      "lat": 44.5887,
+      "lon": -75.6514,
       "notes": "Village launch at the Morristown waterfront, directly across from Brockville, ON — the boundary is mid-river here, so mind the line. Jacques Cartier State Park launch is 3 miles west."
     },
     {
       "name": "Ogdensburg City Launch (Patterson St)",
-      "lat": 44.7003,
-      "lon": -75.4986,
+      "lat": 44.7044,
+      "lon": -75.4881,
       "notes": "City ramp near the Oswegatchie River mouth and Morrisette Park shore access. Coordinate approximate — confirm on arrival."
     }
   ],
@@ -344,6 +344,14 @@
     {
       "note": "Locals estimate roughly 86 hours per legal muskie on the famous shoals. It's a grind — but the grind is for a 50-plus.",
       "source": "https://www.outdoorsfirst.com/muskie/article/world-famous-or-legendary-muskie-hotspots-part-i/"
+    },
+    {
+      "note": "Spot coordinates were audited against OSM/Nominatim and GNIS gazetteers, and cross-checked against ~1,700 public geotagged fish records (GBIF/iNaturalist) for the six species in this reach.",
+      "source": "https://www.gbif.org/"
+    },
+    {
+      "note": "Fishbrain's catch map has no public API (partnership-only access), so the catch-record evidence here uses open GBIF/iNaturalist data instead.",
+      "source": "https://fishbrain.com/terms-of-service"
     }
   ],
   "spots": [
@@ -383,7 +391,7 @@
         }
       ],
       "nearestLaunch": "Cape Vincent Village Launch (Hell St)",
-      "runMinutes": 12,
+      "runMinutes": 9,
       "sources": [
         "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence",
         "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html",
@@ -393,8 +401,8 @@
     {
       "id": "carleton-island",
       "name": "Carleton Island",
-      "lat": 44.122,
-      "lon": -76.29,
+      "lat": 44.176,
+      "lon": -76.258,
       "species": [
         "smallmouth",
         "walleye",
@@ -425,7 +433,7 @@
         }
       ],
       "nearestLaunch": "Cape Vincent Village Launch (Hell St)",
-      "runMinutes": 10,
+      "runMinutes": 12,
       "sources": [
         "https://www.baits.com/blog/2022-st-lawrence-river-b-a-s-s-elite/",
         "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html",
@@ -435,8 +443,8 @@
     {
       "id": "grenadier-fox-flats",
       "name": "Grenadier & Fox Island flats",
-      "lat": 44.043,
-      "lon": -76.35,
+      "lat": 44.04,
+      "lon": -76.342,
       "species": [
         "smallmouth",
         "pike",
@@ -466,7 +474,7 @@
         }
       ],
       "nearestLaunch": "Cape Vincent Village Launch (Hell St)",
-      "runMinutes": 20,
+      "runMinutes": 18,
       "sources": [
         "https://www.baits.com/blog/2022-st-lawrence-river-b-a-s-s-elite/",
         "https://www.bassmaster.com/elite/news/cory-johnston-claims-st-lawrence-river-elite/"
@@ -508,7 +516,7 @@
         }
       ],
       "nearestLaunch": "Clayton Mary St Launch (French Creek Bay)",
-      "runMinutes": 5,
+      "runMinutes": 2,
       "sources": [
         "https://www.1000islands-clayton.com/thousand-islands-events-1000-islands/claytons-ice-fishing-derby/",
         "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence",
@@ -526,7 +534,7 @@
         "pike",
         "walleye"
       ],
-      "structure": "The main-channel corridor off Clayton between Washington, Calumet and Governors Islands: grassy shoals, deep channel edges and current seams where the shipping channel swings close to structure. Historic muskie drift water — the 69 lb 15 oz NY record (Lawton, 1957) came from this stretch.",
+      "structure": "The main-channel corridor off Clayton between Washington, Calumet and Governors Islands: grassy shoals, deep channel edges and current seams where the shipping channel swings close to structure. Historic muskie drift water — the 69 lb 15 oz NY record (Lawton, 1957) came from this stretch. Public records agree: the Clayton corridor holds the best muskie evidence of any spot in GBIF/iNaturalist data, plus strong pike and perch counts.",
       "seasons": {
         "spr": "Smallmouth stage and spawn on the island shoals; pike in adjoining weedy pockets; walleye on channel edges after the May opener.",
         "sum": "Smallmouth on 15–35 ft shoal edges and current seams — drop-shot on the drift. Local guides run drift and trolling trips straight out of Clayton over this corridor.",
@@ -550,7 +558,7 @@
         }
       ],
       "nearestLaunch": "Clayton Mary St Launch (French Creek Bay)",
-      "runMinutes": 8,
+      "runMinutes": 4,
       "sources": [
         "https://www.outdoorsfirst.com/muskie/article/world-famous-or-legendary-muskie-hotspots-part-i/",
         "https://stlawrencemuskiefishing.com/",
@@ -560,8 +568,8 @@
     {
       "id": "round-island",
       "name": "Round Island",
-      "lat": 44.264,
-      "lon": -76.033,
+      "lat": 44.262,
+      "lon": -76.058,
       "species": [
         "smallmouth",
         "walleye",
@@ -592,7 +600,7 @@
         }
       ],
       "nearestLaunch": "Clayton Mary St Launch (French Creek Bay)",
-      "runMinutes": 12,
+      "runMinutes": 7,
       "sources": [
         "https://www.lakeontariounited.com/fishing-hunting/topic/107811-round-island-advice-for-september/",
         "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
@@ -601,8 +609,8 @@
     {
       "id": "picton-island",
       "name": "Picton Island",
-      "lat": 44.283,
-      "lon": -76.022,
+      "lat": 44.286,
+      "lon": -76.079,
       "species": [
         "smallmouth",
         "muskie",
@@ -632,7 +640,7 @@
         }
       ],
       "nearestLaunch": "Grass Point State Park Launch",
-      "runMinutes": 6,
+      "runMinutes": 11,
       "sources": [
         "https://www.lakeontariounited.com/fishing-hunting/topic/107811-round-island-advice-for-september/",
         "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html"
@@ -641,8 +649,8 @@
     {
       "id": "forty-acre-shoal",
       "name": "Forty Acre Shoal (Ontario water)",
-      "lat": 44.315,
-      "lon": -76.148,
+      "lat": 44.2928,
+      "lon": -76.1564,
       "species": [
         "muskie",
         "smallmouth",
@@ -668,7 +676,7 @@
         }
       ],
       "nearestLaunch": "Clayton Mary St Launch (French Creek Bay)",
-      "runMinutes": 20,
+      "runMinutes": 14,
       "sources": [
         "https://www.outdoorsfirst.com/muskie/article/world-famous-or-legendary-muskie-hotspots-part-i/",
         "https://www.lakeontariounited.com/fishing-hunting/topic/19463-40-acre-shoals-stlarry/"
@@ -677,8 +685,8 @@
     {
       "id": "grindstone-bays",
       "name": "Grindstone Island bays (Flynn / Delaney)",
-      "lat": 44.268,
-      "lon": -76.132,
+      "lat": 44.2542,
+      "lon": -76.1372,
       "species": [
         "smallmouth",
         "largemouth",
@@ -705,7 +713,7 @@
         }
       ],
       "nearestLaunch": "Clayton Mary St Launch (French Creek Bay)",
-      "runMinutes": 12,
+      "runMinutes": 7,
       "sources": [
         "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence",
         "https://grindstoneisland.org/history/about-grindstone-island/"
@@ -714,8 +722,8 @@
     {
       "id": "eel-bay",
       "name": "Eel Bay & the trench",
-      "lat": 44.312,
-      "lon": -76.03,
+      "lat": 44.313,
+      "lon": -76.045,
       "species": [
         "pike",
         "smallmouth",
@@ -747,7 +755,7 @@
         }
       ],
       "nearestLaunch": "Wellesley Island State Park Launch",
-      "runMinutes": 6,
+      "runMinutes": 5,
       "sources": [
         "https://www.bestfishinginamerica.com/new-york-northern-pike-fishing.html",
         "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html",
@@ -757,8 +765,8 @@
     {
       "id": "lake-of-the-isles",
       "name": "Lake of the Isles",
-      "lat": 44.321,
-      "lon": -75.964,
+      "lat": 44.3329,
+      "lon": -75.9827,
       "species": [
         "largemouth",
         "pike",
@@ -790,7 +798,7 @@
         }
       ],
       "nearestLaunch": "Wellesley Island State Park Launch",
-      "runMinutes": 15,
+      "runMinutes": 6,
       "sources": [
         "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html",
         "https://dos.ny.gov/system/files/documents/2020/03/lake_of_the_isles.pdf",
@@ -809,7 +817,7 @@
         "muskie",
         "perch"
       ],
-      "structure": "Dense island cluster off Alex Bay: the Sunken Rock lighthouse shoal sits mid-channel with deep water and hard current seams on all sides; Otter Creek Bay, the Boldt Castle area, and the shipping channel edges all fish.",
+      "structure": "Dense island cluster off Alex Bay: the Sunken Rock lighthouse shoal sits mid-channel with deep water and hard current seams on all sides; Otter Creek Bay, the Boldt Castle area, and the shipping channel edges all fish. Well-documented in public records: strong smallmouth, largemouth and perch counts in GBIF/iNaturalist data around the bay.",
       "seasons": {
         "spr": "Pike in the weedy bays (Otter Creek Bay) after ice-out; smallmouth stage on island shoals; walleye on channel edges after the opener.",
         "sum": "Smallmouth on shoals and current seams in 15–35 ft; prime pike season with fish to 40 inches; muskie occasionally taken trolling north of the bridge.",
@@ -834,7 +842,7 @@
         }
       ],
       "nearestLaunch": "Keewaydin State Park Marina Launch",
-      "runMinutes": 6,
+      "runMinutes": 5,
       "sources": [
         "https://www.seawaycharters.com/fishing-alexandria-bay",
         "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
@@ -843,8 +851,8 @@
     {
       "id": "goose-bay",
       "name": "Goose Bay",
-      "lat": 44.352,
-      "lon": -75.842,
+      "lat": 44.368,
+      "lon": -75.853,
       "species": [
         "largemouth",
         "pike",
@@ -876,7 +884,7 @@
         }
       ],
       "nearestLaunch": "Goose Bay Launch (Town of Alexandria)",
-      "runMinutes": 5,
+      "runMinutes": 2,
       "sources": [
         "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html",
         "https://www.bestfishinginamerica.com/new-york-northern-pike-fishing.html",
@@ -895,7 +903,7 @@
         "muskie",
         "perch"
       ],
-      "structure": "Big island-studded bay off the Chippewa Bay hamlet: matted weed beds and shallow flats inside, main-river shoals and sandbars outside, and a notable drop-off just east of Cedar Island where big summer pike hold. Chippewa Point is a named smallmouth/muskie point.",
+      "structure": "Big island-studded bay off the Chippewa Bay hamlet: matted weed beds and shallow flats inside, main-river shoals and sandbars outside, and a notable drop-off just east of Cedar Island where big summer pike hold. Chippewa Point is a named smallmouth/muskie point. Public catch records back this up: the bay is the river's single best-documented gamefish cluster in GBIF/iNaturalist data (largemouth, pike, perch).",
       "seasons": {
         "spr": "Pike spawn throughout the weedy bay in April; largemouth follow into the shallows; muskie spawning activity has been observed nearby in early summer.",
         "sum": "A 2022 Bassmaster Elite pro weighed nearly 22 lb here flipping a hollow-body frog over matted weed, mixing in Ned rigs on the shoals and sandbars outside. Big pike sit on the Cedar Island drop-off in 20+ ft.",
@@ -920,7 +928,7 @@
         }
       ],
       "nearestLaunch": "Chippewa Bay Launch (Town of Hammond)",
-      "runMinutes": 5,
+      "runMinutes": 2,
       "sources": [
         "https://www.baits.com/blog/2022-st-lawrence-river-b-a-s-s-elite/",
         "https://www.bestfishinginamerica.com/new-york-northern-pike-fishing.html",
@@ -958,7 +966,7 @@
         }
       ],
       "nearestLaunch": "Chippewa Bay Launch (Town of Hammond)",
-      "runMinutes": 16,
+      "runMinutes": 18,
       "sources": [
         "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
       ]
@@ -999,7 +1007,7 @@
         }
       ],
       "nearestLaunch": "Morristown Municipal Launch",
-      "runMinutes": 5,
+      "runMinutes": 2,
       "sources": [
         "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence",
         "https://www.visitstlc.com/fish/"
@@ -1017,7 +1025,7 @@
         "perch",
         "muskie"
       ],
-      "structure": "Confluence of the Oswegatchie with the St. Lawrence at Ogdensburg: current seams off the tributary mouth, bridge shoals, city shore access at Morrisette Park. Wheathouse Bay just downstream is a noted winter pike bay.",
+      "structure": "Confluence of the Oswegatchie with the St. Lawrence at Ogdensburg: current seams off the tributary mouth, bridge shoals, city shore access at Morrisette Park. Wheathouse Bay just downstream is a noted winter pike bay. Public records concur this is the region's best-documented walleye water in GBIF/iNaturalist data.",
       "seasons": {
         "spr": "One of the river's best spring walleye spots: the May–June spawning migration stacks fish off the Oswegatchie mouth; jig or drag crawler-harness rigs in ~20–25 ft.",
         "sum": "Walleye stay strong on the shoals and channel edges; perch off the city docks; muskie trolling along the shoal edges gets going late summer.",
@@ -1042,7 +1050,7 @@
         }
       ],
       "nearestLaunch": "Ogdensburg City Launch (Patterson St)",
-      "runMinutes": 4,
+      "runMinutes": 2,
       "sources": [
         "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html",
         "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence",

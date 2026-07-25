@@ -27,7 +27,7 @@ export default async function WaterPage({
   if (!water) notFound();
 
   return (
-    <main className="flex-1 px-4 pt-4 sm:px-6">
+    <main className="mx-auto w-full max-w-3xl flex-1 px-4 pt-4 sm:px-6 lg:max-w-7xl">
       <header className="mb-4 flex items-center gap-2">
         <Link
           href="/"

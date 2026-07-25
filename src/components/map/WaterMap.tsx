@@ -38,19 +38,42 @@ function useIsDark(): boolean {
   return dark;
 }
 
-function spotPinEl(spot: Spot, selected: boolean): HTMLElement {
+function spotPinEl(spot: Spot, selected: boolean, anySelected: boolean): HTMLElement {
   const color = SPECIES[spot.species[0]]?.pin ?? "#0d7488";
-  const el = document.createElement("button");
-  el.type = "button";
-  el.setAttribute("aria-label", spot.name);
-  el.title = spot.name;
+  const el = document.createElement("div");
   el.style.cssText = `
+    display:flex;flex-direction:column;align-items:center;gap:3px;
+    opacity:${anySelected && !selected ? 0.5 : 1};transition:opacity .2s;
+    z-index:${selected ? 3 : 1};
+  `;
+  const pin = document.createElement("button");
+  pin.type = "button";
+  pin.setAttribute("aria-label", spot.name);
+  pin.title = spot.name;
+  pin.style.cssText = `
     width:22px;height:22px;border-radius:9999px;background:${color};
     border:2.5px solid #fff;cursor:pointer;
-    box-shadow:0 1px 5px rgb(0 0 0 / .45);
-    transform:scale(${selected ? 1 : 0.68});
-    transition:transform .2s cubic-bezier(.34,1.56,.64,1);
+    box-shadow:${
+      selected
+        ? `0 0 0 3.5px color-mix(in srgb, var(--accent) 75%, transparent), 0 2px 8px rgb(0 0 0 / .5)`
+        : "0 1px 5px rgb(0 0 0 / .45)"
+    };
+    transform:scale(${selected ? 1.05 : 0.68});
+    transition:transform .2s cubic-bezier(.34,1.56,.64,1), box-shadow .2s;
   `;
+  el.appendChild(pin);
+  if (selected) {
+    const label = document.createElement("span");
+    label.textContent = spot.name;
+    label.style.cssText = `
+      font:600 10px/1.2 var(--font-geist-sans),sans-serif;
+      color:var(--ink);background:var(--surface);border:1px solid var(--line);
+      padding:3px 7px;border-radius:9999px;max-width:180px;
+      white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+      box-shadow:0 2px 6px rgb(0 0 0 / .3);
+    `;
+    el.appendChild(label);
+  }
   return el;
 }
 
@@ -180,19 +203,26 @@ export function WaterMap({
       markers.current.set(`launch:${l.name}`, m);
     });
     spots.forEach((s) => {
-      const el = spotPinEl(s, s.id === selectedId);
+      const el = spotPinEl(s, s.id === selectedId, selectedId !== null);
       el.addEventListener("click", (e) => {
         e.stopPropagation();
         onSelect(s.id);
       });
-      const m = new Marker({ element: el }).setLngLat([s.lon, s.lat]).addTo(map);
+      const m = new Marker({ element: el, anchor: "center" })
+        .setLngLat([s.lon, s.lat])
+        .addTo(map);
       markers.current.set(s.id, m);
     });
   }, [spots, launches, selectedId, homeLaunch, onSelect, ready]);
 
+  const firstLaunchPan = useRef(true);
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !ready) return;
+    if (firstLaunchPan.current) {
+      firstLaunchPan.current = false;
+      return;
+    }
     const launch = launches.find((l) => l.name === homeLaunch);
     if (launch)
       map.easeTo({
@@ -214,7 +244,7 @@ export function WaterMap({
     <div className="relative">
       <div
         ref={container}
-        className="h-[46dvh] min-h-72 w-full overflow-hidden rounded-xl border border-line sm:h-[420px]"
+        className="h-[46dvh] min-h-72 w-full overflow-hidden rounded-xl border border-line sm:h-[420px] lg:h-[max(420px,calc(100dvh-24rem))]"
       />
       <Legend species={species} />
     </div>

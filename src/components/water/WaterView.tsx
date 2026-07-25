@@ -96,7 +96,8 @@ export function WaterView({ water }: { water: Water }) {
   }
 
   return (
-    <div className="space-y-6">
+    <div className="lg:grid lg:grid-cols-[minmax(0,11fr)_minmax(0,9fr)] lg:items-start lg:gap-8">
+      <div className="space-y-5 lg:sticky lg:top-4">
       <WaterMap
         spots={spots.map((s) => s.spot)}
         launches={water.launches}
@@ -199,7 +200,9 @@ export function WaterView({ water }: { water: Water }) {
           </ol>
         </div>
       )}
+      </div>
 
+      <div className="mt-6 space-y-6 lg:mt-0">
       <section>
         <h2 className="mb-3 text-xs font-semibold uppercase tracking-wider text-ink-faint">
           Spots · nearest first
@@ -291,6 +294,7 @@ export function WaterView({ water }: { water: Water }) {
 
       <BaitsPanel water={water} />
       <RegsPanel water={water} />
+      </div>
     </div>
   );
 }
