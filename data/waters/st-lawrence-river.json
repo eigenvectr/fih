@@ -1,0 +1,1053 @@
+{
+  "slug": "st-lawrence-river",
+  "name": "St. Lawrence River",
+  "region": "Thousand Islands, NY",
+  "blurb": "Cape Vincent to Ogdensburg: the best smallmouth river on earth by tournament weights, a trophy catch-and-release muskie fishery, and pike bays everywhere. Gin-clear water pushed the bass deep — bring your drop-shot rods.",
+  "species": [
+    "smallmouth",
+    "largemouth",
+    "pike",
+    "walleye",
+    "muskie",
+    "perch"
+  ],
+  "launches": [
+    {
+      "name": "Cape Vincent Village Launch (Hell St)",
+      "lat": 44.1329,
+      "lon": -76.3219,
+      "notes": "Municipal concrete ramp off NY 12E at the north end of the village; parking for ~30 rigs. Quick access to Tibbetts Point and the head of the river."
+    },
+    {
+      "name": "Clayton Mary St Launch (French Creek Bay)",
+      "lat": 44.2326,
+      "lon": -76.093,
+      "notes": "Village ramp on protected French Creek Bay; sheltered even in a west wind. Municipal floating docks downtown, restrooms in season."
+    },
+    {
+      "name": "Grass Point State Park Launch",
+      "lat": 44.2814,
+      "lon": -75.9976,
+      "notes": "Hard-surface ramp one mile east of Fishers Landing, just upstream of the I-81 bridge on the American Channel. ~10 trailer spots; verify exact ramp spot on arrival."
+    },
+    {
+      "name": "Wellesley Island State Park Launch",
+      "lat": 44.3332,
+      "lon": -76.0246,
+      "notes": "Full-service state park marina on the island's southwest end (via the Thousand Islands Bridge). Direct access to Eel Bay, Lake of the Isles, and the American Narrows. Water north of the island runs close to the Canadian line."
+    },
+    {
+      "name": "Keewaydin State Park Marina Launch",
+      "lat": 44.3218,
+      "lon": -75.9345,
+      "notes": "Ramp at the 120-slip state park marina, a mile southwest of Alexandria Bay. Operates roughly May–Oct."
+    },
+    {
+      "name": "Kring Point State Park Launch",
+      "lat": 44.3755,
+      "lon": -75.8592,
+      "notes": "Launch and dockage on the Goose Bay side of the Kring Point peninsula. Good staging for Goose Bay pike and the Chippewa reach."
+    },
+    {
+      "name": "Goose Bay Launch (Town of Alexandria)",
+      "lat": 44.366,
+      "lon": -75.8455,
+      "notes": "Town launch at the end of Goose Bay Rd, rebuilt 2023 under NYS REDI: new ramp, raised bulkhead, dredged ramp end. Coordinate approximate — confirm ramp position on-site."
+    },
+    {
+      "name": "Chippewa Bay Launch (Town of Hammond)",
+      "lat": 44.4419,
+      "lon": -75.7627,
+      "notes": "Municipal launch at 40 Denner Rd in the Chippewa Bay hamlet; REDI resiliency rebuild finished ~2024. Coordinate approximate."
+    },
+    {
+      "name": "Morristown Municipal Launch",
+      "lat": 44.5905,
+      "lon": -75.6446,
+      "notes": "Village launch at the Morristown waterfront, directly across from Brockville, ON — the boundary is mid-river here, so mind the line. Jacques Cartier State Park launch is 3 miles west."
+    },
+    {
+      "name": "Ogdensburg City Launch (Patterson St)",
+      "lat": 44.7003,
+      "lon": -75.4986,
+      "notes": "City ramp near the Oswegatchie River mouth and Morrisette Park shore access. Coordinate approximate — confirm on arrival."
+    }
+  ],
+  "regsNotes": [
+    {
+      "title": "St. Lawrence muskellunge: 54\" minimum, one per day, season to Dec 15",
+      "body": "Muskie season on the river is June 15 – Dec 15 with a 54-inch minimum and a 1/day limit — the tightest muskie reg in NY (statewide is 40\"). The fishery runs on a near-total catch-and-release ethic; the NY record (69 lb 15 oz, 1957) came from the Clayton–Gananoque stretch. Bring release tools, a big net, and keep air exposure minimal.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/great-lakes-tributaries"
+    },
+    {
+      "title": "Bass: NO winter catch-and-release season on the river",
+      "body": "Black bass follow the harvest season (June 15 – Nov 30, 12\", 5/day), but on the St. Lawrence and its tributaries ALL bass fishing — including catch-and-release — is prohibited Dec 1 – June 14. The statewide winter C&R artificial-lures season does not apply here; it's a common trap for visiting anglers.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/great-lakes-tributaries"
+    },
+    {
+      "title": "Walleye: 18\" minimum, 3 per day",
+      "body": "River special regs: season May 1 – Mar 15, 18-inch minimum (vs 15\" statewide) and 3/day (vs 5).",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/great-lakes-tributaries"
+    },
+    {
+      "title": "Northern pike: 22\" minimum, 3 per day",
+      "body": "Pike in the river and tributaries downstream of Tibbetts Point are special-reg: May 1 – Mar 15, 22-inch minimum, 3/day (statewide is 18\" and 5). The whole Thousand Islands reach is covered.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/great-lakes-tributaries"
+    },
+    {
+      "title": "Yellow perch: unlimited in Jefferson County water",
+      "body": "Perch are open all year, no size limit. Daily limit is 50 statewide, but Great Lakes special regs make it unlimited in Jefferson County waters — Cape Vincent past Alexandria Bay. Downstream St. Lawrence County water reverts to 50/day.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/great-lakes-tributaries"
+    },
+    {
+      "title": "Great Lakes gear rules apply",
+      "body": "No snatching, foul-hooked fish go back immediately, gaffs are banned (outside limited ice/bowfishing situations), and herding or driving fish is prohibited.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/great-lakes-tributaries"
+    },
+    {
+      "title": "Border water: a NY license covers US water only",
+      "body": "The first 114 miles of the river form the NY/Ontario boundary, and it weaves between the islands — many islands across from Clayton and Alexandria Bay are Canadian. Fishing any Canadian span, even drifting across the line, requires an Ontario licence (non-residents 18–64: Outdoors Card + licence, or a 1-day sport licence with no card). DEC's own guidance: know where you are at all times.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
+    },
+    {
+      "title": "Ontario FMZ 20 seasons don't line up with NY",
+      "body": "Canadian water here is Ontario Zone 20: muskie opens the 3rd Saturday of June at 137 cm; smallmouth harvest opens the FIRST SATURDAY OF JULY (largemouth 3rd Sat June) with an early C&R bass season Jan 1 – May 10; walleye sport limit is 4. A fish that's legal 100 yards away may not be legal where you're floating.",
+      "source": "https://www.ontario.ca/document/ontario-fishing-regulations-summary/fisheries-management-zone-20"
+    },
+    {
+      "title": "Customs: what triggers a report",
+      "body": "Since June 2017, a US boat may cross into Canadian water to fish without reporting to CBSA — as long as you don't land, anchor, moor, touch another vessel, or move people/goods. Anchor or step onto a Canadian island and you must phone CBSA, then report your US return via the CBP ROAM app. The customs exemption is separate from fishing law: you still need the Ontario licence to fish Canadian water. Enforcement is real.",
+      "source": "https://www.glcclub.com/us-and-canadian-border-reporting-requirements"
+    },
+    {
+      "title": "Practical stay-legal plan",
+      "body": "Launch in NY, carry the NY license, and keep the plotter's boundary line on-screen (it's charted, not buoyed everywhere). Want the Canadian spans like Forty Acre Shoal? Buy an Ontario 1-day or 8-day licence before the trip, carry passports, don't anchor or land in Canada without phoning CBSA — and never carry live bait across the line: non-residents may not bring bait into Ontario.",
+      "source": "https://www.ontario.ca/document/ontario-fishing-regulations-summary/bait"
+    },
+    {
+      "title": "Baitfish: certified bait or same-water use",
+      "body": "Certified (disease-free) baitfish with a dated dealer receipt may be transported overland and used anywhere bait is legal — the receipt expires after 10 days. Uncertified or personally collected bait may only be used in the water where collected (an overland corridor covers the Lake Ontario/St. Lawrence system). ~20 green-list species are approved; alewife and rainbow smelt are restricted-use but legal in the river.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/baitfish"
+    },
+    {
+      "title": "Statewide baseline, for reference",
+      "body": "Statewide NY defaults (overridden above where noted): bass June 15 – Nov 30, 12\", 5/day; pike May 1 – Mar 15, 18\", 5/day; walleye May 1 – Mar 15, 15\", 5/day; muskie June 1 – Nov 30, 40\", 1/day; perch all year, 50/day.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/statewide-season-sizes-catch-limits"
+    },
+    {
+      "title": "Consumption advisory",
+      "body": "Some river species carry elevated contaminant levels; check current NYS DOH advisories before keeping fish for the table, especially bigger pike and walleye.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
+    }
+  ],
+  "speciesBaits": {
+    "smallmouth": [
+      {
+        "lure": "Drop-shot, 3–4\" goby-profile plastic (X Zone Slammer green/purple, SPRO CJ Smasher, Berkley MaxScent Flat Worm)",
+        "presentation": "No. 1–2 finesse hook, 3/8–1/2 oz tungsten to hold bottom in current. Drift with the current over rockpiles, shoals and channel drops in 20–50 ft, rig vertical, constant bottom contact; 6–8 lb fluoro leader off braid.",
+        "when": "Summer through fall, once fish slide deep (July–Oct). This is what wins Elite events here."
+      },
+      {
+        "lure": "Ned rig, 1/4 oz (cut-down Zoom Fluke Stick, Z-Man TRD, goby/craw colors)",
+        "presentation": "Dragged and dead-sticked along deep rock piles and boulder-sand transitions in 15–35 ft. The local switch-up when fish refuse the drop-shot; Patrick Walters leaned on it for his record 2023 win.",
+        "when": "Summer and early fall; any time drop-shot fish get pressured."
+      },
+      {
+        "lure": "Minnow-style soft jerkbait on a 1/4–3/8 oz jighead (Strike King Z-Too, Yamamoto Shad Shape)",
+        "presentation": "The forward-facing-sonar hover game: count it down and hold or slow-glide it above fish over 20–35 ft boulder points. Rode to 100 and 98 lb totals in 2024.",
+        "when": "July–August, especially for suspended or roaming giants."
+      },
+      {
+        "lure": "Suspending jerkbait (Megabass Vision 110, Rapala Shadow Rap)",
+        "presentation": "Jerk-jerk-pause over shallow hard-bottom flats and staging breaks in 5–15 ft; longer pauses in colder water.",
+        "when": "Pre-spawn into spawn (May–June) and windy overcast summer mornings."
+      },
+      {
+        "lure": "Blade bait, 1/2 oz (Silver Buddy class)",
+        "presentation": "Short lift-drop hops along bottom transitions and current breaks near boulder fields in 15–25 ft; strikes come on the fall.",
+        "when": "Spring pre-spawn (water 48–58°F) and again late fall."
+      },
+      {
+        "lure": "Umbrella rig / small swimbaits",
+        "presentation": "Slow-rolled along flat edges and through bait schools over rock-sand flats with scattered boulders.",
+        "when": "October–November, when smallmouth gorge on schooled bait."
+      }
+    ],
+    "largemouth": [
+      {
+        "lure": "Hollow-body frog over pads and matted grass",
+        "presentation": "Walk and pause over lily pads, milfoil mats and slop in the protected bays — Lake of the Isles is the region's premier largemouth water. Heavy braid, pitch to holes in the mat.",
+        "when": "July–September when vegetation mats up; mornings, evenings, clouds."
+      },
+      {
+        "lure": "Texas-rigged creature or jig (natural craw, black/blue)",
+        "presentation": "Pitch and flip to dock posts and visible cover in back coves out of the current; short pitches, let it soak.",
+        "when": "Spawn through summer."
+      },
+      {
+        "lure": "Wacky/Neko 5\" stickworm",
+        "presentation": "Skipped under docks with deep-water access, worked slow on semi-slack line.",
+        "when": "Late spring/early summer prime dock time; again in fall."
+      },
+      {
+        "lure": "Lipless crankbait (craw colors)",
+        "presentation": "Ripped and yo-yoed along emerging grass edges and secondary points near spawning-flat access.",
+        "when": "Pre-spawn, May, 52–65°F."
+      },
+      {
+        "lure": "Tube or swim jig on the deep weedline",
+        "presentation": "Stop-and-go along milfoil/cabbage edges in 14–20 ft where bigger fish slide out midday.",
+        "when": "Mid-summer, 72–82°F."
+      }
+    ],
+    "pike": [
+      {
+        "lure": "Spinnerbait, 1/2–3/4 oz white/chartreuse, gold willowleaf",
+        "presentation": "Slow-rolled over and along weed edges in bays under 10 ft; wire or heavy fluoro leader mandatory.",
+        "when": "May–June post-spawn in Goose Bay, Chippewa Bay, Eel Bay; again on 8–15 ft weed edges in fall."
+      },
+      {
+        "lure": "Large soft swimbait, 5–7\", slow-rolled",
+        "presentation": "Near weed-to-rock transitions and deep weed edges; bladed jigs snaked through shallow grass early season.",
+        "when": "Fall is the trophy window; early season for numbers."
+      },
+      {
+        "lure": "Classic spoons (red/white Dardevle, Five of Diamonds)",
+        "presentation": "Fan-cast over weed flats and shoal edges, steady retrieve with flutter-drops into pockets.",
+        "when": "Late spring through summer along bay weedlines. Still deadly."
+      },
+      {
+        "lure": "Trolled shallow cranks/stickbaits along weedlines",
+        "presentation": "Troll outside weed edges and bay mouths at 2.5–3.5 mph to find active fish, then cast to them.",
+        "when": "Summer when pike scatter along 8–15 ft edges."
+      },
+      {
+        "lure": "Tip-ups with large shiners",
+        "presentation": "Set just above the weeds in 5–15 ft. Eel Bay, Lake of the Isles, Goose Bay and Chippewa Bay are the classic ice areas.",
+        "when": "January–March, as soon as the bays lock up safe."
+      }
+    ],
+    "walleye": [
+      {
+        "lure": "Jig tipped with minnow or half-crawler",
+        "presentation": "Vertical jigging and dragging along channel edges, tributary mouths and current breaks in ~20–25 ft; low light best.",
+        "when": "May opener at the Oswegatchie mouth and off shoals and points."
+      },
+      {
+        "lure": "Crawler harness behind a bottom bouncer",
+        "presentation": "Dragged at 1–1.5 mph across 20–25 ft shoals and drop-offs, ticking bottom — the river's most popular walleye rig.",
+        "when": "Late spring through summer; late-summer hotspots shift toward Carleton Island."
+      },
+      {
+        "lure": "Deep-diving crankbaits (13 ft+ divers)",
+        "presentation": "Trolled along deep structure breaks and channel edges in 24–32 ft; lead core or snap weights for suspended fish.",
+        "when": "Summer; trolling deep shoals produces the biggest walleye late summer into fall."
+      },
+      {
+        "lure": "Night-trolled stickbaits (Rapala Original/Husky Jerk)",
+        "presentation": "Flatlined over 20–25 ft near shoals after dark; walleye slide shallow at night. November fish are taken over 22 ft near Ogdensburg.",
+        "when": "October–November especially; warm summer nights too."
+      },
+      {
+        "lure": "Blade bait or hair jig",
+        "presentation": "Blades vertical along channel edges early season; hair jigs slow-rolled in 24–32 ft in fall, dark colors.",
+        "when": "Cold-water bookends: early spring and late fall."
+      }
+    ],
+    "muskie": [
+      {
+        "lure": "Trolled 8–10\" plugs (Believer straight/jointed, Supernatural Headlock) in perch, firetiger, walleye",
+        "presentation": "3.5–5 mph over shoal edges and drop-offs in 20–40 ft, spread on planer boards, S-turns to trigger followers. 65–80 lb line, wire leaders.",
+        "when": "Season to Dec 15; Aug–Sept on shoal edges, biggest fish November."
+      },
+      {
+        "lure": "Jointed Believer for maximum thump",
+        "presentation": "Outside board lines along deep edges and current breaks around islands; the joint calls fish from distance in riled water.",
+        "when": "Fall, especially wind-blown overcast days."
+      },
+      {
+        "lure": "Tandem \"Berger King\" rig: big plug + trailing Williams Whitefish spoon on wire",
+        "presentation": "A Clayton charter specialty: Believer up front, flasher spoon trailing on 60 lb wire, pulled on boards.",
+        "when": "October–December 15 around Wolfe Island and the Clayton-area shoals."
+      },
+      {
+        "lure": "Big rubber (Bull Dawg / Medussa class)",
+        "presentation": "Short lines in the prop wash, or cast to shoal crowns and worked with pulls and pauses over 20–40 ft edges where bait stacks.",
+        "when": "Late fall for giants; dawn, dusk, overcast."
+      },
+      {
+        "lure": "The release protocol (part of the program)",
+        "presentation": "Fish stay in the water or come aboard for a fast photo and measure, then get resuscitated boatside. Local charters release essentially every muskie.",
+        "when": "Every trip. The St. Lawrence strain is too valuable to kill."
+      }
+    ],
+    "perch": [
+      {
+        "lure": "Small jig (1/16–1/8 oz) tipped with a fathead or emerald shiner",
+        "presentation": "Drift or anchor over deep weed edges and rock-sand transitions in 8–15 ft; move until you contact a school, then sit on it.",
+        "when": "Late spring through summer, mornings and evenings."
+      },
+      {
+        "lure": "Minnow under a float in protected shallows",
+        "presentation": "Simple bobber rig in 2–8 ft protected bays where perch stage to spawn.",
+        "when": "The weeks right after ice-out."
+      },
+      {
+        "lure": "Ice jigging: spoons, teardrops, Jigging Raps",
+        "presentation": "Vertical over weed beds and reefs in the bays, tipped with minnow heads or grubs; tip-ups with small minnows alongside.",
+        "when": "January–March. Perch are the river's most popular ice target."
+      },
+      {
+        "lure": "Blade baits on 10–19 ft rock piles",
+        "presentation": "Small blades, spoons or jig-plastic combos around rock adjacent to deep water as schools slide out of the weeds.",
+        "when": "September–November."
+      }
+    ]
+  },
+  "localColor": [
+    {
+      "note": "Patrick Walters' 2023 Elite win at Waddington was the heaviest 20-smallmouth total in Bassmaster history: 105-0 over four days.",
+      "source": "https://www.prnewswire.com/news-releases/walters-conquers-smallmouth-to-win-bassmaster-elite-series-event-at-st-lawrence-river-301910720.html"
+    },
+    {
+      "note": "In that same 2023 event, four anglers cracked 100 lbs and joined the Bassmaster Century Club — that's the caliber of smallmouth here.",
+      "source": "https://www.prnewswire.com/news-releases/walters-conquers-smallmouth-to-win-bassmaster-elite-series-event-at-st-lawrence-river-301910720.html"
+    },
+    {
+      "note": "Cory Johnston won the 2024 Elite with 102 lbs, then the 2025 Open on the same deep smallmouth game.",
+      "source": "https://www.bassmaster.com/opens/news/cory-johnston-claims-the-title-at-st-lawrence-river/"
+    },
+    {
+      "note": "Studies suggest round gobies now make up about 80% of river smallmouths' diet — which is why nearly every serious presentation is a goby imitation on bottom in 20–50 ft.",
+      "source": "https://www.omniafishing.com/w/st-lawrence-river-fishing-reports/fishing-patterns"
+    },
+    {
+      "note": "\"The Xzone Lures Slammer always dominates up there in green and purple patterns that imitate a goby.\" — Chris Flint, Bassmaster Opens competitor.",
+      "source": "https://www.bassmaster.com/news/find-the-gobies-find-the-bass/"
+    },
+    {
+      "note": "Since zebra mussels cleared the water (~20 ft visibility now), smallmouth commonly live in 25+ ft and get caught to 50 ft — the shift that started the deep drop-shot era.",
+      "source": "https://bassinusa.com/bass-fishing-destinations/st-lawrence-river/"
+    },
+    {
+      "note": "Taku Ito's 2021 win (90 lbs, 26-lb final limit) came when he noticed the gobies he was snagging were bigger than earlier in the week — and figured the big suspended smallmouth were there for the big gobies.",
+      "source": "https://www.prnewswire.com/news-releases/itos-mega-bag-earns-bassmaster-elite-series-win-at-st-lawrence-river-301336144.html"
+    },
+    {
+      "note": "Ed Beers' 59-inch, 58-pound muskie trolled out of Clayton was called the river's largest in decades; one local charter reports losing only ~3 of 100+ muskies caught — everything goes back.",
+      "source": "https://fishny.com/musky-fishing-st-lawrence-river-ny/"
+    },
+    {
+      "note": "The IGFA all-tackle length catch-and-release world record muskie (53.1\") was recognized from these waters in November 2022.",
+      "source": "https://fishny.com/musky-fishing-st-lawrence-river-ny/"
+    },
+    {
+      "note": "Locals estimate roughly 86 hours per legal muskie on the famous shoals. It's a grind — but the grind is for a 50-plus.",
+      "source": "https://www.outdoorsfirst.com/muskie/article/world-famous-or-legendary-muskie-hotspots-part-i/"
+    }
+  ],
+  "spots": [
+    {
+      "id": "tibbetts-point",
+      "name": "Tibbetts Point / Cape Vincent",
+      "lat": 44.103,
+      "lon": -76.37,
+      "species": [
+        "smallmouth",
+        "walleye",
+        "pike",
+        "perch"
+      ],
+      "structure": "Where Lake Ontario funnels into the river: rocky shoals, gravel bars and hard-bottom drop-offs around the lighthouse point, with strong current mixing lake and river water.",
+      "seasons": {
+        "spr": "The May walleye opener is a Cape Vincent tradition — jig or drag crawler harnesses on 20–25 ft rock. Smallmouth stage on the rocky shoals pre-spawn.",
+        "sum": "Walleye shift up into the river mouth; troll deep shoals and island points in 30–40 ft. Smallmouth scatter over 20–40 ft rock ledges in the clear water — drop-shot deep.",
+        "fall": "The trophy walleye window: charters troll 30–40 ft edges with September fish to 9–10 lb. Smallmouth ball up on shoal edges.",
+        "ice": "The protected village bay gives tip-up pike fishing with big minnows and perch jigging, December–February."
+      },
+      "baits": [
+        {
+          "lure": "Crawler harness on a bottom bouncer",
+          "presentation": "Dragged at 1–1.5 mph across the 20–25 ft rock, ticking bottom.",
+          "when": "May opener through summer for walleye."
+        },
+        {
+          "lure": "Drop-shot goby imitation",
+          "presentation": "Drift the 20–40 ft ledges vertical, constant bottom contact.",
+          "when": "Summer smallmouth once they slide deep."
+        },
+        {
+          "lure": "Deep-diving crankbaits, trolled",
+          "presentation": "30–40 ft shoal edges at the river mouth, lead core for depth.",
+          "when": "Late summer–fall trophy walleye."
+        }
+      ],
+      "nearestLaunch": "Cape Vincent Village Launch (Hell St)",
+      "runMinutes": 12,
+      "sources": [
+        "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence",
+        "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html",
+        "https://fishny.com/st-lawrence-river-fishing-tips/"
+      ]
+    },
+    {
+      "id": "carleton-island",
+      "name": "Carleton Island",
+      "lat": 44.122,
+      "lon": -76.29,
+      "species": [
+        "smallmouth",
+        "walleye",
+        "muskie",
+        "perch"
+      ],
+      "structure": "Island off Cape Vincent at the head of the river; a famous sandbar with a long shallow stretch on one end, rocky shoals and 30–40 ft drop-offs around the island, baitfish stacked along its edges.",
+      "seasons": {
+        "spr": "Smallmouth move onto the rocky areas and the sandbar to spawn; finesse baits (underspins, Ned rigs) in the clear shallows.",
+        "sum": "The Carleton sandbar holds groups of big cruising smallmouth in skinny water — a 2022 Bassmaster Elite primary area. Ned rigs and swimbaits on long casts. Walleye trolling develops on the 30–40 ft shoal edges.",
+        "fall": "Prime trophy-walleye trolling on the 30–40 ft drop-offs — some of the river's biggest fish come from here late summer into fall. Muskie trollers work the adjacent channel edges."
+      },
+      "baits": [
+        {
+          "lure": "Ned rig / Ned Senko",
+          "presentation": "Long casts to cruising fish on the sandbar; let it sit, tiny drags.",
+          "when": "Summer sight-fishing in skinny water."
+        },
+        {
+          "lure": "Crawler harness or deep crank, trolled",
+          "presentation": "30–40 ft shoal edges around the island.",
+          "when": "Late summer–fall for the biggest walleye."
+        },
+        {
+          "lure": "Drop-shot goby imitation",
+          "presentation": "Drift the rocky shoals off the bar in 20–40 ft.",
+          "when": "Summer smallmouth."
+        }
+      ],
+      "nearestLaunch": "Cape Vincent Village Launch (Hell St)",
+      "runMinutes": 10,
+      "sources": [
+        "https://www.baits.com/blog/2022-st-lawrence-river-b-a-s-s-elite/",
+        "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html",
+        "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
+      ]
+    },
+    {
+      "id": "grenadier-fox-flats",
+      "name": "Grenadier & Fox Island flats",
+      "lat": 44.043,
+      "lon": -76.35,
+      "species": [
+        "smallmouth",
+        "pike",
+        "perch"
+      ],
+      "structure": "Broad sand/gravel flats and shoals around the two lake islands southwest of Cape Vincent, at the east end of Lake Ontario; wind-swept shallow water next to the deep lake basin. Technically Lake Ontario — fished routinely from Cape Vincent.",
+      "seasons": {
+        "spr": "Smallmouth flood the warming flats pre-spawn and spawn; long downwind casts with spinnerbaits and jerkbaits cover water.",
+        "sum": "Flats still hold smallmouth (Elite pros fished them with spinnerbaits like the Hildebrandt Tin Roller), but the biggest fish slide to deeper lake structure in 20–40+ ft nearby.",
+        "fall": "Bass regroup on shoal edges around the islands; perch schools work the flats."
+      },
+      "baits": [
+        {
+          "lure": "Spinnerbait (Hildebrandt Tin Roller class)",
+          "presentation": "Long downwind casts across the flats, steady with occasional kills.",
+          "when": "Spring through summer when fish are up on the flats."
+        },
+        {
+          "lure": "Jerkbait",
+          "presentation": "Jerk-jerk-pause over the warming gravel pre-spawn.",
+          "when": "May–June."
+        },
+        {
+          "lure": "Drop-shot on adjacent deep structure",
+          "presentation": "20–40 ft lake structure near the flats when the big ones slide out.",
+          "when": "Mid-summer."
+        }
+      ],
+      "nearestLaunch": "Cape Vincent Village Launch (Hell St)",
+      "runMinutes": 20,
+      "sources": [
+        "https://www.baits.com/blog/2022-st-lawrence-river-b-a-s-s-elite/",
+        "https://www.bassmaster.com/elite/news/cory-johnston-claims-st-lawrence-river-elite/"
+      ]
+    },
+    {
+      "id": "french-creek-bay",
+      "name": "French Creek Bay & Bartlett Point",
+      "lat": 44.235,
+      "lon": -76.103,
+      "species": [
+        "smallmouth",
+        "largemouth",
+        "pike",
+        "perch"
+      ],
+      "structure": "Shallow weedy bay southwest of Clayton fed by French Creek, with rocky Bartlett Point at its mouth dropping to the main channel.",
+      "seasons": {
+        "spr": "Classic pike spawning bay — fish are in the weedy shallows under 10 ft right after ice-out and at the May opener.",
+        "sum": "Largemouth and hammer-handle pike in the bay weeds (6–10 ft edges); quality smallmouth set up off Bartlett Point, one of NYSDEC's named points for good smallmouth.",
+        "fall": "Pike push back to green weed edges; perch school in the bay; smallmouth stack on the point's rock as water cools.",
+        "ice": "Clayton's ice hub and home of the February ice derby: tip-ups with big minnows for pike, jigging for perch."
+      },
+      "baits": [
+        {
+          "lure": "Spinnerbait, white/chartreuse",
+          "presentation": "Slow-rolled along the bay's weed edges under 10 ft; wire leader.",
+          "when": "May–June pike, again in fall."
+        },
+        {
+          "lure": "Drop-shot or Ned off Bartlett Point",
+          "presentation": "Work the rock where the point drops to the channel, 15–30 ft.",
+          "when": "Summer smallmouth."
+        },
+        {
+          "lure": "Tip-ups with large shiners",
+          "presentation": "Just above the weeds in 5–15 ft.",
+          "when": "Ice season — derby water."
+        }
+      ],
+      "nearestLaunch": "Clayton Mary St Launch (French Creek Bay)",
+      "runMinutes": 5,
+      "sources": [
+        "https://www.1000islands-clayton.com/thousand-islands-events-1000-islands/claytons-ice-fishing-derby/",
+        "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence",
+        "https://www.bestfishinginamerica.com/new-york-northern-pike-fishing.html"
+      ]
+    },
+    {
+      "id": "clayton-drifts",
+      "name": "Clayton drifts — Washington to Governors Island",
+      "lat": 44.252,
+      "lon": -76.078,
+      "species": [
+        "muskie",
+        "smallmouth",
+        "pike",
+        "walleye"
+      ],
+      "structure": "The main-channel corridor off Clayton between Washington, Calumet and Governors Islands: grassy shoals, deep channel edges and current seams where the shipping channel swings close to structure. Historic muskie drift water — the 69 lb 15 oz NY record (Lawton, 1957) came from this stretch.",
+      "seasons": {
+        "spr": "Smallmouth stage and spawn on the island shoals; pike in adjoining weedy pockets; walleye on channel edges after the May opener.",
+        "sum": "Smallmouth on 15–35 ft shoal edges and current seams — drop-shot on the drift. Local guides run drift and trolling trips straight out of Clayton over this corridor.",
+        "fall": "The famous water: Clayton muskie charters troll big crankbaits along the grassy shoal edges and channel drops October–December; fall full-moon windows are noted. Walleye troll the drops in low light."
+      },
+      "baits": [
+        {
+          "lure": "Trolled 8–10\" Believers on planer boards",
+          "presentation": "3.5–5 mph along the grassy shoal edges and channel drops in 20–40 ft, S-turns to trigger followers.",
+          "when": "October–December 15; November peak."
+        },
+        {
+          "lure": "Drop-shot goby imitation",
+          "presentation": "Drift the current seams and shoal edges, 15–35 ft, vertical.",
+          "when": "Summer smallmouth."
+        },
+        {
+          "lure": "Night-trolled stickbaits",
+          "presentation": "Flatlined over the 20–25 ft edges after dark.",
+          "when": "Fall walleye."
+        }
+      ],
+      "nearestLaunch": "Clayton Mary St Launch (French Creek Bay)",
+      "runMinutes": 8,
+      "sources": [
+        "https://www.outdoorsfirst.com/muskie/article/world-famous-or-legendary-muskie-hotspots-part-i/",
+        "https://stlawrencemuskiefishing.com/",
+        "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
+      ]
+    },
+    {
+      "id": "round-island",
+      "name": "Round Island",
+      "lat": 44.264,
+      "lon": -76.033,
+      "species": [
+        "smallmouth",
+        "walleye",
+        "pike",
+        "muskie"
+      ],
+      "structure": "Island northeast of Clayton with a sharp 20–80 ft drop-off, plus a narrower channel between the island and the NY mainland; rocky shoals on both ends.",
+      "seasons": {
+        "spr": "Smallmouth use the shoal ends and shallow rock pre-spawn; NYSDEC names Round Island among its top smallmouth islands.",
+        "sum": "Smallmouth on the deep edges; walleye trolled between the island and mainland in low light (fog, early, late). Carolina-rigged crawlers on the 20–80 ft drop take walleye to 28 inches.",
+        "fall": "September–October walleye trolling with crankbaits on the drop; muskie trollers include the edges in Clayton-area fall circuits."
+      },
+      "baits": [
+        {
+          "lure": "Carolina-rigged crawler",
+          "presentation": "Dragged down the 20–80 ft drop-off.",
+          "when": "Summer walleye, low light."
+        },
+        {
+          "lure": "Drop-shot goby imitation",
+          "presentation": "Vertical on the deep edges and shoal ends.",
+          "when": "Summer smallmouth."
+        },
+        {
+          "lure": "Trolled crankbaits",
+          "presentation": "The mainland channel and the drop in September fog windows.",
+          "when": "Fall walleye."
+        }
+      ],
+      "nearestLaunch": "Clayton Mary St Launch (French Creek Bay)",
+      "runMinutes": 12,
+      "sources": [
+        "https://www.lakeontariounited.com/fishing-hunting/topic/107811-round-island-advice-for-september/",
+        "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
+      ]
+    },
+    {
+      "id": "picton-island",
+      "name": "Picton Island",
+      "lat": 44.283,
+      "lon": -76.022,
+      "species": [
+        "smallmouth",
+        "muskie",
+        "pike"
+      ],
+      "structure": "Steep-sided granite island near Fineview; deep water tight to shore on the main-channel side, rock shelves and boulder edges dropping fast into 40–80 ft.",
+      "seasons": {
+        "spr": "Smallmouth spawn on the shallow rock shelves and adjacent flats; finesse presentations in the clear water.",
+        "sum": "Smallmouth slide down the boulder edges to 20–40 ft; vertical drop-shot while drifting the current seams on the channel side — the standard deep summer program for this stretch.",
+        "fall": "Deep edges near the channel are part of the Clayton-to-Alex Bay fall muskie trolling circuit; smallmouth group tight to the steep rock."
+      },
+      "baits": [
+        {
+          "lure": "Drop-shot goby imitation",
+          "presentation": "Vertical on the drift down the boulder edges, 20–40 ft, 3/8–1/2 oz tungsten in the current.",
+          "when": "The summer program here."
+        },
+        {
+          "lure": "Ned rig",
+          "presentation": "Dragged on the rock shelves when drop-shot fish get picky.",
+          "when": "Summer and early fall."
+        },
+        {
+          "lure": "Trolled big plugs",
+          "presentation": "The deep channel-side edges as part of a fall circuit.",
+          "when": "October–December muskie."
+        }
+      ],
+      "nearestLaunch": "Grass Point State Park Launch",
+      "runMinutes": 6,
+      "sources": [
+        "https://www.lakeontariounited.com/fishing-hunting/topic/107811-round-island-advice-for-september/",
+        "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html"
+      ]
+    },
+    {
+      "id": "forty-acre-shoal",
+      "name": "Forty Acre Shoal (Ontario water)",
+      "lat": 44.315,
+      "lon": -76.148,
+      "species": [
+        "muskie",
+        "smallmouth",
+        "pike",
+        "walleye"
+      ],
+      "structure": "World-famous muskie shoal complex in CANADIAN water between Gananoque, ON and the north side of Grindstone Island — despite the name it covers nearly 400 acres of grassy, rocky shoal ringed by deep channels. Fished since the 1880s. Ontario licence required; lots of shoal to run up on, navigate carefully.",
+      "seasons": {
+        "spr": "Pre-season for muskie; pike and smallmouth use the shoal weeds and rock after ice-out.",
+        "sum": "Smallmouth and pike over the shoal grass and edges; muskie opens (3rd Sat June, Ontario) but the classic bite is later.",
+        "fall": "The legendary period: motor-trolling big baits along the shoal edges October–December. A December 2012 trip produced four muskies including 51 and 49 lb fish; locals estimate ~86 hours per legal muskie — a grind for a giant. Fall full-moon windows favored."
+      },
+      "baits": [
+        {
+          "lure": "Trolled 8–10\" plugs on boards",
+          "presentation": "Along the shoal edges where grass meets the channel drops, 3.5–5 mph.",
+          "when": "October–December. The classic program on the classic water."
+        },
+        {
+          "lure": "Spoons and spinnerbaits over the shoal",
+          "presentation": "Fan-cast the grassy shoal top and edges.",
+          "when": "Post-ice-out pike; summer mixed bag."
+        }
+      ],
+      "nearestLaunch": "Clayton Mary St Launch (French Creek Bay)",
+      "runMinutes": 20,
+      "sources": [
+        "https://www.outdoorsfirst.com/muskie/article/world-famous-or-legendary-muskie-hotspots-part-i/",
+        "https://www.lakeontariounited.com/fishing-hunting/topic/19463-40-acre-shoals-stlarry/"
+      ]
+    },
+    {
+      "id": "grindstone-bays",
+      "name": "Grindstone Island bays (Flynn / Delaney)",
+      "lat": 44.268,
+      "lon": -76.132,
+      "species": [
+        "smallmouth",
+        "largemouth",
+        "pike",
+        "perch"
+      ],
+      "structure": "Flynn Bay on the southwest end and Delaney Bay on the northeast of Grindstone: shallow weedy bays with sand/rock mixes, ringed by shoal points dropping to the channels on both sides of the island.",
+      "seasons": {
+        "spr": "Pike spawn in the weedy bay shallows; bass move onto adjacent rock as water warms — NYSDEC lists Grindstone's bays among the river's best smallmouth water.",
+        "sum": "Largemouth and pike in the bay weeds (6–10 ft edges), smallmouth on the points and shoals outside; small spinners, jigs and soft plastics all work.",
+        "fall": "Largemouth feed up along weed edges; perch school in the bays; smallmouth on the shoal points.",
+        "ice": "Sheltered bays freeze in hard winters and get tip-up pike and perch effort, though access is by ice from the Clayton area."
+      },
+      "baits": [
+        {
+          "lure": "Spinnerbait / swim jig in the bay weeds",
+          "presentation": "6–10 ft weed edges for pike and largemouth.",
+          "when": "Late spring through summer."
+        },
+        {
+          "lure": "Ned rig or tube on the outside points",
+          "presentation": "Rock points and shoals where the bays meet the channels.",
+          "when": "Summer–fall smallmouth."
+        }
+      ],
+      "nearestLaunch": "Clayton Mary St Launch (French Creek Bay)",
+      "runMinutes": 12,
+      "sources": [
+        "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence",
+        "https://grindstoneisland.org/history/about-grindstone-island/"
+      ]
+    },
+    {
+      "id": "eel-bay",
+      "name": "Eel Bay & the trench",
+      "lat": 44.312,
+      "lon": -76.03,
+      "species": [
+        "pike",
+        "smallmouth",
+        "largemouth",
+        "perch"
+      ],
+      "structure": "Broad, mostly sandy bay on the west side of Wellesley Island behind Murray and Grenell Isles, with weed beds and submerged islands; a deep trench off the bay where the big pike summer.",
+      "seasons": {
+        "spr": "Prime pike water right after ice-out and at the opener: fish spawn in under 10 ft in weedy, sandy shallows full of perch and sunfish forage.",
+        "sum": "Small pike stay shallow but the quality fish drop into the trench, holding deep weed lines and ledges in 20+ ft, sometimes suspending over 40 ft near the steep drops. Smallmouth on the rocky bay-mouth structure.",
+        "fall": "Pike move back onto healthy weed edges; perch schools thicken in the bay.",
+        "ice": "One of the river's best ice areas: tip-ups with big minnows around the submerged islands and weed beds, perch jigging alongside. Easy access from Wellesley Island State Park."
+      },
+      "baits": [
+        {
+          "lure": "Spinnerbait, 1/2–3/4 oz",
+          "presentation": "Slow-rolled over the weedy shallows early season; wire leader.",
+          "when": "May–June pike."
+        },
+        {
+          "lure": "Big swimbait on the trench edges",
+          "presentation": "Slow-rolled along the 20+ ft weed lines and ledges where the quality fish summer.",
+          "when": "July–August for better pike."
+        },
+        {
+          "lure": "Tip-ups with large shiners",
+          "presentation": "Above the weeds around the submerged islands.",
+          "when": "January–February — marquee ice water."
+        }
+      ],
+      "nearestLaunch": "Wellesley Island State Park Launch",
+      "runMinutes": 6,
+      "sources": [
+        "https://www.bestfishinginamerica.com/new-york-northern-pike-fishing.html",
+        "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html",
+        "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
+      ]
+    },
+    {
+      "id": "lake-of-the-isles",
+      "name": "Lake of the Isles",
+      "lat": 44.321,
+      "lon": -75.964,
+      "species": [
+        "largemouth",
+        "pike",
+        "perch",
+        "smallmouth"
+      ],
+      "structure": "Shallow, warm, protected interior waterway inside Wellesley Island, connected to the river at both ends: thick weed beds, sandy bottom, full refuge from main-river current.",
+      "seasons": {
+        "spr": "Bass and pike pour into the warm protected water early; pike spawn in the weeds, largemouth stage on weed/rock transitions.",
+        "sum": "The river's best-known largemouth water: frogs, rubber worms and spinnerbaits along the weed edges. Pike patrol the same edges. The river-record largemouth reportedly came from here.",
+        "fall": "Largemouth feed heavily in the shallow weedy bays into fall; big pike return shallow.",
+        "ice": "Marquee ice water: tip-up pike plus excellent perch and crappie jigging — one of the two classic Wellesley Island ice areas with Eel Bay."
+      },
+      "baits": [
+        {
+          "lure": "Hollow-body frog",
+          "presentation": "Walked over the mats and pad fields; pitch to holes in the slop.",
+          "when": "July–September, mornings and clouds."
+        },
+        {
+          "lure": "Texas-rigged worm / creature",
+          "presentation": "Pitched to weed clumps and dock cover.",
+          "when": "All summer."
+        },
+        {
+          "lure": "Spinnerbait along the edges",
+          "presentation": "Weed edges for largemouth and pike alike.",
+          "when": "Spring and fall."
+        }
+      ],
+      "nearestLaunch": "Wellesley Island State Park Launch",
+      "runMinutes": 15,
+      "sources": [
+        "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html",
+        "https://dos.ny.gov/system/files/documents/2020/03/lake_of_the_isles.pdf",
+        "https://fishny.com/st-lawrence-river-fishing-tips/"
+      ]
+    },
+    {
+      "id": "alex-bay-sunken-rock",
+      "name": "Alexandria Bay / Sunken Rock",
+      "lat": 44.344,
+      "lon": -75.913,
+      "species": [
+        "smallmouth",
+        "pike",
+        "walleye",
+        "muskie",
+        "perch"
+      ],
+      "structure": "Dense island cluster off Alex Bay: the Sunken Rock lighthouse shoal sits mid-channel with deep water and hard current seams on all sides; Otter Creek Bay, the Boldt Castle area, and the shipping channel edges all fish.",
+      "seasons": {
+        "spr": "Pike in the weedy bays (Otter Creek Bay) after ice-out; smallmouth stage on island shoals; walleye on channel edges after the opener.",
+        "sum": "Smallmouth on shoals and current seams in 15–35 ft; prime pike season with fish to 40 inches; muskie occasionally taken trolling north of the bridge.",
+        "fall": "Muskie trolling along the shoal/channel edges — NYSDEC pegs Aug–Sept as peak for trolling shoal edges, extending into the fall trophy window. Walleye and smallmouth on 30–40 ft drops.",
+        "ice": "Winter anglers take good pike from the protected bays on tip-ups."
+      },
+      "baits": [
+        {
+          "lure": "Drop-shot goby imitation",
+          "presentation": "The island shoals and seams around Sunken Rock, 15–35 ft on the drift.",
+          "when": "Summer smallmouth."
+        },
+        {
+          "lure": "Spoons / spinnerbaits in the bays",
+          "presentation": "Otter Creek Bay weed edges.",
+          "when": "May–October pike."
+        },
+        {
+          "lure": "Trolled big plugs",
+          "presentation": "Shoal and channel edges north of the bridge.",
+          "when": "Aug–Sept into the fall muskie window."
+        }
+      ],
+      "nearestLaunch": "Keewaydin State Park Marina Launch",
+      "runMinutes": 6,
+      "sources": [
+        "https://www.seawaycharters.com/fishing-alexandria-bay",
+        "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
+      ]
+    },
+    {
+      "id": "goose-bay",
+      "name": "Goose Bay",
+      "lat": 44.352,
+      "lon": -75.842,
+      "species": [
+        "largemouth",
+        "pike",
+        "smallmouth",
+        "perch"
+      ],
+      "structure": "Large weedy, protected bay southeast of Alex Bay behind the Kring Point peninsula, fed by Cranberry Creek: extensive shallow weed flats and marshy edges.",
+      "seasons": {
+        "spr": "One of the river's classic pike spawning bays — fish are shallow in April and at the May opener in under 10 ft of weeds.",
+        "sum": "Largemouth in the matted weed and dock cover (frogs, rubber worms); pike on the 6–10 ft weed lines; smallmouth on the rocky bay mouth toward the main river.",
+        "fall": "Largemouth and pike feed along the dying weed edges; perch school on the flats.",
+        "ice": "Excellent, popular ice water: tip-up pike over the weed beds, perch and crappie jigging, January–February."
+      },
+      "baits": [
+        {
+          "lure": "Hollow-body frog",
+          "presentation": "Over the mats in the back of the bay.",
+          "when": "Summer largemouth."
+        },
+        {
+          "lure": "Spinnerbait, white/chartreuse",
+          "presentation": "The 6–10 ft weed lines; wire leader.",
+          "when": "May–June and fall pike."
+        },
+        {
+          "lure": "Tip-ups with big shiners",
+          "presentation": "Over the weed beds.",
+          "when": "January–February."
+        }
+      ],
+      "nearestLaunch": "Goose Bay Launch (Town of Alexandria)",
+      "runMinutes": 5,
+      "sources": [
+        "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html",
+        "https://www.bestfishinginamerica.com/new-york-northern-pike-fishing.html",
+        "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
+      ]
+    },
+    {
+      "id": "chippewa-bay",
+      "name": "Chippewa Bay & Cedar Island",
+      "lat": 44.443,
+      "lon": -75.772,
+      "species": [
+        "largemouth",
+        "smallmouth",
+        "pike",
+        "muskie",
+        "perch"
+      ],
+      "structure": "Big island-studded bay off the Chippewa Bay hamlet: matted weed beds and shallow flats inside, main-river shoals and sandbars outside, and a notable drop-off just east of Cedar Island where big summer pike hold. Chippewa Point is a named smallmouth/muskie point.",
+      "seasons": {
+        "spr": "Pike spawn throughout the weedy bay in April; largemouth follow into the shallows; muskie spawning activity has been observed nearby in early summer.",
+        "sum": "A 2022 Bassmaster Elite pro weighed nearly 22 lb here flipping a hollow-body frog over matted weed, mixing in Ned rigs on the shoals and sandbars outside. Big pike sit on the Cedar Island drop-off in 20+ ft.",
+        "fall": "Largemouth on the mats until they die back; muskie trolling picks up off Chippewa Point and the outside shoal edges; perch stack in the bay.",
+        "ice": "Well-known ice area: tip-up pike over the weed beds and around the islands, perch and crappie through the ice."
+      },
+      "baits": [
+        {
+          "lure": "Hollow-body frog",
+          "presentation": "Flipped and walked over the matted weed — a near-22 lb Elite bag came off this pattern here.",
+          "when": "Summer largemouth."
+        },
+        {
+          "lure": "Ned rig on the outside sandbars",
+          "presentation": "The main-river shoals and sandbars outside the bay.",
+          "when": "Summer smallmouth."
+        },
+        {
+          "lure": "Big swimbait / spoon on the Cedar Island drop",
+          "presentation": "The 20+ ft drop-off east of Cedar Island.",
+          "when": "Summer for the biggest pike."
+        }
+      ],
+      "nearestLaunch": "Chippewa Bay Launch (Town of Hammond)",
+      "runMinutes": 5,
+      "sources": [
+        "https://www.baits.com/blog/2022-st-lawrence-river-b-a-s-s-elite/",
+        "https://www.bestfishinginamerica.com/new-york-northern-pike-fishing.html",
+        "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
+      ]
+    },
+    {
+      "id": "oak-point",
+      "name": "Oak Point",
+      "lat": 44.523,
+      "lon": -75.692,
+      "species": [
+        "pike",
+        "smallmouth",
+        "walleye",
+        "perch"
+      ],
+      "structure": "Prominent point between Chippewa Bay and Morristown where the river narrows; rocky point structure with weedy pockets on either side and quick access to deep channel water.",
+      "seasons": {
+        "spr": "NYSDEC lists Oak Point as a spring/summer pike area; pike work the weedy pockets, smallmouth stage on the point rock.",
+        "sum": "Pike on the weed edges and point drop; smallmouth on the rock in 15–30 ft; walleye along channel edges in low light.",
+        "fall": "Smallmouth and walleye tighten on the point's drop-offs; pike on remaining green weed.",
+        "ice": "Adjacent protected pockets see local tip-up effort; the main-river point stays open most winters."
+      },
+      "baits": [
+        {
+          "lure": "Spinnerbait / spoon in the pockets",
+          "presentation": "The weedy pockets either side of the point.",
+          "when": "Spring–summer pike."
+        },
+        {
+          "lure": "Drop-shot or tube on the point rock",
+          "presentation": "15–30 ft rock where the point meets the channel.",
+          "when": "Summer smallmouth."
+        }
+      ],
+      "nearestLaunch": "Chippewa Bay Launch (Town of Hammond)",
+      "runMinutes": 16,
+      "sources": [
+        "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
+      ]
+    },
+    {
+      "id": "morristown-shoals",
+      "name": "Morristown flats & shoals",
+      "lat": 44.594,
+      "lon": -75.652,
+      "species": [
+        "smallmouth",
+        "walleye",
+        "pike",
+        "perch"
+      ],
+      "structure": "The narrowed reach opposite Brockville, ON: points, shoals and gravel flats off Morristown with deep channel water close by. NYSDEC names Morristown's points and shoals for walleye. The boundary is mid-river — mind the line.",
+      "seasons": {
+        "spr": "Walleye active after the May opener on 20–25 ft points and shoals (jigs, crawler harnesses); pike in adjacent bays; smallmouth move up on the gravel to spawn.",
+        "sum": "Smallmouth on the shoals and current edges in 15–35 ft, drop-shot on the drift; walleye troll the shoal edges at dawn and dusk in 20–40 ft.",
+        "fall": "Walleye trolling on the points and shoals peaks; smallmouth group deep near the channel.",
+        "ice": "Blind Bay and other protected pockets near Morristown/Hammond hold tip-up pike and perch when ice allows."
+      },
+      "baits": [
+        {
+          "lure": "Jig + minnow / crawler harness",
+          "presentation": "The 20–25 ft points and shoals.",
+          "when": "May opener through summer walleye."
+        },
+        {
+          "lure": "Drop-shot goby imitation",
+          "presentation": "Drift the 15–35 ft shoals and current edges.",
+          "when": "Summer smallmouth."
+        },
+        {
+          "lure": "Trolled deep cranks",
+          "presentation": "Shoal edges at dawn/dusk, 20–40 ft.",
+          "when": "Fall walleye peak."
+        }
+      ],
+      "nearestLaunch": "Morristown Municipal Launch",
+      "runMinutes": 5,
+      "sources": [
+        "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence",
+        "https://www.visitstlc.com/fish/"
+      ]
+    },
+    {
+      "id": "ogdensburg-oswegatchie",
+      "name": "Ogdensburg / Oswegatchie mouth",
+      "lat": 44.703,
+      "lon": -75.493,
+      "species": [
+        "walleye",
+        "pike",
+        "smallmouth",
+        "perch",
+        "muskie"
+      ],
+      "structure": "Confluence of the Oswegatchie with the St. Lawrence at Ogdensburg: current seams off the tributary mouth, bridge shoals, city shore access at Morrisette Park. Wheathouse Bay just downstream is a noted winter pike bay.",
+      "seasons": {
+        "spr": "One of the river's best spring walleye spots: the May–June spawning migration stacks fish off the Oswegatchie mouth; jig or drag crawler-harness rigs in ~20–25 ft.",
+        "sum": "Walleye stay strong on the shoals and channel edges; perch off the city docks; muskie trolling along the shoal edges gets going late summer.",
+        "fall": "Muskie trolling peaks late summer into fall on the shoal edges; walleye on 20–40 ft structure; November fish taken trolling Rapalas over 22 ft.",
+        "ice": "Wheathouse Bay, just downstream, is an excellent pike ice bay (tip-ups with large minnows) with perch alongside."
+      },
+      "baits": [
+        {
+          "lure": "Jig tipped with minnow or crawler",
+          "presentation": "Vertical along the current seams off the river mouth, ~20–25 ft.",
+          "when": "May–June — the spring run."
+        },
+        {
+          "lure": "Night-trolled stickbaits",
+          "presentation": "Over 22 ft near the shoals after dark.",
+          "when": "October–November walleye."
+        },
+        {
+          "lure": "Trolled big plugs",
+          "presentation": "The shoal edges downstream.",
+          "when": "Late summer–fall muskie."
+        }
+      ],
+      "nearestLaunch": "Ogdensburg City Launch (Patterson St)",
+      "runMinutes": 4,
+      "sources": [
+        "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html",
+        "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence",
+        "https://www.visitstlc.com/ice-fishing/"
+      ]
+    }
+  ]
+}

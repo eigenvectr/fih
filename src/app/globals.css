@@ -1,0 +1,96 @@
+@import "tailwindcss";
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --canvas: #f6f7f6;
+  --surface: #ffffff;
+  --surface-2: #eef0ef;
+  --line: #e2e5e3;
+  --ink: #1a1d1c;
+  --ink-muted: #626966;
+  --ink-faint: #8b918e;
+  --accent: #0d7488;
+  --accent-ink: #ffffff;
+  --sp-smallmouth: #9a3412;
+  --sp-largemouth: #22a04b;
+  --sp-pike: #0369a1;
+  --sp-walleye: #b45309;
+  --sp-muskie: #7c3aed;
+  --sp-perch: #a16207;
+}
+
+.dark {
+  --canvas: #101413;
+  --surface: #181d1c;
+  --surface-2: #212726;
+  --line: #2b3230;
+  --ink: #eceeed;
+  --ink-muted: #a2a9a6;
+  --ink-faint: #767d7a;
+  --accent: #38b6c9;
+  --accent-ink: #06282e;
+  --sp-smallmouth: #b85731;
+  --sp-largemouth: #35ab5e;
+  --sp-pike: #2f8fc7;
+  --sp-walleye: #cd7a24;
+  --sp-muskie: #8f76e8;
+  --sp-perch: #a8892b;
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-species-smallmouth: var(--sp-smallmouth);
+  --color-species-largemouth: var(--sp-largemouth);
+  --color-species-pike: var(--sp-pike);
+  --color-species-walleye: var(--sp-walleye);
+  --color-species-muskie: var(--sp-muskie);
+  --color-species-perch: var(--sp-perch);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.maplibregl-popup-content {
+  background: var(--surface);
+  color: var(--ink);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 0.18);
+  padding: 0.625rem 0.75rem;
+}
+
+.maplibregl-popup-tip {
+  border-top-color: var(--surface) !important;
+  border-bottom-color: var(--surface) !important;
+}
+
+.maplibregl-ctrl-attrib {
+  font-size: 10px;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 25%, transparent);
+}

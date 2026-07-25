@@ -1,0 +1,17 @@
+{
+  "name": "fih · NY Fishing Companion",
+  "short_name": "fih",
+  "description": "Spot intelligence, trip planning, and a personal fishing log for New York waters.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101413",
+  "theme_color": "#0d7488",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
