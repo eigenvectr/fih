@@ -22,12 +22,14 @@ test("species filter narrows the spot list", async ({ page }) => {
 
 test("spot card expands with seasons, baits and sources", async ({ page }) => {
   await page.goto("/water/st-lawrence-river");
-  await page.getByRole("button", { name: /Clayton drifts/ }).click();
-  await expect(page.getByText("Season by season")).toBeVisible();
-  await expect(page.getByText("Baits & presentations")).toBeVisible();
-  await expect(
-    page.getByRole("link", { name: /Log a catch here/ }),
-  ).toBeVisible();
+  const row = page
+    .getByRole("list", { name: "Spots" })
+    .locator("li")
+    .filter({ hasText: "Clayton drifts" });
+  await row.getByRole("button", { name: /Clayton drifts/ }).click();
+  await expect(row.getByText("Season by season")).toBeVisible();
+  await expect(row.getByText("Baits & presentations")).toBeVisible();
+  await expect(row.getByRole("link", { name: /Log a catch here/ })).toBeVisible();
 });
 
 test("run plan collects checked spots", async ({ page }) => {

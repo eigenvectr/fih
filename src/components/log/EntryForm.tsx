@@ -95,9 +95,9 @@ export function EntryForm({
   return (
     <Dialog.Root open={open} onOpenChange={onOpenChange}>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 z-50 bg-black/45 backdrop-blur-[2px]" />
+        <Dialog.Overlay className="sheet-overlay fixed inset-0 z-50 bg-black/45 backdrop-blur-[2px]" />
         <Dialog.Content
-          className="fixed inset-x-0 bottom-0 z-50 mx-auto max-h-[92dvh] w-full max-w-3xl overflow-y-auto rounded-t-2xl border-t border-line bg-canvas p-4 pb-[max(1rem,env(safe-area-inset-bottom))] shadow-2xl"
+          className="sheet-content fixed inset-x-0 bottom-0 z-50 mx-auto max-h-[92dvh] w-full max-w-3xl overflow-y-auto rounded-t-2xl border-t border-line bg-canvas p-4 pb-[max(1rem,env(safe-area-inset-bottom))] shadow-2xl"
           aria-describedby={undefined}
         >
           <div className="mb-4 flex items-center justify-between">

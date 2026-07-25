@@ -100,7 +100,9 @@ export function WaterView({ water }: { water: Water }) {
       <WaterMap
         spots={spots.map((s) => s.spot)}
         launches={water.launches}
+        species={water.species}
         selectedId={selectedId}
+        homeLaunch={launchName}
         onSelect={selectSpot}
       />
 
@@ -136,7 +138,11 @@ export function WaterView({ water }: { water: Water }) {
       </div>
 
       <div className="flex items-center gap-2">
-        <label htmlFor="launch" className="text-xs font-medium text-ink-muted">
+        <label
+          htmlFor="launch"
+          className="flex items-center gap-1.5 text-xs font-medium text-ink-muted"
+        >
+          <span className="h-2 w-2 rotate-45 rounded-[2px] bg-accent" aria-hidden />
           Running from
         </label>
         <div className="relative flex-1">
@@ -157,7 +163,7 @@ export function WaterView({ water }: { water: Water }) {
       </div>
 
       {planSpots.length > 0 && (
-        <div className="rounded-xl border border-accent/30 bg-accent/6 p-3.5">
+        <div className="animate-rise rounded-xl border border-accent/30 bg-accent/6 p-3.5">
           <div className="mb-2 flex items-center gap-2">
             <ListChecks className="h-4 w-4 text-accent" />
             <h2 className="text-sm font-semibold">Today&apos;s run</h2>
@@ -252,24 +258,30 @@ export function WaterView({ water }: { water: Water }) {
                       />
                     </button>
                   </div>
-                  {open && (
-                    <div className="border-t border-line px-3.5 pb-4">
-                      <SpotCard
-                        spot={spot}
-                        waterSlug={water.slug}
-                        season={season}
-                        runInfo={
-                          nm !== null && minutes !== null && launch
-                            ? {
-                                fromLaunch: launch.name,
-                                minutes,
-                                distance: formatDistance(nm),
-                              }
-                            : undefined
-                        }
-                      />
+                  <div
+                    className={`grid transition-[grid-template-rows] duration-300 ease-out ${
+                      open ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+                    }`}
+                  >
+                    <div className="overflow-hidden">
+                      <div className="border-t border-line px-3.5 pb-4">
+                        <SpotCard
+                          spot={spot}
+                          waterSlug={water.slug}
+                          season={season}
+                          runInfo={
+                            nm !== null && minutes !== null && launch
+                              ? {
+                                  fromLaunch: launch.name,
+                                  minutes,
+                                  distance: formatDistance(nm),
+                                }
+                              : undefined
+                          }
+                        />
+                      </div>
                     </div>
-                  )}
+                  </div>
                 </li>
               );
             })}

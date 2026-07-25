@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
 import { Map as MLMap, Marker } from "maplibre-gl";
-import type { Launch, Spot } from "@/lib/types";
+import type { Launch, Spot, SpeciesId } from "@/lib/types";
 import { SPECIES } from "@/lib/species";
 
 function rasterStyle(dark: boolean): maplibregl.StyleSpecification {
@@ -43,33 +43,94 @@ function spotPinEl(spot: Spot, selected: boolean): HTMLElement {
   const el = document.createElement("button");
   el.type = "button";
   el.setAttribute("aria-label", spot.name);
+  el.title = spot.name;
   el.style.cssText = `
-    width:${selected ? 22 : 15}px;height:${selected ? 22 : 15}px;border-radius:9999px;
-    background:${color};border:2.5px solid #fff;cursor:pointer;
-    box-shadow:0 1px 5px rgb(0 0 0 / .45);transition:width .15s,height .15s;
+    width:22px;height:22px;border-radius:9999px;background:${color};
+    border:2.5px solid #fff;cursor:pointer;
+    box-shadow:0 1px 5px rgb(0 0 0 / .45);
+    transform:scale(${selected ? 1 : 0.68});
+    transition:transform .2s cubic-bezier(.34,1.56,.64,1);
   `;
   return el;
 }
 
-function launchPinEl(name: string): HTMLElement {
+function launchPinEl(name: string, isHome: boolean): HTMLElement {
   const el = document.createElement("div");
-  el.setAttribute("aria-label", `${name} launch`);
-  el.style.cssText = `
-    width:13px;height:13px;background:#334155;border:2px solid #fff;
-    box-shadow:0 1px 4px rgb(0 0 0 / .4);transform:rotate(45deg);border-radius:2px;
-  `;
+  el.setAttribute("aria-label", isHome ? `${name} — your launch` : `${name} launch`);
+  el.title = isHome ? `${name} — your launch` : name;
+  if (isHome) {
+    el.style.cssText = "display:flex;flex-direction:column;align-items:center;gap:3px;";
+    const pin = document.createElement("div");
+    pin.className = "pin-home";
+    pin.style.cssText = `
+      width:17px;height:17px;background:var(--accent);border:2.5px solid #fff;
+      transform:rotate(45deg);border-radius:3px;
+      box-shadow:0 1px 6px rgb(0 0 0 / .5);
+    `;
+    const label = document.createElement("span");
+    label.textContent = "START";
+    label.style.cssText = `
+      font:600 9px/1 var(--font-geist-sans),sans-serif;letter-spacing:.08em;
+      color:#fff;background:var(--accent);padding:2px 5px;border-radius:9999px;
+      box-shadow:0 1px 3px rgb(0 0 0 / .35);
+    `;
+    el.append(pin, label);
+  } else {
+    el.style.cssText = `
+      width:11px;height:11px;background:#64748b;border:2px solid #fff;
+      box-shadow:0 1px 4px rgb(0 0 0 / .4);transform:rotate(45deg);border-radius:2px;
+      opacity:.85;
+    `;
+  }
   return el;
+}
+
+function Legend({ species }: { species: SpeciesId[] }) {
+  return (
+    <div className="pointer-events-none absolute bottom-2 left-2 z-10 rounded-lg border border-line bg-surface/90 p-2.5 shadow-sm backdrop-blur-sm">
+      <p className="mb-1.5 text-[9px] font-semibold uppercase tracking-wider text-ink-faint">
+        Legend
+      </p>
+      <ul className="grid grid-cols-2 gap-x-3 gap-y-1">
+        {species.map((sp) => {
+          const meta = SPECIES[sp];
+          if (!meta) return null;
+          return (
+            <li key={sp} className="flex items-center gap-1.5 text-[10px] text-ink-muted">
+              <span
+                className="h-2 w-2 shrink-0 rounded-full border border-white/80"
+                style={{ background: meta.pin }}
+              />
+              {meta.short}
+            </li>
+          );
+        })}
+        <li className="flex items-center gap-1.5 text-[10px] text-ink-muted">
+          <span className="h-2 w-2 shrink-0 rotate-45 rounded-[2px] border border-white/80 bg-slate-500" />
+          Launch
+        </li>
+        <li className="flex items-center gap-1.5 text-[10px] font-medium text-accent">
+          <span className="h-2 w-2 shrink-0 rotate-45 rounded-[2px] border border-white/80 bg-accent" />
+          Your start
+        </li>
+      </ul>
+    </div>
+  );
 }
 
 export function WaterMap({
   spots,
   launches,
+  species,
   selectedId,
+  homeLaunch,
   onSelect,
 }: {
   spots: Spot[];
   launches: Launch[];
+  species: SpeciesId[];
   selectedId: string | null;
+  homeLaunch: string;
   onSelect: (id: string) => void;
 }) {
   const container = useRef<HTMLDivElement>(null);
@@ -113,9 +174,8 @@ export function WaterMap({
     markers.current.forEach((m) => m.remove());
     markers.current.clear();
     launches.forEach((l) => {
-      const m = new Marker({ element: launchPinEl(l.name) })
+      const m = new Marker({ element: launchPinEl(l.name, l.name === homeLaunch) })
         .setLngLat([l.lon, l.lat])
-        .setPopup(new maplibregl.Popup({ closeButton: false, offset: 10 }).setText(`⚓ ${l.name}`))
         .addTo(map);
       markers.current.set(`launch:${l.name}`, m);
     });
@@ -128,7 +188,20 @@ export function WaterMap({
       const m = new Marker({ element: el }).setLngLat([s.lon, s.lat]).addTo(map);
       markers.current.set(s.id, m);
     });
-  }, [spots, launches, selectedId, onSelect, ready]);
+  }, [spots, launches, selectedId, homeLaunch, onSelect, ready]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !ready) return;
+    const launch = launches.find((l) => l.name === homeLaunch);
+    if (launch)
+      map.easeTo({
+        center: [launch.lon, launch.lat],
+        duration: 700,
+        zoom: Math.max(map.getZoom(), 10),
+      });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [homeLaunch, ready]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -138,9 +211,12 @@ export function WaterMap({
   }, [selectedId, spots]);
 
   return (
-    <div
-      ref={container}
-      className="h-[46dvh] min-h-72 w-full overflow-hidden rounded-xl border border-line sm:h-[420px]"
-    />
+    <div className="relative">
+      <div
+        ref={container}
+        className="h-[46dvh] min-h-72 w-full overflow-hidden rounded-xl border border-line sm:h-[420px]"
+      />
+      <Legend species={species} />
+    </div>
   );
 }
