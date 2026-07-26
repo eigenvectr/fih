@@ -136,6 +136,10 @@ function Legend({ species }: { species: SpeciesId[] }) {
           <span className="h-2 w-2 shrink-0 rotate-45 rounded-[2px] border border-white/80 bg-accent" />
           Your start
         </li>
+        <li className="flex items-center gap-1.5 text-[10px] text-ink-muted">
+          <span className="h-2 w-2 shrink-0 rounded-full border border-white/80 bg-[#1da1f2]" />
+          You (live)
+        </li>
       </ul>
     </div>
   );
@@ -175,6 +179,14 @@ export function WaterMap({
       attributionControl: { compact: true },
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    map.addControl(
+      new maplibregl.GeolocateControl({
+        positionOptions: { enableHighAccuracy: true },
+        trackUserLocation: true,
+        fitBoundsOptions: { maxZoom: 13 },
+      }),
+      "top-right",
+    );
     map.touchZoomRotate.disableRotation();
     mapRef.current = map;
     setReady(true);

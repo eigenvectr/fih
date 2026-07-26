@@ -67,6 +67,14 @@ test("log entry saves, survives reload, and exports valid JSON", async ({
   expect(parsed.entries[0].lengthIn).toBe(19.5);
 });
 
+test("locate-me shows current position on the map", async ({ page, context }) => {
+  await context.grantPermissions(["geolocation"]);
+  await context.setGeolocation({ latitude: 44.24, longitude: -76.09 });
+  await page.goto("/water/st-lawrence-river");
+  await page.locator(".maplibregl-ctrl-geolocate").click();
+  await expect(page.locator(".maplibregl-user-location-dot")).toBeVisible();
+});
+
 test("log-a-catch deep link prefills water and spot", async ({ page }) => {
   await page.goto("/log?water=st-lawrence-river&spot=clayton-drifts&new=1");
   await expect(page.getByRole("heading", { name: "New catch" })).toBeVisible();
