@@ -1,0 +1,389 @@
+{
+  "generatedAt": "2026-07-27T06:45:22.432Z",
+  "waters": {
+    "lake-george": {
+      "spot:tea-island-shoal": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "3b6e67635f03"
+      },
+      "spot:diamond-island": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "b1ae67448ee3"
+      },
+      "spot:long-island-harris-bay": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "d120c0bd14ec"
+      },
+      "spot:dunhams-bay": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "ff4f552a0cb2"
+      },
+      "spot:pilot-knob-deep-hole": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "a777c3eff6fa"
+      },
+      "spot:dome-island-deep-basin": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "5dadc10f8efe"
+      },
+      "spot:northwest-bay": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "75493ccfb649"
+      },
+      "spot:narrows-island-cluster": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "f3e9a567e606"
+      },
+      "spot:shelving-rock-log-bay": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "0671f47a69fb"
+      },
+      "spot:black-mountain-point": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "722024de0731"
+      },
+      "spot:sabbath-day-point": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "f9e12eecf080"
+      },
+      "spot:hague-silver-bay": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "7197048c5b94"
+      },
+      "spot:anthonys-nose-waltonian": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "2bbee2904192"
+      },
+      "spot:rogers-rock": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "54b47287f641"
+      },
+      "spot:weeds-bay-mossy-point": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake George\"",
+        "hash": "f57125aeb884"
+      },
+      "launch:Million Dollar Beach DEC Boat Launch": {
+        "status": "pass",
+        "detail": "near mapped slipway",
+        "nearestFacility": {
+          "lat": 43.4179554,
+          "lon": -73.7038879
+        },
+        "hash": "468bfc9b18bc"
+      },
+      "launch:Norowal Marina (Bolton Landing)": {
+        "status": "pass",
+        "detail": "near mapped marina \"Norowal\"",
+        "nearestFacility": {
+          "lat": 43.560635,
+          "lon": -73.6508154,
+          "name": "Norowal"
+        },
+        "hash": "23bc39521013"
+      },
+      "launch:Dunham's Bay (Route 9L, North Queensbury)": {
+        "status": "pass",
+        "detail": "near mapped marina \"Dunham's Bay Marina\"",
+        "nearestFacility": {
+          "lat": 43.4416084,
+          "lon": -73.6540702,
+          "name": "Dunham's Bay Marina"
+        },
+        "hash": "dac4fecfad71"
+      },
+      "launch:Hulett's Landing (Island View Marina, east shore)": {
+        "status": "warn",
+        "detail": "near water but no mapped slipway/marina within 350 m",
+        "hash": "24d255ce661d"
+      },
+      "launch:Rogers Rock State Campground Launch (Hague)": {
+        "status": "warn",
+        "detail": "near water but no mapped slipway/marina within 350 m",
+        "hash": "d92ff830fae6"
+      },
+      "launch:Mossy Point Public Boat Launch (Ticonderoga)": {
+        "status": "pass",
+        "detail": "near mapped slipway \"Mossy Point State Boat Launch\"",
+        "nearestFacility": {
+          "lat": 43.8214952,
+          "lon": -73.4268106,
+          "name": "Mossy Point State Boat Launch"
+        },
+        "hash": "5fb742ed9dcd"
+      }
+    },
+    "saratoga-lake": {
+      "spot:south-end-weed-flats": {
+        "status": "pass",
+        "detail": "inside water polygon \"Saratoga Lake\"",
+        "hash": "5a414d6bc608"
+      },
+      "spot:snake-hill-dropoff": {
+        "status": "pass",
+        "detail": "inside water polygon \"Saratoga Lake\"",
+        "hash": "ef11d1bd36e0"
+      },
+      "spot:mannings-cove": {
+        "status": "pass",
+        "detail": "inside water polygon \"Saratoga Lake\"",
+        "hash": "1bd5c9bfb664"
+      },
+      "spot:state-launch-flats": {
+        "status": "pass",
+        "detail": "inside water polygon \"Saratoga Lake\"",
+        "hash": "73924a8c0cd4"
+      },
+      "spot:fish-creek-outlet-9p": {
+        "status": "pass",
+        "detail": "inside water polygon \"Saratoga Lake\"",
+        "hash": "5a1c6630f6da"
+      },
+      "spot:rileys-cove": {
+        "status": "pass",
+        "detail": "inside water polygon \"Saratoga Lake\"",
+        "hash": "81f40c66d04f"
+      },
+      "spot:stony-point": {
+        "status": "pass",
+        "detail": "inside water polygon \"Saratoga Lake\"",
+        "hash": "cd4fca5b7474"
+      },
+      "spot:deep-basin-edge": {
+        "status": "pass",
+        "detail": "inside water polygon \"Saratoga Lake\"",
+        "hash": "eebcc4c12465"
+      },
+      "spot:east-shore-docks": {
+        "status": "pass",
+        "detail": "inside water polygon \"Saratoga Lake\"",
+        "hash": "8b7f9d99a995"
+      },
+      "spot:fitch-road-weedline": {
+        "status": "pass",
+        "detail": "inside water polygon \"Saratoga Lake\"",
+        "hash": "3337dc3916f9"
+      },
+      "launch:Saratoga Lake State Boat Launch (NYS OPRHP, Route 9P)": {
+        "status": "pass",
+        "detail": "near mapped slipway \"Point Breeze Marine\"",
+        "nearestFacility": {
+          "lat": 43.0525394,
+          "lon": -73.7225072,
+          "name": "Point Breeze Marine"
+        },
+        "hash": "0f9e99ce8196"
+      },
+      "launch:Waterfront Park (City of Saratoga Springs) - cartop / kayak launch": {
+        "status": "pass",
+        "detail": "near mapped slipway",
+        "nearestFacility": {
+          "lat": 43.0522447,
+          "lon": -73.729023
+        },
+        "hash": "e3119b396b2d"
+      },
+      "launch:Lee's Park Campground & Marina (fee)": {
+        "status": "pass",
+        "detail": "near mapped slipway \"Point Breeze Marine\"",
+        "nearestFacility": {
+          "lat": 43.0525394,
+          "lon": -73.7225072,
+          "name": "Point Breeze Marine"
+        },
+        "hash": "4030da777a66"
+      },
+      "launch:South Shore Marina (fee, south end)": {
+        "status": "pass",
+        "detail": "near mapped slipway",
+        "nearestFacility": {
+          "lat": 42.9883073,
+          "lon": -73.7582079
+        },
+        "hash": "bf8be81ab874"
+      },
+      "launch:Fish Creek Marina / Kayak Shak (Staffords Bridge Road)": {
+        "status": "pass",
+        "detail": "near mapped slipway",
+        "nearestFacility": {
+          "lat": 43.0746524,
+          "lon": -73.6955049
+        },
+        "hash": "6363d1b0dcfa"
+      }
+    },
+    "st-lawrence-river": {
+      "spot:tibbetts-point": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake Ontario\"",
+        "hash": "1dbb9ef9141b"
+      },
+      "spot:carleton-island": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake Ontario\"",
+        "hash": "b45e3fca625e"
+      },
+      "spot:grenadier-fox-flats": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake Ontario\"",
+        "hash": "042031ef39e5"
+      },
+      "spot:french-creek-bay": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake Ontario\"",
+        "hash": "52434e9bf94c"
+      },
+      "spot:clayton-drifts": {
+        "status": "warn",
+        "detail": "manual override: Mid-channel drift corridor between Washington and Governors Islands; the upper St. Lawrence is natural=coastline in OSM (no water polygon to hit). Verified visually on basemap 2026-07-27 - open water, 1.2+ km from every shore.",
+        "hash": "e2092d40e5e7"
+      },
+      "spot:round-island": {
+        "status": "warn",
+        "detail": "open water by proximity check (river not area-mapped in OSM): water within 600 m, no structures within 75 m",
+        "hash": "009c95f351b6"
+      },
+      "spot:picton-island": {
+        "status": "warn",
+        "detail": "open water by proximity check (river not area-mapped in OSM): water within 600 m, no structures within 75 m",
+        "hash": "7dc60975612d"
+      },
+      "spot:forty-acre-shoal": {
+        "status": "warn",
+        "detail": "open water by proximity check (river not area-mapped in OSM): water within 600 m, no structures within 75 m",
+        "hash": "af82061ece02"
+      },
+      "spot:grindstone-bays": {
+        "status": "warn",
+        "detail": "open water by proximity check (river not area-mapped in OSM): water within 600 m, no structures within 75 m",
+        "hash": "c8f008ba8235"
+      },
+      "spot:eel-bay": {
+        "status": "warn",
+        "detail": "open water by proximity check (river not area-mapped in OSM): water within 600 m, no structures within 75 m",
+        "hash": "30b708255cb6"
+      },
+      "spot:lake-of-the-isles": {
+        "status": "pass",
+        "detail": "inside water polygon \"Lake of the Isles\"",
+        "hash": "34daab7f78ba"
+      },
+      "spot:alex-bay-sunken-rock": {
+        "status": "warn",
+        "detail": "open water by proximity check (river not area-mapped in OSM): water within 600 m, no structures within 75 m",
+        "hash": "b19fc7b3f090"
+      },
+      "spot:goose-bay": {
+        "status": "warn",
+        "detail": "open water by proximity check (river not area-mapped in OSM): water within 600 m, no structures within 75 m",
+        "hash": "50c95d336382"
+      },
+      "spot:chippewa-bay": {
+        "status": "warn",
+        "detail": "open water by proximity check (river not area-mapped in OSM): water within 600 m, no structures within 75 m",
+        "hash": "316574807dba"
+      },
+      "spot:oak-point": {
+        "status": "warn",
+        "detail": "open water by proximity check (river not area-mapped in OSM): water within 600 m, no structures within 75 m",
+        "hash": "e8fcc72edd36"
+      },
+      "spot:morristown-shoals": {
+        "status": "warn",
+        "detail": "open water by proximity check (river not area-mapped in OSM): water within 600 m, no structures within 75 m",
+        "hash": "451ff3b09e46"
+      },
+      "spot:ogdensburg-oswegatchie": {
+        "status": "warn",
+        "detail": "open water by proximity check (river not area-mapped in OSM): water within 600 m, no structures within 75 m",
+        "hash": "604d700dc93b"
+      },
+      "launch:Cape Vincent Village Launch (Hell St)": {
+        "status": "pass",
+        "detail": "near mapped slipway",
+        "nearestFacility": {
+          "lat": 44.133156,
+          "lon": -76.3220229
+        },
+        "hash": "a0eee3413bf7"
+      },
+      "launch:Clayton Mary St Launch (French Creek Bay)": {
+        "status": "pass",
+        "detail": "near mapped slipway",
+        "nearestFacility": {
+          "lat": 44.232678,
+          "lon": -76.0932581
+        },
+        "hash": "d806b9b9ee89"
+      },
+      "launch:Grass Point State Park Launch": {
+        "status": "warn",
+        "detail": "near water but no mapped slipway/marina within 350 m",
+        "hash": "1b71f36f8573"
+      },
+      "launch:Wellesley Island State Park Launch": {
+        "status": "warn",
+        "detail": "near water but no mapped slipway/marina within 350 m",
+        "hash": "39740d4c4fc7"
+      },
+      "launch:Keewaydin State Park Marina Launch": {
+        "status": "pass",
+        "detail": "near mapped slipway",
+        "nearestFacility": {
+          "lat": 44.3217455,
+          "lon": -75.9344721
+        },
+        "hash": "b9ed5abd09ff"
+      },
+      "launch:Kring Point State Park Launch": {
+        "status": "pass",
+        "detail": "near mapped slipway \"Boat Launch\"",
+        "nearestFacility": {
+          "lat": 44.3755286,
+          "lon": -75.8591931,
+          "name": "Boat Launch"
+        },
+        "hash": "17929d168124"
+      },
+      "launch:Goose Bay Launch (Town of Alexandria)": {
+        "status": "warn",
+        "detail": "near water but no mapped slipway/marina within 350 m",
+        "hash": "70b74def5130"
+      },
+      "launch:Chippewa Bay Launch (Town of Hammond)": {
+        "status": "warn",
+        "detail": "near water but no mapped slipway/marina within 350 m",
+        "hash": "40db8adbbc35"
+      },
+      "launch:Morristown Municipal Launch": {
+        "status": "warn",
+        "detail": "near water but no mapped slipway/marina within 350 m",
+        "hash": "4ad77ff4df42"
+      },
+      "launch:Ogdensburg City Launch (Patterson St)": {
+        "status": "pass",
+        "detail": "near mapped slipway \"Paterson Street Boat Launch\"",
+        "nearestFacility": {
+          "lat": 44.7044952,
+          "lon": -75.4881718,
+          "name": "Paterson Street Boat Launch"
+        },
+        "hash": "e54b064eb153"
+      }
+    }
+  }
+}

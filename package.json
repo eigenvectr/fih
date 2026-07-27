@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "playwright test"
+    "test": "playwright test",
+    "verify:geo": "node scripts/verify-locations.mjs"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.23",

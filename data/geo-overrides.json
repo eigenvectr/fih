@@ -1,0 +1,8 @@
+{
+  "st-lawrence-river": {
+    "spot:clayton-drifts": {
+      "hash": "e2092d40e5e7",
+      "reason": "Mid-channel drift corridor between Washington and Governors Islands; the upper St. Lawrence is natural=coastline in OSM (no water polygon to hit). Verified visually on basemap 2026-07-27 - open water, 1.2+ km from every shore."
+    }
+  }
+}

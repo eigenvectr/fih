@@ -30,6 +30,18 @@ npm test
 
 Each water is one JSON file — `data/waters/<slug>.json` — matching the `Water` type in `src/lib/types.ts`, plus one import line in `src/lib/waters.ts`. Research the water (spots, seasons, baits, regs, launches with sources), drop in the file, done. No code changes beyond the import.
 
+## Location verification (required for any data change)
+
+Every spot and launch coordinate is verified against OpenStreetMap:
+
+```sh
+npm run verify:geo
+```
+
+Spots must fall inside a mapped water polygon; launches must be within 250 m of water, with a warning if no mapped slipway/marina exists within 350 m. Results (with a per-coordinate hash) go to `data/geo-verification.json`, and `e2e/geo.spec.ts` fails the suite if any point is unverified, failing, or was edited after its last verification — so `npm test` enforces the process. Overpass responses are cached in `data/geo-cache.json`; delete a key (or the file) to force a recheck.
+
+Where OSM genuinely can't answer (the upper St. Lawrence is `natural=coastline`, so mid-channel points hit no water polygon), add a manual override in `data/geo-overrides.json` with the point's coordinate hash and a reason documenting how it was verified (e.g. visually against the basemap). Overrides die with the hash: editing the coordinate invalidates them.
+
 ## Deploy
 
 Standard Next.js build on Vercel. No environment variables required.

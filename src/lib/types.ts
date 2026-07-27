@@ -53,6 +53,7 @@ export interface Water {
   slug: string;
   name: string;
   shortName?: string;
+  updated?: string;
   region: string;
   blurb: string;
   species: SpeciesId[];

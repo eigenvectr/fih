@@ -138,6 +138,11 @@
       "title": "Consumption advisory",
       "body": "Some river species carry elevated contaminant levels; check current NYS DOH advisories before keeping fish for the table, especially bigger pike and walleye.",
       "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
+    },
+    {
+      "title": "Ontario: no walleye size limit in the lower river reach",
+      "body": "In FMZ 20 east of the Bishops Point / Howe-Wolfe Islands line, Ontario removes the walleye minimum size entirely (sport limit still 4/day). Elsewhere in Zone 20 standard sizes apply - one more way a fish legal on the Canadian side follows different rules than NY's 18-inch river minimum.",
+      "source": "https://www.ontario.ca/document/ontario-fishing-regulations-summary/fisheries-management-zone-20"
     }
   ],
   "speciesBaits": {
@@ -314,7 +319,7 @@
       "source": "https://www.prnewswire.com/news-releases/walters-conquers-smallmouth-to-win-bassmaster-elite-series-event-at-st-lawrence-river-301910720.html"
     },
     {
-      "note": "Cory Johnston won the 2024 Elite with 102 lbs, then the 2025 Open on the same deep smallmouth game.",
+      "note": "Cory Johnston won the 2024 Elite with 102 lbs, then took the 2025 Open at Waddington (74-15) on a mixed shallow-and-deep game: drop-shot minnow plus Ned rig, with his biggest fish coming shallow off sand flats and weed edges.",
       "source": "https://www.bassmaster.com/opens/news/cory-johnston-claims-the-title-at-st-lawrence-river/"
     },
     {
@@ -352,14 +357,30 @@
     {
       "note": "Fishbrain's catch map has no public API (partnership-only access), so the catch-record evidence here uses open GBIF/iNaturalist data instead.",
       "source": "https://fishbrain.com/terms-of-service"
+    },
+    {
+      "note": "The Bassmaster Elite returns to Clayton Aug 27-30, 2026 - the first Clayton Elite since 2023 and the season finale.",
+      "source": "https://www.bassmaster.com/elite/news/b-a-s-s-announces-2026-progressive-bassmaster-elite-series-schedule-featuring-legendary-fisheries-and-historic-returns/"
+    },
+    {
+      "note": "Bassmaster reined in forward-facing sonar for 2026: FFS is allowed in at most five of nine Elite events (random draw) and banned outright in the rest, including practice. The minnow-hover game that produced 100 lb bags may not even be legal at the Clayton finale.",
+      "source": "https://www.bassmaster.com/elite/news/b-a-s-s-announces-live-sonar-rule-change-for-2026-elite-series/"
+    },
+    {
+      "note": "2026 water levels are moderate: above long-term average, well below the 2017 record, with the IJC applying Plan 2014's max-outflow limit in April. No flood-related launch problems this year.",
+      "source": "https://ijc.org/en/loslrb/current-water-level-conditions-and-lake-ontario-water-supplies"
+    },
+    {
+      "note": "Invasive tubenose gobies are now establishing alongside round gobies in the Thousand Islands reach - both are VHS reservoirs, adding pressure to the river's muskie decline.",
+      "source": "https://www.nny360.com/news/stlawrencecounty/invasive-tubenose-gobies-joining-their-round-cousins-in-st-lawrence-river/article_0cecf804-13d8-5124-a594-7872865585b2.html"
     }
   ],
   "spots": [
     {
       "id": "tibbetts-point",
       "name": "Tibbetts Point / Cape Vincent",
-      "lat": 44.103,
-      "lon": -76.37,
+      "lat": 44.101,
+      "lon": -76.376,
       "species": [
         "smallmouth",
         "walleye",
@@ -483,8 +504,8 @@
     {
       "id": "french-creek-bay",
       "name": "French Creek Bay & Bartlett Point",
-      "lat": 44.235,
-      "lon": -76.103,
+      "lat": 44.233,
+      "lon": -76.117,
       "species": [
         "smallmouth",
         "largemouth",
@@ -516,7 +537,7 @@
         }
       ],
       "nearestLaunch": "Clayton Mary St Launch (French Creek Bay)",
-      "runMinutes": 2,
+      "runMinutes": 3,
       "sources": [
         "https://www.1000islands-clayton.com/thousand-islands-events-1000-islands/claytons-ice-fishing-derby/",
         "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence",
@@ -609,8 +630,8 @@
     {
       "id": "picton-island",
       "name": "Picton Island",
-      "lat": 44.286,
-      "lon": -76.079,
+      "lat": 44.2875,
+      "lon": -76.0725,
       "species": [
         "smallmouth",
         "muskie",
@@ -640,7 +661,7 @@
         }
       ],
       "nearestLaunch": "Grass Point State Park Launch",
-      "runMinutes": 11,
+      "runMinutes": 10,
       "sources": [
         "https://www.lakeontariounited.com/fishing-hunting/topic/107811-round-island-advice-for-september/",
         "https://www.bestfishinginamerica.com/new-york-st-lawrence-river-thousand-islands-fishing.html"
@@ -938,8 +959,8 @@
     {
       "id": "oak-point",
       "name": "Oak Point",
-      "lat": 44.523,
-      "lon": -75.692,
+      "lat": 44.517,
+      "lon": -75.755,
       "species": [
         "pike",
         "smallmouth",
@@ -966,7 +987,7 @@
         }
       ],
       "nearestLaunch": "Chippewa Bay Launch (Town of Hammond)",
-      "runMinutes": 18,
+      "runMinutes": 14,
       "sources": [
         "https://dec.ny.gov/things-to-do/freshwater-fishing/places-to-fish/great-lakes-niagara-river-st-lawrence-river/fishing-the-st-lawrence"
       ]
@@ -1058,5 +1079,6 @@
       ]
     }
   ],
-  "shortName": "St. Lawrence"
+  "shortName": "St. Lawrence",
+  "updated": "July 2026"
 }

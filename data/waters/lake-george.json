@@ -15,26 +15,26 @@
   "launches": [
     {
       "name": "Million Dollar Beach DEC Boat Launch",
-      "lat": 43.4225,
-      "lon": -73.706,
+      "lat": 43.4178,
+      "lon": -73.7038,
       "notes": "Primary public DEC hard-surface launch at the south end in Lake George village, 139 Beach Road. Two launch lanes, 54 car/trailer spaces plus overflow, open 6:00a-8:00p. Doubles as a mandatory boat inspection station, so you can get inspected and sealed on site. Fast access to the productive south-basin bass, perch and pike water. Reverse-geocode confirmed: Beach Road, Village of Lake George, Warren County."
     },
     {
       "name": "Norowal Marina (Bolton Landing)",
-      "lat": 43.5465,
-      "lon": -73.6485,
+      "lat": 43.5598,
+      "lon": -73.6515,
       "notes": "Full-service marina and public launch on the west shore at 21 Sagamore Road, Bolton Landing, serving the central/southern basin. Large new ramp and roughly three acres of parking; also an LGPC inspection station (8:00a-6:00p). Closest mainland launch to the island campgrounds and the deep central-basin lake trout grounds. Reverse-geocode confirmed: Bolton Landing, Town of Bolton, Warren County."
     },
     {
       "name": "Dunham's Bay (Route 9L, North Queensbury)",
-      "lat": 43.4548,
-      "lon": -73.6388,
+      "lat": 43.4416,
+      "lon": -73.6541,
       "notes": "Southeast-corner access off State Highway 9L (Dunham's Bay Marina area). Dunham's Bay is shallow and weedy, prime for northern pike, largemouth and perch, and it is a short run to Harris Bay and Warner Bay. Good option for anglers targeting warmwater species without a long open-lake crossing. Reverse-geocode confirmed: State Highway 9L, North Queensbury, Town of Queensbury, Warren County."
     },
     {
       "name": "Hulett's Landing (Island View Marina, east shore)",
-      "lat": 43.6555,
-      "lon": -73.4975,
+      "lat": 43.6415,
+      "lon": -73.5085,
       "notes": "East-shore access at Hulett's Landing in the Town of Dresden, the main launching point on the quieter Washington County side and near the narrows. Handy for the mid-lake lake trout and salmon trolling lanes and the rocky east-shore smallmouth points. Reverse-geocode confirmed: Bluff Head Road, Huletts Landing, Washington County (east shore, correct side of the lake)."
     },
     {
@@ -58,7 +58,7 @@
     },
     {
       "title": "Landlocked (Atlantic) salmon: 18-inch minimum, 2 per day",
-      "body": "Landlocked salmon (listed by DEC as Atlantic salmon) are open all year on Lake George with an 18-inch minimum length and a daily limit of 2. The lake is stocked annually and the fishery has rebounded strongly since DEC shifted to the hardier Sebago strain. Note that older third-party guides sometimes still list a 15-inch minimum and a 3-fish limit; the DEC Region 5 special-regulation figures (18 inches, 2 fish) are the current authority.",
+      "body": "Landlocked salmon (listed by DEC as Atlantic salmon) are open all year on Lake George with an 18-inch minimum length and a daily limit of 2. DEC's 2025-2029 management plan found the stocked-salmon fishery underperforming and is testing net-pen releases through about 2028 before deciding the program's future. Note that older third-party guides sometimes still list a 15-inch minimum and a 3-fish limit; the DEC Region 5 special-regulation figures (18 inches, 2 fish) are the current authority.",
       "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/region-5-special-fishing"
     },
     {
@@ -110,6 +110,11 @@
       "title": "Clean, Drain, Dry your fishing gear too",
       "body": "Beyond the boat inspection, anglers should clean, drain and dry all water-contact gear (waders, nets, tackle, buckets) to avoid spreading the invasives already established in Lake George, including zebra mussels and spiny water flea. Remove visible mud, plants and animals, drain all water on dry land, and dry gear thoroughly (five days recommended) before using it in another water. Spiny water flea in particular fouls downrigger cables and line, so wipe cables down after deep trolling.",
       "source": "https://lakegeorgeassociation.org/boating"
+    },
+    {
+      "title": "Brianna's Law: boating certificate required",
+      "body": "Since Jan 1, 2025, every operator of a motorized boat in New York, regardless of age, must carry a state-recognized boating safety certificate - on top of the Lake George inspection seal.",
+      "source": "https://www.lakegeorge.com/boating/regulations/"
     }
   ],
   "speciesBaits": {
@@ -295,12 +300,12 @@
       "source": "https://bestfishinginamerica.com/new-york-lake-george-fishing.html"
     },
     {
-      "note": "The salmon fishery is a genuine comeback story: DEC ramped up stocking and switched to the hardier Sebago strain, restoring strong landlocked salmon action after years of decline.",
-      "source": "https://coastalanglermag.com/lake-george-salmon-stocking"
+      "note": "The landlocked salmon program is at a crossroads: DEC's 2025-2029 management plan found stocked-salmon survival poor (0.03 fish/hr in the 2023 survey vs a 0.1 target), discontinued fall yearling stocking in 2025, and is running a net-pen experiment with a go/no-go decision around 2028. Salmon are still present and legal, but temper expectations versus the lakers.",
+      "source": "https://dec.ny.gov/news/press-releases/2026/1/dec-releases-lake-george-fisheries-management-plan"
     },
     {
-      "note": "The King George Fishing Derby is the marquee open-water tournament, with divisions and cash/prizes for largemouth bass, smallmouth bass, lake trout and landlocked salmon, plus youth divisions.",
-      "source": "https://lakegeorge.com"
+      "note": "The King George Fishing Derby runs each late September as a photo catch-and-release event through FISH307, with cash prizes in lake trout, landlocked salmon, largemouth and smallmouth divisions plus youth divisions.",
+      "source": "https://www.visitlakegeorge.com/event/king-george-fishing-derby/909/"
     },
     {
       "note": "Winter brings ice-fishing derbies with prize money for landlocked salmon, trout, smallmouth bass, pickerel and perch; most hard-water action is in the shallower bays since the deep main lake often does not freeze safely.",
@@ -313,6 +318,18 @@
     {
       "note": "Named hot spots passed around by locals: Plum Point on the east shore for rocky-point smallmouth, Dunham's Bay for weedy pike/largemouth/perch, and Northwest Bay near Bolton for largemouth; the deep north basin off Rogers Rock for lakers and salmon.",
       "source": "https://lakegeorge.com"
+    },
+    {
+      "note": "DEC released the lake's first fisheries management plan in decades (2025-2029, published Jan 2026). Headline: wild lake trout are abundant but skinny - a 23-inch laker averages ~3.84 lb vs a 4.4 lb standard - so expanded data collection through 2029 could bring size-focused reg changes. Watch the Region 5 specials each April.",
+      "source": "https://dec.ny.gov/news/press-releases/2026/1/dec-releases-lake-george-fisheries-management-plan"
+    },
+    {
+      "note": "Forward-facing sonar vertical jigging is now the hot laker program: top guides watch individual fish react on FFS and have downsized to ~3-inch scented plastics in natural colors, calling 2024-2025 some of their best laker fishing ever. Spot-lock plus FFS over 40-120 ft structure is a real alternative to the downrigger troll.",
+      "source": "https://freshwatertherapy.com/blog/2025/2/7/lake-george-2025-lake-trout-best-year-ever"
+    },
+    {
+      "note": "The inspection program keeps growing: 2025 ran Apr 15 - Nov 29 with 35,544 free inspections, and inspectors intercepted 92 boats carrying invasives (including hydrilla and quagga mussels - neither is in the lake; none has gotten in across 11+ seasons). Note the Hulett's Landing station was replaced by one at South Bay (Whitehall), so east-shore visitors should arrive sealed.",
+      "source": "https://lakegeorgeassociation.org/news-events/news/celebrating-2025-lake-george-boat-inspection-program"
     }
   ],
   "spots": [
@@ -361,7 +378,7 @@
         "https://www.catchmefishing.com/lake-george-ice-fishing/",
         "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html"
       ],
-      "runMinutes": 3
+      "runMinutes": 4
     },
     {
       "id": "diamond-island",
@@ -409,7 +426,7 @@
         "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
         "https://www.catchmefishing.com/lake-george-ice-fishing/"
       ],
-      "runMinutes": 8
+      "runMinutes": 9
     },
     {
       "id": "long-island-harris-bay",
@@ -427,7 +444,7 @@
         "spr": "Pike and perch in the warming Harris Bay weeds; smallmouth move onto island spawning flats late spring.",
         "sum": "Smallmouth on the island's rock points 15-35 ft; largemouth and pike on the Harris Bay weedlines and docks.",
         "fall": "Bass follow bait to the first deep breaks; strong October smallmouth bite on crankbaits and jigs around the island.",
-        "ice": "Harris Bay is one of the lake's most popular ice perch areas, staying fishable-shallow until the main-lake drop."
+        "ice": "Harris Bay is one of the lake's most popular ice perch areas, staying fishable-shallow until the main-lake drop. Mild-winter reality check: in 2026 ice came late and bay-only (~5 in on the southern bays in mid-January while the main lake stayed open) - check current reports before walking."
       },
       "baits": [
         {
@@ -458,7 +475,7 @@
         "https://www.catchmefishing.com/lake-george-ice-fishing/",
         "https://fishny.com/fall-bass-fishing-on-lake-george-ny/"
       ],
-      "runMinutes": 13
+      "runMinutes": 14
     },
     {
       "id": "dunhams-bay",
@@ -475,7 +492,7 @@
         "spr": "Post-spawn pike roam the new weed growth; perch spawn in the shallows; largemouth move up as water warms.",
         "sum": "Prime frog and flipping water in the thick weeds for largemouth; pike on the outer weed edge early and late.",
         "fall": "Big pike feed hard on the dying weed edges; largemouth group on remaining green weed clumps.",
-        "ice": "Classic tip-up bay: pike on large shiners over the weed flats, perch schools on the 8-15 ft edges."
+        "ice": "Classic tip-up bay: pike on large shiners over the weed flats, perch schools on the 8-15 ft edges. Mild-winter reality check: in 2026 ice came late and bay-only (~5 in on the southern bays in mid-January while the main lake stayed open) - check current reports before walking."
       },
       "baits": [
         {
@@ -505,7 +522,7 @@
         "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
         "https://www.lakegeorge.com/guides/fishing/popular-spots/"
       ],
-      "runMinutes": 8
+      "runMinutes": 9
     },
     {
       "id": "pilot-knob-deep-hole",
@@ -553,7 +570,7 @@
         "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
         "https://www.catchmefishing.com/lake-george-ice-fishing/"
       ],
-      "runMinutes": 19
+      "runMinutes": 20
     },
     {
       "id": "dome-island-deep-basin",
@@ -600,7 +617,7 @@
         "https://fishingbooker.com/blog/lake-george-fishing/",
         "https://www.captjj.com/fish.htm"
       ],
-      "runMinutes": 3
+      "runMinutes": 5
     },
     {
       "id": "northwest-bay",
@@ -648,7 +665,7 @@
         "https://www.lakegeorge.com/winter/ice-fishing/",
         "https://www.visitlakegeorge.com/blog/post/fishing-focus-lake-george-area-waters-teeming-with-bass/"
       ],
-      "runMinutes": 11
+      "runMinutes": 9
     },
     {
       "id": "narrows-island-cluster",
@@ -696,7 +713,7 @@
         "https://fishny.com/fall-bass-fishing-on-lake-george-ny/",
         "https://fishingbooker.com/blog/lake-george-fishing/"
       ],
-      "runMinutes": 12
+      "runMinutes": 11
     },
     {
       "id": "shelving-rock-log-bay",
@@ -784,7 +801,7 @@
         "https://fishingbooker.com/blog/lake-george-fishing/",
         "https://www.lakegeorge.com/guides/fishing/popular-spots/"
       ],
-      "runMinutes": 15
+      "runMinutes": 12
     },
     {
       "id": "sabbath-day-point",
@@ -1018,5 +1035,6 @@
       ],
       "runMinutes": 4
     }
-  ]
+  ],
+  "updated": "July 2026"
 }

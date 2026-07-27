@@ -17,7 +17,7 @@
       "name": "Saratoga Lake State Boat Launch (NYS OPRHP, Route 9P)",
       "lat": 43.05359,
       "lon": -73.72052,
-      "notes": "Primary public hard-surface ramp at the north end of the lake at the head of Fish Creek, off Route 9P. Operated by NY State Parks; open year-round, launching April-October 6am-7pm, ~$8 parking fee via automated kiosk, parking for ~40+ vehicles with trailers plus overflow. From I-87 Exit 14, go toward the lake, cross the Fish Creek bridge, turn in just after the bridge. Reverse-geocode of the slipway node (43.0536,-73.7205) confirms Lee's Trail / Saratoga Lake shoreline, Town of Saratoga - this is the actual ramp."
+      "notes": "NYS OPRHP hard-surface launch on Route 9P at the north end. $10 vehicle fee at automated kiosk (card or exact change; NYS residents 62+ free weekdays). Launching April 1 - Nov 1; parking for up to 100 trailers plus overflow."
     },
     {
       "name": "Waterfront Park (City of Saratoga Springs) - cartop / kayak launch",
@@ -72,8 +72,8 @@
     },
     {
       "title": "Sunfish - Saratoga Lake SPECIAL regulation",
-      "body": "Saratoga Lake carries a sunfish special regulation (this is the only species-specific special reg on the lake): Sunfish, all year, 8-inch minimum length, daily limit of 15 (statewide default is 25 with no minimum). The 15-fish limit was implemented in 1998 to protect the lake's exceptional bluegill fishery and deter commercial sale. The same rule applies on Fish Creek from Saratoga Lake downstream to the old railroad crossing between Staffords and Bryants bridges.",
-      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/region-5-special-fishing"
+      "body": "Saratoga Lake (and lower Fish Creek) has an 8-inch minimum / 15-per-day sunfish reg - part of DEC's Big Panfish Initiative (adopted 2021), an experimental program to improve sunfish size structure. The study window is closing and the reg could be revised when BPI concludes; verify the Region 5 specials each April 1. Statewide default elsewhere: 25/day, no minimum.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/fisheries-management-research/sunfish-crappie-management"
     },
     {
       "title": "Baitfish rules - certified bait is fine here",
@@ -270,11 +270,11 @@
       "source": "https://slpidny.gov/wp-content/uploads/2021/05/Saratoga-Creel-Report-Final.pdf"
     },
     {
-      "note": "The lake is a genuine panfish gem: sunfish had the highest catch rate in the creel survey at 4.5 fish per angler hour, and DEC calls it 'an exceptional sunfish fishery.' The 15-sunfish daily limit (vs. 25 statewide) was put in place in 1998 specifically to protect the bluegill population and curb commercial harvest.",
-      "source": "https://slpidny.gov/wp-content/uploads/2021/05/Saratoga-Creel-Report-Final.pdf"
+      "note": "Saratoga is one of DEC's Big Panfish Initiative study lakes: the 8-inch/15-fish sunfish reg (2021) is being tested here, and DEC's 2022 netting survey says it's working on an exceptional fishery - bluegill PSD 98.5 with fish to 11.4 inches.",
+      "source": "https://extapps.dec.ny.gov/docs/fish_marine_pdf/tb5saratoga.pdf"
     },
     {
-      "note": "Walleye are stocked annually as fry (reports cite figures on the order of millions of fry per year) to support a diverse fishery, but they remain a low-density trophy - the creel survey estimated only about 375 walleye caught all season, the lowest catch rate of any species, so the dusk troll is a patience game for a quality fish.",
+      "note": "Walleye are sustained by stocking: DEC puts roughly 13 million walleye fry in the lake annually, a policy running since 1979. The stocking location was changed after the thin 2015 survey; a 2027 percid survey will judge whether it worked.",
       "source": "https://dec.ny.gov/places/saratoga-lake"
     },
     {
@@ -284,6 +284,22 @@
     {
       "note": "The famous spring crappie run draws crowds: crappie fishing was a close second to bass in effort during May in the creel survey. Anglers key on shallow spawning bays and dock lines (Manning's Cove area is a well-known spot) with small jigs under floats.",
       "source": "https://slpidny.gov/wp-content/uploads/2021/05/Saratoga-Creel-Report-Final.pdf"
+    },
+    {
+      "note": "Newer than the 2015 creel survey: DEC's April 2022 trap-net survey found black crappie the most-caught species (27.8/net-night, to 12.8 inches, relative weight 110) and an outstanding bluegill size structure - 'healthy and well balanced,' with excellent angling expected 'for the foreseeable future.'",
+      "source": "https://extapps.dec.ny.gov/docs/fish_marine_pdf/tb5saratoga.pdf"
+    },
+    {
+      "note": "Weed management shapes the weedline bite now: ProcellaCOR treatments have knocked milfoil in treated zones to roughly 1-2 percent of prior coverage, and the 2026 harvest opened June 1 off Snake Hill and the south end with five no-cut herbicide zones. Expect thinner edges in treated areas and fresh-cut lanes elsewhere.",
+      "source": "https://slpidny.gov/weed-harvesting/"
+    },
+    {
+      "note": "Still a club-circuit staple: USA Bassin's Adirondack Division opened its 2026 Saratoga round on May 3 (won by Ben Bornhorst), alongside rounds on Champlain, the Hudson, and Lake George.",
+      "source": "https://usabassin.com/Bassin/Page.php?Page=41&division=695"
+    },
+    {
+      "note": "Hard-water benchmark: winter 2024-25 ran ice-in Jan 11 to ice-out Mar 21. No reliable record surfaced for 2025-26 (the long-running local ice report is defunct), so verify current ice locally before walking.",
+      "source": "https://www.saratoga.com/fishing-report/"
     }
   ],
   "spots": [
@@ -301,7 +317,7 @@
       "structure": "Broad shallow south-basin flats with thick milfoil/coontail beds; weed edges in 5-10 ft breaking to 10-14 ft; soft bottom with scattered hard patches",
       "seasons": {
         "spr": "Ice-out crappie and perch over emerging weeds 6-12 ft; pre-spawn largemouth move onto the flats as water warms",
-        "sum": "Prime largemouth water in and along the weeds; pike on the weed edges early and late",
+        "sum": "Prime largemouth water in and along the weeds; pike on the weed edges early and late Note: SLPID's harvester works this end from early June and part of the Brown's Beach-to-South Shore stretch is a herbicide no-cut zone - weed edges move year to year with cutting and ProcellaCOR milfoil treatment, so relocate the live outside edge each trip.",
         "fall": "Bass regroup on isolated green weed clumps 2-10 ft; perch school on the flats",
         "ice": "One of the lake's busiest ice areas; weeds off Brown's Beach hold crappie and perch, tip-ups take pike"
       },
@@ -501,7 +517,7 @@
         {
           "lure": "Jerkbait or spinnerbait",
           "presentation": "Fan-cast the outlet mouth and weed edges",
-          "when": "Spring pike (season opens first Saturday in May)"
+          "when": "Spring pike (season opens May 1)"
         },
         {
           "lure": "Ned rig or small jig-worm",
@@ -741,5 +757,6 @@
       ],
       "runMinutes": 7
     }
-  ]
+  ],
+  "updated": "July 2026"
 }

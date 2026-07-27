@@ -38,7 +38,10 @@ export default async function WaterPage({
         </Link>
         <div className="min-w-0 flex-1">
           <h1 className="truncate text-lg font-semibold tracking-tight">{water.name}</h1>
-          <p className="truncate text-xs text-ink-muted">{water.region}</p>
+          <p className="truncate text-xs text-ink-muted">
+            {water.region}
+            {water.updated && ` · intel verified ${water.updated}`}
+          </p>
         </div>
         <ThemeToggle />
       </header>
