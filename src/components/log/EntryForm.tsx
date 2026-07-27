@@ -43,6 +43,8 @@ export function EntryForm({
 
   const water = waters.find((w) => w.slug === waterSlug);
 
+  const speciesOptions = water?.species?.length ? water.species : SPECIES_IDS;
+
   const baitSuggestions = useMemo(() => {
     if (!water) return [];
     const set = new Set<string>();
@@ -114,7 +116,7 @@ export function EntryForm({
             <div>
               <span className="mb-1.5 block text-xs font-medium text-ink-muted">Species</span>
               <div className="grid grid-cols-3 gap-1.5">
-                {SPECIES_IDS.map((id) => {
+                {speciesOptions.map((id) => {
                   const active = species === id;
                   return (
                     <button

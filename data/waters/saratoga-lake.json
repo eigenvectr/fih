@@ -1,0 +1,745 @@
+{
+  "slug": "saratoga-lake",
+  "name": "Saratoga Lake",
+  "shortName": "Saratoga",
+  "region": "Capital Region, NY",
+  "blurb": "A four-and-a-half-mile bass factory minutes off the Northway: milfoil flats and dock lines for largemouth, the Snake Hill dropoff over the 95 ft hole, stocked walleye at dusk, and one of the region's best crappie and ice fisheries.",
+  "species": [
+    "smallmouth",
+    "largemouth",
+    "pike",
+    "walleye",
+    "crappie",
+    "perch"
+  ],
+  "launches": [
+    {
+      "name": "Saratoga Lake State Boat Launch (NYS OPRHP, Route 9P)",
+      "lat": 43.05359,
+      "lon": -73.72052,
+      "notes": "Primary public hard-surface ramp at the north end of the lake at the head of Fish Creek, off Route 9P. Operated by NY State Parks; open year-round, launching April-October 6am-7pm, ~$8 parking fee via automated kiosk, parking for ~40+ vehicles with trailers plus overflow. From I-87 Exit 14, go toward the lake, cross the Fish Creek bridge, turn in just after the bridge. Reverse-geocode of the slipway node (43.0536,-73.7205) confirms Lee's Trail / Saratoga Lake shoreline, Town of Saratoga - this is the actual ramp."
+    },
+    {
+      "name": "Waterfront Park (City of Saratoga Springs) - cartop / kayak launch",
+      "lat": 43.05242,
+      "lon": -73.72902,
+      "notes": "Free public park on the west shore off Route 9P (Garside Lane) with a hand-launch area for canoes and kayaks, benches, picnic tables, and seasonal porta-potty. No trailer ramp - cartop craft only. Reverse-geocode of the shoreline slipway (43.0522,-73.7290) returns Garside Lane, City of Saratoga Springs, confirming the west-shore park location."
+    },
+    {
+      "name": "Lee's Park Campground & Marina (fee)",
+      "lat": 43.05339,
+      "lon": -73.72032,
+      "notes": "Private campground/marina at 1466 Route 9P at the north end of the lake at the mouth of Fish Creek, immediately next to the NYS boat launch. Offers fee launching, daily and seasonal dockage, and camping. Reverse-geocode (43.0534,-73.7203) returns a parking area off Lee's Trail on the Saratoga Lake shoreline, confirming the north-end location adjacent to the state ramp."
+    },
+    {
+      "name": "South Shore Marina (fee, south end)",
+      "lat": 42.98831,
+      "lon": -73.75821,
+      "notes": "Full-service marina at 113 Route 9P, Malta, at the south end of the lake. Offers fee boat-launch access (season launch passes ~$449), slips 14-26 ft, trailer storage, and mechanics. Reverse-geocode of the shoreline slipway (42.9883,-73.7582) returns 1st Street, Town of Malta, Saratoga County - confirming the south-shore Malta ramp."
+    },
+    {
+      "name": "Fish Creek Marina / Kayak Shak (Staffords Bridge Road)",
+      "lat": 43.07465,
+      "lon": -73.6955,
+      "notes": "Marina and paddle-craft launch on Fish Creek (the lake's outlet) at 251 Stafford Bridge Road, about one mile downstream of the state launch. Home of the Kayak Shak (Saratoga Kayak) rentals; $10 to launch your own kayak/SUP. Dock space and boat service available. Reverse-geocode (43.0747,-73.6955) returns Staffords Bridge Road, confirming the Fish Creek outlet access point."
+    }
+  ],
+  "regsNotes": [
+    {
+      "title": "Largemouth & Smallmouth Bass (statewide season/limits)",
+      "body": "Black bass (largemouth and smallmouth) on Saratoga Lake follow the NY statewide regulation: harvest season June 15 - Nov 30 with a 12-inch minimum length and a daily limit of 5. From Dec 1 - June 14 bass are catch-and-release only, artificial lures only. Saratoga Lake has a statewide reputation as a top black bass water, so expect heavy but largely catch-and-release pressure.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/statewide-season-sizes-catch-limits"
+    },
+    {
+      "title": "Northern Pike",
+      "body": "Northern pike follow the statewide regulation on Saratoga Lake: open season May 1 - March 15, 18-inch minimum length, daily limit of 5. Pike hold along the edges of weed beds on the lake.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/statewide-season-sizes-catch-limits"
+    },
+    {
+      "title": "Walleye - statewide reg applies (NO special 18-inch reg on Saratoga)",
+      "body": "IMPORTANT / VERIFIED: Saratoga Lake does NOT carry a walleye special regulation. The only special reg listed for Saratoga Lake in the current Region 5 special regulations is for sunfish. Walleye therefore follow the statewide rule: open season May 1 - March 15, 15-inch minimum length, daily limit of 5. (The 18-inch minimum / 3-per-day special walleye regulation exists on other NY waters such as Lake Pleasant/Sacandaga Lake and several Region 3 reservoirs, but not Saratoga Lake.) Walleye fry are stocked annually to support the fishery.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/region-5-special-fishing"
+    },
+    {
+      "title": "Black Crappie & White Crappie",
+      "body": "Crappie follow the statewide regulation: open all year, 10-inch minimum length, daily limit of 25. Note the minimum is 10 inches (not 9). Saratoga Lake has a strong crappie population and a well-known spring and early-ice crappie bite.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/statewide-season-sizes-catch-limits"
+    },
+    {
+      "title": "Yellow Perch",
+      "body": "Yellow perch follow the statewide regulation: open all year, no minimum length, daily limit of 50. Perch are a mainstay of the winter ice fishery, typically taken in 10-20 feet of water on tip-ups with minnows or small jigs.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/statewide-season-sizes-catch-limits"
+    },
+    {
+      "title": "Sunfish - Saratoga Lake SPECIAL regulation",
+      "body": "Saratoga Lake carries a sunfish special regulation (this is the only species-specific special reg on the lake): Sunfish, all year, 8-inch minimum length, daily limit of 15 (statewide default is 25 with no minimum). The 15-fish limit was implemented in 1998 to protect the lake's exceptional bluegill fishery and deter commercial sale. The same rule applies on Fish Creek from Saratoga Lake downstream to the old railroad crossing between Staffords and Bryants bridges.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/region-5-special-fishing"
+    },
+    {
+      "title": "Baitfish rules - certified bait is fine here",
+      "body": "There are no baitfish use restrictions listed specifically for Saratoga Lake, so the general statewide baitfish rules apply: you may use legal baitfish, but baitfish bought must come from a licensed/certified dealer (green tag), and personally collected baitfish may only be used on the same water where taken unless you carry a receipt. A baitfish license is required to sell baitfish. Circle hooks are required when fishing with baitfish. Ice anglers commonly use fathead minnows and 'cup' (mousie/spike) baits here.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/baitfish"
+    },
+    {
+      "title": "Ice fishing - permitted, watch thin ice near Fish Creek outlet",
+      "body": "Ice fishing is permitted on Saratoga Lake and on all Saratoga County waters except where trout inhabit. Up to 7 ice-fishing lines (tip-ups/jigging combined) are allowed per angler. Ice is unreliable near the north-end Fish Creek outlet and the mouth of Kayaderosseras Creek where current keeps water open; anglers report open water in these areas even when Brown's Beach and Fitch Road access still hold safe ice. Always verify thickness before venturing out.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/region-5-special-fishing"
+    },
+    {
+      "title": "Kayaderosseras Creek spring closure",
+      "body": "Kayaderosseras Creek, the lake's main tributary and a walleye spawning run, is closed to all fishing from March 16 through April 30 (from Saratoga Lake upstream to the first railroad bridge). This protects spawning walleye. Plan spring walleye trips on the main lake, not the creek.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/region-5-special-fishing"
+    },
+    {
+      "title": "Invasive species / milfoil - clean-drain-dry (no mandatory inspection)",
+      "body": "Unlike Lake George, Saratoga Lake has no mandatory boat-inspection/decontamination stations, but Eurasian watermilfoil and curly-leaf pondweed are established and both re-root from stem fragments. NY law requires cleaning, draining, and drying boats and trailers between waters; ice anglers should clean gear and dispose of plant fragments in the trash, not the water. The Saratoga Lake Protection & Improvement District (SLPID) manages milfoil and lake use.",
+      "source": "https://slpidny.gov/fishing-on-saratoga-lake/"
+    }
+  ],
+  "speciesBaits": {
+    "largemouth": [
+      {
+        "lure": "Hollow-body frog (black/white)",
+        "presentation": "Walk-and-pause across matted milfoil and lily pads; pause in open pockets and let it sit before the reaction strike",
+        "when": "Summer mornings and evenings, warm calm days over thick surface vegetation"
+      },
+      {
+        "lure": "Chatterbait / bladed jig with paddle-tail trailer",
+        "presentation": "Slow-roll along the outside weed edges and milfoil lines, occasionally ripping it free of grass to trigger strikes",
+        "when": "Late spring through fall, low light or stained water"
+      },
+      {
+        "lure": "Wacky-rigged or Texas-rigged Senko (green pumpkin)",
+        "presentation": "Skip under docks and pitch into weed pockets; let it fall on slack line and watch the line jump",
+        "when": "All season, excellent post-frontal and around Manning's Cove docks"
+      },
+      {
+        "lure": "Texas-rigged creature bait / craw",
+        "presentation": "Flip and pitch into the heaviest milfoil and pad clumps with a heavy 3/8-1/2 oz weight to punch through",
+        "when": "Summer midday when bass bury in thick cover"
+      },
+      {
+        "lure": "Spinnerbait (white/chartreuse)",
+        "presentation": "Slow-roll over and along submerged weed tops and shallow flats",
+        "when": "Spring pre-spawn and windy overcast days"
+      }
+    ],
+    "smallmouth": [
+      {
+        "lure": "Ned rig / tube jig (green pumpkin, smoke)",
+        "presentation": "Drag and hop slowly along rocky shorelines and gravel points; deadstick on bottom",
+        "when": "Spring and fall over rock/gravel structure"
+      },
+      {
+        "lure": "Drop-shot with minnow-profile soft plastic",
+        "presentation": "Vertical or cast-and-shake over rocky points and deeper hard bottom in 12-25 ft",
+        "when": "Summer when smallmouth pull to deeper rock"
+      },
+      {
+        "lure": "Jerkbait (natural/perch pattern)",
+        "presentation": "Twitch-pause over rocky shallows and points, longer pauses in cold water",
+        "when": "Cold-water spring and fall"
+      },
+      {
+        "lure": "Football jig with craw trailer",
+        "presentation": "Drag along rocky bottom and transitions, hopping over boulders",
+        "when": "Summer and early fall on deeper rock"
+      },
+      {
+        "lure": "Small crankbait (crawfish color)",
+        "presentation": "Deflect off rock on shoreline and points",
+        "when": "Late spring through fall"
+      }
+    ],
+    "pike": [
+      {
+        "lure": "Spinnerbait (large, white or firetiger)",
+        "presentation": "Slow-roll along the outer edges of weed beds and over submerged weed tops",
+        "when": "Spring through fall on the weedlines"
+      },
+      {
+        "lure": "Inline spinner / large in-line blade",
+        "presentation": "Steady retrieve parallel to weed edges",
+        "when": "Spring and early summer"
+      },
+      {
+        "lure": "Jerkbait / large minnow bait (perch or fire pattern)",
+        "presentation": "Twitch-and-pause along weed edges and points",
+        "when": "Fall as pike feed heavily"
+      },
+      {
+        "lure": "Tip-up with large golden shiner or sucker",
+        "presentation": "Set at the edge of green weeds under the ice, bait just off bottom",
+        "when": "Winter ice season"
+      },
+      {
+        "lure": "Spoon (large red/white or gold)",
+        "presentation": "Cast and retrieve or flutter along weed edges",
+        "when": "Spring and fall"
+      }
+    ],
+    "walleye": [
+      {
+        "lure": "Deep-diving crankbait / stickbait (perch, clown)",
+        "presentation": "Troll along the deep weed edges and drop-offs at dusk and into dark; vary depth until you contact fish",
+        "when": "Late spring through fall, best low-light and after dark"
+      },
+      {
+        "lure": "Worm harness / spinner rig with nightcrawler",
+        "presentation": "Troll slowly along breaks and points behind a bottom bouncer",
+        "when": "Summer over deeper structure"
+      },
+      {
+        "lure": "Jig tipped with minnow or soft plastic",
+        "presentation": "Vertical jig or drag on deep edges and rocky points; slow lift-drop",
+        "when": "Spring and fall, and vertically through the ice"
+      },
+      {
+        "lure": "Jigging Rapala (gold, perch, glow)",
+        "presentation": "Aggressive lift-and-drop, then long pauses - do not overwork it in cold water",
+        "when": "Winter ice fishing at dusk on deeper edges"
+      },
+      {
+        "lure": "Blade bait",
+        "presentation": "Vertical rip-and-drop over deep flats and edges",
+        "when": "Cold-water late fall and winter"
+      }
+    ],
+    "crappie": [
+      {
+        "lure": "Small marabou or tube jig (1/32-1/16 oz) under a float",
+        "presentation": "Suspend a small jig a few feet down and dead-slow it near docks and brush, especially around Manning's Cove docks",
+        "when": "Famous spring pre-spawn bite (April-May) and again first ice"
+      },
+      {
+        "lure": "Small jig tipped with a fathead minnow",
+        "presentation": "Suspend near vegetation and spawning bays in 6-10 ft of water",
+        "when": "Spring and early ice"
+      },
+      {
+        "lure": "Tiny jig with spikes/soft plastic (ice)",
+        "presentation": "Sight-jig with a flasher/Helix unit over suspended schools, subtle jiggle then pause",
+        "when": "First ice and late ice in 6-15 ft"
+      },
+      {
+        "lure": "Small minnow on a plain hook under a slip bobber",
+        "presentation": "Set at the depth marks show suspended crappie near cover",
+        "when": "Spring evenings and winter"
+      },
+      {
+        "lure": "Small spoon tipped with a minnow head (ice)",
+        "presentation": "Flutter to draw fish, then hold still to trigger",
+        "when": "Winter ice season"
+      }
+    ],
+    "perch": [
+      {
+        "lure": "Tip-up with fathead minnow or cup bait",
+        "presentation": "Set baits in 10-20 ft of water; bait just off bottom",
+        "when": "Winter ice season, the mainstay perch method"
+      },
+      {
+        "lure": "Small jig tipped with spikes",
+        "presentation": "Jig lightly near bottom in 10-20 ft; sometimes just deadsticking triggers the strike",
+        "when": "Winter through the ice"
+      },
+      {
+        "lure": "Small jigging spoon (gold/perch/glow) with stinger hook",
+        "presentation": "Snap-jig to attract, add a size 12-14 stinger hook to convert short bites",
+        "when": "Winter, mid-morning feeding windows"
+      },
+      {
+        "lure": "Jigging Rapala (small, perch pattern)",
+        "presentation": "Short lift-drop over bottom-relating schools",
+        "when": "Winter ice fishing"
+      },
+      {
+        "lure": "Small minnow or worm on a bottom rig",
+        "presentation": "Still-fish over deeper flats in open water",
+        "when": "Fall and spring open water"
+      }
+    ]
+  },
+  "localColor": [
+    {
+      "note": "Saratoga Lake is one of the most heavily fished waters in all of New York, ranking 15th statewide in angler days with an estimated ~201,385 angler days of effort. It carries a statewide reputation as a quality black bass and sunfish water.",
+      "source": "https://slpidny.gov/wp-content/uploads/2021/05/Saratoga-Creel-Report-Final.pdf"
+    },
+    {
+      "note": "It really is a bass factory: DEC's 2015 boat-angler creel survey found black bass (overwhelmingly largemouth) accounted for about 78% of total fishing effort, with an estimated 20,989 bass caught. Notably about 85% of legal-sized (12-inch) bass were released - a strong catch-and-release culture.",
+      "source": "https://slpidny.gov/wp-content/uploads/2021/05/Saratoga-Creel-Report-Final.pdf"
+    },
+    {
+      "note": "The lake is a genuine panfish gem: sunfish had the highest catch rate in the creel survey at 4.5 fish per angler hour, and DEC calls it 'an exceptional sunfish fishery.' The 15-sunfish daily limit (vs. 25 statewide) was put in place in 1998 specifically to protect the bluegill population and curb commercial harvest.",
+      "source": "https://slpidny.gov/wp-content/uploads/2021/05/Saratoga-Creel-Report-Final.pdf"
+    },
+    {
+      "note": "Walleye are stocked annually as fry (reports cite figures on the order of millions of fry per year) to support a diverse fishery, but they remain a low-density trophy - the creel survey estimated only about 375 walleye caught all season, the lowest catch rate of any species, so the dusk troll is a patience game for a quality fish.",
+      "source": "https://dec.ny.gov/places/saratoga-lake"
+    },
+    {
+      "note": "Ice fishing is a big part of the lake's culture, with a strong walleye, perch and crappie hard-water following. Winter reports describe perch in 10-20 ft on tip-ups and small jigs, and the classic advice to 'not overwork your bait this time of year - sometimes the absence of movement triggers the strike.'",
+      "source": "https://coastalanglermag.com/saratoga-lake-report-2/"
+    },
+    {
+      "note": "The famous spring crappie run draws crowds: crappie fishing was a close second to bass in effort during May in the creel survey. Anglers key on shallow spawning bays and dock lines (Manning's Cove area is a well-known spot) with small jigs under floats.",
+      "source": "https://slpidny.gov/wp-content/uploads/2021/05/Saratoga-Creel-Report-Final.pdf"
+    }
+  ],
+  "spots": [
+    {
+      "id": "south-end-weed-flats",
+      "name": "South End Weed Flats (off Brown's Beach)",
+      "lat": 42.99,
+      "lon": -73.748,
+      "species": [
+        "largemouth",
+        "pike",
+        "crappie",
+        "perch"
+      ],
+      "structure": "Broad shallow south-basin flats with thick milfoil/coontail beds; weed edges in 5-10 ft breaking to 10-14 ft; soft bottom with scattered hard patches",
+      "seasons": {
+        "spr": "Ice-out crappie and perch over emerging weeds 6-12 ft; pre-spawn largemouth move onto the flats as water warms",
+        "sum": "Prime largemouth water in and along the weeds; pike on the weed edges early and late",
+        "fall": "Bass regroup on isolated green weed clumps 2-10 ft; perch school on the flats",
+        "ice": "One of the lake's busiest ice areas; weeds off Brown's Beach hold crappie and perch, tip-ups take pike"
+      },
+      "baits": [
+        {
+          "lure": "Wacky-rigged 5-inch stick worm (green pumpkin)",
+          "presentation": "Skip to weed pockets and edges, let it fall on slack line",
+          "when": "Summer, 5-8 ft in or on the weed edges"
+        },
+        {
+          "lure": "Fathead minnow or 1/32-oz jig (green/white)",
+          "presentation": "Under a slip bobber over emerging weeds 6-12 ft",
+          "when": "Ice-out through late spring for crappie"
+        },
+        {
+          "lure": "Spinnerbait or chatterbait",
+          "presentation": "Slow-roll along the outside weedline",
+          "when": "Late spring and fall for pike and largemouth"
+        },
+        {
+          "lure": "Small sucker (3-5 in) on tip-up",
+          "presentation": "Set just above the weed tops",
+          "when": "Ice season for pike"
+        }
+      ],
+      "nearestLaunch": "South Shore Marina (fee, south end)",
+      "sources": [
+        "https://dec.ny.gov/places/saratoga-lake",
+        "https://dailygazette.com/article/2008/02/21/221_IceFishing",
+        "https://slpidny.gov/fishing-on-saratoga-lake/",
+        "https://www.omniafishing.com/w/saratoga-lake-fishing-reports/fishing-patterns"
+      ],
+      "runMinutes": 2
+    },
+    {
+      "id": "snake-hill-dropoff",
+      "name": "Snake Hill Rocky Dropoff",
+      "lat": 43.006,
+      "lon": -73.742,
+      "species": [
+        "smallmouth",
+        "largemouth",
+        "walleye",
+        "pike",
+        "crappie"
+      ],
+      "structure": "Famous Taconic bedrock outcrop on the east shore; steep rock dropoff falling toward the lake's deepest water (~95 ft max depth nearby); boulders, ledges and adjacent weed edges",
+      "seasons": {
+        "spr": "Pre-spawn smallmouth on rock piles and ledges 12-15 ft; walleye on the rocky shoreline at low light",
+        "sum": "Smallmouth on drop shot 13-15 ft off the rocks; bass along adjacent weed edges; suspended crappie off the break",
+        "fall": "Walleye slide onto the rocky point at dusk; smallmouth on the deep rock-to-weed transitions",
+        "ice": "Weeds from Snake Hill south hold panfish; deep break is a walleye/crappie jigging area"
+      },
+      "baits": [
+        {
+          "lure": "Drop shot with finesse worm or goby-style bait",
+          "presentation": "Vertical or short cast on rock in 13-15 ft",
+          "when": "Summer smallmouth"
+        },
+        {
+          "lure": "Texas-rigged craw (crawfish colors)",
+          "presentation": "Pitch/flip to rock piles 5-10 ft",
+          "when": "Spring pre-spawn bass"
+        },
+        {
+          "lure": "Jigging spoon or blade bait",
+          "presentation": "Vertical jig on the break 20 ft+ around bait schools",
+          "when": "Late fall and through the ice for walleye"
+        },
+        {
+          "lure": "Jig-and-minnow",
+          "presentation": "Work the base of the dropoff at dawn/dusk",
+          "when": "Spring and fall walleye"
+        }
+      ],
+      "nearestLaunch": "South Shore Marina (fee, south end)",
+      "sources": [
+        "https://dailygazette.com/article/2018/07/26/saratoga-lake-is-still-bass-place-to-be",
+        "https://dailygazette.com/article/2008/02/21/221_IceFishing",
+        "https://en.wikipedia.org/wiki/Saratoga_Lake",
+        "https://guidesly.com/fishing/places/saratoga-county-ny-fishing-awesome-fishing-opportunities-in-upstate-new-york"
+      ],
+      "runMinutes": 4
+    },
+    {
+      "id": "mannings-cove",
+      "name": "Manning's Cove (Sailing Club rock pile)",
+      "lat": 43.021,
+      "lon": -73.7525,
+      "species": [
+        "largemouth",
+        "crappie",
+        "pike",
+        "perch"
+      ],
+      "structure": "Weedy cove on the Malta (west) shore near the Saratoga Lake Sailing Club; fish start ~200 yards off the club in 8-10 ft; plentiful weeds plus a weed-covered rock pile that consistently holds quality largemouth",
+      "seasons": {
+        "spr": "Crappie and perch in the cove weeds shortly after ice-out; bass stage on the rock pile",
+        "sum": "Consistent big-largemouth area; work the rock pile and weed clumps",
+        "fall": "Bass on remaining green weeds; pike patrol the cove mouth",
+        "ice": "Protected cove ice forms early; panfish in the weeds, tip-ups for pike"
+      },
+      "baits": [
+        {
+          "lure": "Wacky-rigged Stik-O worm (green pumpkin)",
+          "presentation": "Cast to weed pockets and the rock pile, deadstick the fall",
+          "when": "Summer, 8-10 ft"
+        },
+        {
+          "lure": "Skirted jig with craw trailer",
+          "presentation": "Flip the rock pile and thickest weed clumps",
+          "when": "Summer and early fall for bigger bass"
+        },
+        {
+          "lure": "Small minnow or tube jig",
+          "presentation": "Slip bobber along the inside weedline",
+          "when": "Spring and through the ice for crappie/perch"
+        }
+      ],
+      "nearestLaunch": "Saratoga Lake State Boat Launch (NYS OPRHP, Route 9P)",
+      "sources": [
+        "https://dailygazette.com/2008/06/19/619_noonan",
+        "https://dailygazette.com/article/2018/07/26/saratoga-lake-is-still-bass-place-to-be",
+        "https://nominatim.openstreetmap.org/reverse?lat=43.021&lon=-73.7525&format=jsonv2&zoom=14"
+      ],
+      "runMinutes": 8
+    },
+    {
+      "id": "state-launch-flats",
+      "name": "State Launch Flats (north end)",
+      "lat": 43.048,
+      "lon": -73.727,
+      "species": [
+        "largemouth",
+        "walleye",
+        "crappie",
+        "perch",
+        "pike"
+      ],
+      "structure": "Weed flats and drifts around the NYSDEC hard-surface launch where the lake necks down toward the outlet; 5-12 ft weeds giving way to deeper water south; marina docks nearby",
+      "seasons": {
+        "spr": "Crappie stack in the north-end weeds and channels after ice-out; walleye bite is strongest in the northern end",
+        "sum": "Drift-fish the flats north from the launch past the marina docks for bass and panfish",
+        "fall": "Perch and crappie school on the deeper weed edges; walleye at dusk on adjacent breaks",
+        "ice": "Convenient access point; early/late-season ice near the north end (use caution near the outlet current)"
+      },
+      "baits": [
+        {
+          "lure": "Fathead minnow under slip bobber",
+          "presentation": "Drift the 6-12 ft weed edges",
+          "when": "Spring crappie, ice-out until weeds thicken"
+        },
+        {
+          "lure": "Wacky worm",
+          "presentation": "Cast weed pockets while drifting north from the launch",
+          "when": "Summer largemouth"
+        },
+        {
+          "lure": "Deep-diving crankbait or worm harness",
+          "presentation": "Troll the 10-14 ft weedline edge at low light",
+          "when": "Summer and fall walleye"
+        }
+      ],
+      "nearestLaunch": "Saratoga Lake State Boat Launch (NYS OPRHP, Route 9P)",
+      "sources": [
+        "https://dec.ny.gov/places/saratoga-lake",
+        "https://dailygazette.com/2020/05/20/outdoor-journal-plenty-of-fish-are-being-caught-on-saratoga-lake/",
+        "https://coastalanglermag.com/saratoga-lake-report-2/"
+      ],
+      "runMinutes": 2
+    },
+    {
+      "id": "fish-creek-outlet-9p",
+      "name": "Fish Creek Outlet / Route 9P Bridge",
+      "lat": 43.0448,
+      "lon": -73.7185,
+      "species": [
+        "crappie",
+        "pike",
+        "largemouth",
+        "perch",
+        "walleye"
+      ],
+      "structure": "Northeast arm where the lake funnels into Fish Creek under the Route 9P bridge; current seam, bridge pilings, docks and shoreline cover in 4-14 ft; ledges near the bridge",
+      "seasons": {
+        "spr": "Classic early-season crappie run; shore cover in Fish Creek produces at ice-out; pike stage near the outlet",
+        "sum": "Largemouth around docks and bridge pilings; panfish in the channel weeds",
+        "fall": "Crappie and perch regroup in the channel; walleye use the funnel at night",
+        "ice": "Popular first-ice crappie area, but current makes ice unreliable near the bridge - edges only"
+      },
+      "baits": [
+        {
+          "lure": "1/32-oz tube jig (green or white) tipped with spike or minnow",
+          "presentation": "Slip bobber drifted along the current seam and shore cover",
+          "when": "Ice-out through spring for crappie"
+        },
+        {
+          "lure": "Jerkbait or spinnerbait",
+          "presentation": "Fan-cast the outlet mouth and weed edges",
+          "when": "Spring pike (season opens first Saturday in May)"
+        },
+        {
+          "lure": "Ned rig or small jig-worm",
+          "presentation": "Pitch to bridge pilings and dock posts",
+          "when": "Summer bass and panfish"
+        }
+      ],
+      "nearestLaunch": "Saratoga Lake State Boat Launch (NYS OPRHP, Route 9P)",
+      "sources": [
+        "https://coastalanglermag.com/saratoga-lake-report-2/",
+        "https://dailygazette.com/article/2008/02/21/221_IceFishing",
+        "https://en.wikipedia.org/wiki/Saratoga_Lake",
+        "https://api.gbif.org/v1/occurrence/search?scientificName=Pomoxis%20nigromaculatus&decimalLatitude=42.98,43.08&decimalLongitude=-73.78,-73.68&limit=100"
+      ],
+      "runMinutes": 2
+    },
+    {
+      "id": "rileys-cove",
+      "name": "Riley's Cove (Chinatown)",
+      "lat": 43.012,
+      "lon": -73.7615,
+      "species": [
+        "largemouth",
+        "crappie",
+        "pike",
+        "perch"
+      ],
+      "structure": "Sheltered west-shore cove in Malta (locally 'Chinatown'); dense weedbeds 4-10 ft, docks along the shoreline, weed edge breaking to the main basin",
+      "seasons": {
+        "spr": "Warms early; ice-out crappie and perch, then spawning largemouth",
+        "sum": "Bass in the slop and under docks; pike on the outside weed edge",
+        "fall": "Panfish concentrate as weeds die back to the green stuff",
+        "ice": "Protected cove holds safe early ice; crappie, perch and tip-up pike"
+      },
+      "baits": [
+        {
+          "lure": "Texas-rigged creature bait or frog",
+          "presentation": "Fish the thick weed mats and dock shade",
+          "when": "Summer largemouth"
+        },
+        {
+          "lure": "Tiny tube or twister tail jig",
+          "presentation": "Jig vertically over 6-10 ft weeds",
+          "when": "Through the ice and early spring panfish"
+        },
+        {
+          "lure": "Small sucker on tip-up",
+          "presentation": "Set along the outside weedline",
+          "when": "Ice season pike"
+        }
+      ],
+      "nearestLaunch": "South Shore Marina (fee, south end)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saratoga_Lake",
+        "https://nominatim.openstreetmap.org/reverse?lat=43.012&lon=-73.7615&format=jsonv2&zoom=14",
+        "https://slpidny.gov/fishing-on-saratoga-lake/"
+      ],
+      "runMinutes": 4
+    },
+    {
+      "id": "stony-point",
+      "name": "Stony Point (southwest shore)",
+      "lat": 42.997,
+      "lon": -73.7605,
+      "species": [
+        "smallmouth",
+        "walleye",
+        "largemouth",
+        "perch"
+      ],
+      "structure": "Rocky point off the Malta shore (Stony Point Road area); gravel/rock shoreline transitioning to deeper water, scattered boulders, weed edge on the flanks",
+      "seasons": {
+        "spr": "Walleye work the rock/gravel transitions at low light; pre-spawn smallmouth on the point",
+        "sum": "Smallmouth on the rock in 10-15 ft; largemouth on the flanking weedlines",
+        "fall": "Perch school off the point; walleye return to the rocks at dusk",
+        "ice": "Perch and occasional walleye on the deeper gravel flanks"
+      },
+      "baits": [
+        {
+          "lure": "Jig-and-nightcrawler or jig-and-minnow",
+          "presentation": "Drag the rock-to-sand transition at dawn/dusk",
+          "when": "Spring and fall walleye"
+        },
+        {
+          "lure": "Tube or Ned rig",
+          "presentation": "Hop along boulders in 8-15 ft",
+          "when": "Summer smallmouth"
+        },
+        {
+          "lure": "Blade bait",
+          "presentation": "Rip-and-fall on the deep edge of the point",
+          "when": "Late fall; also as an ice jigging bait"
+        }
+      ],
+      "nearestLaunch": "South Shore Marina (fee, south end)",
+      "sources": [
+        "https://dec.ny.gov/places/saratoga-lake",
+        "https://www.omniafishing.com/w/saratoga-lake-fishing-reports/fishing-patterns",
+        "https://nominatim.openstreetmap.org/search?q=Stony+Point+Road+Malta+NY"
+      ],
+      "runMinutes": 2
+    },
+    {
+      "id": "deep-basin-edge",
+      "name": "Deep Basin Edges (mid-lake)",
+      "lat": 43.015,
+      "lon": -73.745,
+      "species": [
+        "walleye",
+        "crappie",
+        "perch",
+        "smallmouth"
+      ],
+      "structure": "Edges of the main deep basin (lake maxes near 95 ft off Snake Hill); 30-40 ft basin rim, bait schools, hard-bottom transitions where grass lines meet the break",
+      "seasons": {
+        "spr": "Post-spawn crappie suspend off the basin edges; walleye scatter along 15-25 ft breaks",
+        "sum": "Stocked walleye school in the 30-40 ft basin; suspended crappie over deep water",
+        "fall": "Vertical-jig 20 ft+ around baitfish for walleye; jumbo perch on deep flats",
+        "ice": "Main-lake ice community sets up over 20-40 ft for crappie, perch and walleye"
+      },
+      "baits": [
+        {
+          "lure": "Drop shot with minnow-profile plastic",
+          "presentation": "Vertical over marked schools 30-40 ft",
+          "when": "Summer walleye"
+        },
+        {
+          "lure": "Jigging Rap / jigging spoon",
+          "presentation": "Vertical jig with lift-pause over bait",
+          "when": "Late fall and through the ice for walleye"
+        },
+        {
+          "lure": "Tungsten jig with spikes or plastics",
+          "presentation": "Chase suspended crappie pods on electronics",
+          "when": "Ice season, mid-day basin bite"
+        },
+        {
+          "lure": "Worm harness / bottom bouncer",
+          "presentation": "Troll the 15-25 ft basin rim at dusk",
+          "when": "Early summer walleye"
+        }
+      ],
+      "nearestLaunch": "Saratoga Lake State Boat Launch (NYS OPRHP, Route 9P)",
+      "sources": [
+        "https://www.omniafishing.com/w/saratoga-lake-fishing-reports/fishing-patterns",
+        "https://en.wikipedia.org/wiki/Saratoga_Lake",
+        "https://dec.ny.gov/places/saratoga-lake",
+        "https://api.gbif.org/v1/occurrence/search?scientificName=Sander%20vitreus&decimalLatitude=42.98,43.08&decimalLongitude=-73.78,-73.68&limit=100"
+      ],
+      "runMinutes": 8
+    },
+    {
+      "id": "east-shore-docks",
+      "name": "Cedar Bluffs Dock Stretch (east shore)",
+      "lat": 43.033,
+      "lon": -73.717,
+      "species": [
+        "largemouth",
+        "smallmouth",
+        "crappie",
+        "perch",
+        "pike"
+      ],
+      "structure": "Long dock-lined stretch along Route 9P on the northeast shore (Cedar Bluffs); dock posts, swim rafts and a defined weedline in 5-12 ft; rockier bottom than the west side",
+      "seasons": {
+        "spr": "Crappie under docks and along the first weed growth; bass move in as water warms",
+        "sum": "Skip docks for largemouth; smallmouth on the harder-bottom stretches",
+        "fall": "Bass hold on the last green weeds between docks; perch on the outside edge",
+        "ice": "Panfish along the 8-12 ft weedline off the dock line"
+      },
+      "baits": [
+        {
+          "lure": "Wacky worm or Senko",
+          "presentation": "Skip under docks and swim rafts",
+          "when": "Summer largemouth, 5-8 ft"
+        },
+        {
+          "lure": "Small jig tipped with minnow",
+          "presentation": "Slip bobber tight to dock posts",
+          "when": "Spring crappie"
+        },
+        {
+          "lure": "Squarebill or bladed jig",
+          "presentation": "Parallel the weedline between dock clusters",
+          "when": "Fall bass and pike"
+        }
+      ],
+      "nearestLaunch": "Saratoga Lake State Boat Launch (NYS OPRHP, Route 9P)",
+      "sources": [
+        "https://dailygazette.com/2020/05/20/outdoor-journal-plenty-of-fish-are-being-caught-on-saratoga-lake/",
+        "https://www.saratoga.com/saratoga-lake/fishing/",
+        "https://nominatim.openstreetmap.org/reverse?lat=43.033&lon=-73.717&format=jsonv2&zoom=14"
+      ],
+      "runMinutes": 4
+    },
+    {
+      "id": "fitch-road-weedline",
+      "name": "Fitch Road / 9P Weedline (east shore)",
+      "lat": 43.019,
+      "lon": -73.73,
+      "species": [
+        "largemouth",
+        "crappie",
+        "perch",
+        "pike",
+        "walleye"
+      ],
+      "structure": "Well-known weedline running off the Fitch Road/Route 9P shoreline (Maple Shade area); weed edge in 5-8 ft breaking to 10-14 ft; tournament-proven bass water",
+      "seasons": {
+        "spr": "Panfish along the first green weeds; bass stage on the edge",
+        "sum": "Best depth about 5-8 ft in or on the weed edges for bass; panfish limits common",
+        "fall": "Weedline concentrates bass and perch as vegetation thins",
+        "ice": "Weedline holds crappie and perch; tip-ups on the edge for pike"
+      },
+      "baits": [
+        {
+          "lure": "Wacky-rigged stick worm",
+          "presentation": "Work in and along the weed edge 5-8 ft",
+          "when": "Summer bass (a proven local pattern)"
+        },
+        {
+          "lure": "Fathead minnow or tiny green/white jig",
+          "presentation": "Weighted casting bobber or slip bobber, 6-12 ft over emerging weeds",
+          "when": "Ice-out to early summer crappie"
+        },
+        {
+          "lure": "Twister tail or small tube",
+          "presentation": "Jig the weed pockets",
+          "when": "Ice season panfish"
+        }
+      ],
+      "nearestLaunch": "South Shore Marina (fee, south end)",
+      "sources": [
+        "https://dailygazette.com/2020/05/20/outdoor-journal-plenty-of-fish-are-being-caught-on-saratoga-lake/",
+        "https://dailygazette.com/article/2017/07/12/looking-for-big-bass-stick-to-the-weeds",
+        "https://coastalanglermag.com/saratoga-lake-report-2/"
+      ],
+      "runMinutes": 7
+    }
+  ]
+}

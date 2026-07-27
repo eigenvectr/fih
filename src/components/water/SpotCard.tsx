@@ -114,7 +114,7 @@ export function SpotCard({
               Sources ({spot.sources.length})
             </summary>
             <ul className="mt-2 space-y-1 text-left">
-              {spot.sources.map((url) => (
+              {spot.sources.filter((u) => u.startsWith("http")).map((url) => (
                 <li key={url}>
                   <a
                     href={url}

@@ -4,7 +4,10 @@ export type SpeciesId =
   | "pike"
   | "walleye"
   | "muskie"
-  | "perch";
+  | "perch"
+  | "laketrout"
+  | "salmon"
+  | "crappie";
 
 export type SeasonId = "spr" | "sum" | "fall" | "ice";
 
@@ -49,6 +52,7 @@ export interface LocalColor {
 export interface Water {
   slug: string;
   name: string;
+  shortName?: string;
   region: string;
   blurb: string;
   species: SpeciesId[];

@@ -16,7 +16,7 @@ export function RegsPanel({ water }: { water: Water }) {
             <div key={i}>
               <h3 className="text-sm font-semibold">{n.title}</h3>
               <p className="mt-1 text-sm leading-relaxed text-ink-muted">{n.body}</p>
-              {n.source && (
+              {n.source?.startsWith("http") && (
                 <a
                   href={n.source}
                   target="_blank"

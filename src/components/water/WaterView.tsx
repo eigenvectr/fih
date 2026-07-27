@@ -34,6 +34,10 @@ export function WaterView({ water }: { water: Water }) {
   useEffect(() => {
     setSeason(currentSeason());
     try {
+      localStorage.setItem(
+        "fih:lastWater",
+        JSON.stringify({ slug: water.slug, name: water.shortName ?? water.name }),
+      );
       const l = localStorage.getItem(`fih:launch:${water.slug}`);
       if (l && water.launches.some((x) => x.name === l)) setLaunchName(l);
       const p = JSON.parse(localStorage.getItem(`fih:plan:${water.slug}`) ?? "[]");

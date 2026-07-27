@@ -1,0 +1,1022 @@
+{
+  "slug": "lake-george",
+  "name": "Lake George",
+  "shortName": "Lake George",
+  "region": "Adirondacks, NY",
+  "blurb": "Thirty-two miles of gin-clear Adirondack water: a two-story fishery with lake trout and landlocked salmon over 100 ft basins, ledge smallmouth the whole length, and pike in the weedy bays. Trailered boats need the free invasive-species inspection before launching.",
+  "species": [
+    "laketrout",
+    "salmon",
+    "smallmouth",
+    "largemouth",
+    "pike",
+    "perch"
+  ],
+  "launches": [
+    {
+      "name": "Million Dollar Beach DEC Boat Launch",
+      "lat": 43.4225,
+      "lon": -73.706,
+      "notes": "Primary public DEC hard-surface launch at the south end in Lake George village, 139 Beach Road. Two launch lanes, 54 car/trailer spaces plus overflow, open 6:00a-8:00p. Doubles as a mandatory boat inspection station, so you can get inspected and sealed on site. Fast access to the productive south-basin bass, perch and pike water. Reverse-geocode confirmed: Beach Road, Village of Lake George, Warren County."
+    },
+    {
+      "name": "Norowal Marina (Bolton Landing)",
+      "lat": 43.5465,
+      "lon": -73.6485,
+      "notes": "Full-service marina and public launch on the west shore at 21 Sagamore Road, Bolton Landing, serving the central/southern basin. Large new ramp and roughly three acres of parking; also an LGPC inspection station (8:00a-6:00p). Closest mainland launch to the island campgrounds and the deep central-basin lake trout grounds. Reverse-geocode confirmed: Bolton Landing, Town of Bolton, Warren County."
+    },
+    {
+      "name": "Dunham's Bay (Route 9L, North Queensbury)",
+      "lat": 43.4548,
+      "lon": -73.6388,
+      "notes": "Southeast-corner access off State Highway 9L (Dunham's Bay Marina area). Dunham's Bay is shallow and weedy, prime for northern pike, largemouth and perch, and it is a short run to Harris Bay and Warner Bay. Good option for anglers targeting warmwater species without a long open-lake crossing. Reverse-geocode confirmed: State Highway 9L, North Queensbury, Town of Queensbury, Warren County."
+    },
+    {
+      "name": "Hulett's Landing (Island View Marina, east shore)",
+      "lat": 43.6555,
+      "lon": -73.4975,
+      "notes": "East-shore access at Hulett's Landing in the Town of Dresden, the main launching point on the quieter Washington County side and near the narrows. Handy for the mid-lake lake trout and salmon trolling lanes and the rocky east-shore smallmouth points. Reverse-geocode confirmed: Bluff Head Road, Huletts Landing, Washington County (east shore, correct side of the lake)."
+    },
+    {
+      "name": "Rogers Rock State Campground Launch (Hague)",
+      "lat": 43.7855,
+      "lon": -73.487,
+      "notes": "DEC campground launch on the northwest shore at 9894 Lakeshore Drive, Hague, open 5:00a-9:00p and an LGPC inspection station. Best jump-off for the deep, cold north basin, the dramatic Rogers Rock cliff drop-offs, and north-end lake trout and salmon water. Reverse-geocode confirmed: Lake Shore Drive, Indian Kettles, Town of Hague, Warren County."
+    },
+    {
+      "name": "Mossy Point Public Boat Launch (Ticonderoga)",
+      "lat": 43.822,
+      "lon": -73.4275,
+      "notes": "DEC hard-surface launch at the extreme north end, 158 Black Point Road on Mossy Point Road, about 2 miles south of Ticonderoga on the east shore. Large lot (about 100 car/trailer spaces), open 5:30a-9:00p, and an LGPC inspection station. Serves the north narrows, weedy pike water near the outlet, and the north-basin trout grounds. Reverse-geocode confirmed: Mossy Point Road, Howes Landing, Town of Ticonderoga, Essex County."
+    }
+  ],
+  "regsNotes": [
+    {
+      "title": "Lake trout: special Lake George size and limit",
+      "body": "Lake George carries special regulations that differ from statewide rules. Lake trout are open all year with a 23-inch minimum length and a daily limit of 2 fish. This is stricter than many statewide lake trout waters (which allow smaller fish and larger creels). Lake George holds a strong, largely wild, naturally reproducing laker population, so the higher size floor protects mature spawners.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/region-5-special-fishing"
+    },
+    {
+      "title": "Landlocked (Atlantic) salmon: 18-inch minimum, 2 per day",
+      "body": "Landlocked salmon (listed by DEC as Atlantic salmon) are open all year on Lake George with an 18-inch minimum length and a daily limit of 2. The lake is stocked annually and the fishery has rebounded strongly since DEC shifted to the hardier Sebago strain. Note that older third-party guides sometimes still list a 15-inch minimum and a 3-fish limit; the DEC Region 5 special-regulation figures (18 inches, 2 fish) are the current authority.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/region-5-special-fishing"
+    },
+    {
+      "title": "Baitfish rules are RESTRICTED on Lake George",
+      "body": "Live bait is tightly controlled. On Lake George you may only use baitfish that were personally collected from Lake George itself, or certified/green-list baitfish purchased from a licensed dealer with a receipt. Do not import uncertified bait from other waters, and never dump unused bait or bait-bucket water into the lake. Rainbow smelt, a key forage species, have their own special rules (see the smelt entry). These measures exist to keep aquatic invasive species and unwanted fish out of the lake.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/baitfish"
+    },
+    {
+      "title": "Rainbow smelt: seasonal take and no dip-netting",
+      "body": "Smelt are a specially regulated forage/bait species on Lake George. Take is allowed May 16 through March 31 with a daily limit of 25 and no minimum length; use or possession of smelt taken from the lake is prohibited April 1 through May 15 to protect the spring spawning run. Dip netting for smelt is prohibited on Lake George year-round. Smelt are the primary forage that drives the salmon and lake trout bite.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/region-5-special-fishing"
+    },
+    {
+      "title": "Mandatory trailered-boat invasive species inspection",
+      "body": "Since 2014 the Lake George Park Commission has required that EVERY trailered vessel (motorboats, PWC/jet skis, sailboats) be inspected and sealed before launching into Lake George. Cartop craft such as canoes and kayaks are exempt. Inspection is FREE, takes about 5 minutes, and if a decontamination wash is needed it is also free (140-degree hot-water spray, 10-30 minutes). After passing, a wire seal is run through the bow ring; if that seal is intact on your next Lake George launch you can skip re-inspection. This is the single biggest logistics item for any visiting trailered boater, including anglers towing a boat.",
+      "source": "https://lgpc.ny.gov/boat-inspection-faqs-forms"
+    },
+    {
+      "title": "Where to get inspected: station locations and hours",
+      "body": "Trailered boats must be inspected at a Regional Boat Inspection Station. Primary stations: Million Dollar Beach Launch, Lake George village (6:00a-8:00p); Mossy Point Launch, Ticonderoga (5:30a-9:00p); Rogers Rock Campground Launch, Hague (5:00a-9:00p); Norowal Marina, Bolton Landing (8:00a-6:00p); and South Bay State Launch, Whitehall (8:00a-5:00p). The Adirondack Welcome Center south of I-87 Exit 18 (northbound) also offers free inspections; tell staff you need a green seal for Lake George. Inspections are first-come, first-served. Plan launch timing around station hours.",
+      "source": "https://lgpc.ny.gov/inspection-station-locations"
+    },
+    {
+      "title": "Black bass (smallmouth & largemouth): statewide season applies",
+      "body": "Bass follow statewide rules on Lake George. Regular harvest season runs June 15 through November 30 with a 12-inch minimum length and a daily limit of 5 (combined smallmouth and largemouth). From December 1 through June 14 there is a catch-and-release-only season using artificial lures only. Lake George is a nationally regarded smallmouth and largemouth fishery, so the fall harvest window and the spring catch-and-release window both see heavy pressure.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/statewide-season-sizes-catch-limits"
+    },
+    {
+      "title": "Northern pike, pickerel and walleye: statewide season",
+      "body": "These follow statewide rules on Lake George. Northern pike: open May 1 through March 15, 18-inch minimum, 5 per day. Chain pickerel: May 1 through March 15, 15-inch minimum, 5 per day. Walleye: May 1 through March 15, 15-inch minimum, 5 per day (walleye are uncommon in Lake George but the rule applies). DEC has floated moving the March 15 closing date earlier to protect early-spawning fish, so verify the current closing date each season.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/statewide-season-sizes-catch-limits"
+    },
+    {
+      "title": "Yellow perch and panfish",
+      "body": "Yellow perch and most panfish are open all year on Lake George with no minimum length and a daily limit of 50 for perch. They are a mainstay of the summer and hard-water fishery, especially in the weedy south-end bays. Sunfish and rock bass also provide steady action with no closed season.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/statewide-season-sizes-catch-limits"
+    },
+    {
+      "title": "Ice fishing is permitted (with the same species limits)",
+      "body": "Ice fishing is legal on Lake George. The lake's special size and creel limits still apply on the ice: lake trout 23 inches / 2 fish, landlocked salmon 18 inches / 2 fish, yellow perch 50 fish. Popular hard-water targets are perch, lake trout, salmon, pike and pickerel. Smelt possession remains prohibited April 1-May 15, but that is after typical ice-out. Always check ice thickness; the deep main lake often does not lock up safely, so most ice fishing is in the shallower bays.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations/region-5-special-fishing"
+    },
+    {
+      "title": "Gear rules and tributary night-fishing closure",
+      "body": "Statewide gear rules apply: an angler may use no more than 3 lines (open water or through the ice). Dip netting is prohibited on Lake George (this specifically closes off dip-netting smelt). On Lake George tributaries, fishing is prohibited from 10:00 PM to 5:00 AM from April 1 through May 15, and the smelt possession closure (April 1-May 15) also applies in the tributaries to protect spawning runs.",
+      "source": "https://dec.ny.gov/things-to-do/freshwater-fishing/regulations"
+    },
+    {
+      "title": "Clean, Drain, Dry your fishing gear too",
+      "body": "Beyond the boat inspection, anglers should clean, drain and dry all water-contact gear (waders, nets, tackle, buckets) to avoid spreading the invasives already established in Lake George, including zebra mussels and spiny water flea. Remove visible mud, plants and animals, drain all water on dry land, and dry gear thoroughly (five days recommended) before using it in another water. Spiny water flea in particular fouls downrigger cables and line, so wipe cables down after deep trolling.",
+      "source": "https://lakegeorgeassociation.org/boating"
+    }
+  ],
+  "speciesBaits": {
+    "laketrout": [
+      {
+        "lure": "Downrigger spoon (Sutton, Mooselook Wobbler, orange/copper flutter spoons)",
+        "presentation": "Run a spoon 3-6 feet behind the downrigger ball, ticking near bottom over deep flats and humps; slow troll around 1.5-2.2 mph. In summer keep the ball at the fish you mark, often 60-100+ feet down.",
+        "when": "Late spring through fall once fish stack in deep water; peak summer thermocline bite July-September."
+      },
+      {
+        "lure": "Flasher/dodger with a fly or small spoon",
+        "presentation": "Attractor flasher with the trailing fly or spoon 18-36 inches behind, fished off a downrigger right in the bottom-hugging strike zone. The flash draws lakers in from a distance in the cold, dim deep water.",
+        "when": "Summer and early fall when lakers are deep and lethargic."
+      },
+      {
+        "lure": "Jigging blade bait / heavy spoon (Swedish Pimple, Kastmaster, jigging Rap)",
+        "presentation": "Vertical jig straight down over marked fish on structure; drop to bottom, snap up 1-2 feet and let it flutter back. Deadly when you find a school on electronics rather than covering water.",
+        "when": "Summer through fall for open-water vertical jigging; a top hard-water tactic too."
+      },
+      {
+        "lure": "Ice jigging tube / soft plastic on a jig head",
+        "presentation": "Through the ice, drop a white or smelt-colored tube to the bottom in 40-90 feet, pound bottom to raise silt, then jig with sharp lifts and long pauses. Tip with a smelt or perch eye where legal.",
+        "when": "Hard-water season (roughly January-March in the shallower bays)."
+      },
+      {
+        "lure": "Lead-core line with spoon or stickbait",
+        "presentation": "For anglers without downriggers, meter out lead core (about 7 feet of depth per color); six colors runs a lure around 40-42 feet, a classic Adirondack laker depth in early summer before fish go deeper.",
+        "when": "Late spring to early summer when fish hold at mid depths."
+      },
+      {
+        "lure": "Cut bait / live smelt near bottom",
+        "presentation": "Where legal, drift or slow-troll a smelt on a bottom rig or off the rigger; lakers key on the smelt forage base. Keep it near bottom in deep, cold water.",
+        "when": "Open-water season, especially post-spawn summer."
+      }
+    ],
+    "salmon": [
+      {
+        "lure": "Surface/flatline trolled stickbait (Rapala, Rebel, Mooselook)",
+        "presentation": "Right after ice-out, trolled just below the surface on flatlines or planer boards, targeting warmer surface pockets where salmon cruise for smelt. Light line and a fast troll (2.5-3.5 mph) trigger strikes.",
+        "when": "Early season, ice-out through spring while the surface is cold."
+      },
+      {
+        "lure": "Streamer flies (Grey Ghost and other smelt patterns)",
+        "presentation": "Long-line troll or cast streamers near the surface imitating smelt; the traditional New England landlock tactic. Fish them off planer boards to spread lines away from the boat.",
+        "when": "Spring, right after ice-out, when salmon feed high in the water column."
+      },
+      {
+        "lure": "Downrigger spoon (thin flutter/salmon spoons)",
+        "presentation": "As surface water warms, drop small bright spoons on downriggers to follow salmon down to the thermocline; troll faster than you would for lakers (about 2.5-3 mph).",
+        "when": "Early-to-mid summer as fish leave the surface."
+      },
+      {
+        "lure": "Lead core or copper with spoon",
+        "presentation": "Meter salmon down to the 20-40 foot band as they suspend above the lakers; a spoon at moderate troll speed matches the smelt they chase.",
+        "when": "Summer, once salmon settle below the surface."
+      },
+      {
+        "lure": "Live or imitation smelt (2-8 inch baitfish profile)",
+        "presentation": "Salmon share the lakers' preference for a 2-8 inch smelt-sized offering; slow-troll live smelt where legal or fish smelt-profile spoons/stickbaits.",
+        "when": "Throughout the open-water season."
+      }
+    ],
+    "smallmouth": [
+      {
+        "lure": "Drop-shot finesse plastic (goby/minnow-profile worms)",
+        "presentation": "Drop-shot on 6-lb fluorocarbon with a #2 hook and a clip-on weight sized to depth; work rocky points and steep ledges that drop to 15-30+ feet. Note gobies are NOT in Lake George, so match crayfish and smelt/minnow forage rather than goby colors.",
+        "when": "Summer through fall when fish hold deep on rock; a go-to when the bite is tough."
+      },
+      {
+        "lure": "Tube jig (crayfish colors)",
+        "presentation": "Drag and hop a tube on a 1/8-3/16 oz insert head across rocky bottom and points, imitating the crayfish that are a core smallmouth forage here.",
+        "when": "Late spring through fall on rocky structure."
+      },
+      {
+        "lure": "Ned rig / small swimbait",
+        "presentation": "Slow-swim or deadstick a Ned rig on deep gravel and rock transitions; a smelt-color small swimbait works when bass chase baitfish.",
+        "when": "Post-spawn summer and fall."
+      },
+      {
+        "lure": "Jerkbait / topwater over rocky points",
+        "presentation": "Suspending jerkbait or walking topwater over shallow rock early and late in the day, especially around points like Plum Point on the east shore.",
+        "when": "Spring pre-spawn and fall feed-up, low-light windows."
+      },
+      {
+        "lure": "Hair jig / football jig",
+        "presentation": "Crawl a football or hair jig along deep rocky drop-offs to mimic crayfish; effective for bigger fish holding on structure.",
+        "when": "Summer and fall on deep rock."
+      }
+    ],
+    "largemouth": [
+      {
+        "lure": "Texas-rigged worm / creature bait",
+        "presentation": "Pitch into weed edges and pockets in the shallow bays (Dunham's Bay, Harris Bay, Northwest Bay); let it fall on slack line along the grass line.",
+        "when": "Summer, once fish set up in the vegetation."
+      },
+      {
+        "lure": "Weedless frog / topwater",
+        "presentation": "Walk or pop a hollow-body frog over matted weeds and lily pads in the back bays at dawn and dusk.",
+        "when": "Mid-summer through early fall over heavy cover."
+      },
+      {
+        "lure": "Jig with craw trailer",
+        "presentation": "Flip a compact jig to docks, laydowns and thick weed clumps; a crayfish-profile trailer matches local forage.",
+        "when": "Summer and fall around cover."
+      },
+      {
+        "lure": "Chatterbait / spinnerbait",
+        "presentation": "Slow-roll along weed edges and over submerged grass to cover water and find active fish in the milfoil-lined bays.",
+        "when": "Late spring through fall along weed lines."
+      },
+      {
+        "lure": "Wacky-rigged stickworm",
+        "presentation": "Skip under docks and along shady shorelines, letting it sink with a subtle shimmy; a reliable numbers producer.",
+        "when": "All open-water season, especially high sun."
+      }
+    ],
+    "pike": [
+      {
+        "lure": "Large spoon (Daredevle, Williams)",
+        "presentation": "Cast and retrieve or slow-troll over and along weed edges in the weedy bays; the wide wobble calls pike out of the grass. Use a wire or heavy fluoro leader.",
+        "when": "Spring after the May 1 opener and again in fall; strong bite in Dunham's Bay and the north-end weeds."
+      },
+      {
+        "lure": "Inline spinner / large spinnerbait",
+        "presentation": "Burn over submerged weeds and along the outer weed line to trigger reaction strikes in stained back-bay water.",
+        "when": "Late spring through summer over vegetation."
+      },
+      {
+        "lure": "Jerkbait / large soft swimbait",
+        "presentation": "Twitch a big minnow bait along weed edges and points, or slow-roll a paddletail swimbait past ambush cover.",
+        "when": "Summer and fall along weed lines and drop-offs."
+      },
+      {
+        "lure": "Live/dead smelt or shiner under a float (tip-up in winter)",
+        "presentation": "Suspend a large baitfish just above the weeds on a quick-strike rig; on the ice, set tip-ups over 6-15 feet of weedy bottom in the bays. Use certified or lake-collected bait only.",
+        "when": "Open water and hard water; tip-ups are a top winter tactic."
+      },
+      {
+        "lure": "Weedless glide bait / bucktail",
+        "presentation": "Work a glide bait or bucktail through and over the thickest weed mats in Weeds Bay / north-end shallows where big pike hide.",
+        "when": "Summer through fall over heavy vegetation."
+      }
+    ],
+    "perch": [
+      {
+        "lure": "Small jig tipped with soft plastic or bait",
+        "presentation": "Drop a 1/16-1/8 oz jig with a grub or minnow-piece to the bottom in 15-40 feet along weed edges and flats; lift-drop to draw schools. Use certified/lake-collected bait only.",
+        "when": "All year; excellent in summer and a prime ice-fishing target."
+      },
+      {
+        "lure": "Live minnow on a bottom/dropper rig",
+        "presentation": "Fish a small minnow on a spreader or dropper near bottom over the weedy south-end bays; a classic panfish setup for numbers.",
+        "when": "Open water and through the ice."
+      },
+      {
+        "lure": "Small spoon / jigging spoon (Swedish Pimple, Kastmaster micro)",
+        "presentation": "Vertically jig a small flashy spoon over marked schools, tipping the hook with a minnow or perch eye; the flash pulls perch in fast on the ice.",
+        "when": "Hard-water season and deep summer schools."
+      },
+      {
+        "lure": "Perch-color blade bait / tungsten jig",
+        "presentation": "Aggressive short snaps of a tungsten jig or blade over deeper flats when perch are schooled and neutral; drop back to marked fish quickly.",
+        "when": "Winter and mid-summer on deeper structure."
+      },
+      {
+        "lure": "Micro soft-plastic drop-shot",
+        "presentation": "A finesse drop-shot with a tiny plastic keeps a bait in the strike zone over deep weed edges for suspended perch.",
+        "when": "Summer through early fall."
+      }
+    ]
+  },
+  "localColor": [
+    {
+      "note": "Lake George is a classic 'two-story' fishery: a coldwater layer of lake trout and landlocked salmon lives beneath a warmwater layer of bass, perch, pike and sunfish, so the same trip can produce a deep laker and a shallow largemouth.",
+      "source": "https://lakegeorgeassociation.org/science-protection/community-science/lake-george-fish"
+    },
+    {
+      "note": "The lake trout population is largely wild and naturally reproducing, unusual for a heavily fished lake, and trophy lakers of 20+ pounds are landed here.",
+      "source": "https://lakegeorge.com"
+    },
+    {
+      "note": "A former New York State record landlocked salmon, 19 lbs 2 oz, was caught in Lake George in 1982. In February 2016 an ice angler landed a 35-inch salmon over 15 pounds, the biggest salmon on the lake in roughly 30 years.",
+      "source": "https://bestfishinginamerica.com/new-york-lake-george-fishing.html"
+    },
+    {
+      "note": "The salmon fishery is a genuine comeback story: DEC ramped up stocking and switched to the hardier Sebago strain, restoring strong landlocked salmon action after years of decline.",
+      "source": "https://coastalanglermag.com/lake-george-salmon-stocking"
+    },
+    {
+      "note": "The King George Fishing Derby is the marquee open-water tournament, with divisions and cash/prizes for largemouth bass, smallmouth bass, lake trout and landlocked salmon, plus youth divisions.",
+      "source": "https://lakegeorge.com"
+    },
+    {
+      "note": "Winter brings ice-fishing derbies with prize money for landlocked salmon, trout, smallmouth bass, pickerel and perch; most hard-water action is in the shallower bays since the deep main lake often does not freeze safely.",
+      "source": "https://lakegeorge.com"
+    },
+    {
+      "note": "Local wisdom on forage: Lake George does NOT have round gobies (unlike Lake Champlain and the Great Lakes). Smallmouth here key on crayfish and smelt/native minnows, so match those profiles instead of goby imitations.",
+      "source": "https://lakegeorge.com"
+    },
+    {
+      "note": "Named hot spots passed around by locals: Plum Point on the east shore for rocky-point smallmouth, Dunham's Bay for weedy pike/largemouth/perch, and Northwest Bay near Bolton for largemouth; the deep north basin off Rogers Rock for lakers and salmon.",
+      "source": "https://lakegeorge.com"
+    }
+  ],
+  "spots": [
+    {
+      "id": "tea-island-shoal",
+      "name": "Tea Island Shoal",
+      "lat": 43.4375,
+      "lon": -73.6985,
+      "species": [
+        "smallmouth",
+        "laketrout",
+        "perch"
+      ],
+      "structure": "Rocky islet and shoal off the west shore a mile north of Lake George Village; boulder edges drop quickly into the 40-60 ft south basin. Nearby stream inlet at Million Dollar Beach concentrates bait.",
+      "seasons": {
+        "spr": "Ice-out lakers slide shallow (20-40 ft) off the shoal chasing smelt; smallmouth stage on the rock edges late May into the June opener.",
+        "sum": "Smallmouth hold on 15-30 ft boulder edges early and late in the day; heavy boat traffic pushes fish deeper midday.",
+        "fall": "Strong smallmouth crankbait and drop-shot bite as bait pushes shallow; lakers pass nearby shoals during the October spawn.",
+        "ice": "Perch school nearshore off the village beaches; the stream inlet at Million Dollar Beach draws fish under the ice."
+      },
+      "baits": [
+        {
+          "lure": "3in tube jig (green pumpkin/smoke)",
+          "presentation": "Drag and hop along the boulder-to-sand transition in 15-30 ft",
+          "when": "Summer and fall for smallmouth"
+        },
+        {
+          "lure": "Drop-shot goby or smelt-profile plastic",
+          "presentation": "Vertical on the shoal edge, work the 20-35 ft break",
+          "when": "Post-spawn through fall"
+        },
+        {
+          "lure": "Sutton 44 flutter spoon",
+          "presentation": "Flatline or light rigger troll just off the shoal",
+          "when": "Early spring when lakers are shallow"
+        },
+        {
+          "lure": "Small jig tipped with fathead minnow",
+          "presentation": "Jigged near bottom through the ice",
+          "when": "Winter perch"
+        }
+      ],
+      "nearestLaunch": "Million Dollar Beach DEC Boat Launch",
+      "sources": [
+        "https://www.lakegeorge.com/guides/fishing/popular-spots/",
+        "https://www.catchmefishing.com/lake-george-ice-fishing/",
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html"
+      ],
+      "runMinutes": 3
+    },
+    {
+      "id": "diamond-island",
+      "name": "Diamond Island",
+      "lat": 43.46,
+      "lon": -73.674,
+      "species": [
+        "laketrout",
+        "salmon",
+        "smallmouth"
+      ],
+      "structure": "Mid-lake island shoal in the south basin surrounded by 60-100 ft trolling water; one of the lake's best-known deep-water trout and salmon locations with rocky reef edges for bass.",
+      "seasons": {
+        "spr": "Lakers and salmon high in the water column (top 30 ft) around the island as smelt move; flatline and planer-board trolling shines.",
+        "sum": "Downrigger water: lakers 60-100 ft along the basin edges, salmon 40-60 ft at the thermocline; smallmouth on the 20-40 ft reef edges.",
+        "fall": "Lakers stage on the island shoal to spawn in October; salmon feed aggressively near the surface again.",
+        "ice": "South basin ice anglers work 60-100 ft for lakers off the island and nearby Diamond Point; perch on the adjacent flats."
+      },
+      "baits": [
+        {
+          "lure": "Speedy Shiner (orange/black or blue-silver)",
+          "presentation": "Downrigger troll 2.5-3.0 mph, 60-90 ft over the basin",
+          "when": "Summer lakers"
+        },
+        {
+          "lure": "Sutton or Mooselook spoon",
+          "presentation": "Flatline/lead-core troll top 30 ft around the island",
+          "when": "Spring and fall salmon and lakers"
+        },
+        {
+          "lure": "1 oz white tube jig",
+          "presentation": "Vertical jigging on marked fish along the 70-100 ft edges",
+          "when": "Summer, and through the ice"
+        },
+        {
+          "lure": "Drop-shot minnow plastic",
+          "presentation": "Work the reef edge in 20-40 ft",
+          "when": "Summer and fall smallmouth"
+        }
+      ],
+      "nearestLaunch": "Million Dollar Beach DEC Boat Launch",
+      "sources": [
+        "https://www.boatsbygeorge.com/lake-george/fishing/",
+        "https://www.lakegeorge.com/guides/fishing/popular-spots/",
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
+        "https://www.catchmefishing.com/lake-george-ice-fishing/"
+      ],
+      "runMinutes": 8
+    },
+    {
+      "id": "long-island-harris-bay",
+      "name": "Long Island & Harris Bay Edge",
+      "lat": 43.4837,
+      "lon": -73.66,
+      "species": [
+        "smallmouth",
+        "largemouth",
+        "pike",
+        "perch"
+      ],
+      "structure": "Largest island in the south basin; rocky points and 20-40 ft reef edges on the main-lake side, with the weedy Harris Bay/Assembly Point shallows to the west. Classic tournament water.",
+      "seasons": {
+        "spr": "Pike and perch in the warming Harris Bay weeds; smallmouth move onto island spawning flats late spring.",
+        "sum": "Smallmouth on the island's rock points 15-35 ft; largemouth and pike on the Harris Bay weedlines and docks.",
+        "fall": "Bass follow bait to the first deep breaks; strong October smallmouth bite on crankbaits and jigs around the island.",
+        "ice": "Harris Bay is one of the lake's most popular ice perch areas, staying fishable-shallow until the main-lake drop."
+      },
+      "baits": [
+        {
+          "lure": "Ned rig or tube",
+          "presentation": "Rock points and 15-30 ft gravel breaks around the island",
+          "when": "June opener through fall"
+        },
+        {
+          "lure": "Wacky-rigged 5in Senko",
+          "presentation": "Skipped under docks and along weed edges in Harris Bay",
+          "when": "Summer"
+        },
+        {
+          "lure": "Spinnerbait (white/chartreuse)",
+          "presentation": "Rolled along the Harris Bay weedline for pike and largemouth",
+          "when": "Spring and fall"
+        },
+        {
+          "lure": "Small tungsten jig with spikes or fathead",
+          "presentation": "Ice jigging over 10-25 ft weed flats",
+          "when": "Winter perch"
+        }
+      ],
+      "nearestLaunch": "Million Dollar Beach DEC Boat Launch",
+      "sources": [
+        "https://www.visitlakegeorge.com/blog/post/fishing-hotspots-in-the-lake-george-area/",
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
+        "https://www.catchmefishing.com/lake-george-ice-fishing/",
+        "https://fishny.com/fall-bass-fishing-on-lake-george-ny/"
+      ],
+      "runMinutes": 13
+    },
+    {
+      "id": "dunhams-bay",
+      "name": "Dunham's Bay",
+      "lat": 43.4462,
+      "lon": -73.6529,
+      "species": [
+        "largemouth",
+        "pike",
+        "perch"
+      ],
+      "structure": "Shallow, weedy southeast-corner bay; extensive milfoil and pad beds over soft bottom, marsh channel at the back. The south basin's signature largemouth and pike water.",
+      "seasons": {
+        "spr": "Post-spawn pike roam the new weed growth; perch spawn in the shallows; largemouth move up as water warms.",
+        "sum": "Prime frog and flipping water in the thick weeds for largemouth; pike on the outer weed edge early and late.",
+        "fall": "Big pike feed hard on the dying weed edges; largemouth group on remaining green weed clumps.",
+        "ice": "Classic tip-up bay: pike on large shiners over the weed flats, perch schools on the 8-15 ft edges."
+      },
+      "baits": [
+        {
+          "lure": "Hollow-body frog",
+          "presentation": "Walked over matted weeds and pads",
+          "when": "Summer largemouth, morning and evening"
+        },
+        {
+          "lure": "Spinnerbait or chatterbait",
+          "presentation": "Slow-rolled along the outer weedline",
+          "when": "Spring and fall for pike and largemouth"
+        },
+        {
+          "lure": "Large live shiner",
+          "presentation": "Under a tip-up set just over the weed tops",
+          "when": "Winter pike"
+        },
+        {
+          "lure": "Small jig and minnow",
+          "presentation": "Ice jigging the 8-15 ft weed edge",
+          "when": "Winter perch"
+        }
+      ],
+      "nearestLaunch": "Million Dollar Beach DEC Boat Launch",
+      "sources": [
+        "https://www.boatsbygeorge.com/lake-george/fishing/",
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
+        "https://www.lakegeorge.com/guides/fishing/popular-spots/"
+      ],
+      "runMinutes": 8
+    },
+    {
+      "id": "pilot-knob-deep-hole",
+      "name": "Pilot Knob Ledge & Deep Hole",
+      "lat": 43.5165,
+      "lon": -73.6455,
+      "species": [
+        "laketrout",
+        "smallmouth",
+        "perch"
+      ],
+      "structure": "Ledge off the Pilot Knob shore dropping sharply to 40 ft, then falling into a 120+ ft basin southwest of the point, one of the deepest holes in the south basin and a named laker wintering area.",
+      "seasons": {
+        "spr": "Lakers shallow on the ledge (20-45 ft) after ice-out; smallmouth stage on the 15-25 ft shelf late spring.",
+        "sum": "Lakers suspend 60-100 ft over the deep hole; deep-cranking and drop-shotting the 25-40 ft ledge takes quality smallmouth.",
+        "fall": "Smallmouth stack on the sharp break; lakers move up toward spawning shoals in October.",
+        "ice": "Access from Pilot Knob/Fort Ann Beach puts you over 120 ft of water, a proven hard-water lake trout spot; perch closer to shore."
+      },
+      "baits": [
+        {
+          "lure": "Deep-diving crankbait (Mann's 20+)",
+          "presentation": "Cranked down the ledge to 20-40 ft",
+          "when": "Fall smallmouth"
+        },
+        {
+          "lure": "1 oz white tube or Jigging Rap (white/glow)",
+          "presentation": "Vertical jigging 60-100 ft over the hole",
+          "when": "Summer and through the ice for lakers"
+        },
+        {
+          "lure": "Speedy Shiner or Live Target Smelt",
+          "presentation": "Downrigger troll along the basin contour",
+          "when": "Summer lakers"
+        },
+        {
+          "lure": "Live sucker on a tip-up",
+          "presentation": "Set 5-10 ft off bottom in 60-100 ft",
+          "when": "Winter lakers"
+        }
+      ],
+      "nearestLaunch": "Million Dollar Beach DEC Boat Launch",
+      "sources": [
+        "https://fishny.com/fall-bass-fishing-on-lake-george-ny/",
+        "https://www.lakegeorge.com/winter/ice-fishing/",
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
+        "https://www.catchmefishing.com/lake-george-ice-fishing/"
+      ],
+      "runMinutes": 19
+    },
+    {
+      "id": "dome-island-deep-basin",
+      "name": "Dome Island Deep Basin",
+      "lat": 43.539,
+      "lon": -73.633,
+      "species": [
+        "laketrout",
+        "salmon"
+      ],
+      "structure": "Deep 70-120 ft basin southeast of Dome Island, the most frequently named lake trout trolling and jigging water on the lake, with steep edges rising to the island shoal.",
+      "seasons": {
+        "spr": "Trout and salmon high over the basin and along the island edges chasing smelt; surface to 30 ft trolling.",
+        "sum": "The core downrigger program: lakers 60-100 ft near bottom, salmon 40-60 ft at the thermocline (about 26 ft and deeper as summer wears on).",
+        "fall": "Lakers stage on surrounding shoals for the October spawn; salmon scatter near the surface and toward tributary mouths.",
+        "ice": "Deep-basin lakers for anglers who trek out; jigging 60-100 ft with spoons and white tubes."
+      },
+      "baits": [
+        {
+          "lure": "Speedy Shiner (orange/black or blue-silver)",
+          "presentation": "Downrigger troll 2.5-3.0 mph at 60-90 ft",
+          "when": "Summer lakers"
+        },
+        {
+          "lure": "Flutter spoon or streamer fly",
+          "presentation": "Flatline/planer board in the top 30 ft",
+          "when": "Spring salmon and lakers"
+        },
+        {
+          "lure": "1 oz white tube on jighead",
+          "presentation": "Vertical jigging on graphed fish, tip with cisco or perch gullet",
+          "when": "Summer and winter"
+        },
+        {
+          "lure": "Swedish Pimple (smelt pattern)",
+          "presentation": "Aggressive lift-drop through the ice near bottom",
+          "when": "Winter lakers"
+        }
+      ],
+      "nearestLaunch": "Norowal Marina (Bolton Landing)",
+      "sources": [
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
+        "https://freshwatertherapy.com/blog/2019/4/29/learning-how-to-fish-lake-george-jigging-lake-trout-part-2",
+        "https://fishingbooker.com/blog/lake-george-fishing/",
+        "https://www.captjj.com/fish.htm"
+      ],
+      "runMinutes": 3
+    },
+    {
+      "id": "northwest-bay",
+      "name": "Northwest Bay",
+      "lat": 43.6006,
+      "lon": -73.6237,
+      "species": [
+        "largemouth",
+        "pike",
+        "perch"
+      ],
+      "structure": "Large sheltered bay north of Bolton Landing under Tongue Mountain; extensive weed beds along the western shore with marshy Northwest Bay Brook inlet, dropping to 20-40 ft toward the mouth.",
+      "seasons": {
+        "spr": "The lake's premier pike water after ice-out; fish cruise the warming weed flats. Perch and largemouth follow into the shallows.",
+        "sum": "Largemouth in the thick weed beds and around fallen timber; pike slide to the deeper outer weed edges.",
+        "fall": "Pike feed heavily on the weedlines; largemouth group near the brook mouth and remaining green weeds.",
+        "ice": "Popular hard-water spot for pike and perch; fish set up just off the first major drop close to shore."
+      },
+      "baits": [
+        {
+          "lure": "Large spinnerbait or small musky plug",
+          "presentation": "Cast over and along the weed beds",
+          "when": "Spring and fall pike"
+        },
+        {
+          "lure": "Texas-rigged Senko or creature bait",
+          "presentation": "Pitched into weed pockets and timber",
+          "when": "Summer largemouth"
+        },
+        {
+          "lure": "Live sucker or big shiner",
+          "presentation": "Tip-up set on the weed edge drop",
+          "when": "Winter pike"
+        },
+        {
+          "lure": "Jigging spoon with minnow head",
+          "presentation": "Ice jigging the first drop-off in 15-30 ft",
+          "when": "Winter perch"
+        }
+      ],
+      "nearestLaunch": "Norowal Marina (Bolton Landing)",
+      "sources": [
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
+        "https://dec.ny.gov/places/lake-george",
+        "https://www.lakegeorge.com/winter/ice-fishing/",
+        "https://www.visitlakegeorge.com/blog/post/fishing-focus-lake-george-area-waters-teeming-with-bass/"
+      ],
+      "runMinutes": 11
+    },
+    {
+      "id": "narrows-island-cluster",
+      "name": "The Narrows Island Cluster",
+      "lat": 43.5861,
+      "lon": -73.5781,
+      "species": [
+        "smallmouth",
+        "laketrout",
+        "perch"
+      ],
+      "structure": "Mid-lake archipelago (Big Burnt, Fork, Turtle, Oahu and dozens more) between Tongue Mountain and Black Mountain; rock reefs, boulder shoals and island points dropping fast into 50-100+ ft channels. The lake's most famous smallmouth water and a regular tournament winner.",
+      "seasons": {
+        "spr": "Smallmouth stage and spawn on island shoals in late May-June; lakers roam the channel edges shallow.",
+        "sum": "Textbook smallmouth: 15-35 ft boulder points and reef edges among the islands; lakers in the deep channels alongside.",
+        "fall": "Islands hold active feeders into November; drop-shot and blade baits on the steep island breaks.",
+        "ice": "Perch school around the island shallows for anglers who reach them; mid-lake ice is unreliable, use caution."
+      },
+      "baits": [
+        {
+          "lure": "3.5in tube (crawfish colors)",
+          "presentation": "Dragged on island points and reef tops 10-30 ft",
+          "when": "Summer and fall smallmouth"
+        },
+        {
+          "lure": "Drop-shot with 4in finesse worm",
+          "presentation": "Worked vertically down the steep island breaks 20-45 ft",
+          "when": "Post-spawn through fall"
+        },
+        {
+          "lure": "Topwater popper or walking bait",
+          "presentation": "Over shoals at dawn before boat traffic",
+          "when": "Summer mornings"
+        },
+        {
+          "lure": "Trolled flutter spoon",
+          "presentation": "Rigger or lead core along the 60-100 ft channel edges",
+          "when": "Summer lakers"
+        }
+      ],
+      "nearestLaunch": "Norowal Marina (Bolton Landing)",
+      "sources": [
+        "https://www.visitlakegeorge.com/blog/post/fishing-hotspots-in-the-lake-george-area/",
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
+        "https://fishny.com/fall-bass-fishing-on-lake-george-ny/",
+        "https://fishingbooker.com/blog/lake-george-fishing/"
+      ],
+      "runMinutes": 12
+    },
+    {
+      "id": "shelving-rock-log-bay",
+      "name": "Shelving Rock & Log Bay",
+      "lat": 43.5555,
+      "lon": -73.6195,
+      "species": [
+        "smallmouth",
+        "largemouth",
+        "perch"
+      ],
+      "structure": "Rugged east-shore stretch at the south entrance to the Narrows; bouldery shoreline and 20-40 ft rock structure off Shelving Rock, with the shallow, sandy Log Bay flat and weed edges just south.",
+      "seasons": {
+        "spr": "Smallmouth move onto the gravel and boulder flats to spawn in late May-June; perch in Log Bay early.",
+        "sum": "Consistent smallmouth on 20-40 ft rock; largemouth on the Log Bay weed edges away from weekend traffic.",
+        "fall": "One of the better fall smallmouth banks; fish slide down the boulder breaks with the bait.",
+        "ice": "Perch over the Log Bay flat in early and late ice; main-lake edges here are less traveled."
+      },
+      "baits": [
+        {
+          "lure": "Ned rig",
+          "presentation": "Slow-dragged on boulder-to-gravel transitions 10-30 ft",
+          "when": "Summer and fall smallmouth"
+        },
+        {
+          "lure": "Wacky Senko",
+          "presentation": "Pitched to shoreline boulders and shade pockets",
+          "when": "June through summer"
+        },
+        {
+          "lure": "Squarebill or medium crankbait",
+          "presentation": "Banged off shallow rock early morning",
+          "when": "Fall feeding windows"
+        }
+      ],
+      "nearestLaunch": "Norowal Marina (Bolton Landing)",
+      "sources": [
+        "https://www.visitlakegeorge.com/blog/post/fishing-focus-lake-george-area-waters-teeming-with-bass/",
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
+        "https://www.lakegeorge.com/guides/fishing/popular-spots/"
+      ],
+      "runMinutes": 4
+    },
+    {
+      "id": "black-mountain-point",
+      "name": "Black Mountain Point",
+      "lat": 43.5981,
+      "lon": -73.5701,
+      "species": [
+        "laketrout",
+        "salmon",
+        "smallmouth"
+      ],
+      "structure": "East-shore point at the foot of Black Mountain in the north Narrows; very deep water tight to shore where the channel plunges past 100 ft, with rocky shelves and nearby St. Sacrement Island shoals.",
+      "seasons": {
+        "spr": "Salmon and lakers shallow along the point and island edges on smelt; flatline trolling close to the rocks.",
+        "sum": "Trolling lane: riggers 60-100 ft for lakers, 40-60 ft for salmon where deep water pinches against the point.",
+        "fall": "Lakers move up onto the point's rocky shelf to spawn in October; salmon aggressive high in the column."
+      },
+      "baits": [
+        {
+          "lure": "Sutton 88 or Mooselook Wobbler",
+          "presentation": "Flatline or planer board tight to the point, top 30 ft",
+          "when": "Spring; again late fall"
+        },
+        {
+          "lure": "Speedy Shiner",
+          "presentation": "Downrigger 60-90 ft along the channel edge",
+          "when": "Summer lakers"
+        },
+        {
+          "lure": "Jigging spoon or blade bait",
+          "presentation": "Vertical on fish graphed off the shelf 50-90 ft",
+          "when": "Summer and fall"
+        },
+        {
+          "lure": "Drop-shot smelt-profile plastic",
+          "presentation": "Rocky shelf edges 20-40 ft",
+          "when": "Summer smallmouth"
+        }
+      ],
+      "nearestLaunch": "Hulett's Landing (Island View Marina, east shore)",
+      "sources": [
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
+        "https://fishingbooker.com/blog/lake-george-fishing/",
+        "https://www.lakegeorge.com/guides/fishing/popular-spots/"
+      ],
+      "runMinutes": 15
+    },
+    {
+      "id": "sabbath-day-point",
+      "name": "Sabbath Day Point",
+      "lat": 43.667,
+      "lon": -73.508,
+      "species": [
+        "salmon",
+        "laketrout",
+        "smallmouth"
+      ],
+      "structure": "Long west-shore point south of Silver Bay where a shallow shelf juts into the deep northern basin; a natural trolling waypoint with 60-120 ft water a short cast from the shelf.",
+      "seasons": {
+        "spr": "Salmon patrol the shelf edge near the surface after ice-out; smelt-imitating trolling shines on calm mornings.",
+        "sum": "Riggers and lead core along the shelf-to-basin break: salmon 40-60 ft, lakers 60-100 ft; smallmouth on the point's rocks.",
+        "fall": "Salmon reappear on top chasing bait off the point; lakers stage on the shelf edge before spawning."
+      },
+      "baits": [
+        {
+          "lure": "DB Smelt or slender stickbait",
+          "presentation": "Planer-board troll in the top 20 ft off the shelf",
+          "when": "Spring and fall salmon"
+        },
+        {
+          "lure": "Streamer fly (Grey Ghost)",
+          "presentation": "Flatlined at speed behind the boat",
+          "when": "Ice-out through May"
+        },
+        {
+          "lure": "Flutter spoon on downrigger",
+          "presentation": "40-60 ft at the thermocline along the break",
+          "when": "Summer salmon"
+        },
+        {
+          "lure": "Tube jig",
+          "presentation": "Point rocks 15-30 ft",
+          "when": "Summer smallmouth"
+        }
+      ],
+      "nearestLaunch": "Rogers Rock State Campground Launch (Hague)",
+      "sources": [
+        "https://fishingbooker.com/blog/lake-george-fishing/",
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
+        "https://www.captjj.com/fish.htm"
+      ],
+      "runMinutes": 22
+    },
+    {
+      "id": "hague-silver-bay",
+      "name": "Hague & Silver Bay Deep Water",
+      "lat": 43.6961,
+      "lon": -73.4991,
+      "species": [
+        "laketrout",
+        "salmon",
+        "perch",
+        "smallmouth"
+      ],
+      "structure": "Deep northern-basin water off Silver Bay and Hague Brook mouth; steep shorelines into 100-150+ ft, a sunken island off Hague that holds winter perch, and weed beds near the Hague launch.",
+      "seasons": {
+        "spr": "Salmon concentrate near Hague Brook mouth on the smelt run; lakers shallow along the steep banks.",
+        "sum": "Outstanding deep-water trolling: lakers 60-100 ft, salmon 40-60 ft; smallmouth on shoreline rock and points.",
+        "fall": "Salmon stack near the brook mouth again; lakers move to spawning shoals in October.",
+        "ice": "One of the lake's best and least crowded ice areas: lakers in 70-150 ft, big perch schools on the sunken island."
+      },
+      "baits": [
+        {
+          "lure": "Flasher and fly or Speedy Shiner",
+          "presentation": "Downrigger troll 60-100 ft over the basin",
+          "when": "Summer lakers"
+        },
+        {
+          "lure": "Slender spoon or stickbait",
+          "presentation": "Top 20 ft near Hague Brook mouth",
+          "when": "Spring and fall salmon"
+        },
+        {
+          "lure": "Live sucker on tip-up",
+          "presentation": "Set near bottom in 70-100 ft off the steep bank",
+          "when": "Winter lakers"
+        },
+        {
+          "lure": "Small Swedish Pimple with spikes",
+          "presentation": "Ice jigging the sunken island 20-40 ft",
+          "when": "Winter perch"
+        }
+      ],
+      "nearestLaunch": "Rogers Rock State Campground Launch (Hague)",
+      "sources": [
+        "https://www.lakegeorge.com/guides/fishing/popular-spots/",
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
+        "https://www.catchmefishing.com/lake-george-ice-fishing/",
+        "https://www.northernlakegeorge.com/ice-fishing-on-lake-george-and-surrounding-area/"
+      ],
+      "runMinutes": 17
+    },
+    {
+      "id": "anthonys-nose-waltonian",
+      "name": "Anthony's Nose & Waltonian Islands",
+      "lat": 43.772,
+      "lon": -73.476,
+      "species": [
+        "smallmouth",
+        "laketrout",
+        "salmon"
+      ],
+      "structure": "Narrow channel where the Anthony's Nose cliff drops straight into deep water opposite Friends Point and the Waltonian Island shoals; nearby Indian Kettles has staircase rock structure stepping from 10 to 50 ft.",
+      "seasons": {
+        "spr": "Salmon troll the channel top-water after ice-out; smallmouth stage on the Waltonian shoals late spring.",
+        "sum": "Drop-shot the staircase ledges 15-45 ft for smallmouth; riggers pick up lakers and salmon in the pinched deep channel.",
+        "fall": "Excellent fall smallmouth on the ledge steps; lakers spawn on nearby rocky shoals."
+      },
+      "baits": [
+        {
+          "lure": "Drop-shot 4in worm",
+          "presentation": "Stepped down the staircase ledges 15-45 ft",
+          "when": "Summer and fall smallmouth"
+        },
+        {
+          "lure": "Suspending jerkbait",
+          "presentation": "Twitched over the island shoals",
+          "when": "Spring, pre-spawn"
+        },
+        {
+          "lure": "Flutter spoon on rigger",
+          "presentation": "50-90 ft through the deep channel",
+          "when": "Summer lakers and salmon"
+        }
+      ],
+      "nearestLaunch": "Rogers Rock State Campground Launch (Hague)",
+      "sources": [
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html",
+        "https://fishny.com/fall-bass-fishing-on-lake-george-ny/",
+        "https://fishingbooker.com/blog/lake-george-fishing/"
+      ],
+      "runMinutes": 3
+    },
+    {
+      "id": "rogers-rock",
+      "name": "Rogers Rock",
+      "lat": 43.7928,
+      "lon": -73.4615,
+      "species": [
+        "laketrout",
+        "smallmouth",
+        "salmon"
+      ],
+      "structure": "Sheer rock slide on the west shore near the north end; the cliff face continues underwater into very deep water, with boulder fields and 20-40 ft shelves flanking the slide. Adjacent DEC campground launch.",
+      "seasons": {
+        "spr": "Lakers and salmon shallow along the cliff and points; smallmouth move to boulder flats to spawn in June.",
+        "sum": "Drop-shot and tube the boulder shelves 20-40 ft for smallmouth; troll the cliff wall 60-100 ft for lakers.",
+        "fall": "Lakers spawn on rocky shoals near the rock in October; strong smallmouth bite on the deep boulder edges.",
+        "ice": "Quiet north-end hard water: lakers jigged in 70-150 ft between Rogers Rock and Ticonderoga, far less pressure than the south basin."
+      },
+      "baits": [
+        {
+          "lure": "Tube or drop-shot",
+          "presentation": "Boulder shelves and slide edges 15-40 ft",
+          "when": "Summer and fall smallmouth"
+        },
+        {
+          "lure": "Jigging Rap (white/glow)",
+          "presentation": "Vertical over 60-120 ft along the wall",
+          "when": "Summer, and winter through the ice"
+        },
+        {
+          "lure": "Speedy Shiner or smelt-pattern spoon",
+          "presentation": "Downrigger troll parallel to the cliff",
+          "when": "Summer lakers, spring salmon shallower"
+        },
+        {
+          "lure": "Live sucker on tip-up",
+          "presentation": "Near bottom in 70-100 ft",
+          "when": "Winter lakers"
+        }
+      ],
+      "nearestLaunch": "Rogers Rock State Campground Launch (Hague)",
+      "sources": [
+        "https://dec.ny.gov/places/lake-george",
+        "https://www.lakegeorge.com/guides/fishing/popular-spots/",
+        "https://www.catchmefishing.com/lake-george-ice-fishing/",
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html"
+      ],
+      "runMinutes": 4
+    },
+    {
+      "id": "weeds-bay-mossy-point",
+      "name": "Weeds Bay & Mossy Point North End",
+      "lat": 43.8012,
+      "lon": -73.4398,
+      "species": [
+        "pike",
+        "largemouth",
+        "perch"
+      ],
+      "structure": "Shallow, weedy north-end water between Weeds Bay and the Mossy Point launch toward the Ticonderoga outlet; extensive weed beds, Turtle Rocks shallows and soft-bottom flats, the lake's best-known pike water outside Northwest Bay.",
+      "seasons": {
+        "spr": "Pike flood the warming weed flats right after ice-out and post-spawn; best big-fish window of the year.",
+        "sum": "Largemouth in the thick weeds; pike on outer edges early and late; perch roam the flats.",
+        "fall": "Pike feed heavily along the dying weeds; bass group near remaining green vegetation and the outlet current.",
+        "ice": "Reliable early ice near Ticonderoga: pike on tip-ups over the weed flats, perch schools in 8-20 ft."
+      },
+      "baits": [
+        {
+          "lure": "Bass spinnerbait or small musky plug",
+          "presentation": "Cast across the weed beds, steady retrieve",
+          "when": "Spring and fall pike"
+        },
+        {
+          "lure": "Hollow frog or swim jig",
+          "presentation": "Over and through the thick summer weeds",
+          "when": "Summer largemouth"
+        },
+        {
+          "lure": "Large shiner or sucker",
+          "presentation": "Tip-up set just above the weed tops",
+          "when": "Winter pike"
+        },
+        {
+          "lure": "Small jigging spoon with minnow head",
+          "presentation": "Ice jigging 8-20 ft on the flats",
+          "when": "Winter perch"
+        }
+      ],
+      "nearestLaunch": "Mossy Point Public Boat Launch (Ticonderoga)",
+      "sources": [
+        "https://fishny.com/fall-bass-fishing-on-lake-george-ny/",
+        "https://www.lakegeorge.com/guides/fishing/popular-spots/",
+        "https://dec.ny.gov/places/lake-george",
+        "https://www.bestfishinginamerica.com/new-york-lake-george-fishing.html"
+      ],
+      "runMinutes": 4
+    }
+  ]
+}

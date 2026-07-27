@@ -58,6 +58,30 @@ export const SPECIES: Record<SpeciesId, SpeciesMeta> = {
     dot: "bg-species-perch",
     pin: "#a16207",
   },
+  laketrout: {
+    id: "laketrout",
+    label: "Lake Trout",
+    short: "Laker",
+    chip: "bg-species-laketrout/12 text-species-laketrout border-species-laketrout/25",
+    dot: "bg-species-laketrout",
+    pin: "#0891b2",
+  },
+  salmon: {
+    id: "salmon",
+    label: "Landlocked Salmon",
+    short: "Salmon",
+    chip: "bg-species-salmon/12 text-species-salmon border-species-salmon/25",
+    dot: "bg-species-salmon",
+    pin: "#e0447f",
+  },
+  crappie: {
+    id: "crappie",
+    label: "Black Crappie",
+    short: "Crappie",
+    chip: "bg-species-crappie/12 text-species-crappie border-species-crappie/25",
+    dot: "bg-species-crappie",
+    pin: "#7e22ce",
+  },
 };
 
 export const SPECIES_IDS = Object.keys(SPECIES) as SpeciesId[];

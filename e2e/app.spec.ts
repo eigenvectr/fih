@@ -1,8 +1,10 @@
 import { test, expect } from "@playwright/test";
 
-test("waters index links to the St. Lawrence page", async ({ page }) => {
+test("waters index lists all waters and links to the St. Lawrence page", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "fih" })).toBeVisible();
+  await expect(page.getByRole("link", { name: /Lake George/ })).toBeVisible();
+  await expect(page.getByRole("link", { name: /Saratoga Lake/ })).toBeVisible();
   await page.getByRole("link", { name: /St\. Lawrence River/ }).click();
   await expect(
     page.getByRole("heading", { name: "St. Lawrence River" }),
@@ -65,6 +67,18 @@ test("log entry saves, survives reload, and exports valid JSON", async ({
   expect(parsed.entries).toHaveLength(1);
   expect(parsed.entries[0].species).toBe("smallmouth");
   expect(parsed.entries[0].lengthIn).toBe(19.5);
+});
+
+test("Lake George and Saratoga pages render spots and launches", async ({ page }) => {
+  await page.goto("/water/lake-george");
+  const lgList = page.getByRole("list", { name: "Spots" });
+  await expect(lgList.getByText(/Northwest Bay/).first()).toBeVisible();
+  await expect(page.getByRole("button", { name: "Laker", exact: true })).toBeVisible();
+
+  await page.goto("/water/saratoga-lake");
+  const slList = page.getByRole("list", { name: "Spots" });
+  await expect(slList.getByText(/Snake Hill/).first()).toBeVisible();
+  await expect(page.getByRole("button", { name: "Crappie", exact: true })).toBeVisible();
 });
 
 test("locate-me shows current position on the map", async ({ page, context }) => {
