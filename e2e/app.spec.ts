@@ -10,7 +10,9 @@ test("waters index lists all waters and links to the St. Lawrence page", async (
     page.getByRole("heading", { name: "St. Lawrence River" }),
   ).toBeVisible();
   await expect(page.getByText("Spots · nearest first")).toBeVisible();
-  await expect(page.getByRole("button", { name: /Tibbetts Point/ })).toBeVisible();
+  await expect(
+    page.getByRole("list", { name: "Spots" }).getByRole("button", { name: /Tibbetts Point/ }),
+  ).toBeVisible();
 });
 
 test("species filter narrows the spot list", async ({ page }) => {
