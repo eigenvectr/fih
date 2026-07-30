@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ChevronRight, MapPin, Anchor } from "lucide-react";
+import { ChevronRight, MapPin, Anchor, Ship } from "lucide-react";
 import { getWaters } from "@/lib/waters";
 import { SpeciesChip } from "@/components/ui/SpeciesChip";
 import { ThemeToggle } from "@/components/ThemeToggle";
@@ -53,6 +53,27 @@ export default function WatersPage() {
           </li>
         ))}
       </ul>
+
+      <h2 className="mt-8 mb-3 text-xs font-semibold uppercase tracking-wider text-ink-faint">
+        The boat hunt
+      </h2>
+      <Link
+        href="/boat-report"
+        className="group block rounded-xl border border-line bg-surface p-4 transition-colors hover:border-accent/40"
+      >
+        <div className="flex items-center justify-between">
+          <div>
+            <h3 className="flex items-center gap-2 text-base font-semibold">
+              <Ship className="h-4 w-4 text-accent" />
+              Buyers report · 2018 Alumacraft Pro 185
+            </h3>
+            <p className="mt-0.5 text-xs text-ink-muted">
+              $18,995 at CR&apos;s Marine — read this before we shake hands
+            </p>
+          </div>
+          <ChevronRight className="h-5 w-5 text-ink-faint transition-transform group-hover:translate-x-0.5" />
+        </div>
+      </Link>
 
       <p className="mt-8 text-xs leading-relaxed text-ink-faint">
         More NYS waters (Champlain, Oneida, Lake George…) are a data file away —
