@@ -10,7 +10,6 @@ import {
   HelpCircle,
   Package,
   Scale,
-  Ship,
   ShieldAlert,
   ThumbsDown,
   ThumbsUp,
@@ -372,40 +371,6 @@ export default function BoatReportPage() {
           />
         ))}
       </div>
-
-      {/* verdict */}
-      <section className="mt-6 rounded-xl border border-accent/40 bg-accent/5 p-4">
-        <h2 className="flex items-center gap-2 text-sm font-semibold">
-          <Ship className="h-4 w-4 text-accent" />
-          The short version, Dad
-        </h2>
-        <p className="mt-2 text-sm leading-relaxed">
-          This is a <strong>good boat at a fair-looking price</strong> for how we mostly fish —
-          bass and the Hudson — and the trolling-motor-and-electronics package alone is worth
-          roughly $5,000. But three things before any money moves:
-        </p>
-        <ol className="mt-3 space-y-2 text-sm leading-relaxed">
-          <li>
-            <strong>1. It&apos;s almost certainly a 115, not a 150</strong>{" — "}the listing says both,
-            the photos say 115, and Alumacraft caps this hull at 115 hp. Real top speed is
-            low-to-mid 40s, not 57. Still twice the Mirrocraft, but let&apos;s want it for the
-            right reasons.
-          </li>
-          <li>
-            <strong>2. Evinrude is out of business</strong>{" — "}parts into about 2030, fewer
-            mechanics every year. That&apos;s why it&apos;s priced under a Yamaha rig, and it&apos;ll
-            follow the boat when we sell.
-          </li>
-          <li>
-            <strong>3. It sat</strong>{" — "}72.5 hours in eight years. Fine if it stored well;
-            we verify with a water test and an engine computer readout, not the dealer&apos;s word.
-          </li>
-        </ol>
-        <p className="mt-3 text-sm leading-relaxed text-ink-muted">
-          Worth pursuing if the water test is clean and the price reflects the 115 and the
-          orphaned motor. Walk-away-happy number: something under $18,000.
-        </p>
-      </section>
 
       {/* the deal */}
       <section className="mt-8">
