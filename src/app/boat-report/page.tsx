@@ -280,19 +280,6 @@ const QUESTIONS = [
   "Any warranty at all, and will you hold it with a refundable deposit pending a water test?",
 ];
 
-const CHECKLIST = [
-  "Water test — non-negotiable. Wide open it should pull rated max RPM and land in the low-to-mid 40s. If it won't rev out, walk until you know why.",
-  "Watch the very first cold start of the day. An E-TEC should light off quickly without long cranking.",
-  "Pay your own mechanic for a compression/spark check and the EMM download — not the dealer's.",
-  "Sight down the hull bottom for hook or dents; check rivet lines and seams for weeping streaks; look inside lockers for water stains.",
-  "Grab the lower unit and push hard — the transom shouldn't flex or creak.",
-  "Run every switch: livewells, aerators, bilge, nav lights, gauges, horn.",
-  "Look at the battery terminals — proper nuts and clean lugs, not wing nuts. Loose connections cause voltage spikes that kill the E-TEC's $3,000 EMM computer.",
-  "Cycle the Ulterra: deploy, stow, Spot-Lock, all speeds.",
-  "Trailer: read the tire date codes (trailer tires age out before they wear out), spin the hubs, test lights and winch.",
-  "Walk the whole deck slowly, feeling for soft spots in the floor.",
-];
-
 const SOURCES: { label: string; url: string }[] = [
   { label: "Alumacraft Pro 185 factory specs (115 hp max)", url: "https://alumacraft.com/Alumacraft-Boat.php?id=745" },
   { label: "Alumacraft construction — riveted 2XB hull", url: "https://alumacraft.com/About-Alumacraft.php?content=construction" },
@@ -607,15 +594,17 @@ export default function BoatReportPage() {
 
       {/* checklist */}
       <section className="mt-8">
-        <SectionHeading icon={ClipboardList}>Inspection-day checklist</SectionHeading>
-        <ul className="space-y-2">
-          {CHECKLIST.map((c) => (
-            <li key={c} className="flex gap-2.5 rounded-xl border border-line bg-surface p-3.5 text-sm leading-relaxed">
-              <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-ink-faint" />
-              {c}
-            </li>
-          ))}
-        </ul>
+        <SectionHeading icon={ClipboardList}>Inspection day</SectionHeading>
+        <Link
+          href="/boat-report/inspect"
+          className="group block rounded-xl border border-line bg-surface p-4 transition-colors hover:border-accent/40"
+        >
+          <p className="text-sm font-semibold">Open the on-the-lot checklist</p>
+          <p className="mt-1 text-sm leading-relaxed text-ink-muted">
+            17 checks with what good and bad look like for each — engine, hull, transom,
+            systems, trailer, paperwork. Checkboxes save on your phone as you go.
+          </p>
+        </Link>
       </section>
 
       {/* bottom line */}
