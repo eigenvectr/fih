@@ -109,9 +109,9 @@ const FIT: { title: string; grade: Grade; body: string }[] = [
 
 const RED_FLAGS: { title: string; severity: "high" | "medium"; body: string }[] = [
   {
-    title: "The listing contradicts itself on the engine — 115 or 150 hp?",
+    title: "The listing contradicts itself on the engine — 115 or 150 hp? (RESOLVED: it's the 115)",
     severity: "high",
-    body: "The dealer's own description says \"115 Evinrude.\" The spec table on the same listing says a 150 hp E150. The photos show an E-TEC H.O. cowl, and in one garage photo the cowl clearly reads 115. Here's the tiebreaker: Alumacraft rates the Pro 185 hull for a maximum of 115 hp. So expect the E-TEC 115 H.O. — a strong motor, but not a 150. Read the engine model number off the transom bracket and check the USCG capacity plate on the hull before you talk price; if a 150 really is bolted on, the boat is overpowered, which is its own insurance and resale problem.",
+    body: "The dealer's description said \"115 Evinrude\" while the spec table on the same listing claimed a 150 hp E150. Confirmed in person August 2026: it's the E-TEC 115 H.O., correctly matched to the hull's 115 hp max rating. The spec table was simply wrong — which means the listing advertised 35 more horsepower than the boat has. That's the strongest single price lever in the negotiation.",
   },
   {
     title: "Evinrude no longer exists",
@@ -416,12 +416,10 @@ export default function BoatReportPage() {
             </table>
           </div>
           <p className="mt-3 text-sm leading-relaxed text-ink-muted">
-            Realistic expectation with the 115 H.O.: <strong className="text-ink">41–45 mph</strong>{" "}
-            lightly loaded. And here&apos;s the catch-22: if it somehow really does carry a 150,
-            low-50s is possible — but then the boat is powered beyond its 115 hp hull rating, which
-            is an insurance and resale problem, not a selling point. Either way, mid-40s is still a
-            fast, fun boat — roughly double the old Mirrocraft — and about as fast as an open
-            18-foot aluminum boat should go with family aboard.
+            <strong className="text-ink">Confirmed at inspection: it&apos;s the 115 H.O.</strong>{" "}
+            Realistic expectation: <strong className="text-ink">41–45 mph</strong> lightly loaded.
+            That&apos;s still a fast, fun boat — roughly double the old Mirrocraft — and about as
+            fast as an open 18-foot aluminum boat should go with family aboard.
           </p>
         </div>
       </section>
@@ -595,16 +593,28 @@ export default function BoatReportPage() {
       {/* checklist */}
       <section className="mt-8">
         <SectionHeading icon={ClipboardList}>Inspection day</SectionHeading>
-        <Link
-          href="/boat-report/inspect"
-          className="group block rounded-xl border border-line bg-surface p-4 transition-colors hover:border-accent/40"
-        >
-          <p className="text-sm font-semibold">Open the on-the-lot checklist</p>
-          <p className="mt-1 text-sm leading-relaxed text-ink-muted">
-            17 checks with what good and bad look like for each — engine, hull, transom,
-            systems, trailer, paperwork. Checkboxes save on your phone as you go.
-          </p>
-        </Link>
+        <div className="space-y-2">
+          <Link
+            href="/boat-report/inspect"
+            className="group block rounded-xl border border-line bg-surface p-4 transition-colors hover:border-accent/40"
+          >
+            <p className="text-sm font-semibold">Open the on-the-lot checklist</p>
+            <p className="mt-1 text-sm leading-relaxed text-ink-muted">
+              17 checks with what good and bad look like for each — engine, hull, transom,
+              systems, trailer, paperwork. Checkboxes save on your phone as you go.
+            </p>
+          </Link>
+          <Link
+            href="/boat-report/findings"
+            className="group block rounded-xl border border-line bg-surface p-4 transition-colors hover:border-accent/40"
+          >
+            <p className="text-sm font-semibold">Inspection findings — what we found in person</p>
+            <p className="mt-1 text-sm leading-relaxed text-ink-muted">
+              Photos, verdicts, and fixes from the lot visit: engine confirmed a 115 H.O.,
+              the peeling console with a restoration guide, and an owner&apos;s quick reference.
+            </p>
+          </Link>
+        </div>
       </section>
 
       {/* bottom line */}
