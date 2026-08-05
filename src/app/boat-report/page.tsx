@@ -469,22 +469,25 @@ export default function BoatReportPage() {
         <SectionHeading icon={BadgeDollarSign}>Is $18,995 a fair price?</SectionHeading>
         <div className="rounded-xl border border-line bg-surface p-4 text-sm leading-relaxed">
           <p>
-            Yes — fair, maybe slightly under, <em>for what it is</em>. This boat listed around
-            $21,500 new in 2019. An equivalent low-hour aluminum rig with a Mercury or Yamaha on
-            the back and this same electronics package typically asks $22k–28k today; the gap is
-            the Evinrude discount, and it&apos;s real. The ~$5,000 of extras (Ulterra, Helix,
-            aluminum trailer, new cover) do honest work for the asking price.
+            <strong>No — as inspected, it&apos;s overpriced by roughly $2,500–4,500.</strong>{" "}
+            Full market re-check (August 2026) with live comps: a 2018 Tracker Pro Team 190 TX
+            with a 70-hour <em>Mercury 115 Pro XS</em> — a supported engine — asks $18,495, and a
+            garage-kept 2020 Pro 185 with a live Yamaha asks $20,995. This boat carries a dead
+            brand (forum consensus: E-TEC rigs take a 10–20% discount and are hard to resell),
+            stored outside, has zero service records, and was advertised with 35 more horsepower
+            than it has. Fair retail as it sits: <strong>$14,500–16,500</strong>. The Ulterra
+            package and new batteries are why it holds the top of that range.
           </p>
           <p className="mt-2 text-ink-muted">
-            <strong className="text-ink">Updated after the in-person inspection:</strong> the
-            listing advertised 150 hp on a confirmed 115 boat, it stored outside (peeling console,
-            cracked rigging boot, seat seams), and the impeller history is unknown — but batteries
-            are new, tires are good, and the fuel system checked out. As-inspected fair retail
-            is <strong className="text-ink">about $17,500</strong> with the seats repaired.
-            Target: <strong className="text-ink">$17,000–17,500 with seat repair, impeller, and
-            rigging boot written into the buyer&apos;s order</strong>, still contingent on a clean
-            EMM report and a water test reaching full rated RPM. The Evinrude discount you get
-            today, you give back at resale.
+            <strong className="text-ink">The play:</strong> target{" "}
+            <strong className="text-ink">$15,500–16,500</strong>, with seat repair, impeller
+            service, and the rigging boot written into the buyer&apos;s order — contingent on an
+            EMM diagnostic pull (by an independent E-TEC tech if the dealer can&apos;t do it; on a
+            no-records consignment boat the EMM is the only service history that exists) and a
+            water test reaching full rated RPM. It&apos;s a consignment: the dealer has room to
+            bring the owner down. And negotiate the <em>net difference</em> after the $5,500
+            trade, not the sticker — a fair net is $10,000–11,000, not $13,495. The Evinrude
+            discount you get today, you give back at resale.
           </p>
         </div>
       </section>

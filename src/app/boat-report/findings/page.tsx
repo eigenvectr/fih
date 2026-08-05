@@ -37,6 +37,11 @@ const CONFIRMED: { label: string; detail: string }[] = [
     detail:
       "Confirmed at the lot: fresh batteries (a $400–800 risk off the table) and trailer tires in good shape. The fuel line and primer bulb also checked out fine once wiped down. Real points in the boat's favor.",
   },
+  {
+    label: "No service records exist — and the dealer can't fill the gap",
+    detail:
+      "It's a consignment: one Vermont owner dropped it off, the dealer has no history, no impeller record, and no Evinrude service capability in-house. That makes the EMM diagnostic pull (independent E-TEC tech if needed) the only service history this boat will ever have — non-negotiable before money moves, and a legitimate reason the price should sit below supported-brand comps.",
+  },
 ];
 
 type Verdict = "cosmetic" | "minor" | "monitor" | "good";
