@@ -129,9 +129,9 @@ const RED_FLAGS: { title: string; severity: "high" | "medium"; body: string }[] 
     body: "The hull wears VT numbers (VT 9351U) — likely a Lake Champlain freshwater boat, which is good. But it's a resale, so verify the paper trail: title matches the HIN (ACBW8951F718), no liens, and ask point-blank whether it has ever seen salt water.",
   },
   {
-    title: "Nobody mentioned the batteries",
+    title: "Nobody mentioned the batteries (RESOLVED: they're new)",
     severity: "medium",
-    body: "The Ulterra needs two deep-cycle batteries plus a starting battery. If they're 2018 originals, budget $400–800 to replace them soon — and for all-day trolling at trout speeds, plan on a 24V lithium setup eventually; two tired lead-acids can die in under four hours at higher power levels. Ask what's aboard, how old, and whether there's an onboard charger.",
+    body: "Confirmed at inspection: the batteries are new — a $400–800 risk off the table. Still open on the same theme: no service record for the water pump impeller, which is the rubber part that dies from sitting and keeps the engine (and its $3,000 EMM) cool. Ask for the record or have replacement (~$200–250) written into the deal. For all-day trolling at trout speeds, a 24V lithium upgrade is still the eventual answer.",
   },
 ];
 
@@ -476,11 +476,15 @@ export default function BoatReportPage() {
             aluminum trailer, new cover) do honest work for the asking price.
           </p>
           <p className="mt-2 text-ink-muted">
-            Negotiation angles: the listing&apos;s own 115-vs-150 confusion, unverified hours,
-            eight-year-old batteries, and the orphaned brand. A reasonable opening offer is{" "}
-            <strong className="text-ink">$16,500–17,500, contingent on a clean EMM report,
-            compression test, and water test</strong>. At full ask it should pass everything
-            perfectly — remember the Evinrude discount you get today, you give back at resale.
+            <strong className="text-ink">Updated after the in-person inspection:</strong> the
+            listing advertised 150 hp on a confirmed 115 boat, it stored outside (peeling console,
+            cracked rigging boot, seat seams), and the impeller history is unknown — but batteries
+            are new, tires are good, and the fuel system checked out. As-inspected fair retail
+            is <strong className="text-ink">about $17,500</strong> with the seats repaired.
+            Target: <strong className="text-ink">$17,000–17,500 with seat repair, impeller, and
+            rigging boot written into the buyer&apos;s order</strong>, still contingent on a clean
+            EMM report and a water test reaching full rated RPM. The Evinrude discount you get
+            today, you give back at resale.
           </p>
         </div>
       </section>

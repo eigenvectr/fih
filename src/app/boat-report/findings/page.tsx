@@ -30,7 +30,12 @@ const CONFIRMED: { label: string; detail: string }[] = [
   {
     label: "Storage: outdoors, uncovered, for years",
     detail:
-      "The pattern is unmistakable — cracked rigging boot, mildewed fuel line, peeling console finish, hazed screen, and a brand-new mooring cover in the deal. Explains both the low hours and the cosmetic wear.",
+      "The pattern is unmistakable — cracked rigging boot, peeling console finish, hazed screen, seat seams letting go, and a brand-new mooring cover in the deal. Explains both the low hours and the cosmetic wear.",
+  },
+  {
+    label: "Batteries: new — and trailer tires check out",
+    detail:
+      "Confirmed at the lot: fresh batteries (a $400–800 risk off the table) and trailer tires in good shape. The fuel line and primer bulb also checked out fine once wiped down. Real points in the boat's favor.",
   },
 ];
 
@@ -80,12 +85,20 @@ const FINDINGS: {
     fix: "Try 50/50 distilled water and white vinegar on a microfiber first, gentle passes only — no ammonia cleaners, no abrasives on a coated screen. If the coating itself is gone, live with it or replace the unit (~$200 used). Details in the restoration guide.",
   },
   {
-    title: "Rigging boot cracked, clamp broken, fuel line mildewed",
+    title: "Rigging boot cracked, clamp broken",
     verdict: "minor",
     photo: "/boat/rigging.jpg",
     alt: "Rigging tube entering the engine with cracked boot, and the fuel line with primer bulb",
-    what: "The big ribbed tube is the rigging conduit — battery cables, harness, and control lines running into the engine. Its rubber entry boot has split and the clamp failed, letting rain at the wiring. The fuel line is proper 3/8\" SAE J30R9 (good), but the primer bulb shows its age.",
-    fix: "Boot and clamp: $20–60 part, easy swap — but first check the connectors under the cowl for corrosion (corroded connections are what kill the $3,000 EMM). Fuel line + bulb: replace the whole assembly, $30–40. Both were asked of the dealer before delivery.",
+    what: "The big ribbed tube is the rigging conduit — battery cables, harness, and control lines running into the engine. Its rubber entry boot has split and the clamp failed, letting rain at the wiring. The fuel line alongside it is proper 3/8\" SAE J30R9 and checked out fine — surface mildew wiped off, bulb pumps firm.",
+    fix: "Boot and clamp: $20–60 part, easy swap — but first check the connectors under the cowl for corrosion (corroded connections are what kill the $3,000 EMM). On the dealer's before-delivery list.",
+  },
+  {
+    title: "Seat seams splitting (vinyl itself is good)",
+    verdict: "minor",
+    photo: "/boat/console.jpg",
+    alt: "Console area of the boat whose seats show seam separation",
+    what: "Stitching letting go at the seams while the vinyl stays supple — classic outdoor storage, since UV kills the thread years before the vinyl. This is the cheap version of seat damage: re-stitching, not replacement.",
+    fix: "Upholstery shop re-stitch runs roughly $50–150 per seat versus ~$1,000 for new seats. Dealer offered to \"talk to their upholstery guy\" — convert that to writing on the buyer's order: seats repaired before delivery, or a firm $300–400 credit.",
   },
   {
     title: "Sealant squeeze-out at the engine mount",
