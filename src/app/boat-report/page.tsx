@@ -349,6 +349,23 @@ export default function BoatReportPage() {
         <ThemeToggle />
       </header>
 
+      {/* quick nav */}
+      <nav className="mb-4 grid grid-cols-3 gap-2">
+        {[
+          { href: "/boat-report/findings", label: "Findings" },
+          { href: "/boat-report/deal", label: "Deal day" },
+          { href: "/boat-report/inspect", label: "Checklist" },
+        ].map((l) => (
+          <Link
+            key={l.href}
+            href={l.href}
+            className="rounded-xl border border-line bg-surface py-2.5 text-center text-sm font-semibold transition-colors hover:border-accent/40 hover:text-accent"
+          >
+            {l.label}
+          </Link>
+        ))}
+      </nav>
+
       {/* photos */}
       <div className="grid grid-cols-2 gap-2">
         {PHOTOS.map((p) => (
