@@ -42,9 +42,9 @@ const MATH: string[] = [
 
 const SEQUENCE: { step: string; detail: string }[] = [
   {
-    step: "Present the trade first — with the crack disclosure up front.",
+    step: "Present the trade first — crack disclosure and the Garmin exclusion in the same breath.",
     detail:
-      "\"One thing to know — small crack near the bottom seam, been there a while, never leaked on us. Wanted you to see it rather than find it.\" Your credibility is your whole position; spend $0–500 of allowance to keep it.",
+      "\"Two things — small crack near the bottom seam, been there a while, never leaked; and we're keeping the Garmin electronics, the trade is without them. Your guys will move them over for us.\" His appraisal starts on the right basis, your credibility stays intact, and the transfer enters the deal as a given.",
   },
   {
     step: "Get HIS trade number before any boat-price talk.",
@@ -69,7 +69,7 @@ const SEQUENCE: { step: string; detail: string }[] = [
   {
     step: "Everything on the buyer's order in writing.",
     detail:
-      "Itemized OTD (price, trade, tax, every fee), the work items, the remote, and \"deposit refundable pending water test and EMM report.\" Verbal promises are decoration; the buyer's order is the deal.",
+      "Itemized OTD (price, trade, tax, every fee), the work items, the remote, and: \"Dealer to transfer buyer's Garmin unit, transducer, and mount to new boat — installed, wired, and water-tested — at no charge, before delivery.\" Plus \"deposit refundable pending water test and EMM report.\" Verbal promises are decoration; the buyer's order is the deal. And the Helix stays with the boat — bow-mount it or sell it, it's yours.",
   },
 ];
 
