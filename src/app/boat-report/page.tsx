@@ -47,23 +47,27 @@ const SPECS: [string, string][] = [
 const INCLUDED: { item: string; note: string }[] = [
   {
     item: "Minn Kota Ulterra 24V bow mount",
-    note: "Auto stow/deploy with Spot-Lock — about $3,000–3,500 to buy new. The single best fishing feature on this rig. Note it's the freshwater model, not the saltwater Riptide.",
+    note: "Auto stow/deploy with Spot-Lock — about $3,000–3,500 to buy new, $1,500–2,000 used. The single best fishing feature on this rig. Freshwater model, not the saltwater Riptide — and the i-Pilot remote is missing (get it found or a $250 credit).",
   },
   {
-    item: "Humminbird Helix GPS/fishfinder at the dash",
-    note: "Model number unstated — worth $400–1,500 depending on screen size and sonar. Ask which one it is.",
+    item: "Humminbird Helix 7 CHIRP G2 at the dash",
+    note: "Confirmed at inspection — the smaller, older end of the Helix line, roughly $150–250 used. Works fine; screen is sun-hazed (see findings).",
+  },
+  {
+    item: "New batteries + onboard charger",
+    note: "Two Interstate SRM-27 deep-cycles on proper terminals with a built-in charger — confirmed at inspection. A $400–800 risk taken off the table.",
   },
   {
     item: "Load Rite aluminum trailer",
-    note: "Side guides and a spare. Aluminum frame is genuinely good news for the Connecticut plan — it shrugs off salt ramps far better than painted steel.",
+    note: "Side guides, spare tire, and transom tie-down straps; tires check out. Aluminum frame is genuinely good news for the Connecticut plan — it shrugs off salt ramps far better than painted steel.",
   },
   {
     item: "Brand-new mooring cover",
-    note: "A few hundred dollars of value, and it means the boat can live outside covered.",
+    note: "A few hundred dollars of value — and a quiet tell: it's new because the boat lived outside without one.",
   },
   {
-    item: "Stainless steel 3-blade prop",
-    note: "An upgrade over aluminum — but confirm it lets the engine reach full rated RPM at the water test.",
+    item: "4-blade stainless prop (listing said 3-blade)",
+    note: "Confirmed at inspection: clean 4-blade stainless, looks barely used — the better fishing prop. Still confirm it lets the engine reach full rated RPM at the water test.",
   },
 ];
 
