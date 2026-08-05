@@ -38,9 +38,9 @@ const CONFIRMED: { label: string; detail: string }[] = [
       "Confirmed at the lot: fresh batteries (a $400–800 risk off the table) and trailer tires in good shape. The fuel line and primer bulb also checked out fine once wiped down. Real points in the boat's favor.",
   },
   {
-    label: "No service records exist — and the dealer can't fill the gap",
+    label: "No service records exist — but the dealer can pull the EMM",
     detail:
-      "It's a consignment: one Vermont owner dropped it off, the dealer has no history, no impeller record, and no Evinrude service capability in-house. That makes the EMM diagnostic pull (independent E-TEC tech if needed) the only service history this boat will ever have — non-negotiable before money moves, and a legitimate reason the price should sit below supported-brand comps.",
+      "One Vermont owner, no paperwork, no impeller record — the EMM diagnostic report is the only service history this boat will ever have, so it's non-negotiable before money moves. The dealer (now the owner of the boat) does service Evinrudes in-house: they can pull the report and run a compression check themselves, and their shop being 15 minutes away is a genuine plus for owning an orphaned-brand motor.",
   },
 ];
 
