@@ -625,6 +625,16 @@ export default function BoatReportPage() {
               the peeling console with a restoration guide, and an owner&apos;s quick reference.
             </p>
           </Link>
+          <Link
+            href="/boat-report/deal"
+            className="group block rounded-xl border border-line bg-surface p-4 transition-colors hover:border-accent/40"
+          >
+            <p className="text-sm font-semibold">Deal day playbook</p>
+            <p className="mt-1 text-sm leading-relaxed text-ink-muted">
+              The numbers to hold, the negotiation sequence, your leverage list, lines for the
+              hard moments, and the walk protocol.
+            </p>
+          </Link>
         </div>
       </section>
 
