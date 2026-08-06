@@ -13,9 +13,9 @@ export const metadata = {
 
 const CONFIRMED: { label: string; detail: string }[] = [
   {
-    label: "Engine: Evinrude E-TEC 115 H.O. — confirmed",
+    label: "Engine: Evinrude E-TEC 115 H.O. — confirmed, likely G1",
     detail:
-      "Settles the listing's 115-vs-150 contradiction. The spec table was wrong; the hull's 115 hp max rating is matched correctly. Realistic top speed is low-to-mid 40s.",
+      "Settles the listing's 115-vs-150 contradiction; the hull's 115 hp max rating is matched correctly. Cowl styling says G1 (1.7L V4, built 2004–2020) rather than the newer G2 3-cylinder — mildly good news: longest parts run and simplest rigging of anything Evinrude made. Confirm by counting spark plugs (4 = G1, 3 = G2). Realistic top speed low-to-mid 40s; WOT target 5,500–6,000 RPM.",
   },
   {
     label: "Prop: 4-blade stainless, clean",
