@@ -38,9 +38,9 @@ const CONFIRMED: { label: string; detail: string }[] = [
       "Confirmed at the lot: fresh batteries (a $400–800 risk off the table) and trailer tires in good shape. The fuel line and primer bulb also checked out fine once wiped down. Real points in the boat's favor.",
   },
   {
-    label: "No service records exist — but the dealer can pull the EMM",
+    label: "EMM report pulled — the engine's history checks out",
     detail:
-      "One Vermont owner, no paperwork, no impeller record — the EMM diagnostic report is the only service history this boat will ever have, so it's non-negotiable before money moves. The dealer (now the owner of the boat) does service Evinrudes in-house: they can pull the report and run a compression check themselves, and their shop being 15 minutes away is a genuine plus for owning an orphaned-brand motor.",
+      "Hours verified at 72:31 (the ad was honest). No active faults. Never overheated in its life (max 196°F, alarm threshold ~211°F, zero overheat codes). Winterization routine logged 9 times — put away properly every season despite living outside. Max RPM ever 6,243, so it revs out. Histogram shows a troller's life: ~61% at/below 1,600 RPM, ~17% at full load. Injector data confirms G1 V4, 2017-built for model year 2018. Two shop questions remain: early-life Code 38 oil-feedback faults (12×, all in the first 19 hours, none in the 53 hours since — likely initial oil-line priming) and nuisance TPS Code 11s (last one 33 engine-hours ago). Still owed: compression check and the water test — the EMM knows history, not present cylinder condition.",
   },
 ];
 
