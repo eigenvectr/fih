@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, CheckCircle2, Search, Paintbrush, Wrench } from "lucide-react";
+import { ArrowLeft, CheckCircle2, Cpu, Search, Paintbrush, Wrench } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
 export const metadata = {
@@ -13,9 +13,9 @@ export const metadata = {
 
 const CONFIRMED: { label: string; detail: string }[] = [
   {
-    label: "Engine: Evinrude E-TEC 115 H.O. — confirmed, likely G1",
+    label: "Engine: Evinrude E-TEC 115 H.O. G1 — confirmed twice over",
     detail:
-      "Settles the listing's 115-vs-150 contradiction; the hull's 115 hp max rating is matched correctly. Cowl styling says G1 (1.7L V4, built 2004–2020) rather than the newer G2 3-cylinder — mildly good news: longest parts run and simplest rigging of anything Evinrude made. Confirm by counting spark plugs (4 = G1, 3 = G2). Realistic top speed low-to-mid 40s; WOT target 5,500–6,000 RPM.",
+      "Settles the listing's 115-vs-150 contradiction; the hull's 115 hp max rating is matched correctly. The EMM report's model code (A115GHLAFI) and four cylinders of injector data confirm the G1 1.7L V4, built late 2017 for model year 2018 — good news: longest parts run and simplest rigging of anything Evinrude made. Realistic top speed low-to-mid 40s; WOT target 5,500–6,000 RPM.",
   },
   {
     label: "Prop: 4-blade stainless, clean",
@@ -41,6 +41,42 @@ const CONFIRMED: { label: string; detail: string }[] = [
     label: "EMM report pulled — the engine's history checks out",
     detail:
       "Hours verified at 72:31 (the ad was honest). No active faults. Never overheated in its life (max 196°F, alarm threshold ~211°F, zero overheat codes). Winterization routine logged 9 times — put away properly every season despite living outside. Max RPM ever 6,243, so it revs out. Histogram shows a troller's life: ~61% at/below 1,600 RPM, ~17% at full load. Injector data confirms G1 V4, 2017-built for model year 2018. Two shop questions remain: early-life Code 38 oil-feedback faults (12×, all in the first 19 hours, none in the 53 hours since — likely initial oil-line priming) and nuisance TPS Code 11s (last one 33 engine-hours ago). Still owed: compression check and the water test — the EMM knows history, not present cylinder condition.",
+  },
+];
+
+const EMM_ROWS: [string, string, string][] = [
+  ["Model code", "A115GHLAFI", "G1 E-TEC 115 H.O., 20\" shaft — the engine it's supposed to be"],
+  ["Engine hours", "72:31:22", "Ad claimed 72.5 — the hours are TRUE"],
+  ["Max RPM ever", "6,243", "Revs past 6,000: healthy breathing, prop pitch right"],
+  ["Max head temps", "192 / 196°F", "Alarm is ~211°F — never overheated once, zero overheat codes"],
+  ["EMM max temp", "144.5°F", "The $3k computer has lived cool its whole life"],
+  ["Start cycles", "524", "~7 starts per running hour — normal fishing duty"],
+  ["Oil setting", "XD100", "Programmed for the premium synthetic — keep using it"],
+  ["Break-in", "Completed", "Done by the book"],
+  ["Current faults", "None", "Nothing wrong right now that the computer can see"],
+  ["Record status", "Initial pull", "First report ever — the hour counter was never reset"],
+];
+
+const EMM_CODES: { code: string; verdict: string; body: string }[] = [
+  {
+    code: "Code 21 · Winterization Activated ×9",
+    verdict: "The best line on the page",
+    body: "The self-fogging winterize routine ran nine times — roughly every fall of its life. The boat sat outside cosmetically, but the engine was put to bed correctly every season. Sun kills dashboards; winter kills powerheads — this one was protected from the killer that matters.",
+  },
+  {
+    code: "Code 38 · Oil Pressure Feedback Not Detected ×12 + 15:49 No-Oil Time",
+    verdict: "The one real question — likely benign",
+    body: "~16 minutes of running without confirmed oil delivery — but every occurrence sits in the first 19 hours of life (first at 4 minutes), then nothing in the 53 hours since. Textbook first-rigging oil-line priming, and E-TECs cut to reduced-power protection during oil faults. Shop question: \"Code 38s all cluster in the first 19 hours and never recur — confirm oil feedback reads good today and pull a plug to check the wash.\" Compression is the final proof it left no scar.",
+  },
+  {
+    code: "Code 11 · TPS Out of Idle Range ×21",
+    verdict: "Nuisance",
+    body: "Every snapshot shows RPM=0 — key-on moments, usually a nudged throttle during starting. Last occurrence 33 engine-hours ago, calibration value present. One sentence to the shop: verify TPS cal while you're in there.",
+  },
+  {
+    code: "RPM histogram · 61% at/below 1,600 · 17% at 5,000–6,000",
+    verdict: "Ideal usage fingerprint",
+    body: "Hundreds of hours at trolling speed (there's the Vermont lake troller) balanced by regular hard clean runs — which DI two-strokes like; it keeps carbon down. No lugging signature, no abuse signature. If you designed the ideal life for this motor, it would look like this histogram.",
   },
 ];
 
@@ -301,6 +337,53 @@ export default function FindingsPage() {
             </li>
           ))}
         </ul>
+      </section>
+
+      {/* EMM readout */}
+      <section className="mt-8">
+        <SectionHeading icon={Cpu}>EMM report readout — the engine&apos;s biography</SectionHeading>
+        <div className="rounded-xl border border-line bg-surface p-4">
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-105 text-sm">
+              <thead>
+                <tr className="border-b border-line text-left text-[11px] uppercase tracking-wide text-ink-faint">
+                  <th className="pb-2 pr-3 font-semibold">Field</th>
+                  <th className="pb-2 pr-3 font-semibold">Reading</th>
+                  <th className="pb-2 font-semibold">Verdict</th>
+                </tr>
+              </thead>
+              <tbody>
+                {EMM_ROWS.map(([k, v, m]) => (
+                  <tr key={k} className="border-b border-line/60 last:border-0">
+                    <td className="py-2 pr-3 whitespace-nowrap">{k}</td>
+                    <td className="py-2 pr-3 font-semibold whitespace-nowrap">{v}</td>
+                    <td className="py-2 text-ink-muted">{m}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <ul className="mt-2 space-y-2">
+          {EMM_CODES.map((c) => (
+            <li key={c.code} className="rounded-xl border border-line bg-surface p-4">
+              <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
+                <p className="text-sm font-semibold">{c.code}</p>
+                <p className="text-[11px] font-semibold uppercase tracking-wide text-ink-faint">
+                  {c.verdict}
+                </p>
+              </div>
+              <p className="mt-1.5 text-sm leading-relaxed text-ink-muted">{c.body}</p>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-2 rounded-xl border border-line bg-surface p-4 text-sm leading-relaxed text-ink-muted">
+          <strong className="text-ink">Mechanic&apos;s verdict: 9/10 engine history.</strong> The
+          only deduction is the early-life oil quirk, 53 clean hours stale. What the EMM cannot
+          see — current compression, impeller rubber, gearcase oil, fuel freshness — is exactly
+          what the compression check and water test cover. Pass those and this is as
+          well-documented as a used E-TEC purchase gets.
+        </p>
       </section>
 
       {/* findings */}
