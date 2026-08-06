@@ -220,8 +220,8 @@ const RESTORE_SOURCES: { label: string; url: string }[] = [
 
 const REFERENCE: { title: string; body: string }[] = [
   {
-    title: "Wide-open throttle target: 5,500–6,000 RPM",
-    body: "The E-TEC 115 H.O. should reach its rated RPM range at full throttle, trimmed out. Below 5,500 = over-propped or a tired engine (lugging — genuinely harmful long-term). Over 6,000 = under-propped. This one number is the quickest health check the engine has.",
+    title: "Wide-open throttle target: 5,500–6,000 RPM and 43–47 mph",
+    body: "Trimmed out, full throttle, read tach and GPS together. Reference points from the same engine + Rogue 4-blade prop family on a lighter hull: 17-pitch turned 6,100 RPM at 47.5 mph, 19-pitch turned 5,700 at 52 — the heavier, longer Pro 185 should land mid-40s. Interpreting the result: in-range RPM and 43–47 mph = healthy engine, right prop. Well under 5,500 and slow = over-propped or tired (EMM and compression say which). Over 6,000 but slow = under-pitched or hull drag. Below 5,500 is lugging — genuinely harmful long-term, not a \"tune-up\" item.",
   },
   {
     title: "Primer bulb squeeze test",
@@ -229,7 +229,7 @@ const REFERENCE: { title: string; body: string }[] = [
   },
   {
     title: "E-TEC basics worth knowing",
-    body: "No belts, no valves, no scheduled oil changes — it injects oil from a reservoir (use XD50/XD100). It self-winterizes with an automatic fogging routine. Water pump impeller every ~3 years on a boat that sits. The EMM computer logs true hours, RPM history, and faults — any Evinrude dealer can pull the report, and it's the motor's real service record.",
+    body: "No belts, no valves, no scheduled oil changes — it injects oil from a reservoir (use XD50/XD100). Regular 87-octane gas; premium buys nothing. It self-winterizes with an automatic fogging routine. Water pump impeller every ~3 years on a boat that sits. The EMM computer logs true hours, RPM history, and faults — any Evinrude dealer can pull the report, and it's the motor's real service record.",
   },
   {
     title: "Keep the EMM alive",

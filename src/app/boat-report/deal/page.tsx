@@ -54,7 +54,7 @@ const SEQUENCE: { step: string; detail: string }[] = [
   {
     step: "Lock the verification schedule.",
     detail:
-      "Water test to full rated RPM (5,500–6,000) and the EMM printout from his shop. If they can happen today, everything can move today. If he stalls on either, that IS the answer — no price fixes an unverifiable engine.",
+      "Water test to full rated RPM (5,500–6,000) and the EMM printout from his shop — both completely standard asks; sea trials are the boat world's test drive. If the water test truly can't happen: EMM + compression + a hose run at the lot, PLUS a written line — \"deposit refundable if the engine fails to reach rated RPM at delivery.\" Never skip both the trial and the paper. If he stalls on all of it, that IS the answer — no price fixes an unverifiable engine.",
   },
   {
     step: "Then, and only then, the number.",
