@@ -150,12 +150,12 @@ const FINDINGS: {
     fix: "One open question: the tank is full, and on a boat that sat, nobody knows how old that gas is. Ask when it was last filled. If it's old ethanol fuel: treat it (StaBil), run it through quickly, or have it drained — cheap either way, but don't judge the engine's idle on stale gas at the water test.",
   },
   {
-    title: "Ulterra's i-Pilot remote is missing",
+    title: "Ulterra's i-Pilot remote: confirmed not included",
     verdict: "minor",
     photo: "/boat/bow.jpg",
-    alt: "Minn Kota Ulterra on the bow, which pairs with an i-Pilot remote that was not found",
-    what: "The Ulterra has its foot pedal, but the i-Pilot remote — the thing you actually drive Spot-Lock and auto stow/deploy from — wasn't on the boat. Dealer says it \"might be inside.\" A replacement runs about $250–300.",
-    fix: "Simple line on the buyer's order: remote included at delivery, or a $250 credit. Also worth asking them to confirm the Ulterra's deploy/stow cycle works while you're standing there — it's the most expensive accessory on the boat.",
+    alt: "Minn Kota Ulterra on the bow, sold with foot pedal only and no i-Pilot remote",
+    what: "Dealer confirmed: foot pedal only. The pedal runs steering, speed, trim, and stow/deploy — but Spot-Lock and autopilot live in the i-Pilot remote, so without one those features are dead. The likely free fix: 2018-era Ulterras are usually Bluetooth i-Pilot — check the control head for a Bluetooth logo, and if it's there, Minn Kota's free i-Pilot phone app controls everything including Spot-Lock.",
+    fix: "At the water test: pair the app and test Spot-Lock on the spot. At signing: ask for the remote or a ~$250 credit (new BT remote ~$270, used ~$150). If refused, the app covers day one and a used remote is a cheap add later.",
   },
   {
     title: "Sealant squeeze-out at the engine mount",
