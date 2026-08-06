@@ -488,6 +488,16 @@ export default function BoatReportPage() {
       {/* price check */}
       <section className="mt-8">
         <SectionHeading icon={BadgeDollarSign}>Is $18,995 a fair price?</SectionHeading>
+        <div className="mb-2 rounded-xl border border-accent/40 bg-accent/5 p-4 text-sm leading-relaxed">
+          <p className="font-semibold">Where it landed — deal struck August 2026</p>
+          <p className="mt-1 text-ink-muted">
+            $14,800 total out the door (tax and fees included) after the Mirrocraft trade, with
+            seat repair and the Garmin transfer/install done by the dealer. Effectively full
+            retail — roughly $1,500–2,500 above the comp-based target — traded for a verified
+            engine history, the included work, local Evinrude service, and zero logistics. The
+            analysis below is preserved as the record of how the number was reasoned.
+          </p>
+        </div>
         <div className="rounded-xl border border-line bg-surface p-4 text-sm leading-relaxed">
           <p>
             <strong>No — as inspected, it&apos;s overpriced by roughly $2,500–4,500.</strong>{" "}
