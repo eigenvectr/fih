@@ -495,9 +495,12 @@ export default function BoatReportPage() {
             with a 70-hour <em>Mercury 115 Pro XS</em> — a supported engine — asks $18,495, and a
             garage-kept 2020 Pro 185 with a live Yamaha asks $20,995. This boat carries a dead
             brand (forum consensus: E-TEC rigs take a 10–20% discount and are hard to resell),
-            stored outside, has zero service records, and was advertised with 35 more horsepower
-            than it has. Fair retail as it sits: <strong>$14,500–16,500</strong>. The Ulterra
-            package and new batteries are why it holds the top of that range.
+            stored outside, and was advertised with 35 more horsepower than it has. The EMM
+            report has since verified the engine&apos;s history clean (see findings) — that
+            firms the top of the range, but changes nothing about what the brand does to resale
+            or what the sun did to the boat. Fair retail as it sits:{" "}
+            <strong>$15,000–16,500</strong>. The Ulterra package, new batteries, and the
+            clean engine history are why it holds the top of that range.
           </p>
           <p className="mt-2 text-ink-muted">
             <strong className="text-ink">The play:</strong> target{" "}
