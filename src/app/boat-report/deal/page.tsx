@@ -1,6 +1,15 @@
 import Link from "next/link";
-import { ArrowLeft, DollarSign, ListOrdered, MessageSquareQuote, Scale, XCircle } from "lucide-react";
+import {
+  ArrowLeft,
+  ClipboardCheck,
+  DollarSign,
+  ListOrdered,
+  MessageSquareQuote,
+  Scale,
+  XCircle,
+} from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { SigningList } from "./SigningList";
 
 export const metadata = {
   title: "Deal day · 2018 Alumacraft Pro 185",
@@ -153,8 +162,21 @@ export default function DealPage() {
         <ThemeToggle />
       </header>
 
-      {/* rails */}
+      {/* signing day */}
       <section>
+        <SectionHeading icon={ClipboardCheck}>
+          Signing day — ask Chris, get it in ink
+        </SectionHeading>
+        <p className="mb-3 text-sm leading-relaxed text-ink-muted">
+          Deal struck at $14,800 out the door after trade. This is the closing list — every
+          item below goes on the buyer&apos;s order or gets answered before the check changes
+          hands. The negotiation playbook below is kept as the record of how we got here.
+        </p>
+        <SigningList />
+      </section>
+
+      {/* rails */}
+      <section className="mt-8">
         <SectionHeading icon={DollarSign}>The numbers — hold these</SectionHeading>
         <div className="grid grid-cols-2 gap-2">
           {RAILS.map((r) => (
