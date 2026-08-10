@@ -146,7 +146,7 @@ const FINDINGS: {
     verdict: "good",
     photo: "/boat/batteries.jpg",
     alt: "Battery compartment with two Interstate SRM-27 deep-cycle batteries, onboard charger, and the poly fuel tank",
-    what: "Two Interstate SRM-27 marine deep-cycles (the Ulterra's 24V bank), clean posts, proper clamp terminals with boot covers — no wing nuts — plus an onboard charger and factory-tidy wiring. The 20-gal poly fuel tank above shows surface mildew (cosmetic) with proper marine fuel hose and an intact sender.",
+    what: "Two Interstate SRM-27 marine deep-cycles (the Ulterra's 24V bank), clean posts, proper clamp terminals with boot covers — no wing nuts — plus an onboard charger (believed Minn Kota — verify at the visit: read the model label, MK-330 = 3 banks covering all batteries vs MK-220 = trolling pair only; plug in shore power and watch for a charge light per bank; photograph the label). Factory-tidy wiring throughout. The 20-gal poly fuel tank above shows surface mildew (cosmetic) with proper marine fuel hose and an intact sender.",
     fix: "One open question: the tank is full, and on a boat that sat, nobody knows how old that gas is. Ask when it was last filled. If it's old ethanol fuel: treat it (StaBil), run it through quickly, or have it drained — cheap either way, but don't judge the engine's idle on stale gas at the water test.",
   },
   {
