@@ -280,6 +280,10 @@ const REFERENCE: { title: string; body: string }[] = [
     body: "Flush the engine on muffs 10–15 minutes. Wash hull, trailer, and rinse the Ulterra (it's the freshwater model — salt isn't covered by Minn Kota's warranty). Rinse livewell plumbing. Before the first salt season: swap the magnesium anodes for zinc or aluminum ones.",
   },
   {
+    title: "The starter toolbox",
+    body: "Core: cordless ratchet (Milwaukee M12 3/8\" is the marine-mechanic classic) or drill with nut-driver bits, 1/4\"+3/8\" socket set in SAE and metric with deep sockets, impact bits including #2/#3 Phillips and square-drive. Installs: ratcheting crimper + marine heat-shrink connectors, heat gun, multimeter, fuses, 3M 4200 for any hole you drill. Service: 3/8\" torque wrench, prop-nut deep socket, plug socket, gearcase oil pump (they fill from the bottom), Triple-Guard grease, flushing muffs. The rule that saves this aluminum boat: Tef-Gel every stainless thread going into aluminum, and hand-start every fastener before power touches it — stainless-into-aluminum galls and snaps.",
+  },
+  {
     title: "Boat that sits = check these each spring",
     body: "Fuel: fresh gas, StaBil in the offseason, inspect the bulb and lines. Tell-tale stream at first start. Trailer tire date codes (age out at ~6 years regardless of tread). Battery voltage after winter. Ten minutes that prevents most on-water failures.",
   },
