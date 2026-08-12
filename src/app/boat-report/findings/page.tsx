@@ -146,8 +146,16 @@ const FINDINGS: {
     verdict: "good",
     photo: "/boat/batteries.jpg",
     alt: "Battery compartment with two Interstate SRM-27 deep-cycle batteries, onboard charger, and the poly fuel tank",
-    what: "Two Interstate SRM-27 marine deep-cycles (the Ulterra's 24V bank), clean posts, proper clamp terminals with boot covers — no wing nuts — plus an onboard charger (believed Minn Kota — verify at the visit: read the model label, MK-330 = 3 banks covering all batteries vs MK-220 = trolling pair only; plug in shore power and watch for a charge light per bank; photograph the label). Factory-tidy wiring throughout. The 20-gal poly fuel tank above shows surface mildew (cosmetic) with proper marine fuel hose and an intact sender.",
-    fix: "One open question: the tank is full, and on a boat that sat, nobody knows how old that gas is. Ask when it was last filled. If it's old ethanol fuel: treat it (StaBil), run it through quickly, or have it drained — cheap either way, but don't judge the engine's idle on stale gas at the water test.",
+    what: "Two Interstate SRM-27 marine deep-cycles (the Ulterra's 24V bank), clean posts, proper clamp terminals with boot covers — no wing nuts — plus a verified Minn Kota MK 315D onboard charger: 3 banks at 5A each, digital multi-stage, covering both trolling batteries and the start battery. Factory-tidy wiring throughout. The 20-gal poly fuel tank above shows surface mildew (cosmetic) with proper marine fuel hose and an intact sender.",
+    fix: "Nothing to fix. Habit to build: 5A per bank is maintenance-sized, so plug in right after trips — a deep-discharged trolling bank is an overnight recharge. Add \"including Minn Kota MK315D onboard charger\" to the buyer's order equipment line.",
+  },
+  {
+    title: "Ulterra decoded: Bluetooth, built 2021, with built-in sonar",
+    verdict: "good",
+    photo: "/boat/bow.jpg",
+    alt: "Minn Kota Ulterra 80 BT with Universal Sonar 2, produced 2021",
+    what: "The data label settles everything: ULTERRA80/US2/IP-60\" BT — 24V Ulterra 80, i-Pilot, Bluetooth, 60\" shaft, produced in 2021, so the boat's most expensive accessory is three years newer than the boat. US2 means Universal Sonar 2: a transducer built into the trolling motor's lower unit.",
+    fix: "The missing remote is now a $0 problem: pair the Minn Kota One-Boat Network app (supports all 2017+ Bluetooth i-Pilot systems) for full control including Spot-Lock and stow/deploy. Future project: a ~$40 US2 adapter cable feeds the built-in transducer to a bow-mounted fish finder — move the Helix up front and run two sonar stations.",
   },
   {
     title: "Ulterra's i-Pilot remote: confirmed not included",
