@@ -113,9 +113,9 @@ const GROUPS: Group[] = [
       },
       {
         id: "remote",
-        label: "The remote ask, one more time",
+        label: "Remote found — test it, then keep track of it",
         detail:
-          "\"Without a remote there's no Spot-Lock — add one or credit me the $250.\" If the app paired fine today, you have your fallback either way; still worth the sentence.",
+          "Fresh battery in it, pair it, run Spot-Lock from the remote on the water. Then make sure it's with the boat at delivery — it went missing once already.",
       },
     ],
   },

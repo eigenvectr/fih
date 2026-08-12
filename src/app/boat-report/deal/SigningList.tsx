@@ -29,9 +29,9 @@ const ITEMS: Item[] = [
   },
   {
     id: "remote-ask",
-    label: "The remote ask: i-Pilot remote or ~$250 credit",
+    label: "Remote: found — confirm it comes home with the boat",
     detail:
-      "Confirmed not included, and without it there's no Spot-Lock. One sentence: \"The listing sold the Ulterra system — without a remote there's no Spot-Lock. Add one or credit me the $250.\" Fallback: check the control head for a Bluetooth logo and pair Minn Kota's free i-Pilot app — on BT-era systems it runs everything including Spot-Lock.",
+      "The i-Pilot remote turned up at the dealership. Make sure it's physically in the boat at delivery, with a fresh battery, paired and tested. (Backup exists either way: the One-Boat Network app runs everything including Spot-Lock.)",
   },
   {
     id: "service-package",
