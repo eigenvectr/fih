@@ -64,6 +64,9 @@ export default function WatersPage() {
           <ChevronRight className="h-4 w-4 text-ink-faint transition-transform group-hover:translate-x-0.5" />
         </Link>
         <p className="mt-1.5 flex gap-3 pl-[22px] text-xs">
+          <Link href="/boat-report/water-test" className="text-ink-faint hover:text-accent">
+            Water test
+          </Link>
           <Link href="/boat-report/findings" className="text-ink-faint hover:text-accent">
             Findings
           </Link>

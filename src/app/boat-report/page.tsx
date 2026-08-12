@@ -350,8 +350,9 @@ export default function BoatReportPage() {
       </header>
 
       {/* quick nav */}
-      <nav className="mb-4 grid grid-cols-3 gap-2">
+      <nav className="mb-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
         {[
+          { href: "/boat-report/water-test", label: "Water test" },
           { href: "/boat-report/findings", label: "Findings" },
           { href: "/boat-report/deal", label: "Deal day" },
           { href: "/boat-report/inspect", label: "Checklist" },
