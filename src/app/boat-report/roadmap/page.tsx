@@ -102,6 +102,7 @@ const ROADMAP: {
       "BBT confirmed their mount leaves the factory panel in place (the dash is too curved for a plate), so the SEM refinish guide on the findings page is the cosmetic fix for the whole dash — unless the Alumacraft dash shroud Van mentioned turns out to be orderable.",
     details: [
       "Full step-by-step lives in the findings page restoration guide: scrape, sand, adhesion promoter, texture coat, SEM Marine Vinyl Coat in satin.",
+      "NEW option found by research: the dash insert is a discrete OEM part — Alumacraft #22180014107, sold at Great Lakes Skipper/Amazon/eBay, and it ships with two new Faria gauges pre-installed. Check the price: if reasonable, a new panel beats a weekend of refinishing. Verify the part number matches ours first.",
       "Trim and bezels: Solution Finish or CeraKote once, 303 Marine as the maintenance layer.",
     ],
   },

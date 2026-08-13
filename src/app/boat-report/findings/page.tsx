@@ -207,7 +207,7 @@ fix: "Nothing to fix — and confirmed at the water test: 47 mph GPS with the en
 /* ------------- console restoration guide (deep-research results) ------------ */
 
 const RESTORE_INTRO =
-  "Back to being the primary fix: BBT confirmed (Aug 2026) this dash is too curved for their replacement plate — their product is a center mount only, so the panel stays and this refinish is the path, unless the Alumacraft dash shroud Van mentioned turns out to be orderable. Verified: the dash is a thermoformed plastic insert panel (mounted on the fiberglass console) with a factory textured coating that lost adhesion from UV — a documented weak point on Alumacraft consoles of this era, so this is normal aging, not damage. Fully DIY-restorable: about $100 in materials and a weekend, with cure time doing most of the waiting. Before painting anything, check Great Lakes Skipper and eBay for the exact factory panel — many list under $150, and swapping beats refinishing.";
+  "Two paths, researched: (A) BUY THE PANEL NEW — the dash insert is a discrete OEM part, Alumacraft #22180014107 (~25\" x 6\" gray textured panel, sold at Great Lakes Skipper / Amazon / eBay, and it comes with two new Faria gauges pre-installed). Check the current price: if it's reasonable, swapping beats refinishing — verify the part number matches ours before ordering. (B) REFINISH ours with the guide below. Either way the panel comes off the same way — removal steps follow. Verified: the dash is a thermoformed plastic insert panel (mounted on the fiberglass console) with a factory textured coating that lost adhesion from UV — a documented weak point on Alumacraft consoles of this era, so this is normal aging, not damage. Fully DIY-restorable: about $100 in materials and a weekend, with cure time doing most of the waiting. Before painting anything, check Great Lakes Skipper and eBay for the exact factory panel — many list under $150, and swapping beats refinishing.";
 
 const RESTORE_STEPS: { step: string; detail: string }[] = [
   {
@@ -216,9 +216,24 @@ const RESTORE_STEPS: { step: string; detail: string }[] = [
       "Look at the panel's back side: uniform-color plastic with vacuum-forming marks = ABS-type plastic; visible resin and glass strands = fiberglass. The process below works for both — but never use chemical paint stripper on the plastic; it attacks ABS.",
   },
   {
-    step: "Pull the panel — off the boat, onto sawhorses.",
+    step: "Recon before removal (the researched order).",
     detail:
-      "Disconnect the batteries first (charger off too). Remove the Helix, then reach under the console to the backs of the gauges and switches: PHOTOGRAPH everything, label each wire with masking-tape flags as you unplug, unscrew the gauge brackets and switch nuts, then the panel's perimeter screws. Spray on sawhorses in a ventilated garage, 60–80°F — never in place (you can't mask a windshield well enough) and never on the ground. If something fights you, probe, don't force.",
+      "Batteries off (negative first). Then SCOUT: open the console's access opening, get a light and mirror behind the dash, and confirm three things — where the screws land, whether the wiring's main 11-pin connector is reachable (this generation's panel unplugs mostly at ONE connector plus ~8 single-pin leads — friendlier than it looks), and whether the steering helm passes through the panel or the fiberglass below it (unverified for our hull — look before assuming). Watch the \"Mount Helix 7 in dash for Alumacraft Competitor\" YouTube video first; same-era console family.",
+  },
+  {
+    step: "Pull the Helix first — it opens a hand-hole.",
+    detail:
+      "Its bezel screws come out from the front; unplug power and transducer behind. The empty cutout becomes your scouting port for feeling the panel's backside fasteners.",
+  },
+  {
+    step: "Perimeter screws, then the panel comes forward.",
+    detail:
+      "Photograph everything, then remove the visible perimeter screws — check under black trim accents, inside the cup holder, and under the windshield's lower rail lip for hidden ones. Work WARM (70°F+, sun or space heater): 8-year-old sun-baked plastic cracks when pried cold, and cracked Alumacraft consoles are the #1 owner complaint. The panel should come forward a few inches with gauges attached; unplug the 11-pin connector and tape-flag the single-pin leads. If an edge won't release, there's a screw you haven't found — never more than light hand pressure. Only loosen the windshield's lower rail screws if the panel snags on its lip (brittle acrylic: loosen, don't remove; reinstalling a curved shield is a three-person job).",
+  },
+  {
+    step: "Gauges and switches off the panel, on the bench.",
+    detail:
+      "Faria gauges: a U-shaped spin-off bracket on two studs holds each — nuts off, bracket off, gauge slides out the front (terminals are standardized: I = 12V, G = ground, S = sender, plus lamp wires). Key switch: hold the body behind, spin the face nut off the front with padded pliers. Rocker switches: spring clips — release with a switch tool or thin blades, never a screwdriver against the panel face. Then sawhorses, ventilated garage, 60–80°F.",
   },
   {
     step: "Strip what's failing.",
@@ -253,6 +268,7 @@ const RESTORE_STEPS: { step: string; detail: string }[] = [
 ];
 
 const RESTORE_NOTES: string[] = [
+  "Reassembly rules from the crack reports: drill pilot holes slightly oversize so the plastic can move with temperature, snug fasteners gently (over-tightening at screw holes is exactly how these consoles crack), and fix any stripped screw holes with slightly larger stainless screws or toothpick-and-epoxy fills. If a screw spins forever, the boss behind it is enlarged from prior service — normal on these boats.",
   "Budget route: Krylon Fusion or Rust-Oleum Textured (~$30–50 total) over the same prep and adhesion promoter is serviceable, but owners report it going soft and chipping within a season or two outdoors. The SEM system (~$100) is the one actually rated for this environment.",
   "Alternatives, in order of sense: exact factory panel from Great Lakes Skipper/eBay ($75–250, fastest); marine-grade cast vinyl wrap ($30–60 — dashes hit 140°F+, so edges must be heat-set or they lift); custom SeaDek dash pad (~$100–300, hides everything, very durable); pro shop respray ($300–600 — overkill for one panel).",
   "Helix 7 screen: mild soapy water or distilled water with a splash of white vinegar on microfiber, gentle passes. Never regular Windex, ammonia, or alcohol — they dissolve the anti-glare coating, as do sunscreen and bug spray. Haze inside the unit is condensation and clears after an hour of running. If the anti-glare layer is already ruined, the accepted salvage is polishing it off entirely (Novus 2/PlastX by hand) and fitting a ~$12 anti-glare screen protector — better economics than Humminbird's $150–300 flat-rate repair on an aging G2 when a new Helix 7 G4 runs ~$550–680.",
@@ -260,6 +276,10 @@ const RESTORE_NOTES: string[] = [
 ];
 
 const RESTORE_SOURCES: { label: string; url: string }[] = [
+  { label: "OEM dash panel #22180014107 (Great Lakes Skipper)", url: "https://www.greatlakesskipper.com/alumacraft-boat-console-gauge-panel-22180014107-25-x-7-1-2-inch-gray" },
+  { label: "BBC Boards — removing dash panels (gauge brackets)", url: "https://www.bbcboards.net/showthread.php?t=417778" },
+  { label: "Helix in-dash install video (same-era Alumacraft console)", url: "https://www.youtube.com/watch?v=J-AZYkqZ5sc" },
+  { label: "Walleye Central — Alumacraft console cracking and the oversize-pilot-hole fix", url: "https://www.walleyecentral.com/forums/showthread.php?t=179843" },
   { label: "SEM — refinishing interior plastic, step by step", url: "https://semproducts.com/blog/4-easy-steps-to-refinishing-interior-plastic" },
   { label: "SEM Texture Coating (product + prep spec)", url: "https://semproducts.com/product/texture-coating" },
   { label: "SEM Marine Vinyl Coat (UV-rated marine topcoat)", url: "https://www.overtons.com/sem-marine-vinyl-coat-spray-307790.html" },
