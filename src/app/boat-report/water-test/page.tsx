@@ -23,7 +23,7 @@ export default function WaterTestPage() {
         <div className="min-w-0 flex-1">
           <h1 className="truncate text-lg font-semibold tracking-tight">Water test day</h1>
           <p className="truncate text-xs text-ink-muted">
-            The final exam · checks save on this phone
+            PASSED — boat purchased · kept for the record
           </p>
         </div>
         <ThemeToggle />

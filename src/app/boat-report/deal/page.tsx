@@ -168,9 +168,11 @@ export default function DealPage() {
           Signing day — ask Chris, get it in ink
         </SectionHeading>
         <p className="mb-3 text-sm leading-relaxed text-ink-muted">
-          Deal struck at $14,800 out the door after trade. This is the closing list — every
-          item below goes on the buyer&apos;s order or gets answered before the check changes
-          hands. The negotiation playbook below is kept as the record of how we got here.
+          <strong className="text-ink">Complete — purchased at $14,800 out the door, water test
+          passed.</strong> Final terms: seats repaired before delivery; Garmin pulled from the
+          old boat and kept uninstalled for the future dash-mount plan; rigging boot judged
+          cosmetic and deferred to an owner fix. This page is kept as the record of the
+          negotiation and closing.
         </p>
         <SigningList />
       </section>

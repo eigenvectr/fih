@@ -38,6 +38,11 @@ const CONFIRMED: { label: string; detail: string }[] = [
       "Confirmed at the lot: fresh batteries (a $400–800 risk off the table) and trailer tires in good shape. The fuel line and primer bulb also checked out fine once wiped down. Real points in the boat's favor.",
   },
   {
+    label: "Water test: PASSED — and the boat is ours",
+    detail:
+      "Purchased August 2026 at $14,800 out the door after trade. The on-water test came back clean. Remaining before/after delivery: seat repair (dealer), rigging boot (owner DIY, cosmetic), impeller service (book it — still owed on the schedule), and the Garmin dash project below.",
+  },
+  {
     label: "EMM report pulled — the engine's history checks out",
     detail:
       "Hours verified at 72:31 (the ad was honest). No active faults. Never overheated in its life (max 196°F, alarm threshold ~211°F, zero overheat codes). Winterization routine logged 9 times — put away properly every season despite living outside. Max RPM ever 6,243, so it revs out. Histogram shows a troller's life: ~61% at/below 1,600 RPM, ~17% at full load. Injector data confirms G1 V4, 2017-built for model year 2018. Two shop questions remain: early-life Code 38 oil-feedback faults (12×, all in the first 19 hours, none in the 53 hours since — likely initial oil-line priming) and nuisance TPS Code 11s (last one 33 engine-hours ago). Still owed: compression check and the water test — the EMM knows history, not present cylinder condition.",
@@ -131,7 +136,7 @@ const FINDINGS: {
     photo: "/boat/rigging.jpg",
     alt: "Rigging tube entering the engine with cracked boot, and the fuel line with primer bulb",
     what: "The big ribbed tube is the rigging conduit — battery cables, harness, and control lines running into the engine. Its rubber entry boot has split and the clamp failed, letting rain at the wiring. The fuel line alongside it is proper 3/8\" SAE J30R9 and checked out fine — surface mildew wiped off, bulb pumps firm.",
-    fix: "Boot and clamp: $20–60 part, easy swap — but first check the connectors under the cowl for corrosion (corroded connections are what kill the $3,000 EMM). On the dealer's before-delivery list.",
+    fix: "Now an owner to-do: judged cosmetic at closing and deferred (dealer ran out of time). Boot and clamp are a $20–60 part and an easy first DIY with the new M12 ratchet — while it's apart, check the connectors under the cowl for corrosion (corroded connections are what kill the $3,000 EMM).",
   },
   {
     title: "Seat seams splitting (vinyl itself is good)",

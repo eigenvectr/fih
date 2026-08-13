@@ -60,7 +60,7 @@ export default function WatersPage() {
           className="group inline-flex items-center gap-1.5 text-sm text-ink-muted transition-colors hover:text-accent"
         >
           <Ship className="h-4 w-4" />
-          Buyers report · 2018 Alumacraft Pro 185
+          The boat · our 2018 Alumacraft Pro 185
           <ChevronRight className="h-4 w-4 text-ink-faint transition-transform group-hover:translate-x-0.5" />
         </Link>
         <p className="mt-1.5 flex gap-3 pl-[22px] text-xs">
