@@ -216,9 +216,14 @@ const RESTORE_STEPS: { step: string; detail: string }[] = [
       "Look at the panel's back side: uniform-color plastic with vacuum-forming marks = ABS-type plastic; visible resin and glass strands = fiberglass. The process below works for both — but never use chemical paint stripper on the plastic; it attacks ABS.",
   },
   {
-    step: "Pull the panel and strip what's failing.",
+    step: "Pull the panel — off the boat, onto sawhorses.",
     detail:
-      "Remove (or carefully mask) the gauges and switches. Lift the peeling coating with a plastic scraper or razor held at a low angle. Rule: anything that still won't scrape off after scuffing has earned its place — leave it and feather it.",
+      "Disconnect the batteries first (charger off too). Remove the Helix, then reach under the console to the backs of the gauges and switches: PHOTOGRAPH everything, label each wire with masking-tape flags as you unplug, unscrew the gauge brackets and switch nuts, then the panel's perimeter screws. Spray on sawhorses in a ventilated garage, 60–80°F — never in place (you can't mask a windshield well enough) and never on the ground. If something fights you, probe, don't force.",
+  },
+  {
+    step: "Strip what's failing.",
+    detail:
+      "Lift the peeling coating with a plastic scraper or razor held at a low angle. Rule: anything that still won't scrape off after scuffing has earned its place — leave it and feather it.",
   },
   {
     step: "Sand.",
