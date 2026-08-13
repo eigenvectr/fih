@@ -5,7 +5,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 export const metadata = {
   title: "Upgrade roadmap · 2018 Alumacraft Pro 185",
   description:
-    "The boat's upgrade plan in order: BBT dash plate, rigging boot, Helix to the bow, the LiveScope bow station, and the parked wishlist.",
+    "The boat's upgrade plan in order: BBT dash mount, rigging boot, Helix to the bow, the LiveScope bow station, and the parked wishlist.",
 };
 
 type Status = "next" | "queued" | "saving" | "seasonal" | "parked";
@@ -56,7 +56,7 @@ const ROADMAP: {
     status: "queued",
     cost: "~$40 adapter",
     summary:
-      "After the BBT plate takes the dash, the Helix becomes a free bow sonar station: a US2 adapter cable connects it to the transducer built into the Ulterra's lower unit.",
+      "After the BBT mount puts the Garmin at the dash, the Helix becomes a free bow sonar station: a US2 adapter cable connects it to the transducer built into the Ulterra's lower unit.",
     details: [
       "The Ulterra's US2 (Universal Sonar 2) transducer is already in the water every time the motor deploys — the adapter just feeds it to the Helix.",
       "Placeholder role: it holds the bow station until the LiveScope build replaces it, then sells (~$100–150).",
@@ -94,11 +94,11 @@ const ROADMAP: {
     ],
   },
   {
-    title: "Console cosmetics — what the BBT plate doesn't cover",
+    title: "Console cosmetics — the refinish is back on",
     status: "parked",
     cost: "~$50–100 DIY",
     summary:
-      "The BBT plate replaces the main dash insert, which retires most of the sun-damage problem. The SEM refinish guide on the findings page remains for the lower switch panel and other weathered plastics, whenever the mood strikes.",
+      "BBT confirmed their mount leaves the factory panel in place (the dash is too curved for a plate), so the SEM refinish guide on the findings page is the cosmetic fix for the whole dash — unless the Alumacraft dash shroud Van mentioned turns out to be orderable.",
     details: [
       "Full step-by-step lives in the findings page restoration guide: scrape, sand, adhesion promoter, texture coat, SEM Marine Vinyl Coat in satin.",
       "Trim and bezels: Solution Finish or CeraKote once, 303 Marine as the maintenance layer.",
