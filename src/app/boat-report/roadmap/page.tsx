@@ -26,15 +26,16 @@ const ROADMAP: {
   details: string[];
 }[] = [
   {
-    title: "BBT dash mount + the Garmin 93sv at the helm",
+    title: "Dash mount + the Garmin 93sv at the helm",
     status: "next",
-    cost: "Price TBD — asked",
+    cost: "$100 RAM route · $350 BBT route",
     summary:
       "ANSWERED BY BBT (Van, Aug 2026): the 93sv fits the standard Single mount, hardware and instructions included, same-day shipping, and the linked 2018-2019 product page is the correct part. One correction to our research: this dash is too curved for a full replacement plate — their mount bolts to the CENTER of the dash with a backer plate, and the factory panel stays.",
     details: [
       "Consequence: the mount solves the Garmin problem, not the cosmetic one. The sun-baked panel fix returns to the SEM refinish guide (findings page) or the \"dash shroud from Alumacraft\" Van suggested — part number being chased; Alumacraft's 2025 sale makes OEM parts hit-or-miss.",
       "Follow-ups sent with dash photos: does the backer plate work over the existing Helix mounting holes once it moves to the bow; the price shipped to 12180 (Van skipped it); and the shroud part number.",
-      "Order from Van's link spec'd for the ECHOMAP UHD 93sv once the price and Helix-hole answers land.",
+      "Price landed: $350 for the BBT Single. The alternative tier, now that it's a mount rather than a panel fix: RAM-D-115 (~$80–120, 2.25\" D-ball, rated 10 lbs, direct fit for 9\" gimbal brackets) with a $10 DIY aluminum backer — or the factory bail straight to the dash with a backer for nearly free. Wobble tolerance matters at the bow for LiveScope, barely at the helm for charts: the RAM route banks ~$250 toward the LiveScope fund, and BBT ships same-day forever if the RAM ever shivers too much at 47 mph.",
+      "Whichever mount wins: a backer plate behind the thin curved panel is non-negotiable — spread the load, through-bolt with nylocs, Tef-Gel the stainless.",
       "Before ordering: dig the 93sv's factory bail bracket out of the Mirrocraft parts pile (the mount uses it; ~$40 if lost) and check whether the old transducer came along — if it stayed on the traded boat, the dash unit is charts-only until a GT56UHD (~$270) is added.",
       "The unit hangs on its bail, so it pops off the mount for storage or swaps anytime.",
     ],
