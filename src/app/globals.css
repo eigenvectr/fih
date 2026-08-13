@@ -80,6 +80,12 @@ html {
   overscroll-behavior-y: none;
 }
 
+/* iOS Safari lets the hidden content of closed <details> leak scrollable
+   height below the footer — force it out of layout entirely. */
+details:not([open]) > *:not(summary) {
+  display: none;
+}
+
 body {
   background: var(--canvas);
   color: var(--ink);
