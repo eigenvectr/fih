@@ -287,6 +287,16 @@ const PROJECTS: { title: string; status: string; body: string }[] = [
     body: "Barrel mount only, never shaft-clamped — the Ulterra's auto stow/deploy telescoping shaft can't carry clamped weight or loose cables (LiveScope 2 includes the barrel mount; the legacy LVS34 barrel mount is $40). Leave a ~10\" cable service loop across the pivot and verify a full stow/deploy cycle before the first trip. Power it from a dedicated 12V LiFePO4 (20–30Ah, ~$100–200) rather than the trolling bank — isolates it from motor interference and keeps it alive all day at its ~2–5A draw.",
   },
   {
+    title: "The BBT order, exactly: what to buy and what to ask",
+    status: "Query drafted · post to BBT",
+    body: "Buy: \"2018-2019 Alumacraft Pro 175/185/XB200 Single Dash Mount,\" spec'd for the Garmin ECHOMAP UHD 93sv (standard Single, not MEGA). Post this to their forum or contact form: \"Hi, I have a 2018 Alumacraft Pro 185 with the fiberglass side console, and I want to order the 2018-2019 Pro 175/185/XB200 Single Dash Mount for a Garmin ECHOMAP UHD 93sv. Before I order: (1) Is the UHD 93sv supported on the standard Single mount, or does a 9-inch unit need the MEGA version? (2) My factory dash insert is sun damaged, so I'm buying this partly as a panel replacement — the mount comes on a full replacement plate that takes the place of the factory insert, right? (3) Do my factory speedo and switch panel transfer into precut holes in the new plate? (4) I have the factory bail mount for the 93sv — anything else I need to order, or is all install hardware included? (5) Current price shipped to 12180 and lead time? (6) Is there a plate number to reference for the 2018 model year so I don't get the 2015 Pro 185 version?\" Phone alternative: 706-217-6161, M–F 9–5:30 ET.",
+  },
+  {
+    title: "Hydraulic steering — the upgrade that pairs with the dash job",
+    status: "Roadmap · do with the BBT install",
+    body: "The boat has NFB mechanical steering. The right-sized hydraulic upgrade for a 115 is a SeaStar Solutions BayStar kit (rated to 150 hp): helm, front-mount cylinder, tubing, and fluid, roughly $700–950, a DIY-able weekend — bleeding the system is a two-person job. It eliminates torque-steer and wheel effort at 47 mph, in following seas, and across long trolling days. Sequencing win: the helm comes off the console for the BBT plate install anyway, so doing both at once means opening up the console once instead of twice.",
+  },
+  {
     title: "Meanwhile: the Helix, the boot, and the impeller",
     status: "Near-term list",
     body: "Helix 7 stays at the dash until the BBT plate arrives, then becomes the placeholder bow unit — a ~$40 US2 adapter cable connects it to the Ulterra's built-in transducer for a free bow sonar station until the LiveScope build replaces it (then sell it, ~$100–150). The rigging boot ($20–60) is the first DIY with the new M12 ratchet: replace boot and clamp, check the connectors under the cowl while it's open. And book the impeller service with the compression check — the one maintenance item still owed from the purchase checklist.",
