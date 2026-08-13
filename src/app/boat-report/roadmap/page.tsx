@@ -38,6 +38,7 @@ const ROADMAP: {
       "Whichever mount wins: a backer plate behind the thin curved panel is non-negotiable — spread the load, through-bolt with nylocs, Tef-Gel the stainless.",
       "Before ordering: dig the 93sv's factory bail bracket out of the Mirrocraft parts pile (the mount uses it; ~$40 if lost) and check whether the old transducer came along — if it stayed on the traded boat, the dash unit is charts-only until a GT56UHD (~$270) is added.",
       "The unit hangs on its bail, so it pops off the mount for storage or swaps anytime.",
+      "Considered and rejected (Aug 2026): buying a Helix 7 G4 to drop into the existing in-dash G2 cutout instead of mounting the Garmin. Every Helix 7 runs the same 800×480 resolution the 93sv has — but on a 7\" panel instead of the 9\" we already own, for $450–700 we don't need to spend. It's also not a guaranteed 1:1 swap: the G4 case is slightly bigger (10.5 × 5.8 × 3.7\") and Humminbird sells a separate in-dash kit just for the G4 (IDMK-H7R2, ~$50) because the original Helix 7 kit doesn't carry over. The plan stands: Garmin on the mount, Helix G2 sells.",
     ],
   },
   {
