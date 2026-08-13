@@ -268,41 +268,6 @@ const RESTORE_SOURCES: { label: string; url: string }[] = [
   { label: "LiveScope 2 head-unit compatibility guide", url: "https://carolinasportsmanoutfitters.com/pages/garmin-livescope-2-compatibility" },
 ];
 
-/* ------------------------------ owner projects ------------------------------ */
-
-const PROJECTS: { title: string; status: string; body: string }[] = [
-  {
-    title: "Dash rebuild: the BBT plate answers the panel-or-mount question — it's both",
-    status: "Unblocked · order for the UHD 93sv",
-    body: "Bass Boat Technologies' \"2018-2019 Alumacraft Pro 175/185/XB200 Single Dash Mount\" ships as a complete REPLACEMENT dash plate: 3/16\" powder-coated aircraft aluminum with the graph mount pre-installed, dropping into the factory dash-insert opening with hardware included. The sun-baked panel comes out entirely — one part (~$350–450 based on their other hulls; exact price unlisted) fixes the ugly dash AND mounts the Garmin, and owner reviews are uniformly \"rock solid, no wobble.\" Our unit is settled: the ECHOMAP UHD 93sv from the Mirrocraft — a 9\" screen, comfortably within the standard Single mount (MEGA is for 10\"+). The old \"will it fit the panel\" stop-work is moot: the panel leaves the boat. Order spec'd for the UHD 93sv; the unit hangs on its own factory bail bracket, so find the bail in the parts pulled from the old boat or buy one (~$40). One call to BBT (706-217-6161): confirm price, confirm the 93sv is in their dropdown, confirm the speedo and switch panel transfer into the plate's cutouts, and order from the 2018-2019 page — the 2015 Pro 185 uses a different plate. Also check the pulled parts for the old transducer: if it stayed on the Mirrocraft's transom, the dash 93sv is GPS/mapping-only until a transom ducer is added (GT56UHD, ~$270).",
-  },
-  {
-    title: "LiveScope: a separate bow-station build (resolved by the model number)",
-    status: "Future purchase · architecture set",
-    body: "Our UHD 93sv is a first-generation UHD — it CANNOT run LiveScope 2 (July 2026: no black box, $1,999 LVS44 / $2,199 LVS42HD, but only on ECHOMAP UHD2 sv, Ultra/Ultra 2, and GPSMAP platforms). That settles the architecture in favor of the plan anyway: the bow becomes its own self-contained station — a LiveScope-2-capable head unit up front (UHD2 sv ~$850, or Ultra 2 for a bigger screen) plus the LVS44 on the Ulterra. The 93sv keeps the dash job it's good at: charts, waypoints, 2D sonar. The budget alternative — legacy LiveScope Plus (LVS34 + GLS 10, ~$1,600) feeding the 93sv — puts the screen at the dash, the wrong end of the boat for forward-facing sonar, and leans on a discontinued black box. Skip it; save for the bow station.",
-  },
-  {
-    title: "LiveScope rigging on the Ulterra, when the day comes",
-    status: "Parts list saved",
-    body: "Barrel mount only, never shaft-clamped — the Ulterra's auto stow/deploy telescoping shaft can't carry clamped weight or loose cables (LiveScope 2 includes the barrel mount; the legacy LVS34 barrel mount is $40). Leave a ~10\" cable service loop across the pivot and verify a full stow/deploy cycle before the first trip. Power it from a dedicated 12V LiFePO4 (20–30Ah, ~$100–200) rather than the trolling bank — isolates it from motor interference and keeps it alive all day at its ~2–5A draw.",
-  },
-  {
-    title: "The BBT order, exactly: what to buy and what to ask",
-    status: "Query drafted · post to BBT",
-    body: "Buy: \"2018-2019 Alumacraft Pro 175/185/XB200 Single Dash Mount,\" spec'd for the Garmin ECHOMAP UHD 93sv (standard Single, not MEGA). Post this to their forum or contact form: \"Hi, I have a 2018 Alumacraft Pro 185 with the fiberglass side console, and I want to order the 2018-2019 Pro 175/185/XB200 Single Dash Mount for a Garmin ECHOMAP UHD 93sv. Before I order: (1) Is the UHD 93sv supported on the standard Single mount, or does a 9-inch unit need the MEGA version? (2) My factory dash insert is sun damaged, so I'm buying this partly as a panel replacement — the mount comes on a full replacement plate that takes the place of the factory insert, right? (3) Do my factory speedo and switch panel transfer into precut holes in the new plate? (4) I have the factory bail mount for the 93sv — anything else I need to order, or is all install hardware included? (5) Current price shipped to 12180 and lead time? (6) Is there a plate number to reference for the 2018 model year so I don't get the 2015 Pro 185 version?\" Phone alternative: 706-217-6161, M–F 9–5:30 ET.",
-  },
-  {
-    title: "Hydraulic steering — parked until the budget recovers",
-    status: "Someday · not urgent",
-    body: "The boat has NFB mechanical steering, which works fine — this is a comfort upgrade, not a repair, so it waits. When the time comes: a SeaStar Solutions BayStar kit (rated to 150 hp) is the right size for the 115 — helm, front-mount cylinder, tubing, and fluid, roughly $700–950, a DIY-able weekend with a helper for bleeding. It eliminates torque-steer and wheel effort at speed and across long trolling days. The dash plate does NOT wait for this — but if the steering fund fills before the BBT order ships, doing both in one console-open weekend saves a teardown.",
-  },
-  {
-    title: "Meanwhile: the Helix, the boot, and the impeller",
-    status: "Near-term list",
-    body: "Helix 7 stays at the dash until the BBT plate arrives, then becomes the placeholder bow unit — a ~$40 US2 adapter cable connects it to the Ulterra's built-in transducer for a free bow sonar station until the LiveScope build replaces it (then sell it, ~$100–150). The rigging boot ($20–60) is the first DIY with the new M12 ratchet: replace boot and clamp, check the connectors under the cowl while it's open. And book the impeller service with the compression check — the one maintenance item still owed from the purchase checklist.",
-  },
-];
-
 /* ------------------------- owner's quick reference ------------------------- */
 
 const REFERENCE: { title: string; body: string }[] = [
@@ -524,22 +489,20 @@ export default function FindingsPage() {
         </div>
       </section>
 
-      {/* projects */}
+      {/* roadmap pointer */}
       <section className="mt-8">
-        <SectionHeading icon={Hammer}>Owner projects — the Garmin dash plan</SectionHeading>
-        <ul className="space-y-2">
-          {PROJECTS.map((pr) => (
-            <li key={pr.title} className="rounded-xl border border-line bg-surface p-4">
-              <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
-                <p className="text-sm font-semibold">{pr.title}</p>
-                <p className="text-[11px] font-semibold uppercase tracking-wide text-ink-faint">
-                  {pr.status}
-                </p>
-              </div>
-              <p className="mt-1.5 text-sm leading-relaxed text-ink-muted">{pr.body}</p>
-            </li>
-          ))}
-        </ul>
+        <SectionHeading icon={Hammer}>Owner projects</SectionHeading>
+        <Link
+          href="/boat-report/roadmap"
+          className="group block rounded-xl border border-line bg-surface p-4 transition-colors hover:border-accent/40"
+        >
+          <p className="text-sm font-semibold">Moved to the upgrade roadmap</p>
+          <p className="mt-1 text-sm leading-relaxed text-ink-muted">
+            The BBT dash plate plan, the LiveScope bow station research, the Helix bow move,
+            hydraulic steering, and the rest — now a first-class page with statuses and order
+            of attack.
+          </p>
+        </Link>
       </section>
 
       {/* reference */}

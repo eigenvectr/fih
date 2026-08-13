@@ -2,24 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowLeft,
-  BadgeDollarSign,
-  CheckCircle2,
-  ClipboardList,
+  ChevronDown,
   Fish,
   Gauge,
-  HelpCircle,
-  Package,
-  Scale,
+  Sparkles,
   ShieldAlert,
-  ThumbsDown,
-  ThumbsUp,
+  Wrench,
 } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
 export const metadata = {
-  title: "Boat report · 2018 Alumacraft Pro 185",
+  title: "Our boat · 2018 Alumacraft Pro 185",
   description:
-    "Pre-purchase buyers report: 2018 Alumacraft Pro 185 with Evinrude E-TEC, $18,995 at CR's Marine, Schenectady NY.",
+    "The owner's hub for our 2018 Alumacraft Pro 185: features, strengths, weaknesses, service log, upgrade roadmap, and the purchase archive.",
 };
 
 /* ---------------------------------- data ---------------------------------- */
@@ -28,278 +23,256 @@ const PHOTOS = [
   { src: "/boat/profile.jpg", alt: "Port side profile on the Load Rite trailer" },
   { src: "/boat/stern.jpg", alt: "Stern quarter with Evinrude outboard and cockpit" },
   { src: "/boat/bow.jpg", alt: "Bow casting deck with Minn Kota Ulterra" },
-  { src: "/boat/engine.jpg", alt: "Evinrude E-TEC H.O. outboard close-up" },
+  { src: "/boat/seats.jpg", alt: "Cockpit and seating" },
 ];
 
-const SPECS: [string, string][] = [
-  ["Length", "18'5\""],
-  ["Beam", "7'6\""],
-  ["Hull", "Riveted mod-V, 2XB double bottom"],
-  ["Dry weight", "1,100 lb"],
-  ["Max rated power", "115 hp"],
-  ["Fuel", "20 gal"],
-  ["Capacity", "5 people / 1,450 lb"],
-  ["Livewells", "Two 20-gal aerated"],
-  ["Engine hours", "72.5"],
+const VITALS: [string, string][] = [
+  ["Bought", "Aug 2026 · $14,800 OTD"],
+  ["Top speed", "47 mph GPS (verified)"],
+  ["Engine", "E-TEC 115 H.O. G1"],
+  ["Hours at purchase", "72.5 (EMM-verified)"],
+  ["Length / beam", "18'5\" / 7'6\""],
+  ["Hull", "Riveted mod-V, 2XB bottom"],
+  ["Fuel / capacity", "20 gal · 5 people"],
   ["HIN", "ACBW8951F718"],
 ];
 
-const INCLUDED: { item: string; note: string }[] = [
+const NAV = [
+  { href: "/boat-report/service", label: "Service" },
+  { href: "/boat-report/roadmap", label: "Roadmap" },
+  { href: "/boat-report/findings", label: "Findings" },
+  { href: "/boat-report/archive", label: "Archive" },
+];
+
+type Detail = { title: string; tagline: string; body: string[] };
+
+const FEATURES: Detail[] = [
   {
-    item: "Minn Kota Ulterra 24V bow mount",
-    note: "Auto stow/deploy with Spot-Lock — about $3,000–3,500 new. Label decode made it even better: built in 2021 (newer than the boat), Bluetooth i-Pilot with the remote (found after a scare) plus app control, and built-in Universal Sonar 2. Freshwater model, not the saltwater Riptide — rinse after any Sound trip.",
+    title: "Evinrude E-TEC 115 H.O. G1",
+    tagline: "The verified heart — 47 mph, trolls all day, self-winterizes",
+    body: [
+      "Direct-injection 2-stroke: no belts, no valves, no oil changes — it injects XD100 from a reservoir. Holds 1.5–2.5 mph trolling for hours without fouling plugs, then runs 47 mph home.",
+      "Its EMM computer is a flight recorder: verified 72.5 hours at purchase, never overheated, nine winterizations logged. Every future pull extends the paper trail.",
+      "Use it for: everything. Trolling lakers at dawn, bass runs, the Hudson. WOT benchmark: 5,500–6,000 RPM and ~47 mph — if a future season falls short of that, something changed.",
+      "The catch: Evinrude is a dead brand — parts into ~2030, serviced 15 minutes away at CR's. See weaknesses for the plan.",
+    ],
   },
   {
-    item: "Humminbird Helix 7 CHIRP G2 at the dash",
-    note: "Confirmed at inspection — the smaller, older end of the Helix line, roughly $150–250 used. Works fine; screen is sun-hazed (see findings).",
+    title: "Minn Kota Ulterra 80 BT (2021)",
+    tagline: "Auto stow/deploy, Spot-Lock, three ways to drive it",
+    body: [
+      "The boat's best fishing feature, and it's newer than the boat — built 2021. Auto stow/deploy means it parks itself; Spot-Lock is an electric anchor that holds position in wind.",
+      "Three controls: the i-Pilot remote, the One-Boat Network phone app, and the foot pedal. All paired and working.",
+      "Bonus hiding inside: a US2 sonar transducer built into the lower unit — a $40 adapter feeds it to a bow display (the Helix's next job).",
+      "Use it for: holding on a bass bank while everyone casts, silent shallow approaches, backup propulsion, and precise trolling lines.",
+      "Care: it's the freshwater model — rinse thoroughly after any Sound trip.",
+    ],
   },
   {
-    item: "New batteries + onboard charger",
-    note: "Two Interstate SRM-27 deep-cycles on proper terminals plus a verified Minn Kota MK 315D 3-bank digital charger covering all three batteries. A $400–800 risk taken off the table — plug in after every trip; 5A per bank means deep recharges run overnight.",
+    title: "Garmin ECHOMAP UHD 93sv",
+    tagline: "The dash brain-in-waiting from the old boat",
+    body: [
+      "9\" chartplotter/sonar carried over from the Mirrocraft, currently uninstalled — it takes the helm when the BBT dash plate arrives (roadmap item #1).",
+      "Role: charts, waypoints, and 2D sonar at the driver's seat. It cannot run LiveScope 2 (first-gen platform), which is fine — the future LiveScope station lives at the bow with its own screen.",
+      "Before the plate order: find its bail bracket in the old-boat parts, and check whether its transducer came with it or was traded away on the Mirrocraft's transom.",
+    ],
   },
   {
-    item: "Load Rite aluminum trailer",
-    note: "Side guides, spare tire, and transom tie-down straps; tires check out. Aluminum frame is genuinely good news for the Connecticut plan — it shrugs off salt ramps far better than painted steel.",
+    title: "Humminbird Helix 7 CHIRP G2",
+    tagline: "Came with the boat — future bow placeholder",
+    body: [
+      "The dash unit the boat came with: modest, sun-hazed screen, works fine. Worth ~$150–250.",
+      "Its future: move to the bow on the Ulterra's built-in US2 transducer (~$40 adapter) once the Garmin takes the dash — a free second sonar station until the LiveScope build replaces it, then sell it.",
+      "Screen haze salvage if it bothers us: polish the failed coating off, $12 anti-glare protector on top (restoration guide, findings page).",
+    ],
   },
   {
-    item: "Brand-new mooring cover",
-    note: "A few hundred dollars of value — and a quiet tell: it's new because the boat lived outside without one.",
+    title: "Power system: MK 315D + Interstate bank",
+    tagline: "Three banks, all maintained from one plug",
+    body: [
+      "Minn Kota MK 315D onboard charger: 3 banks × 5A, digital multi-stage, covering both Ulterra deep-cycles (Interstate SRM-27, new at purchase) and the start battery.",
+      "The habit that keeps it all alive: plug in when the boat gets home — 5A banks mean a deep recharge is an overnight job.",
+      "Battery terminals wear proper clamps, not wing nuts — which matters, because voltage spikes from loose connections are the #1 killer of the E-TEC's $3,000 EMM.",
+    ],
   },
   {
-    item: "4-blade stainless prop (listing said 3-blade)",
-    note: "Confirmed at inspection: clean 4-blade stainless, barely used — the better fishing prop. Vindicated at the water test: 47 mph GPS, top of the predicted range.",
+    title: "Dual 20-gallon aerated livewells",
+    tagline: "Bow and stern — tournament-grade capacity",
+    body: [
+      "Both aerated with fill and recirculate, drains aft. More livewell than most 18-footers carry.",
+      "Use them for: keeping bass healthy for photos and releases, porgy runs at Milford, and bait management on striper days.",
+      "Run the pumps every few trips even when not fishing them — seals and impellers like exercise.",
+    ],
+  },
+  {
+    title: "4-blade stainless prop",
+    tagline: "Grip over top speed — and it still ran 47",
+    body: [
+      "A clean 4-blade stainless (the listing wrongly said 3-blade). Four blades trade 1–2 mph of top end for quicker hole shot, better grip in chop and turns, and steadier trolling control.",
+      "Proof it's pitched right: 47 mph GPS at the water test with clean revving.",
+      "Check the blades for dings any time the boat touches gravel; a bent stainless blade can be repaired (~$100–150) rather than replaced.",
+    ],
+  },
+  {
+    title: "Load Rite Elite aluminum trailer",
+    tagline: "The right trailer for salt ramps",
+    body: [
+      "Aluminum frame (shrugs off salt water far better than painted steel), side load guides, transom tie-down straps, and a spare tire. Tires checked good at purchase.",
+      "Service rhythm: spin the hubs each spring, repack bearings every 2 years, read tire date codes annually — trailer tires age out around year six regardless of tread.",
+    ],
+  },
+  {
+    title: "The hull: riveted 2XB mod-V",
+    tagline: "Beachable, shallow, light — with known limits",
+    body: [
+      "Alumacraft's double-plated bottom (a second full aluminum layer over the running surface) with a center keel and six keel breaks. Light enough to tow behind nearly anything and launch anywhere.",
+      "Use it for: shallow bass water big boats can't reach, beaching on gravel, quick solo launches.",
+      "Its limits are honest and documented: a mod-V pounds in big-lake chop and rides wet in wind — see weaknesses. Bilge stayed dry through the hard-run water test.",
+    ],
+  },
+  {
+    title: "Storage, cover, and the rest",
+    tagline: "Rod lockers, casting decks, new mooring cover",
+    body: [
+      "Port rod locker, bow and aft storage, under-seat compartments, two casting decks, windshield console, fold-down cleats.",
+      "The brand-new mooring cover (came with the deal) is what keeps the sun from restarting the cosmetic damage clock — use it every time.",
+      "Seats: seams re-stitched by the dealer at delivery; vinyl itself is healthy.",
+    ],
   },
 ];
 
-type Grade = "great" | "good" | "stretch";
+const STRENGTHS: Detail[] = [
+  {
+    title: "A verified biography no used boat has",
+    tagline: "EMM-documented history + measured performance",
+    body: [
+      "Verified hours, zero overheats, nine logged winterizations, ideal usage histogram, and a 47-mph water test — documented with photos across these pages.",
+      "This is the resale ace: when we sell, the listing says 'EMM reports on file since purchase, full service log' — and unlike every competing listing, we can prove it.",
+    ],
+  },
+  {
+    title: "Genuinely fast — 47 mph measured",
+    tagline: "Top of the honest range for this hull",
+    body: [
+      "Twice the old Mirrocraft, achieved with the engine pulling cleanly to rated RPM. Run-to-the-spot times that make short evening trips worth it.",
+      "About as fast as an open 18-foot aluminum boat should go with family aboard — the phantom 57 was never real, and 47 doesn't leave us wanting.",
+    ],
+  },
+  {
+    title: "Complete fishing package from day one",
+    tagline: "~$6–7k of hardware came with the hull",
+    body: [
+      "Ulterra with Spot-Lock (2021), Helix sonar, 3-bank charger, new batteries, aluminum trailer, stainless 4-blade, new cover, dual livewells.",
+      "Nothing needed buying to start fishing — the upgrade roadmap is all want, not need.",
+    ],
+  },
+  {
+    title: "A trolling machine by design",
+    tagline: "The previous owner proved it for 44 hours",
+    body: [
+      "The engine's own histogram shows 61% of its life at trolling RPM — this exact rig trolled Vermont lakes for years. DI 2-strokes hold 1.5–2.5 mph without fouling, and the Ulterra adds silent precision.",
+      "For our lakers and salmon: add downrigger track bases when ready; the platform is already proven.",
+    ],
+  },
+  {
+    title: "Local factory-capable service",
+    tagline: "CR's Marine, 15 minutes away",
+    body: [
+      "The selling dealer stocks Evinrude parts and services E-TECs in-house — the single biggest mitigation of the dead-brand risk, and they know this boat personally.",
+      "The impeller booking starts the service relationship on our terms.",
+    ],
+  },
+  {
+    title: "Goes where big boats can't",
+    tagline: "Light, shallow, launchable anywhere",
+    body: [
+      "1,100-lb hull on an aluminum trailer: any ramp, any tow vehicle, solo launches, skinny water, beachable on gravel.",
+      "The flip side of the big-water caveat — half our best fishing is in water deep-V owners can't touch.",
+    ],
+  },
+];
 
-const gradeStyle: Record<Grade, { label: string; cls: string }> = {
-  great: {
-    label: "Great fit",
-    cls: "bg-emerald-600/10 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-400",
+const WEAKNESSES: Detail[] = [
+  {
+    title: "Orphaned engine brand",
+    tagline: "Evinrude died in 2020 — the managed risk",
+    body: [
+      "BRP ended production May 2020; parts pledged into ~2030. The known expensive failure is the EMM (~$3,000), usually killed by overheating or loose battery connections — both of which our habits guard against.",
+      "The plan, written down: keep the service log immaculate, pull EMM reports every 2 years, and if we ever upgrade, sell before ~2029 while 'supported through 2030' is still a selling sentence.",
+      "What we got in exchange: this boat cost thousands less than Mercury/Yamaha equivalents. The discount was real going in; it will be real going out.",
+    ],
   },
-  good: {
-    label: "Works, with caveats",
-    cls: "bg-amber-500/10 text-amber-700 dark:bg-amber-400/10 dark:text-amber-400",
+  {
+    title: "Mod-V hull in big water",
+    tagline: "Weather windows, not white knuckles",
+    body: [
+      "The hull pounds in big-lake chop and rides wet in wind — 18-foot mod-V physics, no fix. Practical limits: comfortable to ~2-ft chop, workable to 3-ft rolling, miserable past that.",
+      "The discipline: pick weather windows on Lake George and the Finger Lakes, fish mornings on the Sound, respect wind-against-tide on the Hudson. The fishing is fine; the schedule flexes.",
+    ],
   },
-  stretch: {
-    label: "The stretch",
-    cls: "bg-red-500/10 text-red-700 dark:bg-red-400/10 dark:text-red-400",
+  {
+    title: "Sun-baked cosmetics",
+    tagline: "The boat's history written on its dash",
+    body: [
+      "Peeling console panels, hazed Helix screen, weathered trim — years outside, uncovered. All function, no failure.",
+      "The fix path is documented: BBT replacement plate retires the worst panel (roadmap #1), SEM refinish guide covers the rest (findings page), and the new mooring cover stops the clock.",
+    ],
   },
-};
+  {
+    title: "20-gallon fuel tank",
+    tagline: "Small for long trolling days",
+    body: [
+      "Fine for bass days and the Hudson; a limiter for long big-lake trolling runs. The E-TEC's economy helps (~6 mpg at economic cruise).",
+      "Habit: full tank for trolling days, know the marina options, and the fall top-off doubles as winterization practice.",
+    ],
+  },
+  {
+    title: "Freshwater rig, saltwater ambitions",
+    tagline: "Milford trips carry a maintenance tax",
+    body: [
+      "Riveted hull, freshwater Ulterra, magnesium anodes — all built for lakes. Occasional Sound trips are fine WITH the routine: zinc/aluminum anodes before salt season, flush and rinse everything after every trip.",
+      "The aluminum trailer is the one part of the rig that was already salt-ready.",
+    ],
+  },
+  {
+    title: "No kicker motor",
+    tagline: "Redundancy is the Ulterra",
+    body: [
+      "Big-water trollers run a 9.9 kicker for backup and fine control. We troll on the E-TEC (proven at it) with the Ulterra as electric backup — honest for our waters, worth rethinking only if Lake Ontario proper ever becomes a habit.",
+    ],
+  },
+];
 
-const FIT: { title: string; grade: Grade; body: string }[] = [
+const FIT: { title: string; grade: "great" | "good" | "stretch"; body: string }[] = [
   {
     title: "Bass — NY lakes and rivers",
     grade: "great",
-    body: "This is exactly what the Pro 185 was built for. Two casting decks, two 20-gallon livewells, rod storage, shallow draft, and the Ulterra's Spot-Lock holds you on a spot in wind without anchoring. A huge step up from the Mirrocraft for bass fishing.",
+    body: "Exactly what the Pro 185 was built for: casting decks, livewells, shallow draft, Spot-Lock. A huge step up from the Mirrocraft.",
   },
   {
     title: "Lake trout & salmon — deep NY lakes",
     grade: "good",
-    body: "Doable, not ideal. The E-TEC trolls well — direct-injection 2-strokes hold 1.5–2.5 mph without fouling plugs, and owners troll E-TECs all day. But there's no kicker for backup, the bass-boat gunnels need track bases added before downriggers can mount, and a mod-V hull pounds when a big lake builds an afternoon chop. The 20-gallon tank limits long runs. Fishable — on picked weather windows.",
+    body: "Proven troller (the histogram says so). Add downrigger track bases when ready; pick weather windows; plan fuel on big lakes.",
   },
   {
     title: "Hudson River — stripers & more",
     grade: "good",
-    body: "Good fit most days. Fast enough to chase birds, shallow enough for the flats, and normal river chop is fine for this hull. Watch spring debris, and respect wind-against-tide days.",
+    body: "Fast enough to chase birds, shallow enough for the flats. Watch spring debris and wind-against-tide days.",
   },
   {
     title: "Porgy & inshore — Milford, CT",
     grade: "stretch",
-    body: "Calm-morning-only. The Milford reefs and Charles Island are close to shore, so settled-weather trips are realistic. But experienced Sound boaters figure an 18-footer gets maybe a third of days comfortably, and this hull has low freeboard and an open bow. Salt also demands discipline: flush the engine 10–15 minutes after every trip, wash boat and trailer, swap the freshwater (magnesium) anodes for zinc or aluminum ones, and rinse the Ulterra — Minn Kota won't warranty a freshwater unit used in salt.",
+    body: "Calm-morning trips to the reefs and Charles Island are realistic. Salt routine required; the Sound decides the schedule, not us.",
   },
 ];
 
-const RED_FLAGS: { title: string; severity: "high" | "medium"; body: string }[] = [
-  {
-    title: "The listing contradicts itself on the engine — 115 or 150 hp? (RESOLVED: it's the 115)",
-    severity: "high",
-    body: "The dealer's description said \"115 Evinrude\" while the spec table on the same listing claimed a 150 hp E150. Confirmed in person August 2026: it's the E-TEC 115 H.O., correctly matched to the hull's 115 hp max rating. The spec table was simply wrong — which means the listing advertised 35 more horsepower than the boat has. That's the strongest single price lever in the negotiation.",
-  },
-  {
-    title: "Evinrude no longer exists",
-    severity: "high",
-    body: "BRP shut down Evinrude outboard production in May 2020. Parts are still available under BRP's roughly ten-year support commitment (into about 2030), but inventory has been thinning since 2022 and fewer techs will touch E-TECs each year. The known expensive failure is the EMM — the engine's computer — at roughly $3,000, often killed by overheating or by voltage spikes from loose battery connections. Two mitigating points: E-TECs are otherwise mechanically simple and well regarded, and CR's Marine itself still stocks and services Evinrude. But ask who else within an hour of home works on them, and price the orphaned badge in — it will follow the boat to resale day.",
-  },
-  {
-    title: "72.5 hours in eight seasons — this boat sat",
-    severity: "medium",
-    body: "That's about 9 hours a year. Low hours sound great, but boats age from sitting too. RESOLVED better than hoped: the EMM report showed the self-winterization routine ran all nine seasons and the engine never overheated, and the water test came back clean at 47 mph. Still owed on the owner's schedule: the water pump impeller service (~$200–250) — rubber ages out regardless of how well the engine was treated.",
-  },
-  {
-    title: "Vermont registration on a New York dealer's lot",
-    severity: "medium",
-    body: "The hull wears VT numbers (VT 9351U) — a Lake Champlain freshwater boat, which is good. RESOLVED at purchase: title verified against HIN ACBW8951F718 and transferred clean through the dealer at closing, August 2026.",
-  },
-  {
-    title: "Nobody mentioned the batteries (RESOLVED: they're new)",
-    severity: "medium",
-    body: "Confirmed at inspection: the batteries are new — a $400–800 risk off the table. Still open on the same theme: no service record for the water pump impeller, which is the rubber part that dies from sitting and keeps the engine (and its $3,000 EMM) cool. Ask for the record or have replacement (~$200–250) written into the deal. For all-day trolling at trout speeds, a 24V lithium upgrade is still the eventual answer.",
-  },
-];
+const gradeStyle = {
+  great: "bg-emerald-600/10 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-400",
+  good: "bg-amber-500/10 text-amber-700 dark:bg-amber-400/10 dark:text-amber-400",
+  stretch: "bg-red-500/10 text-red-700 dark:bg-red-400/10 dark:text-red-400",
+} as const;
 
-const SPEED_TABLE: { config: string; speed: string; source: string }[] = [
-  {
-    config: "The 57 mph that caught our eye",
-    speed: "57 mph",
-    source: "No published test of this hull supports it",
-  },
-  {
-    config: "Alumacraft + E-TEC 115 H.O. (BoatTEST)",
-    speed: "41 mph",
-    source: "Measured, with the engine this boat most likely has",
-  },
-  {
-    config: "Alumacraft 185 hull + E-TEC 150 (BoatTEST)",
-    speed: "45.3 mph",
-    source: "Measured on the sister Edge 185 hull",
-  },
-  {
-    config: "Smaller Pro 175 + E-TEC 150 (owner GPS)",
-    speed: "56 mph",
-    source: "Owner report — lighter hull, ideal prop, light load",
-  },
-];
-
-const COMPARABLES: {
-  name: string;
-  hull: string;
-  price: string;
-  speed: string;
-  pros: string[];
-  cons: string[];
-  verdict: string;
-  best?: boolean;
-}[] = [
-  {
-    name: "Lund Impact 1775",
-    hull: "Deep-V · riveted",
-    price: "$18k–25k used",
-    speed: "~44 mph w/115",
-    pros: [
-      "True deep-V ride for big-lake trolling",
-      "Deep 27\" cockpit — kid-friendly",
-      "Trolling-oriented layout, kicker-ready",
-      "Lund build quality and resale",
-    ],
-    cons: [
-      "Riveted, so same saltwater care as the Alumacraft",
-      "Not a bass layout — smaller casting decks",
-      "Similar money buys fewer extras (no Ulterra package)",
-    ],
-    verdict:
-      "The best single alternative for how you actually fish — trades casting decks and a few mph for the hull your trolling days want.",
-    best: true,
-  },
-  {
-    name: "Tracker Targa V-18",
-    hull: "Deep-V · welded",
-    price: "~$24–25k (2017–18)",
-    speed: "45.5 mph w/150",
-    pros: [
-      "Real deep-V (20° at the transom), 8'6\" beam",
-      "Welded hull — meaningfully better for salt",
-      "40-gal fuel, walk-through windshield keeps the family dry",
-    ],
-    cons: [
-      "Above this budget by ~$5k",
-      "Tracker fit/finish and resale below Lund or Crestliner",
-      "Heavier — needs more tow vehicle",
-    ],
-    verdict:
-      "Best on-paper fit for all four missions — if the budget stretches and you find a clean one.",
-  },
-  {
-    name: "Crestliner 1750 Fish Hawk",
-    hull: "Deep-V · welded",
-    price: "high teens–mid $20s",
-    speed: "42–44 mph w/115",
-    pros: [
-      "Welded deep-V — no rivet worries in salt",
-      "Dry, capable ride; kicker-friendly transom",
-    ],
-    cons: ["Tighter cockpit — fine for 4, snug for 5", "Used examples are scarce"],
-    verdict: "A strong pick if one shows up nearby — the welded hull suits the Connecticut plan.",
-  },
-  {
-    name: "Ranger RT188",
-    hull: "Mod-V bass · welded",
-    price: "mid $20s (2018)",
-    speed: "44–50 mph w/115",
-    pros: ["Best-built, best-riding aluminum bass boat", "Holds value unusually well"],
-    cons: [
-      "Still a bass hull — doesn't fix the big-water problem",
-      "Costs more for the same compromises",
-    ],
-    verdict: "Only worth it if bass fishing dominates — it's the same category as the Pro 185, done fancier.",
-  },
-  {
-    name: "Tracker Pro Team 190 TX",
-    hull: "Mod-V bass · riveted",
-    price: "$15–20k (2017–18)",
-    speed: "~43 mph w/90",
-    pros: ["Cheapest way into a bass rig", "Common — easy to find and easy to sell"],
-    cons: ["Lighter-gauge feel, narrow beam", "Same big-water limits, less boat overall"],
-    verdict: "Saves money but gives up quality — the Pro 185 with its Ulterra package beats it.",
-  },
-  {
-    name: "Starcraft Renegade 178",
-    hull: "Semi-V · riveted",
-    price: "high $20s+ (2018)",
-    speed: "45+ mph w/150",
-    pros: ["Semi-V splits the difference in chop", "Roomy 92\" beam, 7-person rating"],
-    cons: ["Clean late ones priced above this deal", "Neither the best bass boat nor the best troller"],
-    verdict: "A sensible compromise hull, but the used market wants more money for it.",
-  },
-];
-
-const PROS = [
-  "Purpose-built fishing platform — decks, livewells, rod storage the Mirrocraft never had",
-  "Loaded package: Ulterra with Spot-Lock, Helix sonar, aluminum trailer, new cover (~$5k+ of extras)",
-  "Only 72.5 hours on a well-regarded, fuel-sipping motor",
-  "E-TEC trolls beautifully for the trout and salmon plan — no plug fouling at 1.5–2.5 mph",
-  "Aluminum trailer is the right trailer for occasional salt ramps",
-  "Priced below equivalent Yamaha/Mercury rigs because of the Evinrude badge",
-];
-
-const CONS = [
-  "It does not do 57 mph — it does a measured 47 GPS, top of the honest range. Still ~2x the Mirrocraft",
-  "Orphaned engine brand: parts into ~2030, shrinking service network, ~$3k EMM as the known failure, harder future resale",
-  "Mod-V bass hull pounds in big-lake chop, rides wet in wind, and limits Long Island Sound days to calm windows",
-  "Riveted hull + freshwater trolling motor + magnesium anodes = a real salt-care routine to adopt",
-  "20-gallon fuel tank is small for long trolling runs",
-  "No kicker motor; downriggers need track bases added",
-];
-
-const QUESTIONS = [
-  "Which engine is it exactly — read me the model number off the transom plate? (Your listing says both 115 and 150.)",
-  "Can you run an EMM diagnostic report while we watch? (The E-TEC's computer logs true hours, RPM history, and fault codes — it's the motor's lie detector.)",
-  "How was it stored — inside, covered, batteries on a maintainer?",
-  "Has it ever been in salt or brackish water?",
-  "When were the water pump impeller and gearcase oil last serviced?",
-  "Which Helix model is on the dash, and what transducer — down/side imaging?",
-  "What batteries are aboard, how old, and is there an onboard charger?",
-  "Title in hand, no liens, HIN matches the paperwork?",
-  "Any warranty at all, and will you hold it with a refundable deposit pending a water test?",
-];
-
-const SOURCES: { label: string; url: string }[] = [
-  { label: "Alumacraft Pro 185 factory specs (115 hp max)", url: "https://alumacraft.com/Alumacraft-Boat.php?id=745" },
-  { label: "Alumacraft construction — riveted 2XB hull", url: "https://alumacraft.com/About-Alumacraft.php?content=construction" },
-  { label: "Wired2Fish — BRP discontinues Evinrude (May 2020)", url: "https://www.wired2fish.com/news/brp-discontinues-evinrude-mercury-to-support-boat-packages" },
-  { label: "continuousWave — E-TEC EMM engine history report", url: "https://continuouswave.com/whaler/reference/ETEC_EngineHistoryReport.html" },
-  { label: "E-TEC owners group — EMM failures & causes", url: "https://www.etecownersgroup.com/post/emm-problems-why-8081216" },
-  { label: "BoatGuide — 2019 Pro 185 MSRP $21,563", url: "https://www.boatguide.com/specs/alumacraft/bass/2019/pro/185.html" },
-  { label: "BoatTEST — Alumacraft Edge 185 w/ E-TEC 150 (45.3 mph)", url: "https://boattest.com/review/alumacraft/3556_edge-185-sport" },
-  { label: "BoatTEST — Evinrude E-TEC G2 115 H.O. (41 mph on Alumacraft)", url: "https://boattest.com/engine/evinrude/e-tec-g2-115-ho" },
-  { label: "BoatTEST — Tracker Targa V-18 WT", url: "https://boattest.com/review/tracker/3108_targa-v-18-wt" },
-  { label: "boats.com — Lund 1775 Impact review", url: "https://www.boats.com/reviews/lund-1775-impact-sport-deep-v-value-family-fun/" },
-  { label: "boats.com — Crestliner 1750 Fish Hawk test notes", url: "https://www.boats.com/reviews/crestliner-1750-fish-hawk-boat-test-notes/" },
-  { label: "Boating Mag — protecting aluminum boats from saltwater", url: "https://boatingmag.com/protecting-aluminum-boats-from-salt-water-corrosion/" },
-  { label: "E-TEC owners group — trolling with big E-TECs", url: "https://www.etecownersgroup.com/post/trolling-with-150-hp-etec-4773064" },
-  { label: "In-Depth Outdoors — 18-ft mod-V boats in rough water", url: "https://www.in-depthoutdoors.com/community/forums/topic/18-foot-mod-v-boats-in-rough-water/" },
-];
+const gradeLabel = { great: "Great fit", good: "Works, with care", stretch: "The stretch" } as const;
 
 /* --------------------------------- helpers --------------------------------- */
 
@@ -318,21 +291,33 @@ function SectionHeading({
   );
 }
 
-function GradeChip({ grade }: { grade: Grade }) {
-  const g = gradeStyle[grade];
+function DetailCard({ item }: { item: Detail }) {
   return (
-    <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-[11px] font-semibold ${g.cls}`}>
-      {g.label}
-    </span>
+    <details className="group rounded-xl border border-line bg-surface">
+      <summary className="cursor-pointer list-none p-4">
+        <span className="flex items-center justify-between gap-3">
+          <span className="text-sm font-semibold">{item.title}</span>
+          <ChevronDown className="h-4 w-4 shrink-0 text-ink-faint transition-transform group-open:rotate-180" />
+        </span>
+        <span className="mt-0.5 block text-sm text-ink-muted">{item.tagline}</span>
+      </summary>
+      <div className="space-y-2 border-t border-line p-4">
+        {item.body.map((b) => (
+          <p key={b.slice(0, 40)} className="text-sm leading-relaxed text-ink-muted">
+            {b}
+          </p>
+        ))}
+      </div>
+    </details>
   );
 }
 
 /* ----------------------------------- page ---------------------------------- */
 
-export default function BoatReportPage() {
+export default function BoatPage() {
   return (
     <main className="mx-auto w-full max-w-3xl flex-1 px-4 pt-4 sm:px-6">
-      <header className="mb-5 flex items-center gap-2">
+      <header className="mb-4 flex items-center gap-2">
         <Link
           href="/"
           aria-label="Back to waters"
@@ -341,9 +326,9 @@ export default function BoatReportPage() {
           <ArrowLeft className="h-5 w-5" />
         </Link>
         <div className="min-w-0 flex-1">
-          <h1 className="truncate text-lg font-semibold tracking-tight">Boat buyers report</h1>
+          <h1 className="truncate text-lg font-semibold tracking-tight">Our boat</h1>
           <p className="truncate text-xs text-ink-muted">
-            2018 Alumacraft Pro 185 · $18,995 · CR&apos;s Marine, Schenectady NY
+            2018 Alumacraft Pro 185 · Evinrude E-TEC 115 H.O. · ours since August 2026
           </p>
         </div>
         <ThemeToggle />
@@ -351,12 +336,7 @@ export default function BoatReportPage() {
 
       {/* quick nav */}
       <nav className="mb-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
-        {[
-          { href: "/boat-report/water-test", label: "Water test" },
-          { href: "/boat-report/findings", label: "Findings" },
-          { href: "/boat-report/deal", label: "Deal day" },
-          { href: "/boat-report/inspect", label: "Checklist" },
-        ].map((l) => (
+        {NAV.map((l) => (
           <Link
             key={l.href}
             href={l.href}
@@ -376,17 +356,17 @@ export default function BoatReportPage() {
             alt={p.alt}
             width={600}
             height={425}
-            className="rounded-xl border border-line object-cover"
+            className="aspect-[4/3] rounded-xl border border-line object-cover"
           />
         ))}
       </div>
 
-      {/* the deal */}
-      <section className="mt-8">
-        <SectionHeading icon={Gauge}>The boat at a glance</SectionHeading>
+      {/* vitals */}
+      <section className="mt-6">
+        <SectionHeading icon={Gauge}>Vitals</SectionHeading>
         <div className="rounded-xl border border-line bg-surface p-4">
-          <dl className="grid grid-cols-2 gap-x-4 gap-y-2.5 sm:grid-cols-3">
-            {SPECS.map(([k, v]) => (
+          <dl className="grid grid-cols-2 gap-x-4 gap-y-2.5 sm:grid-cols-4">
+            {VITALS.map(([k, v]) => (
               <div key={k}>
                 <dt className="text-[11px] uppercase tracking-wide text-ink-faint">{k}</dt>
                 <dd className="text-sm font-medium">{v}</dd>
@@ -396,89 +376,48 @@ export default function BoatReportPage() {
         </div>
       </section>
 
-      {/* included */}
+      {/* features */}
       <section className="mt-8">
-        <SectionHeading icon={Package}>What comes with it</SectionHeading>
-        <ul className="space-y-2">
-          {INCLUDED.map((x) => (
-            <li key={x.item} className="rounded-xl border border-line bg-surface p-4">
-              <p className="text-sm font-semibold">{x.item}</p>
-              <p className="mt-1 text-sm leading-relaxed text-ink-muted">{x.note}</p>
-            </li>
+        <SectionHeading icon={Wrench}>Features — tap anything for the full story</SectionHeading>
+        <div className="space-y-2">
+          {FEATURES.map((f) => (
+            <DetailCard key={f.title} item={f} />
           ))}
-        </ul>
+        </div>
       </section>
 
-      {/* speed */}
+      {/* strengths */}
       <section className="mt-8">
-        <SectionHeading icon={Gauge}>About that 57 mph</SectionHeading>
-        <div className="rounded-xl border border-line bg-surface p-4">
-          <p className="text-sm leading-relaxed">
-            The speed that caught our eye doesn&apos;t survive contact with the test data.
-            Nobody has published a test of this hull anywhere near 57:
-          </p>
-          <div className="mt-3 overflow-x-auto">
-            <table className="w-full min-w-105 text-sm">
-              <thead>
-                <tr className="border-b border-line text-left text-[11px] uppercase tracking-wide text-ink-faint">
-                  <th className="pb-2 pr-3 font-semibold">Setup</th>
-                  <th className="pb-2 pr-3 font-semibold">Top speed</th>
-                  <th className="pb-2 font-semibold">Where that number comes from</th>
-                </tr>
-              </thead>
-              <tbody>
-                {SPEED_TABLE.map((r) => (
-                  <tr key={r.config} className="border-b border-line/60 last:border-0">
-                    <td className="py-2 pr-3">{r.config}</td>
-                    <td className="py-2 pr-3 font-semibold whitespace-nowrap">{r.speed}</td>
-                    <td className="py-2 text-ink-muted">{r.source}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="mt-3 text-sm leading-relaxed text-ink-muted">
-            <strong className="text-ink">Final answer, measured at the water test: 47 mph GPS</strong>{" "}
-            — the very top of the predicted range, with the engine pulling cleanly. Not the
-            phantom 57, but a genuinely fast open aluminum boat — roughly double the old
-            Mirrocraft — and proof the 115 H.O., the 4-blade prop, and the hull are all doing
-            their jobs.
-          </p>
+        <SectionHeading icon={Sparkles}>What this boat is great at</SectionHeading>
+        <div className="space-y-2">
+          {STRENGTHS.map((f) => (
+            <DetailCard key={f.title} item={f} />
+          ))}
+        </div>
+      </section>
+
+      {/* weaknesses */}
+      <section className="mt-8">
+        <SectionHeading icon={ShieldAlert}>What it isn&apos;t — and how we manage it</SectionHeading>
+        <div className="space-y-2">
+          {WEAKNESSES.map((f) => (
+            <DetailCard key={f.title} item={f} />
+          ))}
         </div>
       </section>
 
       {/* fit */}
       <section className="mt-8">
-        <SectionHeading icon={Fish}>How it fits our fishing</SectionHeading>
+        <SectionHeading icon={Fish}>How it fishes our waters</SectionHeading>
         <ul className="space-y-2">
           {FIT.map((f) => (
             <li key={f.title} className="rounded-xl border border-line bg-surface p-4">
               <div className="flex items-center justify-between gap-3">
                 <p className="text-sm font-semibold">{f.title}</p>
-                <GradeChip grade={f.grade} />
-              </div>
-              <p className="mt-2 text-sm leading-relaxed text-ink-muted">{f.body}</p>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      {/* red flags */}
-      <section className="mt-8">
-        <SectionHeading icon={ShieldAlert}>Red flags & things to verify</SectionHeading>
-        <ul className="space-y-2">
-          {RED_FLAGS.map((f) => (
-            <li key={f.title} className="rounded-xl border border-line bg-surface p-4">
-              <div className="flex items-start justify-between gap-3">
-                <p className="text-sm font-semibold">{f.title}</p>
                 <span
-                  className={`shrink-0 rounded-full px-2.5 py-0.5 text-[11px] font-semibold ${
-                    f.severity === "high"
-                      ? "bg-red-500/10 text-red-700 dark:bg-red-400/10 dark:text-red-400"
-                      : "bg-amber-500/10 text-amber-700 dark:bg-amber-400/10 dark:text-amber-400"
-                  }`}
+                  className={`shrink-0 rounded-full px-2.5 py-0.5 text-[11px] font-semibold ${gradeStyle[f.grade]}`}
                 >
-                  {f.severity === "high" ? "Deal-shaper" : "Check it"}
+                  {gradeLabel[f.grade]}
                 </span>
               </div>
               <p className="mt-2 text-sm leading-relaxed text-ink-muted">{f.body}</p>
@@ -487,227 +426,12 @@ export default function BoatReportPage() {
         </ul>
       </section>
 
-      {/* price check */}
-      <section className="mt-8">
-        <SectionHeading icon={BadgeDollarSign}>Is $18,995 a fair price?</SectionHeading>
-        <div className="mb-2 rounded-xl border border-accent/40 bg-accent/5 p-4 text-sm leading-relaxed">
-          <p className="font-semibold">PURCHASED — August 2026. Water test passed.</p>
-          <p className="mt-1 text-ink-muted">
-            Bought at $14,800 total out the door (tax and fees included) after the Mirrocraft
-            trade. The water test came back clean, seats are being repaired before delivery, and
-            the Garmin came out of the old boat to be dash-mounted later (see the projects plan
-            on the findings page). Effectively full retail — traded knowingly for a verified
-            engine history, included work, local Evinrude service, and zero logistics. The
-            analysis below is preserved as the record of how the number was reasoned.
-          </p>
-        </div>
-        <div className="rounded-xl border border-line bg-surface p-4 text-sm leading-relaxed">
-          <p>
-            <strong>No — as inspected, it&apos;s overpriced by roughly $2,500–4,500.</strong>{" "}
-            Full market re-check (August 2026) with live comps: a 2018 Tracker Pro Team 190 TX
-            with a 70-hour <em>Mercury 115 Pro XS</em> — a supported engine — asks $18,495, and a
-            garage-kept 2020 Pro 185 with a live Yamaha asks $20,995. This boat carries a dead
-            brand (forum consensus: E-TEC rigs take a 10–20% discount and are hard to resell),
-            stored outside, and was advertised with 35 more horsepower than it has. The EMM
-            report has since verified the engine&apos;s history clean (see findings) — that
-            firms the top of the range, but changes nothing about what the brand does to resale
-            or what the sun did to the boat. Fair retail as it sits:{" "}
-            <strong>$15,000–16,500</strong>. The Ulterra package, new batteries, and the
-            clean engine history are why it holds the top of that range.
-          </p>
-          <p className="mt-2 text-ink-muted">
-            <strong className="text-ink">The play:</strong> target{" "}
-            <strong className="text-ink">$15,500–16,500</strong>, with seat repair, impeller
-            service, and the rigging boot written into the buyer&apos;s order — contingent on an
-            EMM diagnostic pull (by an independent E-TEC tech if the dealer can&apos;t do it; on a
-            no-records consignment boat the EMM is the only service history that exists) and a
-            water test reaching full rated RPM. It&apos;s a consignment: the dealer has room to
-            bring the owner down. And negotiate the <em>net difference</em> after the $5,500
-            trade, not the sticker — a fair net is $10,000–11,000, not $13,495. The Evinrude
-            discount you get today, you give back at resale.
-          </p>
-        </div>
-      </section>
-
-      {/* comparables */}
-      <section className="mt-8">
-        <SectionHeading icon={Scale}>How it compares — same money, different boats</SectionHeading>
-        <p className="mb-3 text-sm leading-relaxed text-ink-muted">
-          The honest question isn&apos;t &quot;is the Pro 185 good?&quot; — it&apos;s whether a
-          deep-V hull would fit our trolling and Long Island Sound days better. Here&apos;s the
-          field at this budget:
-        </p>
-        <ul className="space-y-2">
-          {COMPARABLES.map((b) => (
-            <li
-              key={b.name}
-              className={`rounded-xl border bg-surface p-4 ${
-                b.best ? "border-accent/50" : "border-line"
-              }`}
-            >
-              <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-                <p className="text-sm font-semibold">{b.name}</p>
-                {b.best && (
-                  <span className="rounded-full bg-accent/10 px-2.5 py-0.5 text-[11px] font-semibold text-accent">
-                    Top alternative
-                  </span>
-                )}
-              </div>
-              <p className="mt-1 flex flex-wrap gap-x-3 text-xs text-ink-muted">
-                <span>{b.hull}</span>
-                <span>{b.price}</span>
-                <span>{b.speed}</span>
-              </p>
-              <div className="mt-3 grid gap-3 sm:grid-cols-2">
-                <div>
-                  <p className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-400">
-                    <ThumbsUp className="h-3 w-3" /> For
-                  </p>
-                  <ul className="mt-1.5 space-y-1 text-sm leading-relaxed text-ink-muted">
-                    {b.pros.map((p) => (
-                      <li key={p}>· {p}</li>
-                    ))}
-                  </ul>
-                </div>
-                <div>
-                  <p className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wide text-red-700 dark:text-red-400">
-                    <ThumbsDown className="h-3 w-3" /> Against
-                  </p>
-                  <ul className="mt-1.5 space-y-1 text-sm leading-relaxed text-ink-muted">
-                    {b.cons.map((c) => (
-                      <li key={c}>· {c}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-              <p className="mt-3 border-t border-line/60 pt-3 text-sm leading-relaxed">{b.verdict}</p>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      {/* pros & cons */}
-      <section className="mt-8">
-        <SectionHeading icon={Scale}>The Pro 185, summed up</SectionHeading>
-        <div className="grid gap-2 sm:grid-cols-2">
-          <div className="rounded-xl border border-line bg-surface p-4">
-            <p className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-400">
-              <ThumbsUp className="h-3 w-3" /> Why buy it
-            </p>
-            <ul className="mt-2 space-y-1.5 text-sm leading-relaxed text-ink-muted">
-              {PROS.map((p) => (
-                <li key={p} className="flex gap-2">
-                  <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-emerald-600 dark:text-emerald-400" />
-                  {p}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="rounded-xl border border-line bg-surface p-4">
-            <p className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wide text-red-700 dark:text-red-400">
-              <ThumbsDown className="h-3 w-3" /> Why hesitate
-            </p>
-            <ul className="mt-2 space-y-1.5 text-sm leading-relaxed text-ink-muted">
-              {CONS.map((c) => (
-                <li key={c} className="flex gap-2">
-                  <ShieldAlert className="mt-0.5 h-3.5 w-3.5 shrink-0 text-red-600 dark:text-red-400" />
-                  {c}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* questions */}
-      <section className="mt-8">
-        <SectionHeading icon={HelpCircle}>Nine questions for the dealer</SectionHeading>
-        <ol className="space-y-2">
-          {QUESTIONS.map((q, i) => (
-            <li key={q} className="flex gap-3 rounded-xl border border-line bg-surface p-3.5 text-sm leading-relaxed">
-              <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-surface-2 text-[11px] font-semibold text-ink-muted">
-                {i + 1}
-              </span>
-              {q}
-            </li>
-          ))}
-        </ol>
-      </section>
-
-      {/* checklist */}
-      <section className="mt-8">
-        <SectionHeading icon={ClipboardList}>Inspection day</SectionHeading>
-        <div className="space-y-2">
-          <Link
-            href="/boat-report/inspect"
-            className="group block rounded-xl border border-line bg-surface p-4 transition-colors hover:border-accent/40"
-          >
-            <p className="text-sm font-semibold">Open the on-the-lot checklist</p>
-            <p className="mt-1 text-sm leading-relaxed text-ink-muted">
-              17 checks with what good and bad look like for each — engine, hull, transom,
-              systems, trailer, paperwork. Checkboxes save on your phone as you go.
-            </p>
-          </Link>
-          <Link
-            href="/boat-report/findings"
-            className="group block rounded-xl border border-line bg-surface p-4 transition-colors hover:border-accent/40"
-          >
-            <p className="text-sm font-semibold">Inspection findings — what we found in person</p>
-            <p className="mt-1 text-sm leading-relaxed text-ink-muted">
-              Photos, verdicts, and fixes from the lot visit: engine confirmed a 115 H.O.,
-              the peeling console with a restoration guide, and an owner&apos;s quick reference.
-            </p>
-          </Link>
-          <Link
-            href="/boat-report/deal"
-            className="group block rounded-xl border border-line bg-surface p-4 transition-colors hover:border-accent/40"
-          >
-            <p className="text-sm font-semibold">Deal day playbook</p>
-            <p className="mt-1 text-sm leading-relaxed text-ink-muted">
-              The numbers to hold, the negotiation sequence, your leverage list, lines for the
-              hard moments, and the walk protocol.
-            </p>
-          </Link>
-        </div>
-      </section>
-
-      {/* bottom line */}
-      <section className="mt-8 rounded-xl border border-line bg-surface p-4">
-        <h2 className="text-sm font-semibold">Bottom line</h2>
-        <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-          It&apos;s ours — bought August 2026 at $14,800 out the door with everything verified:
-          engine identity confirmed, EMM history clean, water test passed at 47 mph GPS, titles
-          clear. What made this purchase different from a leap of faith is documented across
-          these pages: every claim in the listing was checked, every flaw photographed and
-          priced, and the two open items left are routine — the impeller service and the seat
-          repair at delivery. From here the report hands off to the findings page: the owner&apos;s
-          reference, the restoration guide, and the projects list.
-        </p>
-        <p className="mt-3 text-xs leading-relaxed text-ink-faint">
-          Prepared July 2026 from the CR&apos;s Marine listing, photo analysis, factory specs, and
-          published boat tests. Prices are asking-price observations, not appraisals — a marine
-          survey and water test are the final word.
-        </p>
-      </section>
-
-      {/* sources */}
-      <section className="mt-8 mb-4">
-        <SectionHeading icon={ClipboardList}>Sources</SectionHeading>
-        <ul className="space-y-1.5">
-          {SOURCES.map((s) => (
-            <li key={s.url}>
-              <a
-                href={s.url}
-                target="_blank"
-                rel="noreferrer"
-                className="text-xs text-accent hover:underline"
-              >
-                {s.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </section>
+      {/* footer */}
+      <p className="mt-8 mb-4 text-xs leading-relaxed text-ink-faint">
+        Everything on these pages — the verified engine history, the service log, the photos, the
+        purchase archive — is also the resale dossier. The day we sell or upgrade, the listing
+        writes itself, with receipts.
+      </p>
     </main>
   );
 }

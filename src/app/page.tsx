@@ -64,17 +64,17 @@ export default function WatersPage() {
           <ChevronRight className="h-4 w-4 text-ink-faint transition-transform group-hover:translate-x-0.5" />
         </Link>
         <p className="mt-1.5 flex gap-3 pl-[22px] text-xs">
-          <Link href="/boat-report/water-test" className="text-ink-faint hover:text-accent">
-            Water test
+          <Link href="/boat-report/service" className="text-ink-faint hover:text-accent">
+            Service
+          </Link>
+          <Link href="/boat-report/roadmap" className="text-ink-faint hover:text-accent">
+            Roadmap
           </Link>
           <Link href="/boat-report/findings" className="text-ink-faint hover:text-accent">
             Findings
           </Link>
-          <Link href="/boat-report/deal" className="text-ink-faint hover:text-accent">
-            Deal day
-          </Link>
-          <Link href="/boat-report/inspect" className="text-ink-faint hover:text-accent">
-            Checklist
+          <Link href="/boat-report/archive" className="text-ink-faint hover:text-accent">
+            Archive
           </Link>
         </p>
       </div>
