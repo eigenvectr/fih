@@ -68,7 +68,7 @@ const FEATURES: Detail[] = [
     tagline: "The trolling motor — an electric anchor and a silent second engine",
     body: [
       "The boat's best fishing feature, newer than the boat itself (built 2021). It deploys and stows itself at the push of a button, and Spot-Lock holds the boat on a GPS point like an anchor — no rope, no drift.",
-      "Bonus hiding in the lower unit: a built-in US2 sonar transducer, waiting for a $40 adapter to feed a bow fish finder.",
+      "Also in the lower unit: a built-in US2 sonar transducer — unused in our plan (Garmin heads can't read it), but a nice resale footnote. The bow is reserved for LiveScope, which barrel-mounts to this motor cleanly.",
     ],
     how: [
       "Power: its breaker switch lives in the battery compartment — flip it on at the ramp, off when trailering.",
@@ -110,7 +110,7 @@ const FEATURES: Detail[] = [
     title: "Humminbird Helix 7 CHIRP G2",
     tagline: "The fish finder that came with the boat",
     body: [
-      "The current dash unit: sonar and GPS, modest but working, with a sun-hazed screen (cosmetic). Its future: move to the bow on the Ulterra's built-in transducer once the Garmin takes the dash, then eventually sell.",
+      "The current dash unit: sonar and GPS, modest but working, with a sun-hazed screen (cosmetic). Its future: comes off and sells when the Garmin takes the dash — the bow stays empty, reserved for the LiveScope station.",
     ],
     how: [
       "Power button is bottom-right; it shares the console power switch.",

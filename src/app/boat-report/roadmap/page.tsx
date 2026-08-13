@@ -53,15 +53,15 @@ const ROADMAP: {
     ],
   },
   {
-    title: "Helix 7 to the bow on the Ulterra's built-in sonar",
+    title: "The bow stays empty — reserved for LiveScope",
     status: "queued",
-    cost: "~$40 adapter",
+    cost: "$0",
     summary:
-      "After the BBT mount puts the Garmin at the dash, the Helix becomes a free bow sonar station: a US2 adapter cable connects it to the transducer built into the Ulterra's lower unit.",
+      "Decision made: no placeholder bow electronics. When the Garmin takes the dash, the Helix comes off and sells (~$100–150 toward the fund), and the bow waits clean for the LiveScope station.",
     details: [
-      "The Ulterra's US2 (Universal Sonar 2) transducer is already in the water every time the motor deploys — the adapter just feeds it to the Helix.",
-      "Placeholder role: it holds the bow station until the LiveScope build replaces it, then sells (~$100–150).",
-      "Screen haze is cosmetic — the $12 anti-glare protector salvage from the restoration guide applies if it bothers us.",
+      "Why not bridge with the Helix at the bow: it'd need a mount, an adapter, and wiring for a unit that's leaving anyway — that money and drilling belongs to the real bow station.",
+      "The Ulterra's built-in US2 transducer goes unused in this plan (Garmin heads can't read it) — it's simply a resale footnote.",
+      "Helix sale prep: the $12 anti-glare protector salvage from the restoration guide bumps its price if it's worth the ten minutes.",
     ],
   },
   {
@@ -74,7 +74,7 @@ const ROADMAP: {
       "Why LVS44 over the $2,199 LVS42HD: the 42HD is a close-range (~125 ft) clarity specialist — right for bass-only boats. The LVS44's lower frequency band and 250-ft envelope serve ALL our water: 60–120-ft lakers and salmon, better saltwater behavior for stripers and the Sound, and still a generational clarity jump over the old LVS34 for bass. Bassmaster Elite pro Alton Jones Jr., after three days on the water with both, called the LVS44 the better all-around choice even for most bass anglers.",
       "Why the Ultra 2 106sv over the cheaper UHD2 93sv: forward-facing sonar rewards pixels — the 106sv's 1280×800 on 10.1\" versus the 93sv's 1024×600 on 9\" is the single most worthwhile ~$900 upsell in the build. Budget fallback: UHD2 93sv + LVS44 ≈ $3,500 total, same sonar data on a coarser canvas. Skip 7-inch units for FFS entirely.",
       "Why not our existing 93sv: first-gen UHD can't run LiveScope 2 — and the bow needs its own screen anyway.",
-      "No black box anymore: LiveScope 2 connects straight to the display, and the box includes the trolling-motor barrel mount. Barrel-mount on the Ulterra (never shaft-clamp an auto-stow motor), leave a generous cable slack loop across the stow pivot, and watch the first few stow/deploy cycles.",
+      "Ulterra integration, answered: mechanically clean — the included barrel mount clamps the motor housing (never the auto-stow shaft) and the transducer stows/deploys with the motor; leave a ~10\" cable loop across the pivot and watch the first cycles. Electronically there's no integration and none needed: aim the view by steering the motor. One quirk to expect: while Spot-Locked, the motor's corrections swing the LiveScope view — live with it, use manual holds, or add a pole mount someday.",
       "Power: dedicated 50Ah LiFePO4 (~$250) runs display + LiveScope ~8–10 hours; 100Ah for tournament days. Separate from the Ulterra's 24V bank.",
       "Timing note: no LiveScope 2 bundles existed as of Aug 2026 (too new) — waiting until winter likely brings bundles and a firmware maturity cycle. Update the display's software immediately on install, and verify the exact head unit on Garmin's LiveScope 2 compatibility list before ordering.",
       "Money-no-object reference: Ultra 2 122sv (or a GPSMAP glass helm) running BOTH transducers — LVS42HD for casting range plus LVS44 for open water (~$7,700–12k). The dual-ducer split is the current pro template.",
