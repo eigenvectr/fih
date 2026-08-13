@@ -44,99 +44,144 @@ const NAV = [
   { href: "/boat-report/archive", label: "Archive" },
 ];
 
-type Detail = { title: string; tagline: string; body: string[] };
+type Detail = { title: string; tagline: string; body: string[]; how?: string[] };
 
 const FEATURES: Detail[] = [
   {
     title: "Evinrude E-TEC 115 H.O. G1",
-    tagline: "The verified heart — 47 mph, trolls all day, self-winterizes",
+    tagline: "The engine — 47 mph, trolls all day, mostly takes care of itself",
     body: [
-      "Direct-injection 2-stroke: no belts, no valves, no oil changes — it injects XD100 from a reservoir. Holds 1.5–2.5 mph trolling for hours without fouling plugs, then runs 47 mph home.",
-      "Its EMM computer is a flight recorder: verified 72.5 hours at purchase, never overheated, nine winterizations logged. Every future pull extends the paper trail.",
-      "Use it for: everything. Trolling lakers at dawn, bass runs, the Hudson. WOT benchmark: 5,500–6,000 RPM and ~47 mph — if a future season falls short of that, something changed.",
-      "The catch: Evinrude is a dead brand — parts into ~2030, serviced 15 minutes away at CR's. See weaknesses for the plan.",
+      "A direct-injection 2-stroke: no engine oil changes, no belts, no valves. It automatically injects oil from a reservoir under the cowl, so \"checking the oil\" means glancing at that tank, not pulling a dipstick.",
+      "Its computer (the EMM) records everything — hours, temperatures, faults. Our copy of its report verified the whole history at purchase.",
+    ],
+    how: [
+      "Before every trip: open the cowl latch and glance at the translucent oil tank — top up with Evinrude XD100 only (never car oil). It burns about a gallon per 30–40 hours.",
+      "At startup: turn the key and immediately look for the thin water stream (the \"tell-tale\") shooting from the engine. Stream = cooling works. No stream within a few seconds = shut down, do not run it.",
+      "Warm it 2–3 minutes at idle before throttling up. Once warm, running it hard is good for it — 2-strokes hate babying more than they hate work.",
+      "Gas: regular 87 octane. Premium buys nothing.",
+      "If a warning horn sounds: pull back to idle, check the tell-tale and the oil tank, and shut down if unsure. The engine protects itself by cutting power — let it.",
+      "Every fall: the winterize routine (CR's does it, or the self-fogging procedure) — this single habit is why the engine survived nine years outside.",
     ],
   },
   {
     title: "Minn Kota Ulterra 80 BT (2021)",
-    tagline: "Auto stow/deploy, Spot-Lock, three ways to drive it",
+    tagline: "The trolling motor — an electric anchor and a silent second engine",
     body: [
-      "The boat's best fishing feature, and it's newer than the boat — built 2021. Auto stow/deploy means it parks itself; Spot-Lock is an electric anchor that holds position in wind.",
-      "Three controls: the i-Pilot remote, the One-Boat Network phone app, and the foot pedal. All paired and working.",
-      "Bonus hiding inside: a US2 sonar transducer built into the lower unit — a $40 adapter feeds it to a bow display (the Helix's next job).",
-      "Use it for: holding on a bass bank while everyone casts, silent shallow approaches, backup propulsion, and precise trolling lines.",
-      "Care: it's the freshwater model — rinse thoroughly after any Sound trip.",
+      "The boat's best fishing feature, newer than the boat itself (built 2021). It deploys and stows itself at the push of a button, and Spot-Lock holds the boat on a GPS point like an anchor — no rope, no drift.",
+      "Bonus hiding in the lower unit: a built-in US2 sonar transducer, waiting for a $40 adapter to feed a bow fish finder.",
+    ],
+    how: [
+      "Power: its breaker switch lives in the battery compartment — flip it on at the ramp, off when trailering.",
+      "Deploy: press the stow/deploy button on the remote (or app, or double-tap the pedal) — it unfolds itself into the water. Same button brings it home. ALWAYS stow before running the outboard.",
+      "Spot-Lock: drive to where you want to stay, let the boat settle, press the anchor icon. It'll hold within a few feet all day. Press again to release.",
+      "Driving: speed 1–10 and steering from the remote, the phone app (One-Boat Network), or the foot pedal — all three are paired and interchangeable.",
+      "Battery reality: at trolling speeds 4–5 it runs all day on the two deep-cycles; at 7+ it can drain them in a few hours. The fix is always the same: plug the boat in when you get home.",
+      "After any saltwater trip: rinse the whole motor with fresh water — it's the freshwater model and salt isn't covered.",
+    ],
+  },
+  {
+    title: "Minn Kota MK 315D onboard charger",
+    tagline: "One plug charges all three batteries — the most important habit on the boat",
+    body: [
+      "A 3-bank smart charger bolted into the battery compartment: one wall cord in, and it independently charges and maintains both trolling batteries AND the starting battery. It cannot overcharge — leave it plugged in for a night or a month.",
+    ],
+    how: [
+      "Find the AC cord/inlet in the battery compartment (near the charger, labeled Minn Kota DIGITAL).",
+      "When the boat gets home: plug it into any regular household outlet — an outdoor extension cord is fine. That's the whole job.",
+      "Read the lights: each bank has an LED — red/charging means it's working (1–5A), green means that battery is full and being maintained (0–1A).",
+      "Deep recharges take overnight (it's a 5-amp-per-bank unit) — plug in the night you get home, not the morning you leave.",
+      "Winter: leave it plugged in, or plug in overnight once a month. Maintained batteries last 5+ years; neglected ones die in 2.",
+      "If one bank never turns green overnight: that battery (or its wiring) needs a look — that's your early warning, not a crisis.",
     ],
   },
   {
     title: "Garmin ECHOMAP UHD 93sv",
-    tagline: "The dash brain-in-waiting from the old boat",
+    tagline: "The navigator-in-waiting from the old boat",
     body: [
-      "9\" chartplotter/sonar carried over from the Mirrocraft, currently uninstalled — it takes the helm when the BBT dash plate arrives (roadmap item #1).",
-      "Role: charts, waypoints, and 2D sonar at the driver's seat. It cannot run LiveScope 2 (first-gen platform), which is fine — the future LiveScope station lives at the bow with its own screen.",
-      "Before the plate order: find its bail bracket in the old-boat parts, and check whether its transducer came with it or was traded away on the Mirrocraft's transom.",
+      "Our 9-inch chartplotter, currently uninstalled — it takes the helm when the BBT dash plate arrives (roadmap #1). Its job: lake maps, waypoints, speed, and 2D sonar at the driver's seat.",
+    ],
+    how: [
+      "Until installed: it lives safe and dry at home with its power cable and (hopefully) its bail mount — check the old-boat parts pile for the transducer too.",
+      "Once installed: power comes from the console; press and HOLD a spot on the map to drop a waypoint; the GPS speed readout replaces the old analog speedo as the number you trust.",
+      "It cannot run LiveScope 2 (older platform) — that's fine; the future LiveScope lives at the bow with its own screen.",
     ],
   },
   {
     title: "Humminbird Helix 7 CHIRP G2",
-    tagline: "Came with the boat — future bow placeholder",
+    tagline: "The fish finder that came with the boat",
     body: [
-      "The dash unit the boat came with: modest, sun-hazed screen, works fine. Worth ~$150–250.",
-      "Its future: move to the bow on the Ulterra's built-in US2 transducer (~$40 adapter) once the Garmin takes the dash — a free second sonar station until the LiveScope build replaces it, then sell it.",
-      "Screen haze salvage if it bothers us: polish the failed coating off, $12 anti-glare protector on top (restoration guide, findings page).",
+      "The current dash unit: sonar and GPS, modest but working, with a sun-hazed screen (cosmetic). Its future: move to the bow on the Ulterra's built-in transducer once the Garmin takes the dash, then eventually sell.",
     ],
-  },
-  {
-    title: "Power system: MK 315D + Interstate bank",
-    tagline: "Three banks, all maintained from one plug",
-    body: [
-      "Minn Kota MK 315D onboard charger: 3 banks × 5A, digital multi-stage, covering both Ulterra deep-cycles (Interstate SRM-27, new at purchase) and the start battery.",
-      "The habit that keeps it all alive: plug in when the boat gets home — 5A banks mean a deep recharge is an overnight job.",
-      "Battery terminals wear proper clamps, not wing nuts — which matters, because voltage spikes from loose connections are the #1 killer of the E-TEC's $3,000 EMM.",
+    how: [
+      "Power button is bottom-right; it shares the console power switch.",
+      "Reading it as a beginner: the screen scrolls right-to-left showing what's UNDER you (not ahead). The bottom is the thick line; fish are arches or dots above it; the number is depth. Start with the default 2D view and auto sensitivity — it's right 90% of the time.",
+      "The haze: mild soap or a 50/50 vinegar-water wipe with microfiber. Never regular Windex or alcohol — it dissolves the anti-glare coating.",
     ],
   },
   {
     title: "Dual 20-gallon aerated livewells",
-    tagline: "Bow and stern — tournament-grade capacity",
+    tagline: "Bow and stern tanks that keep fish (and bait) alive",
     body: [
-      "Both aerated with fill and recirculate, drains aft. More livewell than most 18-footers carry.",
-      "Use them for: keeping bass healthy for photos and releases, porgy runs at Milford, and bait management on striper days.",
-      "Run the pumps every few trips even when not fishing them — seals and impellers like exercise.",
+      "Two insulated tanks with pumps that pull fresh lake water in and bubble air through it. More capacity than most 18-footers.",
+    ],
+    how: [
+      "Switches are on the console: AERATOR with AUTO and MAN(ual). AUTO cycles the pump to save battery; MAN runs constantly — use MAN on hot days or full wells.",
+      "Fill: with the boat in the water, run the fill/aerator until the well is 2/3 up. Fish ride better with the lid closed (dark = calm).",
+      "Hot summer water is low on oxygen — run MAN, and top the well up periodically with fresh water.",
+      "After the trip: pull the well drain plugs (aft) and let them empty, leave lids cracked to dry — a sealed wet well grows smells you will not forgive.",
+      "Porgy days at Milford: same drill, then rinse the wells and plumbing with fresh water at home.",
     ],
   },
   {
     title: "4-blade stainless prop",
-    tagline: "Grip over top speed — and it still ran 47",
+    tagline: "Grip over glory — and it still ran 47",
     body: [
-      "A clean 4-blade stainless (the listing wrongly said 3-blade). Four blades trade 1–2 mph of top end for quicker hole shot, better grip in chop and turns, and steadier trolling control.",
-      "Proof it's pitched right: 47 mph GPS at the water test with clean revving.",
-      "Check the blades for dings any time the boat touches gravel; a bent stainless blade can be repaired (~$100–150) rather than replaced.",
+      "Four blades bite better than three: quicker out of the hole, steadier in chop and turns, more control at trolling speed, for a 1–2 mph top-end tax we never miss. Verified right for the boat: 47 mph at rated RPM.",
+    ],
+    how: [
+      "Each trip: a five-second glance for dinged or bent blade edges (gravel bars leave fingerprints).",
+      "Twice a season: look BEHIND the prop at the shaft for wrapped fishing line — line works into the seal and lets water into the gearcase. If you see line, pull the prop (1-1/16\" socket, block the blades with wood) and clear it.",
+      "When the prop is off: smear Triple-Guard grease on the shaft, torque the nut, fresh cotter pin. Ten minutes, once or twice a year.",
+      "A dinged stainless blade is repairable (~$100–150 at a prop shop) — don't buy a new prop for one bad blade.",
     ],
   },
   {
     title: "Load Rite Elite aluminum trailer",
-    tagline: "The right trailer for salt ramps",
+    tagline: "Salt-proof frame, guides that make loading easy",
     body: [
-      "Aluminum frame (shrugs off salt water far better than painted steel), side load guides, transom tie-down straps, and a spare tire. Tires checked good at purchase.",
-      "Service rhythm: spin the hubs each spring, repack bearings every 2 years, read tire date codes annually — trailer tires age out around year six regardless of tread.",
+      "Aluminum frame (laughs at salt ramps), side guide-ons that funnel the boat home in wind, transom tie-down straps, and a spare tire.",
+    ],
+    how: [
+      "Before every tow, the 60-second walk-around: coupler latched with the pin in, safety chains crossed under the tongue, winch strap tight, transom straps on, lights plugged in and working.",
+      "Launching: dunk until the boat floats free of the bunks; unhook the winch AT the ramp, never on the road.",
+      "Loading: drive the bow between the guides, winch the last few feet, clip the safety chain before pulling out.",
+      "Care: rinse the trailer after salt ramps (skip pressure-washing the hubs), spin-check the wheels each spring, and the service page tracks bearings and tire age.",
     ],
   },
   {
     title: "The hull: riveted 2XB mod-V",
-    tagline: "Beachable, shallow, light — with known limits",
+    tagline: "Beachable, shallow, light — the boat's personality",
     body: [
-      "Alumacraft's double-plated bottom (a second full aluminum layer over the running surface) with a center keel and six keel breaks. Light enough to tow behind nearly anything and launch anywhere.",
-      "Use it for: shallow bass water big boats can't reach, beaching on gravel, quick solo launches.",
-      "Its limits are honest and documented: a mod-V pounds in big-lake chop and rides wet in wind — see weaknesses. Bilge stayed dry through the hard-run water test.",
+      "Alumacraft's double-plated bottom (a second full aluminum sheet over the running surface) with a center keel. Light enough to tow behind nearly anything, shallow enough for water big boats can't touch, tough enough to beach on gravel.",
+    ],
+    how: [
+      "THE rule (the #1 new-owner mistake in existence): transom drain plug IN before launch, OUT after the trip. Make it a ramp ritual — say it out loud, both directions.",
+      "The bilge pump switch is on the console for rain or spray water; the manual pump is backup.",
+      "Beaching: bow-first on sand or gravel with the motor trimmed up — this hull is built for it.",
+      "Once a season: glance along the bottom rivet lines for any new weeping streaks (we baselined it clean at purchase — the bilge stayed dry through a 47-mph water test).",
     ],
   },
   {
     title: "Storage, cover, and the rest",
-    tagline: "Rod lockers, casting decks, new mooring cover",
+    tagline: "Rod lockers, casting decks, and the sun's kryptonite",
     body: [
-      "Port rod locker, bow and aft storage, under-seat compartments, two casting decks, windshield console, fold-down cleats.",
-      "The brand-new mooring cover (came with the deal) is what keeps the sun from restarting the cosmetic damage clock — use it every time.",
-      "Seats: seams re-stitched by the dealer at delivery; vinyl itself is healthy.",
+      "Port rod locker, bow and aft storage, under-seat compartments, two casting decks, fold-down cleats — and the brand-new mooring cover that came with the deal.",
+    ],
+    how: [
+      "The cover goes on EVERY time the boat parks outside. Sun is what aged this boat's dash, screen, and seats — the cover is a $300 part protecting thousands in vinyl and plastic. Never cover a wet boat for more than a day (mildew).",
+      "Rod locker (port side) swallows rods to 7'6\" rigged — tips toward the bow.",
+      "Keep a dry box aboard: registration copy, insurance card, spare plug, fuses, and the boat's paper trail lives on this site.",
+      "Seats: re-stitched at delivery; a wipe of 303 protectant a few times a season keeps the vinyl alive.",
     ],
   },
 ];
@@ -307,6 +352,20 @@ function DetailCard({ item }: { item: Detail }) {
             {b}
           </p>
         ))}
+        {item.how && (
+          <div className="pt-1">
+            <p className="text-[11px] font-semibold uppercase tracking-wide text-accent">
+              How to use it
+            </p>
+            <ul className="mt-1.5 space-y-1.5">
+              {item.how.map((h) => (
+                <li key={h.slice(0, 40)} className="text-sm leading-relaxed text-ink-muted">
+                  · {h}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </details>
   );
@@ -378,7 +437,7 @@ export default function BoatPage() {
 
       {/* features */}
       <section className="mt-8">
-        <SectionHeading icon={Wrench}>Features — tap anything for the full story</SectionHeading>
+        <SectionHeading icon={Wrench}>The manual — tap any system, written for day one</SectionHeading>
         <div className="space-y-2">
           {FEATURES.map((f) => (
             <DetailCard key={f.title} item={f} />

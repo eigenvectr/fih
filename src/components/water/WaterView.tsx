@@ -11,6 +11,7 @@ import { SPECIES } from "@/lib/species";
 import { SpotCard } from "./SpotCard";
 import { BaitsPanel } from "./BaitsPanel";
 import { RegsPanel } from "./RegsPanel";
+import { WindPanel } from "./WindPanel";
 
 const WaterMap = dynamic(
   () => import("@/components/map/WaterMap").then((m) => m.WaterMap),
@@ -109,6 +110,19 @@ export function WaterView({ water }: { water: Water }) {
         selectedId={selectedId}
         homeLaunch={launchName}
         onSelect={selectSpot}
+      />
+
+      <WindPanel
+        lat={
+          water.launches.length
+            ? water.launches.reduce((a, l) => a + l.lat, 0) / water.launches.length
+            : water.spots.reduce((a, sp) => a + sp.lat, 0) / Math.max(1, water.spots.length)
+        }
+        lon={
+          water.launches.length
+            ? water.launches.reduce((a, l) => a + l.lon, 0) / water.launches.length
+            : water.spots.reduce((a, sp) => a + sp.lon, 0) / Math.max(1, water.spots.length)
+        }
       />
 
       <div className="space-y-3">

@@ -76,11 +76,16 @@ html.dark {
   color-scheme: dark;
 }
 
+html {
+  overscroll-behavior-y: none;
+}
+
 body {
   background: var(--canvas);
   color: var(--ink);
   font-family: var(--font-sans), system-ui, sans-serif;
   -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
 }
 
 .maplibregl-popup-content {
