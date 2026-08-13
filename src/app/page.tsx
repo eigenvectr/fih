@@ -9,6 +9,7 @@ const BOAT_LINKS = [
   { href: "/boat-report/service", label: "Service" },
   { href: "/boat-report/roadmap", label: "Roadmap" },
   { href: "/boat-report/findings", label: "Findings" },
+  { href: "/boat-report/power", label: "Power" },
   { href: "/boat-report/archive", label: "Archive" },
 ];
 
@@ -55,7 +56,7 @@ export default function HomePage() {
             </div>
           </div>
         </Link>
-        <div className="grid grid-cols-4 divide-x divide-line border-t border-line">
+        <div className="grid grid-cols-5 divide-x divide-line border-t border-line">
           {BOAT_LINKS.map((l) => (
             <Link
               key={l.href}

@@ -41,6 +41,7 @@ const NAV = [
   { href: "/boat-report/service", label: "Service" },
   { href: "/boat-report/roadmap", label: "Roadmap" },
   { href: "/boat-report/findings", label: "Findings" },
+  { href: "/boat-report/power", label: "Power" },
   { href: "/boat-report/archive", label: "Archive" },
 ];
 
@@ -88,7 +89,7 @@ const FEATURES: Detail[] = [
     how: [
       "Find the AC cord/inlet in the battery compartment (near the charger, labeled Minn Kota DIGITAL).",
       "When the boat gets home: plug it into any regular household outlet — an outdoor extension cord is fine. That's the whole job.",
-      "Read the lights: each bank has an LED — red/charging means it's working (1–5A), green means that battery is full and being maintained (0–1A).",
+      "Read the lights: each bank has one LED — YELLOW (flashing or solid) means charging, GREEN means that battery is full and maintained, RED means a problem on that bank (check the connection). Full light code on the Power page.",
       "Deep recharges take overnight (it's a 5-amp-per-bank unit) — plug in the night you get home, not the morning you leave.",
       "Winter: leave it plugged in, or plug in overnight once a month. Maintained batteries last 5+ years; neglected ones die in 2.",
       "If one bank never turns green overnight: that battery (or its wiring) needs a look — that's your early warning, not a crisis.",
@@ -102,15 +103,16 @@ const FEATURES: Detail[] = [
       "Batteries #2 and #3 are DEEP-CYCLE batteries: marathoners with thick plates built to give steady power for hours and survive being drained and recharged over and over. They are wired in SERIES — a jumper connects them so their voltages add: 12V + 12V = 24V, which is what the Ulterra 80 requires. Together they are one 24-volt pack that does nothing but run the trolling motor.",
       "Why the split matters: a starting battery deep-drained by trolling dies young, and a deep-cycle can struggle to crank an engine. Different jobs, different builds. The split also means you can troll all day and still ALWAYS have a full battery to start the engine and get home.",
       "What one battery supports: capacity is measured in amp-hours (Ah) — a typical Group 27 deep-cycle holds ~90–100Ah, but lead-acid only gives up about half before you're shortening its life, so figure ~50Ah usable each. In series the pack is still ~100Ah (series adds voltage, not capacity). The Ulterra pulls roughly 15–20A at speeds 4–5 and up to ~56A wide open — which is the math behind \"all day at 5, a few hours at 10.\" Spot-Lock only sips in light wind.",
-      "The starting battery is rated in cranking amps instead (CCA/MCA) — the E-TEC wants a strong one (spec is ~640 CCA / 800 MCA) with CLEAN, TIGHT terminals. Loose battery connections are the #1 killer of the $3,000 EMM, so this is the one place to be fussy.",
+      "The starting battery is rated in cranking amps instead (CCA/MCA) — the E-TEC 115's spec is a minimum of 675 CCA / 845 MCA, with CLEAN, TIGHT terminals (BRP bans wing nuts outright). Loose battery connections are the #1 killer of the $3,000 EMM, so this is the one place to be fussy.",
     ],
     how: [
       "Read your labels once: brand, group size (24/27/31), Ah or CCA rating, and the date-code sticker — write them on the service page. Ours were new at purchase (Aug 2026), so the clock started this year.",
-      "The engine only recharges the STARTING battery. The trolling pair recharges one way: the wall plug at home. That's why the charger habit is the whole ballgame.",
+      "The engine only recharges the STARTING battery — but does it well: ~10A at idle, a full 50A from 2,000 RPM up. The trolling pair recharges one way: the wall plug at home. That's why the charger habit is the whole ballgame.",
       "Voltage cheat sheet (multimeter across a rested battery): 12.7V = full, 12.4V = 75%, 12.2V = half — recharge now, 12.0V or less = empty and being damaged. Never leave a lead-acid battery sitting discharged.",
       "Monthly-ish: check terminals are tight (wiggle test) and fuzz-free — baking-soda water and a wire brush if white/green crust appears, then a smear of dielectric grease.",
       "Replace the trolling pair TOGETHER, always — a new battery in series with an old one drags down to the old one's level.",
       "Working on anything electrical: disconnect NEGATIVE first, reconnect it last (the full walkthrough lives on the findings page).",
+      "Want the whole story, from what's inside a battery to runtime math and the charger's light code? The full dummy guide lives on the Power page.",
     ],
   },
   {
@@ -413,7 +415,7 @@ export default function BoatPage() {
       </header>
 
       {/* quick nav */}
-      <nav className="mb-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
+      <nav className="mb-4 grid grid-cols-2 gap-2 sm:grid-cols-5">
         {NAV.map((l) => (
           <Link
             key={l.href}
