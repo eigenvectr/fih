@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, CheckCircle2, Cpu, Search, Paintbrush, Wrench } from "lucide-react";
+import { ArrowLeft, CheckCircle2, Cpu, Hammer, Search, Paintbrush, Wrench } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
 export const metadata = {
@@ -207,7 +207,7 @@ fix: "Nothing to fix — and confirmed at the water test: 47 mph GPS with the en
 /* ------------- console restoration guide (deep-research results) ------------ */
 
 const RESTORE_INTRO =
-  "Verified: the dash is a thermoformed plastic insert panel (mounted on the fiberglass console) with a factory textured coating that lost adhesion from UV — a documented weak point on Alumacraft consoles of this era, so this is normal aging, not damage. Fully DIY-restorable: about $100 in materials and a weekend, with cure time doing most of the waiting. Before painting anything, check Great Lakes Skipper and eBay for the exact factory panel — many list under $150, and swapping beats refinishing.";
+  "Note: the BBT replacement-plate project below supersedes this guide for the main dash insert — if that route happens, this refinish applies only to the lower switch panel and other plastics. Verified: the dash is a thermoformed plastic insert panel (mounted on the fiberglass console) with a factory textured coating that lost adhesion from UV — a documented weak point on Alumacraft consoles of this era, so this is normal aging, not damage. Fully DIY-restorable: about $100 in materials and a weekend, with cure time doing most of the waiting. Before painting anything, check Great Lakes Skipper and eBay for the exact factory panel — many list under $150, and swapping beats refinishing.";
 
 const RESTORE_STEPS: { step: string; detail: string }[] = [
   {
@@ -263,6 +263,34 @@ const RESTORE_SOURCES: { label: string; url: string }[] = [
   { label: "Humminbird — display screen issues (condensation, coatings)", url: "https://humminbird-help.johnsonoutdoors.com/hc/en-us/articles/4412799208727-Display-Screen-Issues" },
   { label: "SeaDek — custom dash pads", url: "https://www.seadek.com/custom-seadek-dash-pad/" },
   { label: "303 Marine Protectant (maintenance UV layer)", url: "https://www.goldeagle.com/product/303-marine-recreation-aerospace-protectant/" },
+  { label: "BBT — 2018-2019 Alumacraft Pro 175/185/XB200 Single Dash Mount", url: "https://bassboattech.com/boat-brand/alumacraft/2018-2019-alumacraft-pro-175-185-xb200/2018-2019-alumacraft-pro-175-185-xb200-single-dash-mount" },
+  { label: "Garmin — LiveScope 2 launch (July 2026)", url: "https://www.garmin.com/en-US/newsroom/press-release/marine/garmin-launches-livescope-2-its-clearest-live-sonar-yet/" },
+  { label: "LiveScope 2 head-unit compatibility guide", url: "https://carolinasportsmanoutfitters.com/pages/garmin-livescope-2-compatibility" },
+];
+
+/* ------------------------------ owner projects ------------------------------ */
+
+const PROJECTS: { title: string; status: string; body: string }[] = [
+  {
+    title: "Dash rebuild: the BBT plate answers the panel-or-mount question — it's both",
+    status: "Researched · ready to order",
+    body: "Bass Boat Technologies' \"2018-2019 Alumacraft Pro 175/185/XB200 Single Dash Mount\" ships as a complete REPLACEMENT dash plate: 3/16\" powder-coated aircraft aluminum with the graph mount pre-installed, dropping into the factory dash-insert opening with hardware included. The sun-baked panel comes out entirely — one part (~$350–450 based on their other hulls; exact price unlisted) fixes the ugly dash AND mounts the Garmin, and owner reviews are uniformly \"rock solid, no wobble.\" You spec the exact graph model at order time (the mount comes pre-set for it) and the unit hangs on its own factory gimbal bracket, which is not included. A MEGA Single version exists for 10\"+ screens. Before ordering, one call to BBT (706-217-6161): confirm price, confirm the speedo and switch panel transfer into the plate's cutouts, and order from the 2018-2019 page — the 2015 Pro 185 uses a different plate.",
+  },
+  {
+    title: "The LiveScope decision — read the Garmin's model number FIRST",
+    status: "Blocks the mount order",
+    body: "Garmin launched LiveScope 2 in July 2026: no black box, transducer does the processing, $1,999 (LVS44, 250-ft range) or $2,199 (LVS42HD, clearest at casting range). The catch: it only runs on ECHOMAP UHD2 sv, ECHOMAP Ultra/Ultra 2, and GPSMAP units — a first-generation ECHOMAP UHD (73sv/93sv) or older CANNOT run it. So the whole plan hinges on what the Mirrocraft's Garmin actually is. UHD2-or-newer: buy LiveScope 2 later, done. Older: either the previous-gen LiveScope Plus (LVS34 + GLS 10 box, ~$1,600, and the box is discontinued — shrinking stock) or budget a new head unit (~$850 for a UHD2 73sv, ~$1,300 for a 93sv) and order the BBT mount drilled for THAT unit instead. Decide the head unit before the dash plate, because the plate arrives pre-set for a specific graph.",
+  },
+  {
+    title: "LiveScope rigging on the Ulterra, when the day comes",
+    status: "Parts list saved",
+    body: "Barrel mount only, never shaft-clamped — the Ulterra's auto stow/deploy telescoping shaft can't carry clamped weight or loose cables (LiveScope 2 includes the barrel mount; the legacy LVS34 barrel mount is $40). Leave a ~10\" cable service loop across the pivot and verify a full stow/deploy cycle before the first trip. Power it from a dedicated 12V LiFePO4 (20–30Ah, ~$100–200) rather than the trolling bank — isolates it from motor interference and keeps it alive all day at its ~2–5A draw.",
+  },
+  {
+    title: "Meanwhile: the Helix, the boot, and the impeller",
+    status: "Near-term list",
+    body: "Helix 7 stays at the dash until the BBT plate arrives, then moves to the bow — a ~$40 US2 adapter cable connects it to the Ulterra's built-in transducer for a free second sonar station. The rigging boot ($20–60) is the first DIY with the new M12 ratchet: replace boot and clamp, check the connectors under the cowl while it's open. And book the impeller service with the compression check — the one maintenance item still owed from the purchase checklist.",
+  },
 ];
 
 /* ------------------------- owner's quick reference ------------------------- */
@@ -484,6 +512,24 @@ export default function FindingsPage() {
             </ul>
           </div>
         </div>
+      </section>
+
+      {/* projects */}
+      <section className="mt-8">
+        <SectionHeading icon={Hammer}>Owner projects — the Garmin dash plan</SectionHeading>
+        <ul className="space-y-2">
+          {PROJECTS.map((pr) => (
+            <li key={pr.title} className="rounded-xl border border-line bg-surface p-4">
+              <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
+                <p className="text-sm font-semibold">{pr.title}</p>
+                <p className="text-[11px] font-semibold uppercase tracking-wide text-ink-faint">
+                  {pr.status}
+                </p>
+              </div>
+              <p className="mt-1.5 text-sm leading-relaxed text-ink-muted">{pr.body}</p>
+            </li>
+          ))}
+        </ul>
       </section>
 
       {/* reference */}
