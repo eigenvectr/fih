@@ -45,7 +45,7 @@ const CONFIRMED: { label: string; detail: string }[] = [
   {
     label: "EMM report pulled — the engine's history checks out",
     detail:
-      "Hours verified at 72:31 (the ad was honest). No active faults. Never overheated in its life (max 196°F, alarm threshold ~211°F, zero overheat codes). Winterization routine logged 9 times — put away properly every season despite living outside. Max RPM ever 6,243, so it revs out. Histogram shows a troller's life: ~61% at/below 1,600 RPM, ~17% at full load. Injector data confirms G1 V4, 2017-built for model year 2018. Two shop questions remain: early-life Code 38 oil-feedback faults (12×, all in the first 19 hours, none in the 53 hours since — likely initial oil-line priming) and nuisance TPS Code 11s (last one 33 engine-hours ago). Still owed: compression check and the water test — the EMM knows history, not present cylinder condition.",
+      "Hours verified at 72:31 (the ad was honest). No active faults. Never overheated in its life (max 196°F, alarm threshold ~211°F, zero overheat codes). Winterization routine logged 9 times — put away properly every season despite living outside. Max RPM ever 6,243, so it revs out. Histogram shows a troller's life: ~61% at/below 1,600 RPM, ~17% at full load. Injector data confirms G1 V4, 2017-built for model year 2018. Two shop questions remain: early-life Code 38 oil-feedback faults (12×, all in the first 19 hours, none in the 53 hours since — likely initial oil-line priming) and nuisance TPS Code 11s (last one 33 engine-hours ago). Since resolved: the water test passed at 47 mph GPS. Compression check remains a worthwhile add-on at the first impeller service.",
   },
 ];
 
@@ -144,7 +144,7 @@ const FINDINGS: {
     photo: "/boat/seats.jpg",
     alt: "Cockpit seats — vinyl and carpet in healthy shape overall, with seam stitching letting go",
     what: "Stitching letting go at the seams while the vinyl stays supple — classic outdoor storage, since UV kills the thread years before the vinyl. The interior photo shows the good news: vinyl, foam, and carpet are fundamentally healthy. This is the cheap version of seat damage: re-stitching, not replacement.",
-    fix: "Upholstery shop re-stitch runs roughly $50–150 per seat versus ~$1,000 for new seats. Dealer offered to \"talk to their upholstery guy\" — convert that to writing on the buyer's order: seats repaired before delivery, or a firm $300–400 credit.",
+fix: "Resolved in the deal: the dealer is having the seats repaired before delivery. (Re-stitching runs $50–150 a seat versus ~$1,000 new — the cheap version of seat damage, as predicted.)",
   },
   {
     title: "Batteries, charger, and fuel tank — the good compartment",
@@ -176,7 +176,7 @@ const FINDINGS: {
     photo: "/boat/mount.jpg",
     alt: "Engine mounting bracket with aged sealant around the transom bolts",
     what: "The cream-colored material around the mounting bolts is marine sealant, not a leak — bolts get bedded in it so water can't wick into the transom holes. It's aged, dirty, and cracking. On an aluminum transom there's no wood to rot, so stakes are low.",
-    fix: "Ask whether the engine has ever been off the boat (fresh sealant can mean a remount). At the water test, look at the transom bolts from inside the bilge for weeping. If it stays dry, clean up the old squeeze-out and forget it.",
+fix: "The water test came back clean — no weeping found. Owner to-do someday: trim the crusty old squeeze-out for looks, and glance at the transom bolts in the bilge once a season. Otherwise, forget it.",
   },
   {
     title: "Pass-through plate with exposed foam",
@@ -200,7 +200,7 @@ const FINDINGS: {
     photo: "/boat/prop.jpg",
     alt: "Four-blade stainless steel propeller, clean blades, intact skeg",
     what: "Clean, undinged 4-blade stainless (the listing said 3-blade — wrong again, but in your favor). Four blades trade 1–3 mph of top speed for better hole shot, grip in chop, low-speed planing, and trolling control — the right prop for how this boat will fish.",
-    fix: "Nothing to fix. Just confirm at the water test that it lets the engine reach 5,500–6,000 RPM wide open — the prop is only right if the engine can rev out.",
+fix: "Nothing to fix — and confirmed at the water test: 47 mph GPS with the engine pulling cleanly. The prop is right for this boat.",
   },
 ];
 
@@ -269,8 +269,8 @@ const RESTORE_SOURCES: { label: string; url: string }[] = [
 
 const REFERENCE: { title: string; body: string }[] = [
   {
-    title: "Wide-open throttle target: 5,500–6,000 RPM and 43–47 mph",
-    body: "Trimmed out, full throttle, read tach and GPS together. Reference points from the same engine + Rogue 4-blade prop family on a lighter hull: 17-pitch turned 6,100 RPM at 47.5 mph, 19-pitch turned 5,700 at 52 — the heavier, longer Pro 185 should land mid-40s. Interpreting the result: in-range RPM and 43–47 mph = healthy engine, right prop. Well under 5,500 and slow = over-propped or tired (EMM and compression say which). Over 6,000 but slow = under-pitched or hull drag. Below 5,500 is lugging — genuinely harmful long-term, not a \"tune-up\" item.",
+    title: "Wide-open throttle: 5,500–6,000 RPM — our boat runs 47 mph",
+    body: "Measured at the August 2026 water test: 47 mph GPS, the top of the predicted 43–47 range — the benchmark for every future season. If a future WOT run comes up meaningfully short of that at similar load: check prop for dings and RPM first. Well under 5,500 and slow = over-propped or something tired (below 5,500 is lugging — genuinely harmful, not a tune-up item). Over 6,000 but slow = pitch or hull drag. A slow drift from the benchmark over years usually just means a dinged prop or a fouled bottom.",
   },
   {
     title: "Primer bulb squeeze test",
@@ -395,11 +395,11 @@ export default function FindingsPage() {
           ))}
         </ul>
         <p className="mt-2 rounded-xl border border-line bg-surface p-4 text-sm leading-relaxed text-ink-muted">
-          <strong className="text-ink">Mechanic&apos;s verdict: 9/10 engine history.</strong> The
-          only deduction is the early-life oil quirk, 53 clean hours stale. What the EMM cannot
-          see — current compression, impeller rubber, gearcase oil, fuel freshness — is exactly
-          what the compression check and water test cover. Pass those and this is as
-          well-documented as a used E-TEC purchase gets.
+          <strong className="text-ink">Mechanic&apos;s verdict: 9/10 engine history — and the water
+          test passed at 47 mph GPS.</strong> The only deduction was the early-life oil quirk, 53
+          clean hours stale. What the EMM cannot see — impeller rubber, gearcase oil — is what
+          the first service covers; add a compression check there for the complete baseline.
+          This is as well-documented as a used E-TEC purchase gets.
         </p>
       </section>
 

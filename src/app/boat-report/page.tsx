@@ -47,7 +47,7 @@ const SPECS: [string, string][] = [
 const INCLUDED: { item: string; note: string }[] = [
   {
     item: "Minn Kota Ulterra 24V bow mount",
-    note: "Auto stow/deploy with Spot-Lock — about $3,000–3,500 to buy new, $1,500–2,000 used. The single best fishing feature on this rig. Freshwater model, not the saltwater Riptide — and the i-Pilot remote is missing (get it found or a $250 credit).",
+    note: "Auto stow/deploy with Spot-Lock — about $3,000–3,500 new. Label decode made it even better: built in 2021 (newer than the boat), Bluetooth i-Pilot with the remote (found after a scare) plus app control, and built-in Universal Sonar 2. Freshwater model, not the saltwater Riptide — rinse after any Sound trip.",
   },
   {
     item: "Humminbird Helix 7 CHIRP G2 at the dash",
@@ -55,7 +55,7 @@ const INCLUDED: { item: string; note: string }[] = [
   },
   {
     item: "New batteries + onboard charger",
-    note: "Two Interstate SRM-27 deep-cycles on proper terminals with a built-in charger — confirmed at inspection. A $400–800 risk taken off the table.",
+    note: "Two Interstate SRM-27 deep-cycles on proper terminals plus a verified Minn Kota MK 315D 3-bank digital charger covering all three batteries. A $400–800 risk taken off the table — plug in after every trip; 5A per bank means deep recharges run overnight.",
   },
   {
     item: "Load Rite aluminum trailer",
@@ -67,7 +67,7 @@ const INCLUDED: { item: string; note: string }[] = [
   },
   {
     item: "4-blade stainless prop (listing said 3-blade)",
-    note: "Confirmed at inspection: clean 4-blade stainless, looks barely used — the better fishing prop. Still confirm it lets the engine reach full rated RPM at the water test.",
+    note: "Confirmed at inspection: clean 4-blade stainless, barely used — the better fishing prop. Vindicated at the water test: 47 mph GPS, top of the predicted range.",
   },
 ];
 
@@ -125,12 +125,12 @@ const RED_FLAGS: { title: string; severity: "high" | "medium"; body: string }[] 
   {
     title: "72.5 hours in eight seasons — this boat sat",
     severity: "medium",
-    body: "That's about 9 hours a year. Low hours sound great, but boats age from sitting too: fuel varnish, dry-rotted water pump impeller, stiff steering, flat-spotted trailer tires. E-TECs tolerate storage better than most (they self-winterize), but ask how it was stored and have the impeller and fuel system checked.",
+    body: "That's about 9 hours a year. Low hours sound great, but boats age from sitting too. RESOLVED better than hoped: the EMM report showed the self-winterization routine ran all nine seasons and the engine never overheated, and the water test came back clean at 47 mph. Still owed on the owner's schedule: the water pump impeller service (~$200–250) — rubber ages out regardless of how well the engine was treated.",
   },
   {
     title: "Vermont registration on a New York dealer's lot",
     severity: "medium",
-    body: "The hull wears VT numbers (VT 9351U) — likely a Lake Champlain freshwater boat, which is good. But it's a resale, so verify the paper trail: title matches the HIN (ACBW8951F718), no liens, and ask point-blank whether it has ever seen salt water.",
+    body: "The hull wears VT numbers (VT 9351U) — a Lake Champlain freshwater boat, which is good. RESOLVED at purchase: title verified against HIN ACBW8951F718 and transferred clean through the dealer at closing, August 2026.",
   },
   {
     title: "Nobody mentioned the batteries (RESOLVED: they're new)",
@@ -264,7 +264,7 @@ const PROS = [
 ];
 
 const CONS = [
-  "It will not do 57 mph — expect low-to-mid 40s. Still ~2x the Mirrocraft, but go in with real numbers",
+  "It does not do 57 mph — it does a measured 47 GPS, top of the honest range. Still ~2x the Mirrocraft",
   "Orphaned engine brand: parts into ~2030, shrinking service network, ~$3k EMM as the known failure, harder future resale",
   "Mod-V bass hull pounds in big-lake chop, rides wet in wind, and limits Long Island Sound days to calm windows",
   "Riveted hull + freshwater trolling motor + magnesium anodes = a real salt-care routine to adopt",
@@ -438,10 +438,11 @@ export default function BoatReportPage() {
             </table>
           </div>
           <p className="mt-3 text-sm leading-relaxed text-ink-muted">
-            <strong className="text-ink">Confirmed at inspection: it&apos;s the 115 H.O.</strong>{" "}
-            Realistic expectation: <strong className="text-ink">41–45 mph</strong> lightly loaded.
-            That&apos;s still a fast, fun boat — roughly double the old Mirrocraft — and about as
-            fast as an open 18-foot aluminum boat should go with family aboard.
+            <strong className="text-ink">Final answer, measured at the water test: 47 mph GPS</strong>{" "}
+            — the very top of the predicted range, with the engine pulling cleanly. Not the
+            phantom 57, but a genuinely fast open aluminum boat — roughly double the old
+            Mirrocraft — and proof the 115 H.O., the 4-blade prop, and the hull are all doing
+            their jobs.
           </p>
         </div>
       </section>
@@ -674,12 +675,13 @@ export default function BoatReportPage() {
       <section className="mt-8 rounded-xl border border-line bg-surface p-4">
         <h2 className="text-sm font-semibold">Bottom line</h2>
         <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-          If bass and the Hudson are 70% of our fishing — and they are — the Pro 185 is a genuinely
-          strong buy at a corrected price, and the Ulterra will change how we fish overnight. If the
-          dream is really long trolling days on deep water and more Connecticut salt, a used Lund
-          Impact 1775 or a welded deep-V is the better boat, at the cost of the bass layout and a
-          few mph. Either way: no deal without the water test, the EMM readout, and a straight
-          answer on which engine is bolted to the transom.
+          It&apos;s ours — bought August 2026 at $14,800 out the door with everything verified:
+          engine identity confirmed, EMM history clean, water test passed at 47 mph GPS, titles
+          clear. What made this purchase different from a leap of faith is documented across
+          these pages: every claim in the listing was checked, every flaw photographed and
+          priced, and the two open items left are routine — the impeller service and the seat
+          repair at delivery. From here the report hands off to the findings page: the owner&apos;s
+          reference, the restoration guide, and the projects list.
         </p>
         <p className="mt-3 text-xs leading-relaxed text-ink-faint">
           Prepared July 2026 from the CR&apos;s Marine listing, photo analysis, factory specs, and

@@ -18,9 +18,9 @@ const ITEMS: Item[] = [
   },
   {
     id: "garmin-writing",
-    label: "Garmin transfer in writing",
+    label: "Garmin transfer (FINAL: plan changed at closing)",
     detail:
-      "\"Dealer to transfer buyer's Garmin unit, transducer, and wiring to new boat — installed, wired, and water-tested — at no charge, before delivery.\" Old transducer holes sealed on both boats.",
+      "As closed: the Garmin came out of the Mirrocraft and stays uninstalled. Rather than wire it to a transducer we'd replace anyway, it waits for the LiveScope project and a dash mount at the driver's console — see the projects plan on the findings page.",
   },
   {
     id: "helix-stays",
@@ -55,7 +55,7 @@ const ITEMS: Item[] = [
     id: "delivery-date",
     label: "Delivery date with the work done",
     detail:
-      "One date on the paper by which seat, Garmin install, and service are complete and the boat is handed over — so \"before delivery\" means something.",
+      "As closed: seat repair is the dealer's one remaining delivery item. The rigging boot was judged cosmetic and deferred to the owner DIY list; the impeller service gets booked separately.",
   },
 ];
 

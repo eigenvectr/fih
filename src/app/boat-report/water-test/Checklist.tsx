@@ -171,9 +171,10 @@ export function Checklist() {
       </div>
 
       <p className="mt-4 text-sm leading-relaxed text-ink-muted">
-        The two numbers that decide everything: <strong className="text-ink">5,500–6,000 RPM</strong>{" "}
-        and <strong className="text-ink">43–47 mph</strong>, together, wide open and trimmed out.
-        Everything else is texture. If the tach can&apos;t get there, no deal closes today.
+        <strong className="text-ink">Result: PASSED.</strong> Measured 47 mph GPS wide open —
+        the top of the predicted 43–47 range — with a clean run across the checks below. The
+        boat was purchased on the strength of this test; the list is kept as the record and as
+        a template for any future boat.
       </p>
 
       {GROUPS.map((g) => (
