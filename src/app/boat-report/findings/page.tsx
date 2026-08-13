@@ -207,7 +207,7 @@ fix: "Nothing to fix — and confirmed at the water test: 47 mph GPS with the en
 /* ------------- console restoration guide (deep-research results) ------------ */
 
 const RESTORE_INTRO =
-  "Note: the BBT replacement-plate project below supersedes this guide for the main dash insert — if that route happens, this refinish applies only to the lower switch panel and other plastics. Verified: the dash is a thermoformed plastic insert panel (mounted on the fiberglass console) with a factory textured coating that lost adhesion from UV — a documented weak point on Alumacraft consoles of this era, so this is normal aging, not damage. Fully DIY-restorable: about $100 in materials and a weekend, with cure time doing most of the waiting. Before painting anything, check Great Lakes Skipper and eBay for the exact factory panel — many list under $150, and swapping beats refinishing.";
+  "Back to being the primary fix: BBT confirmed (Aug 2026) this dash is too curved for their replacement plate — their product is a center mount only, so the panel stays and this refinish is the path, unless the Alumacraft dash shroud Van mentioned turns out to be orderable. Verified: the dash is a thermoformed plastic insert panel (mounted on the fiberglass console) with a factory textured coating that lost adhesion from UV — a documented weak point on Alumacraft consoles of this era, so this is normal aging, not damage. Fully DIY-restorable: about $100 in materials and a weekend, with cure time doing most of the waiting. Before painting anything, check Great Lakes Skipper and eBay for the exact factory panel — many list under $150, and swapping beats refinishing.";
 
 const RESTORE_STEPS: { step: string; detail: string }[] = [
   {

@@ -98,7 +98,7 @@ const FEATURES: Detail[] = [
     title: "Garmin ECHOMAP UHD 93sv",
     tagline: "The navigator-in-waiting from the old boat",
     body: [
-      "Our 9-inch chartplotter, currently uninstalled — it takes the helm when the BBT dash plate arrives (roadmap #1). Its job: lake maps, waypoints, speed, and 2D sonar at the driver's seat.",
+      "Our 9-inch chartplotter, currently uninstalled — it takes the helm when the BBT dash mount arrives (roadmap #1). Its job: lake maps, waypoints, speed, and 2D sonar at the driver's seat.",
     ],
     how: [
       "Until installed: it lives safe and dry at home with its power cable and (hopefully) its bail mount — check the old-boat parts pile for the transducer too.",
@@ -260,7 +260,7 @@ const WEAKNESSES: Detail[] = [
     tagline: "The boat's history written on its dash",
     body: [
       "Peeling console panels, hazed Helix screen, weathered trim — years outside, uncovered. All function, no failure.",
-      "The fix path is documented: BBT replacement plate retires the worst panel (roadmap #1), SEM refinish guide covers the rest (findings page), and the new mooring cover stops the clock.",
+      "The fix path is documented: the SEM refinish guide (findings page) is the primary dash fix — BBT confirmed this dash is too curved for a replacement plate — with an Alumacraft dash shroud as the possible shortcut, and the new mooring cover stops the clock.",
     ],
   },
   {

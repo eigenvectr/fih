@@ -26,14 +26,15 @@ const ROADMAP: {
   details: string[];
 }[] = [
   {
-    title: "BBT dash plate + the Garmin 93sv at the helm",
+    title: "BBT dash mount + the Garmin 93sv at the helm",
     status: "next",
-    cost: "~$350–450",
+    cost: "Price TBD — asked",
     summary:
-      "One part fixes the sun-baked dash AND mounts the ECHOMAP UHD 93sv: BBT's 2018-2019 Pro 175/185/XB200 Single Dash Mount is a full replacement plate in powder-coated 3/16\" aircraft aluminum with the mount pre-installed.",
+      "ANSWERED BY BBT (Van, Aug 2026): the 93sv fits the standard Single mount, hardware and instructions included, same-day shipping, and the linked 2018-2019 product page is the correct part. One correction to our research: this dash is too curved for a full replacement plate — their mount bolts to the CENTER of the dash with a backer plate, and the factory panel stays.",
     details: [
-      "Order spec'd for the ECHOMAP UHD 93sv — standard Single, not MEGA (9\" fits comfortably).",
-      "The query to post on BBT's forum first (also saved on the findings page): confirm the 93sv is in their dropdown, confirm the plate replaces the factory insert, confirm the speedo and switch panel transfer into precut holes, price shipped to 12180, lead time, and the 2018-vs-2015 plate number. Phone: 706-217-6161, M–F 9–5:30 ET.",
+      "Consequence: the mount solves the Garmin problem, not the cosmetic one. The sun-baked panel fix returns to the SEM refinish guide (findings page) or the \"dash shroud from Alumacraft\" Van suggested — part number being chased; Alumacraft's 2025 sale makes OEM parts hit-or-miss.",
+      "Follow-ups sent with dash photos: does the backer plate work over the existing Helix mounting holes once it moves to the bow; the price shipped to 12180 (Van skipped it); and the shroud part number.",
+      "Order from Van's link spec'd for the ECHOMAP UHD 93sv once the price and Helix-hole answers land.",
       "Before ordering: dig the 93sv's factory bail bracket out of the Mirrocraft parts pile (the mount uses it; ~$40 if lost) and check whether the old transducer came along — if it stayed on the traded boat, the dash unit is charts-only until a GT56UHD (~$270) is added.",
       "The unit hangs on its bail, so it pops off the mount for storage or swaps anytime.",
     ],
