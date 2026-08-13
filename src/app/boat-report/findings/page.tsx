@@ -301,6 +301,14 @@ const REFERENCE: { title: string; body: string }[] = [
     body: "Flush the engine on muffs 10–15 minutes. Wash hull, trailer, and rinse the Ulterra (it's the freshwater model — salt isn't covered by Minn Kota's warranty). Rinse livewell plumbing. Before the first salt season: swap the magnesium anodes for zinc or aluminum ones.",
   },
   {
+    title: "Disconnecting the batteries — which wires, what order",
+    body: "For dash/electrical work, the STARTING battery is the one feeding the console (the two deep-cycles only feed the Ulterra — flip its breaker off anyway, and unplug the charger from the wall). The rule that matters: remove the BLACK NEGATIVE (−) cable FIRST, reconnect it LAST. Why: once negative is off, a slipped wrench touching positive can't complete a circuit through the boat. Loosen the nut, lift the cable off, tuck it aside so it can't spring back onto the post. Then the noob-proof verification: turn the key — dead gauges means dead console, safe to work. Reality check for nerves: this is 12 volts — it cannot shock you. The risks are sparks and shorted wires, and negative-first eliminates both.",
+  },
+  {
+    title: "How mechanics take apart something they've never seen",
+    body: "The professional method is a discipline, not secret knowledge: (1) Photograph everything before touching it — every angle, every connection. (2) Label as you go: masking-tape flag on every wire the moment it's unplugged, fasteners into labeled bags per component (\"speedo\", \"switch panel\"). (3) Find ALL the fasteners before applying force — if something won't move, the answer is always a hidden screw, never a harder pull. Probe under trim strips and stickers. (4) One component at a time, fully done, before the next. (5) Gauge wiring is standardized: terminals marked I (12V ignition), G (ground), S (sender), plus two small lamp wires — your photos make diagrams unnecessary. (6) Plastic pry tools, not screwdrivers, on 8-year-old plastic. Mechanics aren't braver — they're just systematic, and they've learned that the 10 minutes of photos saves the 2 hours of reassembly guessing.",
+  },
+  {
     title: "The starter toolbox",
     body: "Core: cordless ratchet (Milwaukee M12 3/8\" is the marine-mechanic classic) or drill with nut-driver bits, 1/4\"+3/8\" socket set in SAE and metric with deep sockets, impact bits including #2/#3 Phillips and square-drive. Installs: ratcheting crimper + marine heat-shrink connectors, heat gun, multimeter, fuses, 3M 4200 for any hole you drill. Service: 3/8\" torque wrench, prop-nut deep socket, plug socket, gearcase oil pump (they fill from the bottom), Triple-Guard grease, flushing muffs. The rule that saves this aluminum boat: Tef-Gel every stainless thread going into aluminum, and hand-start every fastener before power touches it — stainless-into-aluminum galls and snaps.",
   },
