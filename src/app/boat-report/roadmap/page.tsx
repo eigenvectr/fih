@@ -5,7 +5,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 export const metadata = {
   title: "Upgrade roadmap · 2018 Alumacraft Pro 185",
   description:
-    "The boat's upgrade plan in order: BBT dash mount, rigging boot, Helix to the bow, the LiveScope bow station, and the parked wishlist.",
+    "The boat's upgrade plan in order: dash mount for the Garmin, rigging boot, the fully-specced LiveScope 2 bow station with parts list, and the parked wishlist.",
 };
 
 type Status = "next" | "queued" | "saving" | "seasonal" | "parked";
@@ -73,19 +73,71 @@ const ROADMAP: {
   {
     title: "The LiveScope bow station",
     status: "saving",
-    cost: "~$4,500 recommended build",
+    cost: "~$4,100 electronics · ~$5,000 all-in DIY",
     summary:
-      "Researched August 2026, five weeks after LiveScope 2 launched. The pick for our water: LVS44 transducer ($1,999) + ECHOMAP Ultra 2 106sv ($2,099) + dedicated 50–100Ah LiFePO4 — barrel-mounted on the Ulterra, fully independent of the dash.",
+      "Fully specced August 2026 with the complete parts list below: ECHOMAP Ultra 2 106sv (10.1\") + LiveScope 2 LVS44 + an independent aiming pole, dedicated lithium power, and every supporting part. Headline from the research: LiveScope 2 killed the black box — the LVS44 plugs straight into the display, so the old GLS10 ($600) is off the list entirely.",
+    parts: [
+      {
+        item: "ECHOMAP Ultra 2 106sv",
+        pick: "The 10.1\" 1280×800 display. In the box: bail mount with quick-release cradle, power cable, sun cover. Deal watch: the GT56UHD-TM variant ($2,500 list) has sold at $2,099 — that transducer is exactly what the dash Garmin needs, so the right sale makes it free.",
+        cost: "$2,100",
+      },
+      {
+        item: "LiveScope 2 LVS44",
+        pick: "The complete system in one box: transducer, Ulterra barrel mount, adjustable perspective shaft mount, Kraken adapter, and an 18-ft cable that plugs directly into the display's network port. No black box, no extra cables to buy.",
+        cost: "$2,000",
+      },
+      {
+        item: "Independent aiming pole",
+        pick: "Budget: RAILBLAZA HEXX Live Pole 60 (~$300 with base). Mid: BeatDown Fixed ($375). Premium: BeatDown Breakaway 2.0 ($550) — folds 90° so it stays on for the run. The Garmin shaft mount from the LVS44 box clamps to any ~1\" pole, so no model-specific bracket needed.",
+        cost: "$300–550",
+      },
+      {
+        item: "Bow battery",
+        pick: "LiTime 12V 50Ah LiFePO4. The station draws ~4–5A total, so 50Ah is a 12-hour day with margin. Dakota Lithium 54Ah (~$350) if the 11-year warranty is worth the doubling.",
+        cost: "$180",
+      },
+      {
+        item: "Lithium wall charger",
+        pick: "NOCO GENIUS10 (10A, LiFePO4 mode). Needed because the MK 315D has no lithium profile — the bow battery comes home and gets its own plug.",
+        cost: "$100",
+      },
+      {
+        item: "Display bow mount",
+        pick: "$0 to start: the included bail screws to the deck (with a backer and Tef-Gel). Upgrade later: RAM 2.25\" D-ball with electronics plate for height and quick-release.",
+        cost: "$0–100",
+      },
+      {
+        item: "Wiring & protection",
+        pick: "Small fuse block or fused bus, battery box with strap, marine ring terminals, adhesive heat shrink. Both Garmin cables come factory-fused, so this is tidiness, not electronics.",
+        cost: "~$75",
+      },
+      {
+        item: "Guard + small stuff",
+        pick: "LVS44 transducer cover as soon as the aftermarket ships them ($40–80), Tef-Gel for every stainless screw into the aluminum deck, cable clips and loom, a 12V cutoff switch.",
+        cost: "~$100",
+      },
+      {
+        item: "Installation",
+        pick: "A genuine DIY afternoon: clamp the barrel mount, route the 18-ft cable up the Ulterra with a service loop, two battery lugs, plug in. Shop alternative at $75–150/hr runs $250–500.",
+        cost: "$0 DIY",
+      },
+    ],
+    partsTotal: "≈ $5,000 as specced",
+    partsNote:
+      "Realistic range $4,700–5,500 depending on pole and battery picks; add $250–500 if a shop installs it. Core electronics alone: $4,100 at MSRP, and no factory LiveScope 2 bundles exist yet (the product is weeks old) — winter should bring them.",
     details: [
       "Why LVS44 over the $2,199 LVS42HD: the 42HD is a close-range (~125 ft) clarity specialist — right for bass-only boats. The LVS44's lower frequency band and 250-ft envelope serve ALL our water: 60–120-ft lakers and salmon, better saltwater behavior for stripers and the Sound, and still a generational clarity jump over the old LVS34 for bass. Bassmaster Elite pro Alton Jones Jr., after three days on the water with both, called the LVS44 the better all-around choice even for most bass anglers.",
-      "Why the Ultra 2 106sv over the cheaper UHD2 93sv: forward-facing sonar rewards pixels — the 106sv's 1280×800 on 10.1\" versus the 93sv's 1024×600 on 9\" is the single most worthwhile ~$900 upsell in the build. Budget fallback: UHD2 93sv + LVS44 ≈ $3,500 total, same sonar data on a coarser canvas. Skip 7-inch units for FFS entirely.",
-      "Why not our existing 93sv: first-gen UHD can't run LiveScope 2 — and the bow needs its own screen anyway.",
-      "Ulterra integration, answered: mechanically clean — the included barrel mount clamps the motor housing (never the auto-stow shaft) and the transducer stows/deploys with the motor; leave a ~10\" cable loop across the pivot and watch the first cycles. Electronically there's no integration and none needed: aim the view by steering the motor. One quirk to expect: while Spot-Locked, the motor's corrections swing the LiveScope view — live with it, use manual holds, or add a pole mount someday.",
-      "Power: dedicated 50Ah LiFePO4 (~$250) runs display + LiveScope ~8–10 hours; 100Ah for tournament days. Separate from the Ulterra's 24V bank.",
-      "Timing note: no LiveScope 2 bundles existed as of Aug 2026 (too new) — waiting until winter likely brings bundles and a firmware maturity cycle. Update the display's software immediately on install, and verify the exact head unit on Garmin's LiveScope 2 compatibility list before ordering.",
+      "Why the Ultra 2 106sv over the cheaper UHD2 93sv: forward-facing sonar rewards pixels — the 106sv's 1280×800 on 10.1\" versus the 93sv's 1024×600 on 9\" is the single most worthwhile ~$900 upsell in the build. Skip 7-inch units for FFS entirely. Why not our existing 93sv: first-gen UHD can't run LiveScope 2 — and the bow needs its own screen anyway.",
+      "Why the pole made the list: the barrel mount aims wherever the Ulterra points — perfect for cruising and searching, but while Spot-Locked the motor's corrections swing the view constantly. The pole is the fix: Spot-Lock holds the boat, the pole holds the picture. Run both — barrel for moving, pole for sitting. This is the acknowledged endgame setup among heavy LiveScope users.",
+      "Why a pole and not a motorized turret (Rite-Hite ~$650–800, DD26 Live Foot $799): the turrets list Ultrex, Fortrex, Ghost, and Force compatibility — none list the Ulterra, almost certainly because of its auto-stow geometry. The manual pole is the Ulterra-safe answer at half the price.",
+      "Aftermarket timing caution: LVS44-specific pole brackets and covers are just reaching market (Summit has announced theirs). Older LVS32/34 brackets do NOT fit the new body — but the in-box Garmin shaft mount on a generic ~1\" pole sidesteps the whole problem.",
+      "Ulterra integration, answered: the included barrel mount clamps the motor housing (never the auto-stow shaft) and the transducer stows/deploys with the motor; leave a ~10\" cable loop across the pivot and watch the first cycles.",
+      "Value alternative if the fund wants relief: Garmin's factory bundle of the Ultra 2 106sv + LiveScope Plus (LVS34 + GLS10) sells at $2,400–2,600 — same 10-inch screen, one sonar generation older, roughly $1,500 less than the LVS44 build. The LVS44 is the pick for our deep-water range, but this is the honest budget door.",
+      "On install day: update the display's software first (LVS44 support may need current firmware), then verify the unit on Garmin's LiveScope 2 compatibility list arrived as expected.",
       "Money-no-object reference: Ultra 2 122sv (or a GPSMAP glass helm) running BOTH transducers — LVS42HD for casting range plus LVS44 for open water (~$7,700–12k). The dual-ducer split is the current pro template.",
       "Cross-brand check: Garmin still leads live-sonar image quality in 2026; Lowrance ActiveTarget 2 is the value alternative; Humminbird MEGA Live 2's TargetLock integration requires an Ultrex — it doesn't support our Ulterra. Lean Garmin.",
-      "Ice-fishing path exists: a zero-degree shaft mount is sold separately and the LVS44 can be repurposed on an ice pod (the dedicated ice variant adds a cold-rated cable).",
+      "Ice-fishing path exists: a zero-degree mount for the LVS42/LVS44 is sold separately and the LVS44 can be repurposed on an ice pod (the dedicated ice variant adds a cold-rated cable).",
     ],
   },
   {
