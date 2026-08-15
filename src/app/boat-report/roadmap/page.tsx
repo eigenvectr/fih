@@ -89,8 +89,8 @@ const ROADMAP: {
       },
       {
         item: "Bow battery",
-        pick: "LiTime 12V 50Ah LiFePO4. Display + GLS10 + LVS34 pull ~5–6A together, so 50Ah is a solid 8–10 hour day. Dakota Lithium 54Ah (~$350) if the 11-year warranty is worth the doubling.",
-        cost: "$180",
+        pick: "LiTime 12V 50Ah LiFePO4. Display + GLS10 + LVS34 pull ~5–6A together, so 50Ah is a solid 8–10 hour day. Budget door: Costco's Interstate 27DC flooded (~$90, 88Ah) fits the bill and the NOCO charges it too — the trade is 55 lbs at the bow instead of 13 and a 4–5 season lifespan instead of 10+. Upgrade door: Dakota Lithium 54Ah (~$350) for the 11-year warranty.",
+        cost: "$90–180",
       },
       {
         item: "Lithium wall charger",
