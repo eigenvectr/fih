@@ -18,12 +18,17 @@ const statusStyle: Record<Status, { label: string; cls: string }> = {
   parked: { label: "Parked", cls: "bg-surface-2 text-ink-faint" },
 };
 
+type Part = { item: string; pick: string; cost: string };
+
 const ROADMAP: {
   title: string;
   status: Status;
   cost: string;
   summary: string;
   details: string[];
+  parts?: Part[];
+  partsTotal?: string;
+  partsNote?: string;
 }[] = [
   {
     title: "Dash mount + the Garmin 93sv at the helm",
@@ -171,13 +176,50 @@ export default function RoadmapPage() {
                     {item.summary}
                   </span>
                 </summary>
-                <ul className="space-y-2 border-t border-line p-4">
-                  {item.details.map((d) => (
-                    <li key={d.slice(0, 40)} className="text-sm leading-relaxed text-ink-muted">
-                      · {d}
-                    </li>
-                  ))}
-                </ul>
+                <div className="border-t border-line p-4">
+                  {item.parts && (
+                    <div className="mb-4 overflow-hidden rounded-lg border border-line">
+                      <div className="bg-surface-2 px-3 py-2 text-[11px] font-semibold uppercase tracking-wide text-ink-faint">
+                        The full parts list
+                      </div>
+                      <ul className="divide-y divide-line">
+                        {item.parts.map((p) => (
+                          <li key={p.item} className="flex items-baseline justify-between gap-3 px-3 py-2">
+                            <span className="min-w-0">
+                              <span className="block text-sm font-medium">{p.item}</span>
+                              <span className="block text-xs leading-relaxed text-ink-muted">
+                                {p.pick}
+                              </span>
+                            </span>
+                            <span className="shrink-0 text-sm font-semibold tabular-nums">
+                              {p.cost}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+                      {item.partsTotal && (
+                        <div className="flex items-baseline justify-between gap-3 border-t border-line bg-surface-2 px-3 py-2">
+                          <span className="text-sm font-semibold">Total</span>
+                          <span className="text-sm font-semibold tabular-nums text-accent">
+                            {item.partsTotal}
+                          </span>
+                        </div>
+                      )}
+                      {item.partsNote && (
+                        <p className="border-t border-line px-3 py-2 text-xs leading-relaxed text-ink-faint">
+                          {item.partsNote}
+                        </p>
+                      )}
+                    </div>
+                  )}
+                  <ul className="space-y-2">
+                    {item.details.map((d) => (
+                      <li key={d.slice(0, 40)} className="text-sm leading-relaxed text-ink-muted">
+                        · {d}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </details>
             </li>
           );
