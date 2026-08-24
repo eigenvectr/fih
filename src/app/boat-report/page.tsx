@@ -281,7 +281,7 @@ const WEAKNESSES: Detail[] = [
     tagline: "The boat's history written on its dash",
     body: [
       "Peeling console panels, hazed Helix screen, weathered trim — years outside, uncovered. All function, no failure.",
-      "The fix path is documented: the SEM refinish guide (findings page) is the primary dash fix — BBT confirmed this dash is too curved for a replacement plate — with an Alumacraft dash shroud as the possible shortcut, and the new mooring cover stops the clock.",
+      "The fix path is documented: the SEM refinish guide (findings page) is the primary dash fix — BBT confirmed this dash is too curved for a replacement plate — with an Alumacraft dash shroud as the possible shortcut. A cover stops the clock, but the mooring cover from the deal turned out not to fit: its diagnosis and replacement now lead the roadmap.",
     ],
   },
   {

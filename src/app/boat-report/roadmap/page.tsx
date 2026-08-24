@@ -5,7 +5,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 export const metadata = {
   title: "Upgrade roadmap · 2018 Alumacraft Pro 185",
   description:
-    "The boat's upgrade plan in order: dash mount for the Garmin, rigging boot, the fully-specced LiveScope bow station with parts list, and the parked wishlist.",
+    "The boat's upgrade plan in order: a cover that fits, dash mount for the Garmin, rigging boot, the fully-specced LiveScope bow station with parts list, and the parked wishlist.",
 };
 
 type Status = "next" | "queued" | "saving" | "seasonal" | "parked";
@@ -30,6 +30,45 @@ const ROADMAP: {
   partsTotal?: string;
   partsNote?: string;
 }[] = [
+  {
+    title: "A cover that fits — jumped the queue",
+    status: "next",
+    cost: "$0 diagnosis · ~$300–400 likely fix",
+    summary:
+      "The \"new mooring cover\" from the deal doesn't fit. Research verdict (Aug 2026): one season uncovered is survivable WITH the interim protocol below — but rain, not sun, is this hull's enemy (Alumacraft's under-floor foam and wood transom core are documented water traps), so the replacement happens this season. Diagnose the current cover before spending a dime.",
+    parts: [
+      {
+        item: "Step 1: diagnose the cover we have",
+        pick: "Find the sewn-in tag (a 5-digit Dowco number IDs the exact hull it was cut for). If it's snap-style and our gunwales have no snap studs, it's a wrong-boat cover, case closed. Measure the boat: straight centerline bow-to-transom (tape level, NOT over the windshield) and beam at widest — should be ~18'5\" × 90\".",
+        cost: "$0",
+      },
+      {
+        item: "Step 2: try a support pole first",
+        pick: "Attwood cover support kit (10795-4 system, or a single telescoping pole). Without a pole ANY mooring cover pools rain, sags, and reads as \"doesn't fit.\" Proper support extends cover life ~50%. If the cover's tag says it's the right pattern, this probably IS the fix.",
+        cost: "$35–60",
+      },
+      {
+        item: "The replacement, if it's truly wrong",
+        pick: "Best match in production: Shoretex model-exact \"Alumacraft Pro 185 SC '15–'22\" at go2marine (~$300–500, trolling-motor option, rated mooring AND trailering). Runner-up: Carver 72N18 semi-custom (17'9\"–18'8\" × 90\", windshield + bow-motor pattern) in Sun-DURA (~$300–400, 7-yr warranty). OEM Dowco surplus at Great Lakes Skipper ($350–600) is first-come stock since Alumacraft's 2025 shutdown.",
+        cost: "$300–500",
+      },
+      {
+        item: "The stopgap tier, rated honestly",
+        pick: "Amazon generic 17–19' × 96\" (iCOVER/SavvyCraft class): expect 1–2 seasons before grommets tear and UV rot sets in — acceptable bridge, bad destination. NEVER a plastic hardware-store tarp laid on the boat: it traps moisture into a mildew greenhouse against the new upholstery and chafes everything it touches. Forums call it worse than nothing.",
+        cost: "$90–160",
+      },
+    ],
+    partsTotal: "Likely landing: ~$350–450",
+    partsNote:
+      "Pole first — it may save the cover we own. Whatever cover wins, add the support pole; pooled water is the #1 cover killer.",
+    details: [
+      "The uncovered-season verdict, from forums and pros: cumulative, not catastrophic. Vinyl gets 2–3 years of life fully exposed in hard sun; upstate NY's shorter, milder season stretches that — but the dealer JUST fixed our seats, and buyers read seat condition as the storage-history proxy (we did exactly that when we bought). Every uncovered month restarts the clock our purchase already paid for once.",
+      "Why rain outranks sun here: an open bass boat catches every rainfall, and this era of Alumacraft has documented under-floor foam that soaks up standing water with no drain path, plus a wood transom core. Water management is the non-negotiable even on covered weeks.",
+      "INTERIM PROTOCOL while uncovered: (1) drain plug OUT and bow cranked high on the tongue jack — rain exits the stern drain instead of soaking the foam; (2) 303 protectant on all vinyl every 4–6 weeks; (3) $40 slip-on seat covers — the highest-value single mitigation; (4) Helix sun cover on, loose electronics and the remote inside; (5) sweep leaves and wipe bird droppings same-day (droppings etch vinyl in days, steeped leaf tannins stain permanently). Do these and a partial season costs nearly nothing.",
+      "Mooring vs trailering, learned: mooring covers reach just below the rub rail and cinch or snap — fine parked, NOT highway-rated. Trailering covers cut lower with under-hull straps. The Shoretex is rated for both; a strap kit does not make a mooring cover trailerable.",
+      "Cover care so the next one lasts: never store it wet (coated poly shrinks — possibly what happened to this one), and a shrunk cover can sometimes be recovered by soaking it and installing half-dry, centers first.",
+    ],
+  },
   {
     title: "Dash mount + the Garmin 93sv at the helm",
     status: "next",
@@ -196,9 +235,10 @@ export default function RoadmapPage() {
 
       <p className="mb-4 flex items-start gap-2 text-sm leading-relaxed text-ink-muted">
         <Map className="mt-0.5 h-4 w-4 shrink-0 text-ink-faint" />
-        The boat fishes great as-is — everything here is improvement, not repair. Ordered by
-        what unlocks what: the dash plate enables the Helix move, the Helix move holds the bow
-        until LiveScope, and the parked items wait for their budgets without blocking anything.
+        The boat fishes great as-is — everything here is improvement or protection, not repair.
+        Ordered by urgency and what unlocks what: the cover protects everything else, the dash
+        mount seats the Garmin, the bow waits clean for LiveScope, and the parked items wait for
+        their budgets without blocking anything.
       </p>
 
       <ul className="mb-4 space-y-2">
