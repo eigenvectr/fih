@@ -198,10 +198,11 @@ const FEATURES: Detail[] = [
     title: "Storage, cover, and the rest",
     tagline: "Rod lockers, casting decks, and the sun's kryptonite",
     body: [
-      "Port rod locker, bow and aft storage, under-seat compartments, two casting decks, fold-down cleats — and the brand-new mooring cover that came with the deal.",
+      "Port rod locker, bow and aft storage, under-seat compartments, two casting decks, fold-down cleats. The mooring cover from the deal turned out not to fit over the Ulterra — its swap-or-modify plan leads the roadmap.",
     ],
     how: [
-      "The cover goes on EVERY time the boat parks outside. Sun is what aged this boat's dash, screen, and seats — the cover is a $300 part protecting thousands in vinyl and plastic. Never cover a wet boat for more than a day (mildew).",
+      "Once a fitting cover exists, it goes on EVERY time the boat parks outside. Sun is what aged this boat's dash, screen, and seats. Never cover a wet boat for more than a day (mildew). Until then: the uncovered protocol on the roadmap cover card (plug out, bow high, 303, seat covers).",
+      "The damp stern compartment (fuel tank + batteries): keep it draining and breathing. Bow high + plug out sends water out the transom drain — if puddles persist, the limber holes (small passages letting water reach the drain) are clogged with leaves; clear them with a wire. Prop the stern hatches open for an afternoon after trips and rain. Hose-test the hatch gaskets, fuel-fill O-ring, and livewell fittings to find any leak path ($10 foam tape fixes most). A DampRid tub in there earns its keep once the cover is sorted — not before.",
       "Rod locker (port side) swallows rods to 7'6\" rigged — tips toward the bow.",
       "Keep a dry box aboard: registration copy, insurance card, spare plug, fuses, and the boat's paper trail lives on this site.",
       "Seats: re-stitched at delivery; a wipe of 303 protectant a few times a season keeps the vinyl alive.",
