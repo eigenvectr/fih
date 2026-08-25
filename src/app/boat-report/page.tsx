@@ -170,10 +170,12 @@ const FEATURES: Detail[] = [
     title: "Load Rite Elite aluminum trailer",
     tagline: "Salt-proof frame, guides that make loading easy",
     body: [
-      "Aluminum frame (laughs at salt ramps), side guide-ons that funnel the boat home in wind, transom tie-down straps, and a spare tire.",
+      "Aluminum frame (laughs at salt ramps), side guide-ons that funnel the boat home in wind, transom tie-down straps (upgraded Aug 2026 to Rhino USA 2\" retractable ratchets — the spool swallows the loose tail), and a spare tire.",
     ],
     how: [
       "Before every tow, the 60-second walk-around: coupler latched with the pin in, safety chains crossed under the tongue, winch strap tight, transom straps on, lights plugged in and working.",
+      "Transom straps: stern eyes to the rear crossmember, snug until firm — never gorilla-tight, it's an aluminum hull on bunks. The full hold-down set is winch strap + bow safety chain + the two transom straps; nothing goes over the gunwales.",
+      "The ramp order, both directions: arriving, pull the transom straps OFF in the staging area (winch stays on), then back down — winch comes off only at the water. Leaving, winch on at the water, transom straps back ON up in staging. Never move on the ramp with only one system attached in the wrong direction.",
       "Launching: dunk until the boat floats free of the bunks; unhook the winch AT the ramp, never on the road.",
       "Loading: drive the bow between the guides, winch the last few feet, clip the safety chain before pulling out.",
       "Care: rinse the trailer after salt ramps (skip pressure-washing the hubs), spin-check the wheels each spring, and the service page tracks bearings and tire age.",
