@@ -39,12 +39,12 @@ const ROADMAP: {
     parts: [
       {
         item: "Step 0: ask CR's to make it right",
-        pick: "The cover was part of the deal, and the boat as-sold had the Ulterra on the bow. A cover that can't go over that motor never fit the boat they sold. The ask (queued Aug 2026): swap it for the trolling-motor-cut version, or have their upholstery guy add a bow pocket to this one. Bundle with the impeller booking for an easy yes. Force multiplier: email Dowco first with the tag's part number asking what the CORRECT part is for a Pro 185 with a bow-mounted Ulterra — exchanges run through the dealer (Dowco's customer is CR's, and wrong-pattern isn't a defect), but walking into the Chris conversation with the exact right part number makes the swap trivial to say yes to. Spend nothing until Chris answers.",
+        pick: "The cover was part of the deal, and the boat as-sold had the Ulterra on the bow. A cover that can't go over that motor never fit the boat they sold. The ask (queued Aug 2026): swap it for the trolling-motor-cut version, or have their upholstery guy add a bow pocket to this one. Bundle with the impeller booking for an easy yes. Update Aug 2026: NO tag or part number found on the cover (checked) — so brand is unconfirmed and Chris's invoice is the only record of what was bought. The ask now includes: what cover is this, per your paperwork? Manufacturer contact only makes sense if a logo on the fabric identifies the maker; exchanges run through the dealer regardless (wrong-pattern isn't a defect). Spend nothing until Chris answers.",
         cost: "$0 ask",
       },
       {
         item: "Step 1: diagnose the cover we have",
-        pick: "Find the sewn-in tag (a 5-digit Dowco number IDs the exact hull it was cut for). If it's snap-style and our gunwales have no snap studs, it's a wrong-boat cover, case closed. Measure the boat: straight centerline bow-to-transom (tape level, NOT over the windshield) and beam at widest — should be ~18'5\" × 90\".",
+        pick: "DONE Aug 2026: no tag or part number found (usual hiding spots: transom hem seam, inside bow tip, by the tie-down loops, stash pocket — checked). Remaining IDs: any fabric logo, and Chris's invoice. Still worth measuring: straight centerline bow-to-transom (tape level, NOT over the windshield) and beam at widest — the boat should tape ~18'5\" × 90\".",
         cost: "$0",
       },
       {
