@@ -79,7 +79,7 @@ const ROADMAP: {
       "Sizing, done in the driveway: level the trailer with the tongue jack (level on the gunwale), measure ground to the bottom of the coupler (A) and ground to the top inside of the receiver opening (B). A − B = the rise to buy. Curt/Reese/Draw-Tite fixed mounts come in ¾\", 2\", and 4\" rise steps.",
       "Ball size must match the coupler — stamped on the coupler top (expect 2\"). The ball usually ships loose: torque the nut to spec with a witness mark.",
       "Adjustable alternative (B&W Tow & Stow, Andersen, ~$200–320): 1\" height steps both directions — only worth it if the car will ever pull a second trailer.",
-      "Tow math to confirm once: rig runs ~2,400–2,700 lbs wet (1,100 hull + ~390 engine + trailer + gear/fuel), tongue ~250 lbs. Model Y factory hitch (3,500/350) covers it; a Model 3 aftermarket hitch (~2,000) does NOT — check the rating sticker on the receiver.",
+      "Tow math, confirmed: the tow car is a Model Y Performance — factory rating 3,500 lbs towing / 350 lbs tongue. The rig runs ~2,400–2,700 lbs wet (1,100 hull + ~390 engine + trailer + gear/fuel) with ~250 on the tongue: about 75% of rating. Comfortably legit.",
       "Towing range hit on the Tesla: plan for 30–50% — trivial for Saratoga, plan charging for Lake George or Milford runs.",
     ],
   },
