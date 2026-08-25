@@ -48,6 +48,11 @@ const ROADMAP: {
         cost: "$35–60",
       },
       {
+        item: "Step 2.5: canvas-shop bow pocket, if the rest fits",
+        pick: "DIAGNOSIS BREAK (Aug 2026): the dealer's comments point to the real misfit — the cover has no trolling-motor allowance and hangs up on the Ulterra. If the tag confirms it's otherwise our size, a marine canvas shop (ask CR's who does their work) sews a hood or zippered pocket into the bow corner so it covers the STOWED motor. Rescues the cover we own.",
+        cost: "$75–200",
+      },
+      {
         item: "The replacement, if it's truly wrong",
         pick: "Best match in production: Shoretex model-exact \"Alumacraft Pro 185 SC '15–'22\" at go2marine (~$300–500, trolling-motor option, rated mooring AND trailering). Runner-up: Carver 72N18 semi-custom (17'9\"–18'8\" × 90\", windshield + bow-motor pattern) in Sun-DURA (~$300–400, 7-yr warranty). OEM Dowco surplus at Great Lakes Skipper ($350–600) is first-come stock since Alumacraft's 2025 shutdown.",
         cost: "$300–500",
@@ -66,6 +71,7 @@ const ROADMAP: {
       "Why rain outranks sun here: an open bass boat catches every rainfall, and this era of Alumacraft has documented under-floor foam that soaks up standing water with no drain path, plus a wood transom core. Water management is the non-negotiable even on covered weeks.",
       "INTERIM PROTOCOL while uncovered: (1) drain plug OUT and bow cranked high on the tongue jack — rain exits the stern drain instead of soaking the foam; (2) 303 protectant on all vinyl every 4–6 weeks; (3) $40 slip-on seat covers — the highest-value single mitigation; (4) Helix sun cover on, loose electronics and the remote inside; (5) sweep leaves and wipe bird droppings same-day (droppings etch vinyl in days, steeped leaf tannins stain permanently). Do these and a partial season costs nearly nothing.",
       "Mooring vs trailering, learned: mooring covers reach just below the rub rail and cinch or snap — fine parked, NOT highway-rated. Trailering covers cut lower with under-hull straps. The Shoretex is rated for both; a strap kit does not make a mooring cover trailerable.",
+      "Considered and rejected — the dealer's quick-release plate idea: pulling the ~60-lb Ulterra off the bow to cover the boat, every trip, forever. That optimizes the cover at the expense of every fishing day, and owners who live it stop covering entirely. Covers cut for bow motors are an off-the-shelf product (Shoretex TM option, Carver 72N18) and a canvas shop can add a pocket to ours — the motor stays on the boat.",
       "Cover care so the next one lasts: never store it wet (coated poly shrinks — possibly what happened to this one), and a shrunk cover can sometimes be recovered by soaking it and installing half-dry, centers first.",
     ],
   },
