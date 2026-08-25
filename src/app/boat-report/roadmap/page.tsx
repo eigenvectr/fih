@@ -39,7 +39,7 @@ const ROADMAP: {
     parts: [
       {
         item: "Step 0: ask CR's to make it right",
-        pick: "The cover was part of the deal, and the boat as-sold had the Ulterra on the bow. A cover that can't go over that motor never fit the boat they sold. The ask (sent/queued Aug 2026): swap it for the trolling-motor-cut version, or have their upholstery guy add a bow pocket to this one. Bundle with the impeller booking for an easy yes. Spend nothing until Chris answers.",
+        pick: "The cover was part of the deal, and the boat as-sold had the Ulterra on the bow. A cover that can't go over that motor never fit the boat they sold. The ask (queued Aug 2026): swap it for the trolling-motor-cut version, or have their upholstery guy add a bow pocket to this one. Bundle with the impeller booking for an easy yes. Force multiplier: email Dowco first with the tag's part number asking what the CORRECT part is for a Pro 185 with a bow-mounted Ulterra — exchanges run through the dealer (Dowco's customer is CR's, and wrong-pattern isn't a defect), but walking into the Chris conversation with the exact right part number makes the swap trivial to say yes to. Spend nothing until Chris answers.",
         cost: "$0 ask",
       },
       {
