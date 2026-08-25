@@ -38,6 +38,11 @@ const ROADMAP: {
       "The \"new mooring cover\" from the deal doesn't fit. Research verdict (Aug 2026): one season uncovered is survivable WITH the interim protocol below — but rain, not sun, is this hull's enemy (Alumacraft's under-floor foam and wood transom core are documented water traps), so the replacement happens this season. Diagnose the current cover before spending a dime.",
     parts: [
       {
+        item: "Step 0: ask CR's to make it right",
+        pick: "The cover was part of the deal, and the boat as-sold had the Ulterra on the bow. A cover that can't go over that motor never fit the boat they sold. The ask (sent/queued Aug 2026): swap it for the trolling-motor-cut version, or have their upholstery guy add a bow pocket to this one. Bundle with the impeller booking for an easy yes. Spend nothing until Chris answers.",
+        cost: "$0 ask",
+      },
+      {
         item: "Step 1: diagnose the cover we have",
         pick: "Find the sewn-in tag (a 5-digit Dowco number IDs the exact hull it was cut for). If it's snap-style and our gunwales have no snap studs, it's a wrong-boat cover, case closed. Measure the boat: straight centerline bow-to-transom (tape level, NOT over the windshield) and beam at widest — should be ~18'5\" × 90\".",
         cost: "$0",
