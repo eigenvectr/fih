@@ -297,6 +297,10 @@ const RESTORE_SOURCES: { label: string; url: string }[] = [
 
 const REFERENCE: { title: string; body: string }[] = [
   {
+    title: "Stuck seat post — the removal ladder",
+    body: "Our bases are the 7×7 plate + nylon bushing ¾\" pin system (Attwood Lock'N-Pin or Springfield KingPin — Alumacraft used both). Order of attack: (1) UNSCREW TEST first — padded pipe wrench, counterclockwise, multiple full turns; the threaded (-T) version screws in and pulling only destroys it. (2) Twist-and-pull: rotate ~30° back and forth to shear the oxide bond while a helper pulls straight up — rotation, not prying, is what frees these. (3) Heat gun on the BASE and bushing only (nylon expands, grip loosens) — never the post, which expands tighter; dry ice on the post for stubborn ones. (4) Vise-grips clamped low, hammer UPWARD on the jaws — never down or sideways. (5) Bench method: back out the six plate screws, lift plate+post as one, flip it, punch the post out through the hole in the base's underside. Rules: no crowbar against the deck, and NO WD-40 soaks — petroleum SWELLS the nylon bushing (one-shot penetrant for extraction only, clean it out after). Aftermath: replace the bushing (~$10, Attwood SP-201 / Springfield 2100055) and lube the pin with DRY lube or candle wax only, never grease — grease holds grit and starts the next seizure.",
+  },
+  {
     title: "Wide-open throttle: 5,500–6,000 RPM — our boat runs 47 mph",
     body: "Measured at the August 2026 water test: 47 mph GPS, the top of the predicted 43–47 range — the benchmark for every future season. If a future WOT run comes up meaningfully short of that at similar load: check prop for dings and RPM first. Well under 5,500 and slow = over-propped or something tired (below 5,500 is lugging — genuinely harmful, not a tune-up item). Over 6,000 but slow = pitch or hull drag. A slow drift from the benchmark over years usually just means a dinged prop or a fouled bottom.",
   },
