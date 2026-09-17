@@ -170,12 +170,12 @@ const FEATURES: Detail[] = [
     title: "Load Rite Elite aluminum trailer",
     tagline: "Salt-proof frame, guides that make loading easy",
     body: [
-      "Aluminum frame (laughs at salt ramps), side guide-ons that funnel the boat home in wind, transom tie-down straps (upgraded Aug 2026 to Rhino USA 2\" retractable ratchets — the spool swallows the loose tail), and a spare tire.",
+      "Aluminum frame (laughs at salt ramps), side guide-ons that funnel the boat home in wind, and a spare tire. Tie-down lesson (Sep 2026): the transom overhangs the rear crossmember, so 43\" retractable transom straps (the Rhinos) can't reach a legal down-pull point — the answer is 2\" × 16' GUNWALE straps over the rear deck (BoatBuckle Pro Series F17636 ×2, pads included), plus bolt-on frame brackets + 6' transom straps if we want the belt-and-suspenders setup.",
     ],
     how: [
-      "Before every tow, the 60-second walk-around: coupler latched with the pin in, safety chains crossed under the tongue, winch strap tight, transom straps on, lights plugged in and working.",
-      "Transom straps: stern eyes to the rear crossmember, snug until firm — never gorilla-tight, it's an aluminum hull on bunks. The full hold-down set is winch strap + bow safety chain + the two transom straps; nothing goes over the gunwales.",
-      "The ramp order, both directions: arriving, pull the transom straps OFF in the staging area (winch stays on), then back down — winch comes off only at the water. Leaving, winch on at the water, transom straps back ON up in staging. Never move on the ramp with only one system attached in the wrong direction.",
+      "Before every tow, the 60-second walk-around: coupler latched with the pin in, safety chains crossed under the tongue, winch strap tight, tie-downs on, lights plugged in and working.",
+      "Gunwale straps: over the rear casting deck right near the transom (where the hull has structure — never amidships, never over console or seats), pads at both rub-rail contacts, hooks to the main frame rail or crossmember (never the fender or bunk brackets), dropping as near vertical as possible. Snug, not crushing: no hand-pullable slack, no hull deformation. Recheck after the first 5 miles — boats settle. They hold the trailer UP to the boat; the winch strap + bow chain still stop the boat sliding back.",
+      "The ramp order, both directions: arriving, pull the gunwale straps OFF in the staging area (winch stays on), then back down — winch comes off only at the water. Leaving, winch on at the water, straps back ON up in staging. Never move on the ramp with only one system attached in the wrong direction.",
       "Launching: dunk until the boat floats free of the bunks; unhook the winch AT the ramp, never on the road.",
       "Loading: drive the bow between the guides, winch the last few feet, clip the safety chain before pulling out.",
       "Care: rinse the trailer after salt ramps (skip pressure-washing the hubs), spin-check the wheels each spring, and the service page tracks bearings and tire age.",
