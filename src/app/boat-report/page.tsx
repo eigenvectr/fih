@@ -117,25 +117,26 @@ const FEATURES: Detail[] = [
   },
   {
     title: "Garmin ECHOMAP UHD 93sv",
-    tagline: "The navigator-in-waiting from the old boat",
+    tagline: "The navigator at the helm — installed September 2026",
     body: [
-      "Our 9-inch chartplotter, currently uninstalled — it takes the helm when the BBT dash mount arrives (roadmap #1). Its job: lake maps, waypoints, speed, and 2D sonar at the driver's seat.",
+      "Our 9-inch chartplotter, now on the dash mount at the driver's seat over the old Helix cutout. Its job: lake maps, waypoints, GPS speed, and 2D sonar. Open item: a slight gap between the mount plate and the old cutout edge — taped until the edge trim, cover plate, or the new OEM panel closes it (roadmap).",
     ],
     how: [
-      "Until installed: it lives safe and dry at home with its power cable and (hopefully) its bail mount — check the old-boat parts pile for the transducer too.",
-      "Once installed: power comes from the console; press and HOLD a spot on the map to drop a waypoint; the GPS speed readout replaces the old analog speedo as the number you trust.",
+      "Power comes from the console switch. Press and HOLD a spot on the map to drop a waypoint; the GPS speed readout is the number you trust over the analog speedo.",
+      "Sonar needs a transducer: if the old boat's didn't come along, the unit is charts-only until a GT56UHD (~$270, or free with the right Ultra 2 bundle sale) is added.",
       "It cannot run LiveScope 2 (older platform) — that's fine; the future LiveScope lives at the bow with its own screen.",
+      "It hangs on its bail, so it pops off the mount for storage — and it should: a $700 screen left on an uncovered boat in a driveway is an invitation.",
     ],
   },
   {
     title: "Humminbird Helix 7 CHIRP G2",
-    tagline: "The fish finder that came with the boat",
+    tagline: "The fish finder that came with the boat — now off the dash",
     body: [
-      "The current dash unit: sonar and GPS, modest but working, with a sun-hazed screen (cosmetic). Its future: comes off and sells when the Garmin takes the dash — the bow stays empty, reserved for the LiveScope station.",
+      "The original dash unit: sonar and GPS, modest but working, with a sun-hazed screen (cosmetic). Out of the dash as of the Garmin install; it sells (~$100–150 toward the LiveScope fund) — the bow stays empty, reserved for the LiveScope station.",
     ],
     how: [
-      "Power button is bottom-right; it shares the console power switch.",
-      "Reading it as a beginner: the screen scrolls right-to-left showing what's UNDER you (not ahead). The bottom is the thick line; fish are arches or dots above it; the number is depth. Start with the default 2D view and auto sensitivity — it's right 90% of the time.",
+      "Sale prep: the $12 anti-glare protector salvage from the restoration guide bumps its price if it's worth the ten minutes. Include the transducer and power cable in the listing.",
+      "If it's ever pressed back into service: the screen scrolls right-to-left showing what's UNDER you (not ahead). The bottom is the thick line; fish are arches or dots above it; the number is depth.",
       "The haze: mild soap or a 50/50 vinegar-water wipe with microfiber. Never regular Windex or alcohol — it dissolves the anti-glare coating.",
     ],
   },

@@ -8,9 +8,10 @@ export const metadata = {
     "The boat's upgrade plan in order: a cover that fits, dash mount for the Garmin, rigging boot, the fully-specced LiveScope bow station with parts list, and the parked wishlist.",
 };
 
-type Status = "next" | "queued" | "saving" | "seasonal" | "parked";
+type Status = "next" | "queued" | "saving" | "seasonal" | "parked" | "done";
 
 const statusStyle: Record<Status, { label: string; cls: string }> = {
+  done: { label: "Done", cls: "bg-emerald-600/10 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-400" },
   next: { label: "Next up", cls: "bg-emerald-600/10 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-400" },
   queued: { label: "Queued", cls: "bg-sky-500/10 text-sky-700 dark:bg-sky-400/10 dark:text-sky-400" },
   saving: { label: "Saving for", cls: "bg-amber-500/10 text-amber-700 dark:bg-amber-400/10 dark:text-amber-400" },
@@ -99,11 +100,13 @@ const ROADMAP: {
   },
   {
     title: "Dash mount + the Garmin 93sv at the helm",
-    status: "next",
+    status: "done",
     cost: "$100 RAM route · $350 BBT route",
     summary:
-      "ANSWERED BY BBT (Van, Aug 2026): the 93sv fits the standard Single mount, hardware and instructions included, same-day shipping, and the linked 2018-2019 product page is the correct part. One correction to our research: this dash is too curved for a full replacement plate — their mount bolts to the CENTER of the dash with a backer plate, and the factory panel stays.",
+      "INSTALLED Sep 2026: the Garmin 93sv is on the dash mount at the helm, over the old Helix flush-mount cutout. One follow-up: a slight gap between the mount plate and the old cutout edge opens into the console cavity — tape it until the trim or cover plate goes in (details below). Earlier record: BBT (Van, Aug 2026) confirmed the 93sv fits the standard Single mount; this dash is too curved for a full replacement plate, so the mount bolts to the center with a backer and the factory panel stays.",
     details: [
+      "THE GAP, fixes cheapest to cleanest: (1) black EPDM U-channel edge trim on the old cutout edge (~$10, no tools) if it's a thin slot; (2) a 1/8\" black ABS or StarBoard cover plate mounted BEHIND the panel, larger than the cutout, with a bead of black 3M 4000UV around the opening; (3) ask Van at BBT for a custom powder-coated cover plate cut to the measured cutout. Gorilla tape over the slot in the meantime — rain into that cavity corrodes the 11-pin harness and key switch.",
+      "THE PANEL OPTION, verified in stock (Sep 2026): OEM Alumacraft console gauge panel #22180014107 at Great Lakes Skipper, Amazon, and eBay — 25\" × 6\", gray textured with brushed-black accents, ships with the 11-pin + eight single-pin harness connections, and has NO Helix cutout (just a blank cup-holder opening). One purchase erases the gap, the sun-baked panel, and the leftover flush-mount hole; only the mount's bolt holes get drilled. Check price on the three listings and confirm the harness matches ours before ordering.",
       "Consequence: the mount solves the Garmin problem, not the cosmetic one. The sun-baked panel fix returns to the SEM refinish guide (findings page) or the \"dash shroud from Alumacraft\" Van suggested — part number being chased; Alumacraft's 2025 sale makes OEM parts hit-or-miss.",
       "Follow-ups sent with dash photos: does the backer plate work over the existing Helix mounting holes once it moves to the bow; the price shipped to 12180 (Van skipped it); and the shroud part number.",
       "Price landed: $350 for the BBT Single. The alternative tier, now that it's a mount rather than a panel fix: RAM-D-115 (~$80–120, 2.25\" D-ball, rated 10 lbs, direct fit for 9\" gimbal brackets) with a $10 DIY aluminum backer — or the factory bail straight to the dash with a backer for nearly free. Wobble tolerance matters at the bow for LiveScope, barely at the helm for charts: the RAM route banks ~$250 toward the LiveScope fund, and BBT ships same-day forever if the RAM ever shivers too much at 47 mph.",
@@ -130,7 +133,7 @@ const ROADMAP: {
     status: "queued",
     cost: "$0",
     summary:
-      "Decision made: no placeholder bow electronics. When the Garmin takes the dash, the Helix comes off and sells (~$100–150 toward the fund), and the bow waits clean for the LiveScope station.",
+      "Decision made: no placeholder bow electronics. The Garmin took the dash in Sep 2026, so the Helix is off the boat and sells (~$100–150 toward the fund), and the bow waits clean for the LiveScope station.",
     details: [
       "Why not bridge with the Helix at the bow: it'd need a mount, an adapter, and wiring for a unit that's leaving anyway — that money and drilling belongs to the real bow station.",
       "The Ulterra's built-in US2 transducer goes unused in this plan (Garmin heads can't read it) — it's simply a resale footnote.",
@@ -223,7 +226,7 @@ const ROADMAP: {
       "BBT confirmed their mount leaves the factory panel in place (the dash is too curved for a plate), so the SEM refinish guide on the findings page is the cosmetic fix for the whole dash — unless the Alumacraft dash shroud Van mentioned turns out to be orderable.",
     details: [
       "Full step-by-step lives in the findings page restoration guide: scrape, sand, adhesion promoter, texture coat, SEM Marine Vinyl Coat in satin.",
-      "NEW option found by research: the dash insert is a discrete OEM part — Alumacraft #22180014107, sold at Great Lakes Skipper/Amazon/eBay, and it ships with two new Faria gauges pre-installed. Check the price: if reasonable, a new panel beats a weekend of refinishing. Verify the part number matches ours first.",
+      "NEW option, now verified in stock (Sep 2026): the dash insert is a discrete OEM part — Alumacraft #22180014107, listed at Great Lakes Skipper, Amazon, and eBay, shipping with the gauge harness connections and NO Helix cutout. Since the Garmin mount install left a gap at the old cutout, the new panel now fixes cosmetics AND the gap in one purchase. Check the price: if reasonable, a new panel beats a weekend of refinishing. Verify the part number and 11-pin harness match ours first.",
       "Trim and bezels: Solution Finish or CeraKote once, 303 Marine as the maintenance layer.",
     ],
   },
