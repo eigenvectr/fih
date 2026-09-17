@@ -170,7 +170,7 @@ const FEATURES: Detail[] = [
     title: "Load Rite Elite aluminum trailer",
     tagline: "Salt-proof frame, guides that make loading easy",
     body: [
-      "Aluminum frame (laughs at salt ramps), side guide-ons that funnel the boat home in wind, and a spare tire. Tie-down lesson (Sep 2026): the transom overhangs the rear crossmember, so 43\" retractable transom straps (the Rhinos) can't reach a legal down-pull point — the answer is 2\" × 16' GUNWALE straps over the rear deck (BoatBuckle Pro Series F17636 ×2, pads included), plus bolt-on frame brackets + 6' transom straps if we want the belt-and-suspenders setup.",
+      "Aluminum frame (laughs at salt ramps), side guide-ons that funnel the boat home in wind, and a spare tire. Tie-down lesson (Sep 2026): the transom overhangs the rear crossmember, so 43\" retractable transom straps (the Rhinos) can't reach a legal down-pull point — the answer is 2\" × 16' GUNWALE straps over the rear deck. The trailer's existing pair ARE BoatBuckle Pro Series — but sun-rotted and slipping through the Kwik-Lok (UV-glazed webbing won't bite): retired. Replacement: ratchet-style (BoatBuckle stainless ratchet gunwale, or a quality 2\" × 16' ratchet strap + BoatBuckle F13180 pads) — snug plus two or three clicks, never more, on an aluminum hull.",
     ],
     how: [
       "Before every tow, the 60-second walk-around: coupler latched with the pin in, safety chains crossed under the tongue, winch strap tight, tie-downs on, lights plugged in and working.",
