@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ChevronRight } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { Tracker } from "./Tracker";
 
@@ -33,6 +33,19 @@ export default function ServicePage() {
         This page is how the next buyer says the same about us — every service logged here, every
         receipt kept, and an EMM pull every couple of years to keep the official record growing.
       </p>
+      <Link
+        href="/boat-report/winterize"
+        className="mb-4 flex items-center justify-between gap-3 rounded-xl border border-accent/40 bg-accent/5 p-4 transition-colors hover:bg-accent/10"
+      >
+        <span>
+          <span className="block text-sm font-semibold">Fall winterization guide</span>
+          <span className="mt-0.5 block text-sm text-ink-muted">
+            Fuel, the self-fogging run, gearcase oil, prop, grease, and storage, step by step
+            with the tool for each job
+          </span>
+        </span>
+        <ChevronRight className="h-5 w-5 shrink-0 text-accent" />
+      </Link>
       <Tracker />
     </main>
   );

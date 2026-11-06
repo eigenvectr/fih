@@ -61,7 +61,7 @@ const FEATURES: Detail[] = [
       "Warm it 2–3 minutes at idle before throttling up. Once warm, running it hard is good for it — 2-strokes hate babying more than they hate work.",
       "Gas: regular 87 octane. Premium buys nothing.",
       "If a warning horn sounds: pull back to idle, check the tell-tale and the oil tank, and shut down if unsure. The engine protects itself by cutting power — let it.",
-      "Every fall: the winterize routine (CR's does it, or the self-fogging procedure) — this single habit is why the engine survived nine years outside.",
+      "Every fall: the winterize routine — this single habit is why the engine survived nine years outside. It self-fogs on a garden hose in about a minute; the full driveway procedure with tools lives on the winterize guide (Service page).",
     ],
   },
   {
