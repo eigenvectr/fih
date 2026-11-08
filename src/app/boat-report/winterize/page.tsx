@@ -134,6 +134,7 @@ const STEPS: Step[] = [
     tagline: "Water left in old gear oil can freeze and crack the gearcase",
     tools: "Flat-blade screwdriver · HPF Pro kit + pump · extra 10 oz tube · 4 new seals · drain pan · rags",
     steps: [
+      "What the kit is: a quart of gear oil plus a hand pump. Take the cap off the bottle and screw the pump on in its place. The clear hose on the pump ends in a threaded tip that screws into the gearcase's bottom hole. Each push of the pump handle sends oil up the hose and into the gearcase. That's the whole tool.",
       "Engine vertical. Find the two slotted screws on the side of the gearcase: the LOWER one near the skeg is drain/fill, the UPPER one above the cavitation plate is vent/level. Leave any other screw alone (a Phillips screw near the drain can hold internal shift parts).",
       "Pan underneath. Remove the lower screw, then the upper one; oil flows once the vent is open. Let it drain completely.",
       "READ THE OLD OIL. Clean amber or dark = good. Milky or creamy = water got in past a seal: tell CR's before spring. Metal flakes or a burnt smell = see CR's. A little fuzz on a magnetic drain screw is normal; chunks aren't.",
