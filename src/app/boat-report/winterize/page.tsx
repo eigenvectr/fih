@@ -1,6 +1,7 @@
 import Link from "next/link";
 import {
   ArrowLeft,
+  BookOpen,
   ChevronDown,
   PlayCircle,
   ShieldAlert,
@@ -211,6 +212,19 @@ const VIDEOS: { title: string; url: string; note: string }[] = [
   },
 ];
 
+const WORDS: [string, string][] = [
+  ["Outboard / engine", "The whole motor bolted to the back of the boat."],
+  ["Cowl (cover)", "The big top shell of the engine. Unlatch it to see the oil tank inside."],
+  ["Gearcase (lower unit)", "The bottom part of the engine that sits underwater and holds the prop. It's filled with gear oil, like a car's transmission."],
+  ["Skeg", "The small fin at the very bottom of the engine, below the prop."],
+  ["Cavitation plate", "The flat horizontal plate right above the prop."],
+  ["Prop", "The propeller. Held on by one big nut in its center."],
+  ["Flush port", "A small fitting on the side of the engine that a garden hose screws into. It feeds the engine water so it can run out of the lake."],
+  ["Fogging", "Coating the inside of the engine with oil so it doesn't rust over winter. Your engine does this to itself in about a minute."],
+  ["Trim down / vertical", "Tilting the engine so it hangs straight down. Use the up/down button on the throttle handle."],
+  ["Grease fitting (zerk)", "A tiny nipple on the engine's mounting bracket. A grease gun clicks onto it and pushes grease in."],
+];
+
 /* --------------------------------- helpers --------------------------------- */
 
 function SectionHeading({
@@ -305,6 +319,55 @@ export default function WinterizePage() {
           The order matters: fuel first, then the fogging run, then the gearcase.
         </strong>
       </p>
+
+      {/* first-timer */}
+      <section className="mb-8">
+        <SectionHeading icon={BookOpen}>Never done this? Start here</SectionHeading>
+        <div className="space-y-3 rounded-xl border border-accent/40 bg-accent/5 p-4 text-sm leading-relaxed text-ink-muted">
+          <p>
+            <strong className="text-ink">The job splits into two halves.</strong> Half needs no
+            engine knowledge at all. The other half is engine work, and for a first winter it is
+            completely normal to have CR&apos;s do it. Ask Chris if you can watch, and do it
+            yourself next year.
+          </p>
+          <div>
+            <p className="font-semibold text-ink">Anyone can do these (no tools needed):</p>
+            <ul className="mt-1 space-y-1">
+              <li>· Fill the gas tank and pour in the stabilizer (step 1)</li>
+              <li>· Drain the livewells, plug the charger in, bring the Garmin home (step 8)</li>
+              <li>· Pull the drain plug, crank the bow up, put the cover on (step 8)</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold text-ink">Engine work (DIY with the videos, or CR&apos;s):</p>
+            <ul className="mt-1 space-y-1">
+              <li>· Prop off and back on (steps 2 and 6)</li>
+              <li>· The self-fogging run (step 3)</li>
+              <li>· Gearcase oil change with the HPF Pro kit (step 4)</li>
+              <li>· Greasing (step 5)</li>
+            </ul>
+          </div>
+        </div>
+        <details className="group mt-2 rounded-xl border border-line bg-surface">
+          <summary className="cursor-pointer list-none p-4">
+            <span className="flex items-center justify-between gap-3">
+              <span className="text-sm font-semibold">What the words mean</span>
+              <ChevronDown className="h-4 w-4 shrink-0 text-ink-faint transition-transform group-open:rotate-180" />
+            </span>
+            <span className="mt-0.5 block text-sm text-ink-muted">
+              Every engine part this guide mentions, in plain English
+            </span>
+          </summary>
+          <dl className="space-y-2.5 border-t border-line p-4">
+            {WORDS.map(([w, d]) => (
+              <div key={w}>
+                <dt className="text-sm font-semibold">{w}</dt>
+                <dd className="text-sm leading-relaxed text-ink-muted">{d}</dd>
+              </div>
+            ))}
+          </dl>
+        </details>
+      </section>
 
       {/* buy list */}
       <section>
